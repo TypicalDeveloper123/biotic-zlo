@@ -1,0 +1,30 @@
+type: CoreBlock
+name: Core: Hazard
+description: Core of the base. Well armored, low capacity
+
+
+requirements: [
+  
+]
+
+
+isFirstTier: true
+size: 3
+squareSprite: false
+alwaysUnlocked: true
+unitType: biotic-zlo-unit-phage
+health: 3900
+armor: 20
+itemCapacity: 2500
+unitCapModifier: 8
+solid: false
+category: effect
+
+
+research: {
+  planet: morive
+  root: true
+  name: Biotica
+  requiresUnlock: false
+}
+
