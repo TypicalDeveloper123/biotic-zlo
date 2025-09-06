@@ -1,0 +1,7 @@
+type: Floor
+name: Bloodstone
+description: A floor that has blood seeped into its insides
+variants: 3
+attributes: {
+  bloodstone: 0.111111111111111111111111111111111
+}
