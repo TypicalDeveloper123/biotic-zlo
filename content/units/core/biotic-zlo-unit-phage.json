@@ -1,0 +1,63 @@
+type: flying
+name: Phage
+description: Protects the Hazard core. Can mine ores and build. Cannot heal allied structures.
+research: 03h-01-core-nest
+
+
+hovering: true
+hoverable: true
+shadowElevation: 0.4
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.1
+outlineColor: 13151AFF
+speed: 2
+rotateSpeed: 4
+accel: 0.1
+groundLayer: 60
+health: 420
+armor: 2
+hitSize: 10
+canDrown: false
+mineWalls: true
+mineTiles: true
+mineSpeed: 8
+mineTier: 2
+buildSpeed: 0.8
+itemCapacity: 20
+fogRadius: 15
+range: 105
+
+
+abilities: [
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 0
+    y: -4
+    interval: 4
+    minVelocity: 0.6  
+  }
+]
+
+
+engines: [
+  {
+    x: 0
+    y: -4
+    radius: 1.5
+  }
+]
+
+
+useEngineElevation: false
+lowAltitude: false
+
+
+weapons: [
+  {
+   
+  }
+]
