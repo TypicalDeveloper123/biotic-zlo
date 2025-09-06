@@ -1,0 +1,64 @@
+localizedName: Morive
+description: WIP
+alwaysUnlocked: true
+mesh: [
+ {
+    //stone
+    type: NoiseMesh
+    planet: aetheria
+    divisions: 5
+    seed: 7
+    radius: 0.54
+    color1: C4520BFF
+    color2: D86B28FF
+    octaves: 3.7
+    persistence: 1.1
+  }
+]
+generator: {
+  octaves: 4
+  persistence: 0.52
+  scale: 46
+  mag: 0.721
+  thresh: 1.18
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 600
+  iceChance: 0.51
+  carbonChance: 0.32
+  berylChance: 0
+  ferricChance: 0.26
+}
+orbitRadius: 30
+sectorSize: 1
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+startSector: 0
+orbitSpacing: 10
+radius: 0.54
+minZoom: 1
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.2
+accessible: true
+updateLighting: false
+sectorSeed: 14513
+bloom: true
+visible: true
+atmosphereColor: DADD86FF
+iconColor: DADD86FF
+hasAtmosphere: true
+allowWaveSimulation: false
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: false
+defaultCore: biotic-zlo-core-hazard
+parent: sun
+solarSystem: sun
+launchCandidates: []
+itemWhitelist: [
+  "biotic-zlo-01-item-aluminum",
+]
