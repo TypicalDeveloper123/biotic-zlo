@@ -1,0 +1,7 @@
+type: Floor
+name: Flesh
+description: A floor made by the bio units
+variants: 1
+attributes: {
+  flesh: 0.111111111111111111111111111111111
+}
