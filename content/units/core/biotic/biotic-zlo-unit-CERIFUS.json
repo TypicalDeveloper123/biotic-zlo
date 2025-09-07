@@ -1,0 +1,16 @@
+type: mech
+name: Cerifus
+description: i
+speed: 0.5
+flying: false
+health: 1200
+armor: 800
+hitSize: 40
+outlineColor: 181425FF
+mechLegColor: 181425FF
+
+
+weapons: [
+
+]
+
