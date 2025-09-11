@@ -24,11 +24,10 @@ mineWalls: true
 mineTiles: true
 mineSpeed: 8
 mineTier: 2
-buildSpeed: 0.8
+buildSpeed: 1
 itemCapacity: 20
 fogRadius: 15
-range: 105
-
+range: 150
 
 abilities: [
   {
@@ -58,6 +57,15 @@ lowAltitude: false
 
 weapons: [
   {
-   
+    x: 0
+    y: 0
+    rotate: false
+    irror: false
+    inaccuracy: 2
+    reload: 10
+      bullet: {
+        type: BasicBulletType
+        damage: 13
+      }
   }
 ]
