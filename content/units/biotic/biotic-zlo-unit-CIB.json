@@ -30,6 +30,10 @@ abilities: [
 
 weapons: [
     {
+        x: -2
+        y: 1
+        rotate: false
+        mirror: true
         inaccuracy: 7
         reload: 15
         bullet: {
@@ -38,5 +42,6 @@ weapons: [
         }
     }  
 ]
+
 
 
