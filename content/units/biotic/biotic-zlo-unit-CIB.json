@@ -14,7 +14,7 @@ legCount: 6
 lockLegBase: true
 legExtension: -2
 legBaseOffset: 3
-legLength: 9
+legLength: 10
 legMaxLength: 1.1
 legMinLength: 0.2
 legSpeed: 0.25
@@ -22,11 +22,21 @@ legGroupSize: 3
 legForwardScl: 1.05
 legLengthScl: 0.95
 legPhysicsLayer: false
-legStraightness: 0.3
-crushDamage: 3.5
+legStraightness: 0.4
 
+abilities: [
+
+]
 
 weapons: [
- 
+    {
+        inaccuracy: 7
+        reload: 15
+        bullet: {
+            type: MissileBulletType
+            damage: 15
+        }
+    }  
 ]
+
 
