@@ -1,6 +1,6 @@
 type: legs
 name: Cib
-description: A small-like creature that rams into building
+description: A small-like creature that shoots missiles
 speed: 0.7
 flying: false
 health: 360
@@ -42,6 +42,7 @@ weapons: [
         }
     }  
 ]
+
 
 
 
