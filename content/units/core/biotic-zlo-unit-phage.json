@@ -15,7 +15,7 @@ outlineColor: 13151AFF
 speed: 2
 rotateSpeed: 4
 accel: 0.1
-groundLayer: 60
+groundLayer: 100
 health: 420
 armor: 2
 hitSize: 10
@@ -69,3 +69,4 @@ weapons: [
       }
   }
 ]
+
