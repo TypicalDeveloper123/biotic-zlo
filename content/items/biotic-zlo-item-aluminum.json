@@ -1,0 +1,17 @@
+type: item
+name: Aluminum
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0
+hardness: 1.5
+color: 949FA0FF
+
+
+research: {
+  parent: biotic-zlo-core-hazard
+  objectives: [  
+    biotic-zlo-item-aluminum
+  ]
+}
+hiddenOnPlanets: [serpulo, erekir]
