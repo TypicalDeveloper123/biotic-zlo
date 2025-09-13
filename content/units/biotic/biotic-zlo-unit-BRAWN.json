@@ -26,9 +26,8 @@ legStraightness: 0.4
 
 abilities: [
     {
-        type: ShieldRegenFieldAbility
-    
-    
+        type: RegenAbility
+        value: 10
     }
 ]
 
