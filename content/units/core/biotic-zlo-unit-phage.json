@@ -3,7 +3,6 @@ name: Phage
 description: Protects the Hazard core. Can mine ores and build. Cannot heal allied structures.
 research: 03h-01-core-nest
 
-
 hovering: true
 hoverable: true
 shadowElevation: 0.4
@@ -15,7 +14,7 @@ outlineColor: 13151AFF
 speed: 2
 rotateSpeed: 4
 accel: 0.1
-groundLayer: 100
+groundLayer: 80
 health: 420
 armor: 2
 hitSize: 10
@@ -23,7 +22,7 @@ canDrown: false
 mineWalls: true
 mineTiles: true
 mineSpeed: 8
-mineTier: 2
+mineTier: 4
 buildSpeed: 1
 itemCapacity: 20
 fogRadius: 15
@@ -60,13 +59,16 @@ weapons: [
     x: 0
     y: 0
     rotate: false
-    irror: false
+    mirror: false
     inaccuracy: 2
     reload: 10
       bullet: {
         type: BasicBulletType
         damage: 13
+        speed: 5
       }
   }
 ]
+
+
 
