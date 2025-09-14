@@ -27,7 +27,7 @@ legStraightness: 0.4
 abilities: [
     {
         type: RegenAbility
-        value: 10
+        amount: 2
     }
 ]
 
@@ -41,15 +41,11 @@ weapons: [
         reload: 15
         bullet: {
             type: MissileBulletType
-            sprite: biotic-zlo-tile-BLOODSTONE1
             damage: 15
             speed: 2
         }
     }  
 ]
-
-
-
 
 
 
