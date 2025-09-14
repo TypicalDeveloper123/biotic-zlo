@@ -7,60 +7,60 @@ mesh: [
     type: NoiseMesh
     planet: morive
     divisions: 5
-    seed: 7
-    radius: 0.54
+    seed: 2
+    radius: 0.7
     color1: 995d5d
     color2: 663d3d
     octaves: 3.7
-    persistence: 1.1
+    persistence: 1.8
 
     //flesh
     type: NoiseMesh
     planet: morive
-    divisions: 6
-    seed: 4
-    radius: 0.54
+    divisions: 5
+    seed: 2
+    radius: 0.4
     color1: 661616
     color2: 991f1f
-    octaves: 4.3
-    persistence: 1.7
+    octaves: 3
+    persistence: 1.8
   }
 ]
 generator: {
   octaves: 4
   persistence: 0.52
-  scale: 46
+  scale: 10
   mag: 0.721
   thresh: 1.18
   min: 100
   max: 100
-  radMin: 220
-  radMax: 600
+  radMin: 100
+  radMax: 300
   iceChance: 0.51
   carbonChance: 0.32
   berylChance: 0
   ferricChance: 0.26
 }
-orbitRadius: 40
-sectorSize: 1
+
+orbitRadius: 35
+sectorSize: 2
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 0
-orbitSpacing: 10
-radius: 0.54
-minZoom: 1
+radius: 0.9
+minZoom: 0.7
 drawOrbit: true
-atmosphereRadIn: 0
-atmosphereRadOut: 0.1
+atmosphereRadIn: -0.5
+atmosphereRadOut: -0.2
 accessible: true
-updateLighting: false
+updateLighting: true
 sectorSeed: 14513
 bloom: true
 visible: true
-atmosphereColor: DADD86FF
-iconColor: DADD86FF
+atmosphereColor: 974747
+iconColor: 850d0d
 hasAtmosphere: true
 allowWaveSimulation: false
 clearSectorOnLose: true
@@ -71,5 +71,5 @@ parent: sun
 solarSystem: sun
 launchCandidates: []
 itemWhitelist: [
-  "biotic-zlo-item-aluminum",
+  "biotic-zlo-item-aluminum"
 ]
