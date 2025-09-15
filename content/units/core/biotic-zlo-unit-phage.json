@@ -64,11 +64,9 @@ weapons: [
     reload: 10
       bullet: {
         type: BasicBulletType
-        damage: 13
+        buildingDamageMultiplier: 0.01
+        damage: 22
         speed: 5
       }
   }
 ]
-
-
-
