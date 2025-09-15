@@ -4,7 +4,7 @@ description: Core of the base. Well armored, low capacity
 
 
 requirements: [
-  
+  biotic-zlo-item-aluminum/1250
 ]
 
 
@@ -13,10 +13,10 @@ size: 3
 squareSprite: false
 alwaysUnlocked: true
 unitType: biotic-zlo-unit-phage
-health: 3900
+health: 2500
 armor: 20
 itemCapacity: 2500
-unitCapModifier: 8
+unitCapModifier: 10
 solid: false
 category: effect
 
