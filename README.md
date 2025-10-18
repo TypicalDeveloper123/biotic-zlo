@@ -1,1 +1,1 @@
-# a mod featuring bio life. Currently in WIP
+# a mod featuring life. Currently in WIP
