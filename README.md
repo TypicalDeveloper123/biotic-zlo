@@ -1,1 +1,1 @@
-# a mod featuring bio units. Currently in WIP
+# a mod featuring bio life. Currently in WIP
