@@ -1,12 +1,18 @@
-name: Biotica
-displayName: Biotica
-author: "Citrine"
+name: Corpuscles
+displayName: Corpuscles
+author: "Bismutotantalite/Biz"
 description:
 '''
-An upcoming mod that has biotic life
+A mod that features life.
+SPOILER:
+- MIGHT CONTAIN DISTURBING GORE
+- HAS TRYPOPHOBIA WHICH IS THE FEAR OF ALOT OF HOLES
+
+WIP
+discord server for Corpuscles: https://discord.gg/9ZSjAJds
   
 '''
-subtitle: lil nibbler
+subtitle: flesh
 minGameVersion: 147
-version: 1.0 beta1
-repo: biotic-zlo/Biotica
+version: v1.0
+repo: TypicalDeveloper123/biotic-zlo
