@@ -1,0 +1,123 @@
+type: crawl
+speed: 0.85
+flying: false
+health: 640
+armor: 8
+hitSize: 24
+outlineColor: 1b1a33
+segments: 3
+segmentMag: 1.8
+segmentMaxRot: 35
+segmentScl: 4
+drawCell: true
+drawBody: false
+segmentRotSpeed: 2
+crawlSlowDown: 0.6
+segmentRotationRange: 75
+crushDamage: 2.4
+targetAir: true
+rotateToBuilding: false
+rotateSpeed: 7
+omniMovement: false
+softShadowScl: 0.65
+legPhysicsLayer: false
+deathExplosionEffect: {
+    type: MultiEffect
+        effects: [
+        {
+            type: ParticleEffect
+            particles: 24
+            colorFrom: a33333
+            colorTo: 33001b
+            cone: 360
+            length: 30
+            sizeFrom: 4.5
+            sizeTo: 0
+        }   
+        {
+            type: ParticleEffect
+            particles: 16
+            colorFrom: 56ab3a
+            colorTo: 356924
+            cone: 360
+            length: 15
+            sizeFrom: 4
+            sizeTo: 0
+        }     
+    ]
+}
+
+abilities: [
+    {
+        type: RegenAbility
+        percentAmount: 0.2  
+    }
+    {
+        type: SpawnDeathAbility
+        amount: 1
+        unit: biotic-zlo-unit-cerebral
+    }
+]
+
+hiddenOnPlanets: [serpulo, erekir]
+
+weapons: [
+     {
+        x: 0
+        y: -3
+        rotate: true
+        rotateSpeed: 45
+        mirror: false
+        inaccuracy: 2
+        reload: 24
+        name: biotic-zlo-unit-ventral-weapon-0
+        recoil: 0.3
+        shootSound: missile
+        shoot: {
+            type: ShootSpread
+            shots: 3
+            spread: 5
+        }
+        bullet: {
+            type: MissileBulletType
+            sprite: corpuscles-biotic-zlo-teeth
+            trailColor: 990000
+            trailLength: 10
+            layer: 90
+            damage: 30
+            speed: 2
+            lightRadius: -1
+            lightOpacity: 0
+            range: 30
+            hitEffect: none
+            smokeEffect: none
+            shootEffect: {
+            Type: MultiEffect
+                effects: [  
+                    {
+                        type: ParticleEffect
+                        particles: 10
+                        colorFrom: a33333
+                        colorTo: 33001b
+                        cone: 4
+                        length: 12
+                        sizeFrom: 2
+                        sizeTo: 0
+                        lightColor: de3a3a
+                    }
+                    {
+                        type: RadialEffect
+                        particles: 2
+                        colorFrom: 853d3d
+                        colorTo: 33001b
+                        cone: 4
+                        length: 12
+                        sizeFrom: 3
+                        sizeTo: 0
+                        lightColor: de3a3a
+                    }
+                ]
+            }   
+        }
+    }
+]

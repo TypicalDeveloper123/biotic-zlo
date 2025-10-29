@@ -1,1 +1,56 @@
+type: crawl
+speed: 0.9
+flying: false
+health: 420
+armor: 8
+hitSize: 15
+outlineColor: 1b1a33
+segments: 3
+segmentMag: 1.5
+segmentMaxRot: 30
+segmentScl: 4
+drawCell: true
+drawBody: false
+segmentRotSpeed: 2
+crawlSlowDown: 0.5
+segmentRotationRange: 80
+crushDamage: 2
+targetAir: false
+rotateSpeed: 8
+softShadowScl: 0.7
+legPhysicsLayer: false
+deathExplosionEffect: {
+    type: MultiEffect
+        effects: [
+        {
+            type: ParticleEffect
+            particles: 24
+            colorFrom: a33333
+            colorTo: 33001b
+            cone: 360
+            length: 15
+            sizeFrom: 4
+            sizeTo: 0
+        }   
+        {
+            type: ParticleEffect
+            particles: 16
+            colorFrom: 56ab3a
+            colorTo: 356924
+            cone: 360
+            length: 15
+            sizeFrom: 2
+            sizeTo: 0
+        }
+    ] 
+}
 
+
+abilities: [
+    {
+        type: RegenAbility
+        percentAmount: 0.2  
+    }
+]
+
+hiddenOnPlanets: [serpulo, erekir]
