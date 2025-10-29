@@ -3,13 +3,14 @@ flammability: 0
 explosiveness: 0
 radioactivity: 0
 charge: 0
-hardness: 4
-color: cccce3
+hardness: 1
+color: 990000
 
 research: {
-  parent: biotic-zlo-core-hazard
+  parent: biotic-zlo-item-aluminum
   objectives: [  
-    biotic-zlo-item-aluminum
+    biotic-zlo-production-flesh-crusher
   ]
 }
+
 hiddenOnPlanets: [serpulo, erekir]

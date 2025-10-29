@@ -1,0 +1,14 @@
+type: item
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0
+color: ffffff
+
+research: {
+  parent: biotic-zlo-item-raw-iron
+  objectives: [  
+    biotic-zlo-crafting-iron-extractor
+  ]
+}
+hiddenOnPlanets: [serpulo, erekir]
