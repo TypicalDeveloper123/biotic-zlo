@@ -1,0 +1,614 @@
+type: legs
+speed: 0.5
+flying: false
+health: 70000
+armor: 40
+hitSize: 90
+outlineColor: 1b1a33
+mechLegColor: 1b1a33
+groundLayer: 75
+deathExplosionEffect: {
+    type: MultiEffect
+        effects: [
+        {
+            type: ParticleEffect
+            particles: 15
+            colorFrom: a33333
+            colorTo: 33001b
+            cone: 360
+            length: 100
+            sizeFrom: 20
+            sizeTo: 0
+        } 
+        {
+            type: ParticleEffect
+            particles: 3
+            colorFrom: 56ab3a
+            colorTo: 356924
+            cone: 360
+            length: 15
+            sizeFrom: 15
+            sizeTo: 0
+        } 
+    ]
+}
+
+
+type: legs
+legCount: 8
+lockLegBase: true
+legExtension: 3
+legBaseOffset: 12
+legLength: 100
+legMaxLength: 1.15
+legMinLength: 0.2
+legSpeed: 0.5
+legGroupSize: 2
+legForwardScl: 1
+legLengthScl: 0.95
+legPhysicsLayer: true
+legStraightness: 0.5
+legSplashDamage: 600
+legSplashRange: 45
+allowLegStep: true
+hovering: true
+
+parts: [
+    {
+        type: RegionPart
+        suffix: -part1
+        x: 0
+        y: 0
+        moveX: 1
+        moveY: -10
+        progress: warmup
+    }
+    {
+        type: RegionPart
+        suffix: -part
+        x: 0
+        y: 0
+        moveX: -2
+        moveY: 10
+        progress: warmup
+    }
+    {
+        type: RegionPart
+        suffix: -part3
+        x: 0
+        y: 0
+        moveX: 1
+        moveY: -10
+        progress: warmup
+    }
+    {
+        type: RegionPart
+        suffix: -part2
+        x: 0
+        y: 0
+        moveX: -2
+        moveY: 10
+        progress: warmup
+    }
+]
+
+
+abilities: [
+    {
+        type: RegenAbility
+        percentAmount: 0.1
+    }
+    {
+        type: SpawnDeathAbility
+        amount: 2
+        unit: biotic-zlo-unit-resurgence
+    }
+    {
+        type: SpawnDeathAbility
+        amount: 3
+        unit: biotic-zlo-unit-synthesis
+    }
+    {
+        type: SpawnDeathAbility
+        amount: 6
+        unit: biotic-zlo-unit-embroider
+    }
+    {
+        type: SpawnDeathAbility
+        amount: 10
+        unit: biotic-zlo-unit-BRAWN
+    }
+]
+
+weapons: [ 
+    {
+        x: -2
+        y: -5
+        rotate: false
+        mirror: false
+        inaccuracy: 2
+        reload: 200
+        recoil: 0.3
+        shootSound: artillery
+        shoot: {
+            type: ShootSpread
+            shots: 3
+            spread: 5
+        }
+        bullet: {
+            type: ArtilleryBulletType
+            despawnUnit: biotic-zlo-unit-BRAWN
+            sprite: corpuscles-biotic-zlo-smolegg
+            shrinkY: 0
+            trailColor: 990000
+            trailLength: 15
+            trailWidth: 8
+            layer: 90
+            damage: 75
+            speed: 4
+            lightRadius: -1
+            lightOpacity: 0
+            range: 50
+            height: 30
+            width: 30
+            lifetime:  200
+            splashDamage: 400
+            splashDamageRadius: 45
+            hitEffect: none
+            smokeEffect: none
+            trailEffect:  {
+                type: WaveEffect
+                particles: 20
+                colorFrom: a33333
+                colorTo: 33001b
+                cone: 4
+                length: 12
+                sizeFrom: 3
+                sizeTo: 0
+                lightColor: de3a3a
+            }
+            shootEffect: {
+                Type: MultiEffect
+                effects: [  
+                    {
+                        type: ParticleEffect
+                        particles: 25
+                        colorFrom: a33333
+                        colorTo: 33001b
+                        cone: 360
+                        length: 20
+                        sizeFrom: 4
+                        sizeTo: 0
+                        lightColor: de3a3a
+                    }
+                    {
+                        type: WaveEffect
+                        particles: 2
+                        colorFrom: 8a3838
+                        colorTo: 3d1414
+                        length: 12
+                        sizeFrom: 6
+                        sizeTo: 15
+                        lightColor: de3a3a
+                    }
+                ]       
+            }
+        }
+    }
+    {
+        x: -4
+        y: -5
+        rotate: false
+        mirror: false
+        inaccuracy: 0
+        reload: 250
+        recoil: 0.3
+        shootSound: largeCannon
+        shoot: {    
+            type: ShootSpread
+            shots: 2
+            spread: 10
+        }
+        bullet: {
+            type: ArtilleryBulletType
+            despawnUnit: biotic-zlo-unit-embroider
+            sprite: corpuscles-biotic-zlo-medegg
+            shrinkY: 0
+            trailColor: 990000
+            trailLength: 24
+            trailWidth: 10
+            layer: 90
+            damage: 90
+            speed: 4
+            lightRadius: -1
+            lightOpacity: 0
+            range: 50
+            height: 42
+            width: 42
+            lifetime:  200
+            splashDamage: 400
+            splashDamageRadius: 45
+            hitEffect: none
+            smokeEffect: none
+            trailEffect:  {
+                type: WaveEffect
+                particles: 20
+                colorFrom: 662626
+                colorTo: 3d1313
+                cone: 4
+                length: 12
+                sizeFrom: 6
+                sizeTo: 0
+                lightColor: de3a3a
+            }
+            shootEffect: {
+                Type: MultiEffect
+                effects: [  
+                    {
+                        type: ParticleEffect
+                        particles: 25
+                        colorFrom: 662626
+                        colorTo: 3d1313
+                        cone: 360
+                        length: 20
+                        sizeFrom: 4
+                        sizeTo: 0
+                        lightColor: 662626
+                    }
+                    {
+                        type: WaveEffect
+                        particles: 2
+                        colorFrom: 8a3838
+                        colorTo: 3d1414
+                        length: 20
+                        sizeFrom: 10
+                        sizeTo: 30
+                        lightColor: 662626
+                    }
+                ]       
+            }
+        }
+    }
+    {
+        x: -34
+        y: 10
+        rotate: false
+        mirror: false
+        inaccuracy: 2
+        reload: 20
+        name: biotic-zlo-unit-origin-weapon-0
+        continuous: true
+        alwaysContinuous: true
+        recoil: 0.3
+        shootSound: torch
+        loopSound: torch
+        bullet: {
+            type: ContinuousFlameBulletType
+            damage: 60
+            speed: 0
+            range: 50
+            length: 200
+            width: 12
+            lifetime: 20
+            flareLength: 45
+            hitEffect: none
+            smokeEffect: none
+            flareColor: 83ff7d
+            colors: [
+                83ff7d
+            ]
+        }
+    }    
+    {
+        x: 34
+        y: 10
+        rotate: false
+        mirror: false
+        inaccuracy: 2
+        reload: 8
+        name: biotic-zlo-unit-origin-weapon-1
+        recoil: 0.3
+        shootSound: mud
+        bullet: {
+            type: LiquidBulletType
+            width: 2
+            damage: 70
+            pierceCap: 3
+            range: 30
+            liquid: biotic-zlo-liquid-acid
+            orbSize: 8
+            puddleSize: 20
+            speed: 3
+            lifetime: 80
+            shootEffect: {
+                type: ParticleEffect
+                particles: 12
+                layer: 110
+                colorFrom: 50ff36
+                colorTo: 50ff36
+                cone: 100
+                length: 28
+                sizeFrom: 4
+                sizeTo: 0
+            }  
+        }
+    } 
+    {
+        x: -10
+        y: -37
+        rotate: false
+        mirror: false
+        inaccuracy: 6
+        reload: 50
+        recoil: 0.3
+        shootSound: artillery
+        bullet: {
+            type: ArtilleryBulletType
+            sprite: corpuscles-biotic-zlo-fleshbomb
+            shrinkY: 0
+            trailColor: 990000
+            trailLength: 15
+            trailWidth: 3
+            layer: 90
+            damage: 60
+            speed: 3
+            lightRadius: -1
+            lightOpacity: 0
+            range: 30
+            height: 20
+            lifetime: 150
+            width: 20
+            splashDamage: 120
+            splashDamageRadius: 30
+            hitEffect: none
+            smokeEffect: none
+            trailEffect:  {
+                type: WaveEffect
+                particles: 20
+                colorFrom: a33333
+                colorTo: 33001b
+                cone: 4
+                length: 12
+                sizeFrom: 2
+                sizeTo: 0
+                lightColor: de3a3a
+            }
+            shootEffect: {
+                Type: MultiEffect
+                effects: [  
+                    {
+                        type: ParticleEffect
+                        particles: 20
+                        colorFrom: a33333
+                        colorTo: 33001b
+                        cone: 4
+                        length: 12
+                        sizeFrom: 2
+                        sizeTo: 0
+                        lightColor: de3a3a
+                    }
+                    {
+                        type: WaveEffect
+                        particles: 2
+                        colorFrom: 853d3d
+                        colorTo: 33001b
+                        cone: 4
+                        length: 12
+                        sizeFrom: 3
+                        sizeTo: 9
+                        lightColor: de3a3a
+                    }
+                ]       
+            }
+        }
+    } 
+    {
+        x: 13
+        y: 30
+        rotate: false
+        mirror: false
+        inaccuracy: 6
+        reload: 50
+        recoil: 0.3
+        shootSound: artillery
+        bullet: {
+            type: ArtilleryBulletType
+            sprite: corpuscles-biotic-zlo-fleshbomb
+            shrinkY: 0
+            trailColor: 990000
+            trailLength: 15
+            trailWidth: 3
+            layer: 90
+            damage: 60
+            speed: 3
+            lightRadius: -1
+            lightOpacity: 0
+            range: 30
+            height: 20
+            lifetime: 150
+            width: 20
+            splashDamage: 120
+            splashDamageRadius: 30
+            hitEffect: none
+            smokeEffect: none
+            trailEffect:  {
+                type: WaveEffect
+                particles: 20
+                colorFrom: a33333
+                colorTo: 33001b
+                cone: 4
+                length: 12
+                sizeFrom: 2
+                sizeTo: 0
+                lightColor: de3a3a
+            }
+            shootEffect: {
+                Type: MultiEffect
+                effects: [  
+                    {
+                        type: ParticleEffect
+                        particles: 20
+                        colorFrom: a33333
+                        colorTo: 33001b
+                        cone: 4
+                        length: 12
+                        sizeFrom: 2
+                        sizeTo: 0
+                        lightColor: de3a3a
+                    }
+                    {
+                        type: WaveEffect
+                        particles: 2
+                        colorFrom: 853d3d
+                        colorTo: 33001b
+                        cone: 4
+                        length: 12
+                        sizeFrom: 3
+                        sizeTo: 9
+                        lightColor: de3a3a
+                    }
+                ]       
+            }
+        }
+    }  
+    {
+        x: 19
+        y: -31
+        rotate: false
+        mirror: false
+        inaccuracy: 6
+        reload: 50
+        recoil: 0.3
+        shootSound: artillery
+        bullet: {
+            type: ArtilleryBulletType
+            sprite: corpuscles-biotic-zlo-fleshbomb
+            shrinkY: 0
+            trailColor: 990000
+            trailLength: 15
+            trailWidth: 3
+            layer: 90
+            damage: 60
+            speed: 3
+            lightRadius: -1
+            lightOpacity: 0
+            range: 30
+            height: 20
+            lifetime: 150
+            width: 20
+            splashDamage: 120
+            splashDamageRadius: 30
+            hitEffect: none
+            smokeEffect: none
+            trailEffect:  {
+                type: WaveEffect
+                particles: 20
+                colorFrom: a33333
+                colorTo: 33001b
+                cone: 4
+                length: 12
+                sizeFrom: 2
+                sizeTo: 0
+                lightColor: de3a3a
+            }
+            shootEffect: {
+                Type: MultiEffect
+                effects: [  
+                    {
+                        type: ParticleEffect
+                        particles: 20
+                        colorFrom: a33333
+                        colorTo: 33001b
+                        cone: 4
+                        length: 12
+                        sizeFrom: 2
+                        sizeTo: 0
+                        lightColor: de3a3a
+                    }
+                    {
+                        type: WaveEffect
+                        particles: 2
+                        colorFrom: 853d3d
+                        colorTo: 33001b
+                        cone: 4
+                        length: 12
+                        sizeFrom: 3
+                        sizeTo: 9
+                        lightColor: de3a3a
+                    }
+                ]       
+            }
+        }
+    }  
+    {
+        x: -33
+        y: 23
+        rotate: false
+        mirror: false
+        inaccuracy: 6
+        reload: 50
+        recoil: 0.3
+        shootSound: artillery
+        bullet: {
+            type: ArtilleryBulletType
+            sprite: corpuscles-biotic-zlo-fleshbomb
+            shrinkY: 0
+            trailColor: 990000
+            trailLength: 15
+            trailWidth: 3
+            layer: 90
+            damage: 60
+            speed: 3
+            lightRadius: -1
+            lightOpacity: 0
+            range: 30
+            height: 20
+            lifetime: 150
+            width: 20
+            splashDamage: 120
+            splashDamageRadius: 30
+            hitEffect: none
+            smokeEffect: none
+            trailEffect:  {
+                type: WaveEffect
+                particles: 20
+                colorFrom: a33333
+                colorTo: 33001b
+                cone: 4
+                length: 12
+                sizeFrom: 2
+                sizeTo: 0
+                lightColor: de3a3a
+            }
+            shootEffect: {
+                Type: MultiEffect
+                effects: [  
+                    {
+                        type: ParticleEffect
+                        particles: 20
+                        colorFrom: a33333
+                        colorTo: 33001b
+                        cone: 4
+                        length: 12
+                        sizeFrom: 2
+                        sizeTo: 0
+                        lightColor: de3a3a
+                    }
+                    {
+                        type: WaveEffect
+                        particles: 2
+                        colorFrom: 853d3d
+                        colorTo: 33001b
+                        cone: 4
+                        length: 12
+                        sizeFrom: 3
+                        sizeTo: 9
+                        lightColor: de3a3a
+                    }
+                ]       
+            }
+        }
+    }        
+]
+
+hiddenOnPlanets: [serpulo, erekir]
