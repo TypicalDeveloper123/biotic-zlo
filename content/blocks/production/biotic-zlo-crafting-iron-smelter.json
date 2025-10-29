@@ -1,0 +1,56 @@
+type: GenericCrafter
+size: 2
+hasPower: true
+hasItems: true
+squareSprite: false
+
+outputItem: biotic-zlo-item-iron/2
+
+consumes: {
+	power: 1.2
+	items: {
+		items: [
+			biotic-zlo-item-raw-iron/2
+		]
+	}
+}
+
+category: crafting
+
+requirements: [
+	biotic-zlo-item-aluminum/10
+	biotic-zlo-item-infested-tissue/3
+]
+
+researchCost: [
+    biotic-zlo-item-aluminum/40
+	biotic-zlo-item-infested-tissue/12
+]
+
+research: {
+  	parent:  biotic-zlo-crafting-iron-extractor
+  	objectives: [  
+	  	biotic-zlo-item-aluminum
+    	biotic-zlo-crafting-iron-extractor
+		biotic-zlo-liquid-blood
+		biotic-zlo-item-raw-iron
+		biotic-zlo-item-infested-tissue
+		biotic-zlo-liquid-aluminum-conduit
+	]
+}
+
+
+
+drawer: {
+	type: DrawMulti
+	drawers: [
+		{
+		type: DrawDefault
+		}
+		{
+    	type: DrawFlame
+    	suffix: -top	
+		size: 3
+		}
+	]
+}
