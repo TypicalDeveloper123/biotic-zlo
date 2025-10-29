@@ -1,1 +1,8 @@
-
+planet: morive
+sector: 146
+difficulty: 1
+captureWave: 8
+research: {
+  parent: biotic-zlo-core-hazard
+}
+alwaysUnlocked: true
