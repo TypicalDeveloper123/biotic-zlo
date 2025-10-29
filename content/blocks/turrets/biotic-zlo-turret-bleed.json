@@ -1,1 +1,95 @@
+type: ItemTurret
+size: 2
+squareSprite: false
+health: 600
+shootSound: lasershoot
+hasItems: true
+hasPower: true
+hasLiquids: false
+laserAbsorb: true
 
+
+requirements: [
+  biotic-zlo-item-aluminum/14
+  biotic-zlo-item-infested-tissue/10
+  biotic-zlo-item-iron/6
+]
+
+
+category: turret
+consumes: {
+  power: 0.25
+} 
+
+
+recoil: 3
+outlineColor: 1b1a33
+targetAir: true
+targetGround: true
+rotateSpeed: 10
+reload: 60
+range: 192
+shootY: 6
+
+
+ammoPerShot: 2
+ammoTypes: {
+  biotic-zlo-item-aluminum: {
+    type: LaserBulletType
+    buildingDamageMultiplier: 0.25
+    damage: 55
+    width: 20
+    height: 9.5
+    lifetime: 60
+    pierceCap: 2
+    pierce: true
+    pierceBuilding: true
+    shootEffect: [
+    	{
+    	type: ParticleEffect
+    	particles: 20
+    	lifetime: 100
+    	layer: 100.2
+    	cone: 60
+    	length: 60
+    	interp:pow3Out
+    	sizeFrom: 6
+    	sizeTo: 0
+    	colorFrom: c1dae3
+    	colorTo: 8fa9b3
+      }
+    	{
+    	type: WaveEffect
+    	particles: 1
+    	lifetime: 45
+    	sizeFrom: 10
+    	sizeTo: 20
+    	colorFrom: c1dae3
+    	colorTo: 8fa9b3
+      }
+  	]
+  }
+}
+
+
+drawer: {
+  type: DrawTurret
+  basePrefix: blob1-
+}
+
+
+research: {
+  parent: biotic-zlo-core-hazard
+  objectives: [  
+    biotic-zlo-defense-aluminum-wall
+	  biotic-zlo-item-aluminum
+	  biotic-zlo-item-infested-tissue
+    biotic-zlo-item-iron
+]
+
+}
+researchCost: [
+  biotic-zlo-item-aluminum/56
+  biotic-zlo-item-infested-tissue/40
+  biotic-zlo-item-iron/24
+]
