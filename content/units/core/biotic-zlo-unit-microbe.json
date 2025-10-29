@@ -1,0 +1,70 @@
+type: flying
+research: biotic-zlo-core-hazard
+  
+flying: true
+targetable: false
+shadowElevation: 0.4
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.1
+outlineColor: 1b1a33
+speed: 2
+rotateSpeed: 4
+accel: 0.1
+groundLayer: 80
+health: 420
+armor: 2
+hitSize: 10
+canDrown: false
+mineWalls: true
+mineTiles: true
+mineSpeed: 8
+mineTier: 4
+buildSpeed: 1
+itemCapacity: 20
+fogRadius: 15
+range: 150
+
+abilities: [
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 0
+    y: -4
+    interval: 4
+    minVelocity: 0.6  
+  }
+]
+
+
+engines: [
+  {
+    x: 0
+    y: -4
+    radius: 1.5
+  }
+]
+
+useEngineElevation: true
+lowAltitude: true
+
+weapons: [
+  {
+    x: 0
+    y: -2.5
+    rotate: false
+    mirror: false
+    inaccuracy: 2
+    reload: 8
+    bullet: {
+      type: BasicBulletType
+      buildingDamageMultiplier: 0.01
+      damage: 22
+      speed: 5
+    }
+  }
+]
+
+hiddenOnPlanets: [serpulo, erekir]
