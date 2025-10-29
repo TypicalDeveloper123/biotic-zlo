@@ -34,7 +34,7 @@ deathExplosionEffect: {
 }
 
 type: legs
-legCount: 8
+legCount: 6
 lockLegBase: true
 legExtension: 5
 legBaseOffset: 3
@@ -72,7 +72,7 @@ weapons: [
         mirror: false
         inaccuracy: 2
         reload: 24
-        name: biotic-zlo-unit-synthesis-weapon-0
+        name: biotic-zlo-unit-resurgence-weapon-0
         recoil: 0.3
         shootSound: missile
         bullet: {
@@ -140,7 +140,7 @@ weapons: [
         mirror: false
         inaccuracy: 2
         reload: 24
-        name: biotic-zlo-unit-synthesis-weapon-0
+        name: biotic-zlo-unit-resurgence-weapon-0
         recoil: 0.3
         shootSound: missile
         bullet: {
@@ -209,7 +209,7 @@ weapons: [
         inaccuracy: 2
         reload: 12
         shootSound: mud
-        name: biotic-zlo-unit-synthesis-weapon-1
+        name: biotic-zlo-unit-resurgence-weapon-1
         recoil: 0.3
         bullet: {
             type: LiquidBulletType
@@ -243,7 +243,7 @@ weapons: [
         inaccuracy: 2
         reload: 12
         shootSound: mud
-        name: biotic-zlo-unit-synthesis-weapon-1
+        name: biotic-zlo-unit-resurgence-weapon-1
         recoil: 0.3
         bullet: {
             type: LiquidBulletType

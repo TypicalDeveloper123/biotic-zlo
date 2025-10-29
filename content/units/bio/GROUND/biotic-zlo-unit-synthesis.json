@@ -71,7 +71,7 @@ weapons: [
         mirror: false
         inaccuracy: 2
         reload: 24
-        name: biotic-zlo-unit-amalgamation-weapon-0
+        name: biotic-zlo-unit-synthesis-weapon-0
         recoil: 0.3
         shootSound: missile
         bullet: {
@@ -140,7 +140,7 @@ weapons: [
         inaccuracy: 2
         reload: 10
         shootSound: mud
-        name: biotic-zlo-unit-amalgamation-weapon-1
+        name: biotic-zlo-unit-synthesis-weapon-1
         recoil: 0.3
         bullet: {
             type: LiquidBulletType
