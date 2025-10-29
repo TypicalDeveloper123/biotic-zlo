@@ -1,0 +1,44 @@
+type: consumeGenerator
+size: 2
+squareSprite: false
+hasItems: true
+hasPower: true
+itemDuration: 180
+
+powerProduction: 1.5
+
+consumes: {
+	items: {
+		items: [
+			biotic-zlo-item-infested-tissue/2
+		]
+	}
+}
+
+category: power
+
+requirements: [
+	biotic-zlo-item-aluminum/8
+	biotic-zlo-item-infested-tissue/3
+]
+
+research: biotic-zlo-power-power-beam
+researchCost: [
+    biotic-zlo-item-aluminum/16
+	biotic-zlo-item-infested-tissue/6
+]
+
+
+drawer: {
+	type: DrawMulti
+	drawers: [
+		{
+		type: DrawDefault
+		}
+		{
+    	type: DrawFlame
+    	suffix: -top	
+		size: 3
+		}
+	]
+}

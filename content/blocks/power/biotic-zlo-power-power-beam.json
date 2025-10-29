@@ -1,0 +1,22 @@
+type: powerNode
+size: 1
+squareSprite: false
+hasItems: false
+hasPower: true
+laserRange: 10
+maxNodes: 10
+laserScale: 0.4
+
+category: power
+
+requirements: [
+	biotic-zlo-item-aluminum/3
+	biotic-zlo-item-infested-tissue/2
+]
+
+research: biotic-zlo-core-hazard 
+parent: biotic-zlo-core-hazard 
+researchCost: [
+    biotic-zlo-item-aluminum/6
+	biotic-zlo-item-infested-tissue/4
+]
