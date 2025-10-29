@@ -1,4 +1,4 @@
 type: StaticWall
 attributes: {
-    fleshwall: 1.2
+    fleshwall: 1
 }
