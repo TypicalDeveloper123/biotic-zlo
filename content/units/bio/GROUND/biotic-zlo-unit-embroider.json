@@ -1,0 +1,258 @@
+type: legs
+speed: 0.6
+flying: false
+health: 900
+armor: 10
+hitSize: 17
+outlineColor: 1b1a33
+mechLegColor: 1b1a33
+deathExplosionEffect: {
+    type: MultiEffect
+        effects: [
+        {
+            type: ParticleEffect
+            particles: 3
+            colorFrom: a33333
+            colorTo: 33001b
+            cone: 360
+            length: 30
+            sizeFrom: 4.5
+            sizeTo: 0
+        }   
+        {
+            type: ParticleEffect
+            particles: 1
+            colorFrom: 56ab3a
+            colorTo: 356924
+            cone: 360
+            length: 15
+            sizeFrom: 4
+            sizeTo: 0
+        }     
+    ]
+}
+
+
+type: legs
+legCount: 6
+lockLegBase: true
+legExtension: -3
+legBaseOffset: 3
+legLength: 12
+legMaxLength: 1.15
+legMinLength: 0.2
+legSpeed: 0.20
+legGroupSize: 3
+legForwardScl: 1.05
+legLengthScl: 0.95
+legPhysicsLayer: false
+legStraightness: 0.5
+legSplashDamage: 20
+legSplashRange: 20
+allowLegStep: true
+
+abilities: [
+    {
+        type: RegenAbility
+        percentAmount: 0.2
+    }
+    {
+        type: SpawnDeathAbility
+        amount: 1
+        unit: biotic-zlo-unit-BRAWN
+    }
+]
+
+weapons: [
+    {
+        x: 6.1
+        y: 1
+        rotate: false
+        mirror: false
+        inaccuracy: 5
+        reload: 20
+        shootSound: missile
+        name: biotic-zlo-unit-embroider-weapon-0
+        recoil: 0.3
+        bullet: {
+            type: MissileBulletType
+            sprite: corpuscles-biotic-zlo-teeth
+            trailColor: 990000
+            trailLength: 10
+            layer: 90
+            damage: 30
+            speed: 2
+            lightRadius: -1
+            lightOpacity: 0
+            range: 30
+            hitEffect: none
+            smokeEffect: none
+            shootEffect: {
+            Type: MultiEffect
+                effects: [  
+                    {
+                        type: ParticleEffect
+                        particles: 10
+                        colorFrom: a33333
+                        colorTo: 33001b
+                        cone: 4
+                        length: 12
+                        sizeFrom: 2
+                        sizeTo: 0
+                        lightColor: de3a3a
+                    }
+                    {
+                        type: RadialEffect
+                        particles: 2
+                        colorFrom: 853d3d
+                        colorTo: 33001b
+                        cone: 4
+                        length: 12
+                        sizeFrom: 3
+                        sizeTo: 0
+                        lightColor: de3a3a
+                    }
+                ]
+            }   
+        }
+    }
+    {
+        x: -5.2
+        y: 3
+        rotate: false
+        mirror: false
+        inaccuracy: 5
+        reload: 20
+        shootSound: missile
+        name: biotic-zlo-unit-embroider-weapon-0
+        recoil: 0.3
+        bullet: {
+            type: MissileBulletType
+            sprite: corpuscles-biotic-zlo-teeth
+            trailColor: 990000
+            trailLength: 10
+            layer: 90
+            damage: 30
+            speed: 2
+            lightRadius: -1
+            lightOpacity: 0
+            range: 30
+            hitEffect: none
+            smokeEffect: none
+            shootEffect: {
+            Type: MultiEffect
+                effects: [  
+                    {
+                        type: ParticleEffect
+                        particles: 10
+                        colorFrom: a33333
+                        colorTo: 33001b
+                        cone: 4
+                        length: 12
+                        sizeFrom: 2
+                        sizeTo: 0
+                        lightColor: de3a3a
+                    }
+                    {
+                        type: RadialEffect
+                        particles: 2
+                        colorFrom: 853d3d
+                        colorTo: 33001b
+                        cone: 4
+                        length: 12
+                        sizeFrom: 3
+                        sizeTo: 0
+                        lightColor: de3a3a
+                    }
+                ]
+            }   
+        }
+    }
+    {
+        x: -1.4
+        y: -5.5
+        rotate: false
+        mirror: false
+        inaccuracy: 5
+        reload: 20
+        shootSound: missile
+        name: biotic-zlo-unit-embroider-weapon-0
+        recoil: 0.3
+        bullet: {
+            type: MissileBulletType
+            sprite: corpuscles-biotic-zlo-teeth
+            trailColor: 990000
+            trailLength: 10
+            layer: 90
+            damage: 30
+            speed: 2
+            lightRadius: -1
+            lightOpacity: 0
+            range: 30
+            hitEffect: none
+            smokeEffect: none
+            shootEffect: {
+            Type: MultiEffect
+                effects: [  
+                    {
+                        type: ParticleEffect
+                        particles: 10
+                        colorFrom: a33333
+                        colorTo: 33001b
+                        cone: 4
+                        length: 12
+                        sizeFrom: 2
+                        sizeTo: 0
+                        lightColor: de3a3a
+                    }
+                    {
+                        type: RadialEffect
+                        particles: 2
+                        colorFrom: 853d3d
+                        colorTo: 33001b
+                        cone: 4
+                        length: 12
+                        sizeFrom: 3
+                        sizeTo: 0
+                        lightColor: de3a3a
+                    }
+                ]
+            }   
+        }
+    }
+    {
+        x: 0
+        y: 0.2
+        rotate: false
+        mirror: false
+        inaccuracy: 7
+        reload: 10
+        recoil: 0.3
+        shootSound: mud
+        name: biotic-zlo-unit-embroider-weapon-1
+        bullet: {
+            type: LiquidBulletType
+            width: 2
+            damage: 12
+            pierceCap: 1
+            range: 20
+            liquid: biotic-zlo-liquid-acid
+            orbSize: 3
+            puddleSize: 10
+            speed: 1.2
+            shootEffect: {
+                type: ParticleEffect
+                particles: 10
+                layer: 110
+                colorFrom: 50ff36
+                colorTo: 50ff36
+                cone: 100
+                length: 12
+                sizeFrom: 2
+                sizeTo: 0
+            }  
+        }
+    }
+]
+
+hiddenOnPlanets: [serpulo, erekir]

@@ -1,0 +1,309 @@
+type: legs
+speed: 0.5
+flying: false
+health: 1200
+armor: 20
+hitSize: 24
+outlineColor: 1b1a33
+mechLegColor: 1b1a33
+deathExplosionEffect: {
+    type: MultiEffect
+        effects: [
+        {
+            type: ParticleEffect
+            particles: 4
+            colorFrom: a33333
+            colorTo: 33001b
+            cone: 360
+            length: 55
+            sizeFrom: 6
+            sizeTo: 0
+        }    
+        {
+            type: ParticleEffect
+            particles: 1
+            colorFrom: 56ab3a
+            colorTo: 356924
+            cone: 360
+            length: 15
+            sizeFrom: 6.5
+            sizeTo: 0
+        } 
+    ]
+}
+
+
+type: legs
+legCount: 6
+lockLegBase: true
+legExtension: -4
+legBaseOffset: 3
+legLength: 20
+legMaxLength: 1.15
+legMinLength: 0.2
+legSpeed: 0.20
+legGroupSize: 3
+legForwardScl: 1.05
+legLengthScl: 0.95
+legPhysicsLayer: false
+legStraightness: 0.5
+legSplashDamage: 30
+legSplashRange: 45
+allowLegStep: true
+
+abilities: [
+    {
+        type: RegenAbility
+        percentAmount: 0.2
+    }
+    {
+        type: SpawnDeathAbility
+        amount: 2
+        unit: biotic-zlo-unit-BRAWN
+    }
+]
+
+weapons: [
+    {
+        x: -1.7
+        y: -6
+        rotate: false
+        mirror: false
+        inaccuracy: 2
+        reload: 24
+        name: biotic-zlo-unit-amalgamation-weapon-0
+        recoil: 0.3
+        shootSound: missile
+        bullet: {
+            type: MissileBulletType
+            sprite: corpuscles-biotic-zlo-bigteeth
+            trailColor: 990000
+            trailLength: 15
+            layer: 90
+            damage: 45
+            speed: 3
+            lightRadius: -1
+            lightOpacity: 0
+            range: 50
+            height: 20
+            width: 20
+            hitEffect: none
+            smokeEffect: none
+            fragBullets: 3
+            fragBullet: {
+                type: MissileBulletType
+                sprite: corpuscles-biotic-zlo-teeth
+                fragLifeMin: 1
+                trailColor: 990000
+                trailLength: 10
+                layer: 90
+                damage: 30
+                speed: 3   
+                lightRadius: -1
+                lightOpacity: 0
+                hitEffect: none
+            }
+            shootEffect: {
+            Type: MultiEffect
+                effects: [  
+                    {
+                        type: ParticleEffect
+                        particles: 10
+                        colorFrom: a33333
+                        colorTo: 33001b
+                        cone: 4
+                        length: 12
+                        sizeFrom: 2
+                        sizeTo: 0
+                        lightColor: de3a3a
+                    }
+                    {
+                        type: RadialEffect
+                        particles: 2
+                        colorFrom: 853d3d
+                        colorTo: 33001b
+                        cone: 4
+                        length: 12
+                        sizeFrom: 3
+                        sizeTo: 0
+                        lightColor: de3a3a
+                    }
+                ]
+            }   
+        }
+    }
+    {
+        x: 8.3
+        y: 2
+        rotate: false
+        mirror: false
+        inaccuracy: 2
+        reload: 10
+        shootSound: mud
+        name: biotic-zlo-unit-amalgamation-weapon-1
+        recoil: 0.3
+        bullet: {
+            type: LiquidBulletType
+            width: 2
+            damage: 25
+            pierceCap: 3
+            range: 20
+            liquid: biotic-zlo-liquid-acid
+            orbSize: 4.5
+            puddleSize: 14
+            speed: 1.5
+            lifetime: 70
+            shootEffect: {
+                type: ParticleEffect
+                particles: 12
+                layer: 110
+                colorFrom: 50ff36
+                colorTo: 50ff36
+                cone: 100
+                length: 20
+                sizeFrom: 3
+                sizeTo: 0
+            }  
+        }
+    }
+    {
+        x: -6
+        y: 3
+        rotate: false
+        mirror: false
+        inaccuracy: 6
+        reload: 50
+        recoil: 0.3
+        shootSound: artillery
+        bullet: {
+            type: ArtilleryBulletType
+            sprite: corpuscles-biotic-zlo-fleshbomb
+            shrinkY: 0
+            trailColor: 990000
+            trailLength: 15
+            trailWidth: 3
+            layer: 90
+            damage: 60
+            speed: 3
+            lightRadius: -1
+            lightOpacity: 0
+            range: 30
+            height: 20
+            lifetime:  150
+            width: 20
+            splashDamage: 120
+            splashDamageRadius: 30
+            hitEffect: none
+            smokeEffect: none
+            trailEffect:  {
+                type: WaveEffect
+                particles: 20
+                colorFrom: a33333
+                colorTo: 33001b
+                cone: 4
+                length: 12
+                sizeFrom: 2
+                sizeTo: 0
+                lightColor: de3a3a
+            }
+            shootEffect: {
+                Type: MultiEffect
+                effects: [  
+                    {
+                        type: ParticleEffect
+                        particles: 20
+                        colorFrom: a33333
+                        colorTo: 33001b
+                        cone: 4
+                        length: 12
+                        sizeFrom: 2
+                        sizeTo: 0
+                        lightColor: de3a3a
+                    }
+                    {
+                        type: WaveEffect
+                        particles: 2
+                        colorFrom: 853d3d
+                        colorTo: 33001b
+                        cone: 4
+                        length: 12
+                        sizeFrom: 3
+                        sizeTo: 9
+                        lightColor: de3a3a
+                    }
+                ]       
+            }
+        }
+    }
+    {
+        x: 3.5
+        y: -9
+        rotate: false
+        mirror: false
+        inaccuracy: 6
+        reload: 50
+        recoil: 0.3
+        shootSound: artillery
+        bullet: {
+            type: ArtilleryBulletType
+            sprite: corpuscles-biotic-zlo-fleshbomb
+            shrinkY: 0
+            trailColor: 990000
+            trailLength: 15
+            trailWidth: 3
+            layer: 90
+            damage: 60
+            speed: 3
+            lightRadius: -1
+            lightOpacity: 0
+            range: 30
+            height: 20
+            lifetime: 150
+            width: 20
+            splashDamage: 120
+            splashDamageRadius: 30
+            hitEffect: none
+            smokeEffect: none
+            trailEffect:  {
+                type: WaveEffect
+                particles: 20
+                colorFrom: a33333
+                colorTo: 33001b
+                cone: 4
+                length: 12
+                sizeFrom: 2
+                sizeTo: 0
+                lightColor: de3a3a
+            }
+            shootEffect: {
+                Type: MultiEffect
+                effects: [  
+                    {
+                        type: ParticleEffect
+                        particles: 20
+                        colorFrom: a33333
+                        colorTo: 33001b
+                        cone: 4
+                        length: 12
+                        sizeFrom: 2
+                        sizeTo: 0
+                        lightColor: de3a3a
+                    }
+                    {
+                        type: WaveEffect
+                        particles: 2
+                        colorFrom: 853d3d
+                        colorTo: 33001b
+                        cone: 4
+                        length: 12
+                        sizeFrom: 3
+                        sizeTo: 9
+                        lightColor: de3a3a
+                    }
+                ]       
+            }
+        }
+    }
+]
+
+hiddenOnPlanets: [serpulo, erekir]
