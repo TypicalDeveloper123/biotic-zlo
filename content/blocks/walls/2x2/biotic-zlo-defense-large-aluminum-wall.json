@@ -1,1 +1,22 @@
+type: Wall
+size: 2
+armor: 4
+health: 1700
+squareSprite: true
+category: defense
 
+
+requirements: [
+  biotic-zlo-item-aluminum/24
+]
+
+
+research: {
+  parent: biotic-zlo-defense-aluminum-wall
+  objectives: [  
+    biotic-zlo-defense-aluminum-wall
+  ]
+}
+researchCost: [
+  biotic-zlo-item-aluminum/72
+] 
