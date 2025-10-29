@@ -1,0 +1,22 @@
+type: Sorter
+invert: true
+category: distribution
+
+requirements: [
+  biotic-zlo-item-aluminum/3
+]
+
+researchCost: [
+  biotic-zlo-item-aluminum/6
+]
+
+
+research: {
+  parent: biotic-zlo-distribution-organizer
+  objectives: [  
+    biotic-zlo-distribution-organizer
+  ]
+}
+
+
+

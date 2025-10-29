@@ -1,0 +1,23 @@
+type: Duct
+speed: 3.5
+health: 90
+category: distribution
+
+bridgeReplacement: biotic-zlo-distribution-aluminum-bridge
+junctionReplacement: biotic-zlo-distribution-aluminum-junction
+
+requirements: [
+  biotic-zlo-item-aluminum/2
+]   
+
+researchCost: [
+  biotic-zlo-item-aluminum/4
+]
+
+research: {
+  parent: biotic-zlo-core-hazard
+  objectives: [  
+	  biotic-zlo-item-aluminum
+    biotic-zlo-production-aluminum-drill
+  ]
+}

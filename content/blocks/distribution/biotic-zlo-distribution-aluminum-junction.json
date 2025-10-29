@@ -1,0 +1,21 @@
+type: Junction
+health: 70
+size: 1
+speed: 20
+requirements: [
+  biotic-zlo-item-aluminum/3
+]
+
+category: distribution
+squareSprite: true
+
+researchCost: [
+  biotic-zlo-item-aluminum/6
+]
+
+research: {
+  parent: biotic-zlo-distribution-aluminum-duct
+  objectives: [  
+    biotic-zlo-distribution-aluminum-duct
+  ]
+}
