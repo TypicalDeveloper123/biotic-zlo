@@ -1,5 +1,5 @@
 type: Floor
 variants: 3
 attributes: {
-  fleshtile: 0.0625
+  fleshtile: 0.25
 }
