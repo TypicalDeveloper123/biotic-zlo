@@ -7,12 +7,129 @@ A mod that features life.
 SPOILER:
 - MIGHT CONTAIN DISTURBING GORE
 - HAS TRYPOPHOBIA WHICH IS THE FEAR OF ALOT OF HOLES
+- BIO UNITS MIGHT BE UNCOMFORTABLE TO SOME PEOPLE
 
 WIP
-discord server for Corpuscles: https://discord.gg/9ZSjAJds
+
+If you wanna see whats the latest news with the mod, since modding kinda takes really long.
+Join our Discord Server!
+discord server for Corpuscles: https://discord.gg/SkvZaCwvXR
   
 '''
 subtitle: flesh
 minGameVersion: 147
 version: v1.0
 repo: TypicalDeveloper123/biotic-zlo
+
+contentOrder:[
+    // items and liquids
+        biotic-zlo-item-aluminum
+        biotic-zlo-item-infested-tissue
+        biotic-zlo-item-raw-iron
+        biotic-zlo-item-iron
+
+    // liquids
+        biotic-zlo-liquid-blood
+        biotic-zlo-liquid-acid
+
+    // turrets
+        biotic-zlo-turret-bleed
+
+    // drills
+        biotic-zlo-production-aluminum-drill
+        biotic-zlo-production-flesh-crusher
+        biotic-zlo-production-blood-extractor
+
+    // distribution blocks
+        biotic-zlo-distribution-aluminum-duct
+        biotic-zlo-distribution-aluminum-junction
+        biotic-zlo-distribution-aluminum-router
+        biotic-zlo-distribution-aluminum-bridge
+        biotic-zlo-distribution-organizer
+        biotic-zlo-distribution-inverted-organizer
+        biotic-zlo-distribution-overflow-controller
+        biotic-zlo-distribution-underflow-controller
+
+    // liquid distribution blocks
+        biotic-zlo-liquid-aluminum-conduit
+        biotic-zlo-liquid-liquid-junction
+        biotic-zlo-liquid-liquid-bridge
+        biotic-zlo-liquid-liquid-router
+
+    // power blocks
+        biotic-zlo-power-power-beam
+        biotic-zlo-power-biometric-pulsor
+
+    // walls 
+        biotic-zlo-defense-aluminum-wall
+        biotic-zlo-defense-large-aluminum-wall
+
+    // production blocks
+        biotic-zlo-crafting-iron-extractor
+        biotic-zlo-crafting-iron-smelter
+
+    // unit factories
+
+    // storage blocks
+        biotic-zlo-core-hazard
+
+    // logic blocks
+
+    // units
+        // bio
+            // ground
+                biotic-zlo-unit-BRAWN
+                biotic-zlo-unit-embroider
+                biotic-zlo-unit-synthesis
+                biotic-zlo-unit-resurgence
+
+            //worm
+                biotic-zlo-unit-cerebral
+                biotic-zlo-unit-ventral
+
+            // air
+
+            // hybrid
+
+            // origin of all bio units
+                biotic-zlo-unit-origin
+
+            // core
+        
+        // metalloid
+            // ground
+
+            // mech
+
+            // air
+
+            // core
+                biotic-zlo-unit-microbe
+
+    // environmental blocks
+        // liquid tiles
+            biotic-zlo-a1-liquid-blood
+
+        // tiles
+            biotic-zlo-tile-BLOODSTONE  
+            biotic-zlo-tile-CLAY
+            biotic-zlo-tile-BLOOD
+            biotic-zlo-tile-FLESH
+
+        // walls
+            biotic-zlo-wall-BLOODSTONE
+            biotic-zlo-wall-BLOOD
+            biotic-zlo-wall-FLESH
+
+        // ores
+            biotic-zlo-ore-aluminum
+
+        // props
+            bloodstone-boulder
+            crimson-bush
+            crimson-tree
+            blood-boulder
+            flesh-blob
+            flesh-boulder
+
+]
