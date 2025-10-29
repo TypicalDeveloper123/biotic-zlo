@@ -1,0 +1,38 @@
+type: WallCrafter
+name: Flesh Crusher
+attribute: fleshwall
+description: Mines Infested Tissue.
+optinalBoostIntensity: 2.5
+drillTime: 90
+size: 2
+hasLiquids: true
+squareSprite: false
+
+output: biotic-zlo-item-infested-tissue
+
+consumes: {
+	liquids: {
+		liquids: [
+			water/0.03
+		]
+		optional: true
+		booster: true
+	}
+}
+
+category: production
+
+requirements: [
+	biotic-zlo-item-aluminum/15	
+]
+
+researchCost: [
+    biotic-zlo-item-aluminum/45
+]
+
+research: {
+  	parent: biotic-zlo-production-aluminum-drill
+  	objectives: [  
+    	biotic-zlo-production-aluminum-drill
+	]
+}

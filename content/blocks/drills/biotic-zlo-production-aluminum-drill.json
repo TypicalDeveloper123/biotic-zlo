@@ -1,0 +1,37 @@
+type: Drill
+size: 2
+category: production
+hasLiquids: false
+drillTime: 100
+drillHardnessMultiplier: 150
+hasPower: false
+tier: 4
+itemCapacity: 30
+optinalBoostIntensity: 2.5
+
+consumes: {
+	liquids: {
+		liquids: [
+			water/0.0333333333
+		]
+		optional: true
+		booster: true
+	}
+}
+
+requirements: [
+  biotic-zlo-item-aluminum/10
+]
+
+researchCost: [
+    biotic-zlo-item-aluminum/30
+]
+
+research: {
+  	parent: biotic-zlo-core-hazard
+  	objectives: [  
+		biotic-zlo-item-aluminum
+	]
+}
+
+squareSprite: false

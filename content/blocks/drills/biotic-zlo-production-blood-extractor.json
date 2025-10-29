@@ -1,0 +1,55 @@
+type: AttributeCrafter
+attribute: fleshtile
+baseEfficiency: 0
+maxBoost: 2
+drillTime: 90
+liquidCapacity: 20
+size: 2
+hasPower: true
+squareSprite: false
+
+outputLiquid: biotic-zlo-liquid-blood/0.09
+
+consumes: {
+	power: 1
+}
+
+category: production
+
+requirements: [
+	biotic-zlo-item-aluminum/12
+	biotic-zlo-item-infested-tissue/8
+]
+
+researchCost: [
+  biotic-zlo-item-aluminum/36
+	biotic-zlo-item-infested-tissue/24
+]
+
+research: {
+  parent: biotic-zlo-production-flesh-crusher
+  objectives: [  
+    biotic-zlo-production-flesh-crusher
+    biotic-zlo-item-infested-tissue
+  ]
+}
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+	  {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -rotator
+	    spinSprite: true
+	    rotateSpeed: 2
+    } 
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+  ]
+}
