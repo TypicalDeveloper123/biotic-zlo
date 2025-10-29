@@ -2,28 +2,54 @@ localizedName: Morive
 description: WIP
 alwaysUnlocked: true
 mesh: [
- {
+  {
     //bloodstone
     type: NoiseMesh
     planet: morive
     divisions: 5
-    seed: 2
-    radius: 0.7
+    seed: 2231
+    radius: 0.75
     color1: 995d5d
     color2: 663d3d
     octaves: 3.7
     persistence: 1.8
-
-    //flesh
+  }
+  {
+    //blood
     type: NoiseMesh
     planet: morive
     divisions: 5
-    seed: 2
-    radius: 0.4
+    seed: 2231
+    radius: 0.7555
     color1: 661616
     color2: 991f1f
     octaves: 3
-    persistence: 1.8
+    persistence: 15
+  }
+  {
+    //liquid blood
+    type: NoiseMesh
+    planet: morive
+    divisions: 5
+    seed: 7
+    radius: 0.749999
+    color1: 290707
+    color2: 290707
+    octaves: 2
+    persistence: 1.9
+  }
+  {
+    //sky
+    type: HexSkyMesh
+    planet: morive
+    speed: 1.01
+    radius: 0.11
+    divisions: 6
+    color: eafffd7e
+    octaves: 3
+    persistence: 0.4
+    scl: 0.9
+    thresh: 0.6
   }
 ]
 generator: {
@@ -43,23 +69,23 @@ generator: {
 }
 
 orbitRadius: 35
-sectorSize: 2
+sectorSize: 3
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
-startSector: 0
-radius: 0.9
-minZoom: 0.7
+startSector: 146
+radius: 0.75
+minZoom: 1
 drawOrbit: true
-atmosphereRadIn: -0.5
-atmosphereRadOut: -0.2
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
 accessible: true
-updateLighting: true
+updateLighting: false
 sectorSeed: 14513
 bloom: true
 visible: true
-atmosphereColor: 974747
+atmosphereColor: cf5d5d
 iconColor: 850d0d
 hasAtmosphere: true
 allowWaveSimulation: false
@@ -72,4 +98,7 @@ solarSystem: sun
 launchCandidates: []
 itemWhitelist: [
   "biotic-zlo-item-aluminum"
+  "biotic-zlo-item-infested-tissue"
+  "biotic-zlo-item-raw-iron"
+  "biotic-zlo-item-iron"
 ]
