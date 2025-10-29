@@ -1,1 +1,12 @@
+type: Liquid
+color: 50ff36
 
+explosiveness: 0.1
+flammability: 0
+heatCapacity: 0.15
+viscosity: 0.4
+temperature: 0.9
+blockReactive: true
+
+research: biotic-zlo-liquid-blood
+hiddenOnPlanets: [serpulo, erekir]
