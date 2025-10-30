@@ -1,6 +1,7 @@
 type: AttributeCrafter
 attribute: fleshtile
 baseEfficiency: 0
+minEfficiency: 0.001
 maxBoost: 2
 drillTime: 90
 liquidCapacity: 20
@@ -53,3 +54,4 @@ drawer: {
     }
   ]
 }
+
