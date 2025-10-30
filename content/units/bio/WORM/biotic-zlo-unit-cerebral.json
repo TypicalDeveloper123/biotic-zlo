@@ -35,8 +35,9 @@ deathExplosionEffect: {
         {
             type: ParticleEffect
             particles: 16
-            colorFrom: 56ab3a
-            colorTo: 356924
+            layer: 110
+            colorFrom: 50ff36
+            colorTo: 50ff36
             cone: 360
             length: 15
             sizeFrom: 2
