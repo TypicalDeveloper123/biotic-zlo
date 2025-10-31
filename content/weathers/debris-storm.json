@@ -8,7 +8,7 @@ useWindVector: true
 sizeMax: 300
 sizeMin: 120
 minAlpha: 0
-maxAlpha: 0.25
+maxAlpha: 0.1
 density: 1500
 baseSpeed: 5.4
 opacityMultiplier: 0.1
