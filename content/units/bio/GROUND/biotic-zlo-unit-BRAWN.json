@@ -134,8 +134,8 @@ weapons: [
             smokeEffect: none
             shootEffect: none
             puddles: 3
-            puddleRange: 15
-            puddleAmount: 30
+            puddleRange: 10
+            puddleAmount: 25
             puddleLiquid: corpuscles-biotic-zlo-liquid-blood
         }  
     }

@@ -18,7 +18,7 @@ discord server for Corpuscles: https://discord.gg/SkvZaCwvXR
 '''
 subtitle: flesh
 minGameVersion: 147
-version: v1.0 BETA
+version: v1.1 BETA
 repo: TypicalDeveloper123/biotic-zlo
 
 contentOrder:[
@@ -113,11 +113,13 @@ contentOrder:[
         // tiles
             biotic-zlo-tile-BLOODSTONE  
             biotic-zlo-tile-CLAY
+            biotic-zlo-tile-BONE
             biotic-zlo-tile-BLOOD
             biotic-zlo-tile-FLESH
 
         // walls
             biotic-zlo-wall-BLOODSTONE
+            biotic-zlo-wall-BONE
             biotic-zlo-wall-BLOOD
             biotic-zlo-wall-FLESH
 
