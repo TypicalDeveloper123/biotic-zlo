@@ -18,7 +18,7 @@ discord server for Corpuscles: https://discord.gg/SkvZaCwvXR
 '''
 subtitle: flesh
 minGameVersion: 147
-version: v1.0
+version: v1.1 BETA
 repo: TypicalDeveloper123/biotic-zlo
 
 contentOrder:[
@@ -27,6 +27,8 @@ contentOrder:[
         biotic-zlo-item-infested-tissue
         biotic-zlo-item-raw-iron
         biotic-zlo-item-iron
+        biotic-zlo-item-crushed-bones
+        biotic-zlo-item-biochar
 
     // liquids
         biotic-zlo-liquid-blood
@@ -34,11 +36,13 @@ contentOrder:[
 
     // turrets
         biotic-zlo-turret-bleed
+        biotic-zlo-turret-convergence
 
     // drills
         biotic-zlo-production-aluminum-drill
         biotic-zlo-production-flesh-crusher
         biotic-zlo-production-blood-extractor
+        biotic-zlo-production-bone-crusher
 
     // distribution blocks
         biotic-zlo-distribution-aluminum-duct
@@ -67,6 +71,9 @@ contentOrder:[
     // production blocks
         biotic-zlo-crafting-iron-extractor
         biotic-zlo-crafting-iron-smelter
+        biotic-zlo-crafting-briquette-press
+        biotic-zlo-crafting-pyrolytic-heater
+        biotic-zlo-crafting-silicon-synthesizer
 
     // unit factories
 
@@ -90,6 +97,10 @@ contentOrder:[
             // air
 
             // hybrid
+
+            // necrotic/rotten
+                biotic-zlo-unit-vile
+                biotic-zlo-unit-grim
 
             // origin of all bio units
                 biotic-zlo-unit-origin
