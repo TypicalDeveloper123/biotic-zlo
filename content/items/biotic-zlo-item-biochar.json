@@ -1,0 +1,14 @@
+type: item
+flammability: 100
+explosiveness: 65
+radioactivity: 0
+charge: 0
+color: 4d454a
+
+research: {
+  parent: biotic-zlo-liquid-blood
+  objectives: [  
+    biotic-zlo-production-flesh-crusher
+  ]
+}
+hiddenOnPlanets: [serpulo, erekir]

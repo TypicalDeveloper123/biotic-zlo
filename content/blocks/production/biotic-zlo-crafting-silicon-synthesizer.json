@@ -1,0 +1,54 @@
+type: GenericCrafter
+size: 3
+hasPower: true
+hasItems: true
+squareSprite: false
+itemCapacity: 30
+
+outputItem: silicon/3
+
+consumes: {
+	power: 1.4
+	items: {
+		items: [
+			biotic-zlo-item-biochar/2
+			sand/3
+		]
+	}
+}
+
+category: crafting
+
+requirements: [
+	biotic-zlo-item-aluminum/25
+	biotic-zlo-item-infested-tissue/5
+	biotic-zlo-item-iron/5
+]
+
+researchCost: [
+    biotic-zlo-item-aluminum/100
+	biotic-zlo-item-infested-tissue/20
+	biotic-zlo-item-iron/20
+]
+
+research: {
+  	parent:  biotic-zlo-crafting-iron-smelter
+  	objectives: [  
+		biotic-zlo-item-biochar
+		biotic-zlo-crafting-pyrolytic-heater
+		biotic-zlo-crafting-briquette-press
+	]
+}
+
+drawer: {
+	type: DrawMulti
+	drawers: [
+		{
+    	type: DrawArcSmelt
+    	suffix: -top
+		}
+		{
+		type: DrawDefault
+		}
+	]
+}

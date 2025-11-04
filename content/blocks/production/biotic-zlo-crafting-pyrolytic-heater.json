@@ -1,0 +1,49 @@
+type: GenericCrafter
+size: 2
+hasPower: true
+hasItems: true
+squareSprite: false
+
+outputItem: biotic-zlo-item-biochar/2
+
+consumes: {
+	power: 1.25
+	items: {
+		items: [
+			biotic-zlo-item-infested-tissue/2
+		]
+	}
+}
+
+category: crafting
+
+requirements: [
+	biotic-zlo-item-aluminum/12
+	biotic-zlo-item-infested-tissue/3
+]
+
+researchCost: [
+    biotic-zlo-item-aluminum/48
+	biotic-zlo-item-infested-tissue/12
+]
+
+research: {
+  	parent:  biotic-zlo-crafting-iron-smelter
+  	objectives: [  
+		biotic-zlo-production-flesh-crusher
+	]
+}
+
+drawer: {
+	type: DrawMulti
+	drawers: [
+		{
+		type: DrawDefault
+		}
+		{
+    	type: DrawFlame
+    	suffix: -top	
+		size: 2
+		}
+	]
+}

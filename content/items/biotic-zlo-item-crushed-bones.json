@@ -1,0 +1,14 @@
+type: item
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0
+color: ccc2c2
+
+research: {
+  parent: biotic-zlo-liquid-blood
+  objectives: [  
+    biotic-zlo-production-bone-crusher
+  ]
+}
+hiddenOnPlanets: [serpulo, erekir]

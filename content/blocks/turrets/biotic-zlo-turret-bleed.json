@@ -44,33 +44,35 @@ ammoTypes: {
     pierceCap: 2
     pierce: true
     pierceBuilding: true
-    shootEffect: [
-    	{
-    	type: ParticleEffect
-    	particles: 20
-    	lifetime: 100
-    	layer: 100.2
-    	cone: 60
-    	length: 60
-    	interp:pow3Out
-    	sizeFrom: 6
-    	sizeTo: 0
-    	colorFrom: c1dae3
-    	colorTo: 8fa9b3
-      }
-    	{
-    	type: WaveEffect
-    	particles: 1
-    	lifetime: 45
-    	sizeFrom: 10
-    	sizeTo: 20
-    	colorFrom: c1dae3
-    	colorTo: 8fa9b3
-      }
-  	]
+    shootEffect: {
+      type: MultiEffect
+        effects: [
+    	  {
+    	    type: ParticleEffect
+    	    particles: 20
+    	    lifetime: 100
+    	    layer: 100.2
+    	    cone: 60
+    	    length: 60
+    	    interp:pow3Out
+    	    sizeFrom: 6
+    	    sizeTo: 0
+    	    colorFrom: c1dae3
+    	    colorTo: 8fa9b3
+        }
+    	  {
+    	    type: WaveEffect
+    	    particles: 1
+    	    lifetime: 45
+    	    sizeFrom: 10
+    	    sizeTo: 20
+    	    colorFrom: c1dae3
+    	    colorTo: 8fa9b3
+        }
+      ]
+    }
   }
 }
-
 
 drawer: {
   type: DrawTurret

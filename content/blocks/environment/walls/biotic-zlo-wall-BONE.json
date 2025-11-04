@@ -1,1 +1,4 @@
 type: StaticWall
+attributes: {
+    bones: 2
+}

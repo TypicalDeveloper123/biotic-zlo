@@ -1,7 +1,6 @@
 type: WallCrafter
 name: Flesh Crusher
 attribute: fleshwall
-description: Mines Infested Tissue.
 optinalBoostIntensity: 2.5
 drillTime: 90
 size: 2

@@ -3,6 +3,7 @@ research: biotic-zlo-core-hazard
   
 flying: true
 targetable: false
+hittable: false
 shadowElevation: 0.4
 mechFrontSway: 0
 mechSideSway: 0

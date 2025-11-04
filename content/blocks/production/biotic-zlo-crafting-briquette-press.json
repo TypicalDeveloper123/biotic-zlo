@@ -1,0 +1,36 @@
+type: GenericCrafter
+size: 2
+hasPower: true
+hasItems: true
+squareSprite: false
+
+outputItem: sand/2
+
+consumes: {
+	power: 1.15
+	items: {
+		items: [
+			biotic-zlo-item-crushed-bones/2
+		]
+	}
+}
+
+category: crafting
+
+requirements: [
+	biotic-zlo-item-aluminum/15
+	biotic-zlo-item-infested-tissue/4
+]
+
+researchCost: [
+    biotic-zlo-item-aluminum/60
+	biotic-zlo-item-infested-tissue/16
+]
+
+research: {
+  	parent:  biotic-zlo-crafting-iron-smelter
+  	objectives: [  
+		biotic-zlo-production-bone-crusher
+		biotic-zlo-item-crushed-bones
+	]
+}

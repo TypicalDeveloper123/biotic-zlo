@@ -7,7 +7,7 @@ squareSprite: false
 outputItem: biotic-zlo-item-raw-iron/2
 
 consumes: {
-	power: 1.2
+	power: 1.1
 	liquids: {
 		liquids: [
 			biotic-zlo-liquid-blood/0.05

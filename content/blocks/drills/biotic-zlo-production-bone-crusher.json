@@ -1,0 +1,41 @@
+type: WallCrafter
+name: Bone Crusher
+attribute: bones
+description: Mines Bones from Bone walls.
+optinalBoostIntensity: 2.5
+drillTime: 90
+size: 3
+hasLiquids: true
+squareSprite: false
+itemCapacity: 35
+
+output: biotic-zlo-item-crushed-bones
+
+consumes: {
+	liquids: {
+		liquids: [
+			water/0.07
+		]
+		optional: true
+		booster: true
+	}
+}
+
+category: production
+
+requirements: [
+	biotic-zlo-item-aluminum/22
+	biotic-zlo-item-infested-tissue/8
+]
+
+researchCost: [
+    biotic-zlo-item-aluminum/66
+	biotic-zlo-item-infested-tissue/24
+]
+
+research: {
+  	parent: biotic-zlo-production-blood-extractor
+  	objectives: [  
+    	biotic-zlo-production-blood-extractor
+	]
+}
