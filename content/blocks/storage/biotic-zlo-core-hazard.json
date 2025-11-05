@@ -2,6 +2,8 @@ type: CoreBlock
 
 requirements: [
   biotic-zlo-item-aluminum/1250
+  biotic-zlo-item-iron/900
+  silicon/250
 ]
 
 

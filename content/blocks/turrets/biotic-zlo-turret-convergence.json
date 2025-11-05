@@ -30,7 +30,7 @@ reload: 15
 range: 150
 shootY: 7
 shootX: 0
-mirror: true
+inaccuracy: 15
 
 shoot: {
   type: ShootAlternate
@@ -83,8 +83,8 @@ ammoTypes: {
     homingRange: 100
     pierce: true
     pierceBuilding: true
-    frontColor: c1dae3
-    backColor: c1dae3
+    frontColor: ffffff
+    backColor: ffffff
     shootEffect: {
     	type: ParticleEffect
     	particles: 20
@@ -95,8 +95,8 @@ ammoTypes: {
     	interp: pow3Out
     	sizeFrom: 2
     	sizeTo: 0
-    	colorFrom: c1dae3
-    	colorTo: 8fa9b3
+    	colorFrom: ffffff
+    	colorTo: ffffff
     }
   }
 }

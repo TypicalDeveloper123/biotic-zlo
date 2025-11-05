@@ -17,6 +17,7 @@ segmentRotationRange: 80
 crushDamage: 2
 targetAir: false
 rotateSpeed: 8
+omniMovement: false
 softShadowScl: 0.7
 legPhysicsLayer: false
 deathExplosionEffect: {
