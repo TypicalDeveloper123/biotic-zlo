@@ -1,5 +1,4 @@
 type: ParticleWeather
-name: Debris Storm
 color: 660025
 noiseColor: 33001b
 drawNoise: true
