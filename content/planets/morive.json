@@ -51,6 +51,19 @@ mesh: [
     scl: 0.9
     thresh: 0.6
   }
+  {
+    //sky 2
+    type: HexSkyMesh
+    planet: morive
+    speed: 0.3
+    radius: 0.10
+    divisions: 6
+    color: 610303
+    octaves: 2
+    persistence: 0.4
+    scl: 0.9
+    thresh: 0.7
+  }
 ]
 generator: {
   octaves: 4
