@@ -1,0 +1,8 @@
+planet: morive
+sector: 86
+difficulty: 1
+captureWave: 25
+research: {
+  parent: again
+}
+alwaysUnlocked: true
