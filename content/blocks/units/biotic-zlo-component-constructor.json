@@ -8,10 +8,10 @@ requirements: [
 ] 
 hasPower: true
 
-
 consumes: {
   power: 2
 }
+
 buildSpeed: 1
 
 
