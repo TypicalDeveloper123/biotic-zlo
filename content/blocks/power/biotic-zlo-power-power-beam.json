@@ -15,7 +15,7 @@ requirements: [
 ]
 
 research: {
-  	parent: biotic-zlo-core-hazard
+  	parent: biotic-zlo-power-biometric-pulsor
   	objectives: [
 		biotic-zlo-production-blood-extractor		
   	]

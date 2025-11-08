@@ -25,7 +25,7 @@ requirements: [
 ]
 
 research: {
-  parent: biotic-zlo-power-biometic-pulsor
+  parent: biotic-zlo-power-biometric-pulsor
   objectives: [
 	biotic-zlo-item-biochar	
   ]

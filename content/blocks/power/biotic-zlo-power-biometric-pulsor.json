@@ -23,7 +23,7 @@ requirements: [
 ]
 
 research: {
-	parent: biotic-zlo-power-power-beam
+	parent: biotic-zlo-production-flesh-crusher
 	objectives: [
 		biotic-zlo-production-blood-extractor		
 	]
