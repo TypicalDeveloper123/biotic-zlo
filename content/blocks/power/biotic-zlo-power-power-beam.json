@@ -14,8 +14,13 @@ requirements: [
 	biotic-zlo-item-infested-tissue/2
 ]
 
-research: biotic-zlo-core-hazard 
-parent: biotic-zlo-core-hazard 
+research: {
+  	parent: biotic-zlo-core-hazard
+  	objectives: [
+		biotic-zlo-production-blood-extractor		
+  	]
+}
+
 researchCost: [
     biotic-zlo-item-aluminum/6
 	biotic-zlo-item-infested-tissue/4

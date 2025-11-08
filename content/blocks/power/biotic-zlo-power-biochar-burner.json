@@ -1,0 +1,40 @@
+type: consumeGenerator
+size: 3
+squareSprite: false
+hasItems: true
+hasPower: true
+itemDuration: 180
+
+powerProduction: 2.5
+
+consumes: {
+	items: {
+		items: [
+			biotic-zlo-item-biochar/3
+		]
+	}
+}
+
+category: power
+
+requirements: [
+	biotic-zlo-item-aluminum/28
+	biotic-zlo-item-infested-tissue/12
+	biotic-zlo-item-iron/15
+	silicon/5
+]
+
+research: {
+  parent: biotic-zlo-power-biometic-pulsor
+  objectives: [
+	biotic-zlo-item-biochar	
+  ]
+}
+
+researchCost: [
+    biotic-zlo-item-aluminum/56
+	biotic-zlo-item-infested-tissue/24
+	biotic-zlo-item-iron/30
+	silicon/10
+]
+

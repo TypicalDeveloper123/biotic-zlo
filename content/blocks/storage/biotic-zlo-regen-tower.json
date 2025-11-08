@@ -1,0 +1,34 @@
+type: RegenProjector
+size: 2
+health: 360
+effectChance: 0.05
+range: 25
+healPercent: 0.1
+outputsPower: false
+hasPower: true
+consumePower: true
+category: effect
+
+requirements: [
+  biotic-zlo-item-aluminum/18
+  biotic-zlo-item-iron/14
+  silicon/8
+]
+
+researchCost: [
+  biotic-zlo-item-aluminum/72
+	biotic-zlo-item-iron/56
+	silicon/24
+]
+
+
+consumes: {
+  power: 2.2
+}
+
+research: {
+  parent: biotic-zlo-regen-emitter
+  objectives: [
+  
+  ]
+}
