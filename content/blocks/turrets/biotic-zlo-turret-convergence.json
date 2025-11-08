@@ -109,7 +109,7 @@ drawer: {
 
 
 research: {
-  parent: biotic-zlo-core-hazard
+  parent: biotic-zlo-turret-bleed
   objectives: [  
     biotic-zlo-turret-bleed
 	  biotic-zlo-item-aluminum

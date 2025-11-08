@@ -28,7 +28,7 @@ researchCost: [
 ]
 
 research: {
-	parent: biotic-zlo-core-hazard
+	parent: biotic-zlo-production-blood-extractor
     objectives: [  
     	biotic-zlo-production-blood-extractor
 		biotic-zlo-item-aluminum
