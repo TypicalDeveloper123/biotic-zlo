@@ -34,8 +34,12 @@ researchCost: [
 ]
 
 research: {
-  	parent: biotic-zlo-production-blood-extractor
-  	objectives: [  
-    	biotic-zlo-production-blood-extractor
-	]
+  parent: biotic-zlo-production-blood-extractor
+  objectives: [
+	{
+    type: OnSector
+    preset: groove
+	}
+  ]
 }
+
