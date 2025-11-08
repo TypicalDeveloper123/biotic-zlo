@@ -1,0 +1,36 @@
+type: Constructor
+size: 3
+category: units
+
+
+requirements: [
+  biotic-zlo-item-aluminum/35
+] 
+hasPower: true
+
+
+consumes: {
+  power: 2
+}
+buildSpeed: 1
+
+
+filter: [
+  corpuscles-standard-leggings, 
+  corpuscles-reinforced-leggings, 
+  corpuscles-fortified-leggings,
+  corpuscles-light-plates,
+  corpuscles-medium-plates,
+  corpuscles-heavy-plates,
+  corpuscles-basic-weapon-autoforge,
+  corpuscles-advanced-weapon-autoforge,
+  corpuscles-exotic-weapon-autoforge,
+  corpuscles-light-actuator,
+  corpuscles-heavy-actuator,
+  corpuscles-dense-actuator
+]
+
+squareSprite: false
+conductivePower: true
+maxBlockSize: 3
+
