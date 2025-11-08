@@ -2,6 +2,7 @@ type: consumeGenerator
 size: 3
 squareSprite: false
 hasItems: true
+hasLiquids: true
 hasPower: true
 itemDuration: 180
 
@@ -11,6 +12,11 @@ consumes: {
 	items: {
 		items: [
 			biotic-zlo-item-biochar/3
+		]
+	}
+	liquids: {
+		liquids: [
+			water/0.08
 		]
 	}
 }
@@ -28,6 +34,7 @@ research: {
   parent: biotic-zlo-power-biometric-pulsor
   objectives: [
 	biotic-zlo-item-biochar	
+	biotic-zlo-crafting-distillation-unit
   ]
 }
 

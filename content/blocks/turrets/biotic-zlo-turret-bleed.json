@@ -82,10 +82,11 @@ drawer: {
 
 research: {
   parent: biotic-zlo-core-hazard
-  objectives: [
-	biotic-zlo-item-aluminum
-	biotic-zlo-item-infested-tissue
-	biotic-zlo-item-iron
+  objectives: [  
+    biotic-zlo-defense-aluminum-wall
+	  biotic-zlo-item-aluminum
+	  biotic-zlo-item-infested-tissue
+    biotic-zlo-item-iron
 ]
 
 }

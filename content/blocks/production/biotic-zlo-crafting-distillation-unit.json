@@ -1,0 +1,37 @@
+type: GenericCrafter
+size: 2
+hasPower: true
+hasLiquids: true
+squareSprite: false
+
+outputLiquid: water/0.05
+
+consumes: {
+	power: 1.15
+	liquids: {
+		liquids: [
+			biotic-zlo-liquid-blood/0.1
+		]
+	}
+}
+
+category: crafting
+
+requirements: [
+	biotic-zlo-item-aluminum/22
+	biotic-zlo-item-iron/16
+	biotic-zlo-item-infested-tissue/4
+]
+
+researchCost: [
+    biotic-zlo-item-aluminum/88
+	biotic-zlo-item-iron/64
+	biotic-zlo-item-infested-tissue/16
+]
+
+research: {
+  	parent:  biotic-zlo-production-blood-extractor
+  	objectives: [  
+		
+	]
+}
