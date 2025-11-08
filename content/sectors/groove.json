@@ -5,9 +5,12 @@ captureWave: 25
 research: {
   parent: again
   objectives: [
+    {
     type: sectorComplete
     preset: again
+    }
   ]
 }
 
 alwaysUnlocked: false
+
