@@ -1,4 +1,4 @@
-const corpuscles = Vars.mods.locateMod("corpuscles").meta;
+const corpuscles = Vars.mods.locateMod("Corpuscles").meta;
 
 corpuscles.displayName = Core.bundle.get("mod.corpuscles.name");
 corpuscles.author = Core.bundle.get("mod.corpuscles.author");

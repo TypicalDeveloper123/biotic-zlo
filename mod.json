@@ -1,6 +1,6 @@
-name: Corpuscles
-displayName: Corpuscles
-author: "Bismutotantalite/Biz"
+name: "Corpuscles"
+displayName: "Corpuscles"
+author: Bismutotantalite/Biz
 description:
 '''
 A mod that features life.
@@ -9,16 +9,16 @@ SPOILER:
 - HAS TRYPOPHOBIA WHICH IS THE FEAR OF ALOT OF HOLES
 - BIO UNITS MIGHT BE UNCOMFORTABLE TO SOME PEOPLE
 
-WIP
-
 If you wanna see whats the latest news with the mod, since modding kinda takes really long.
 Join our Discord Server!
 discord server for Corpuscles: https://discord.gg/SkvZaCwvXR
+
+WIP
   
 '''
-subtitle: flesh
+subtitle: it.
 minGameVersion: 153
-version: v1.1.1
+version: v1.1.2
 repo: TypicalDeveloper123/biotic-zlo
 
 contentOrder:[
