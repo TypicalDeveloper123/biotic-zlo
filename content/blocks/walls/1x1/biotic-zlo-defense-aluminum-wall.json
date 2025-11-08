@@ -12,7 +12,7 @@ requirements: [
 
 
 research: {
-  parent: biotic-zlo-turret-bleed
+  parent: biotic-zlo-core-hazard
   objectives: [  
     biotic-zlo-production-aluminum-drill
   ]
