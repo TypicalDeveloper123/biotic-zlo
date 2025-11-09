@@ -1,0 +1,49 @@
+type: RegenProjector
+size: 2
+health: 360
+effectChance: 0.04
+baseColor: 4dff70
+effect: {
+  type: ParticleEffect
+  colorFrom: 4dff70
+  colorTo: 69a25e
+  particles: 4
+  length: 5
+  baseLength: 4
+  strokeFrom: 0.8
+  strokeTo: 1.8
+  lifetime: 130
+  cone: 360
+  interp: pow2
+  sizeInterp: pow2Out
+}
+range: 25
+healPercent: 0.09
+outputsPower: false
+hasPower: true
+consumePower: true
+category: effect
+
+requirements: [
+  biotic-zlo-item-aluminum/18
+  biotic-zlo-item-iron/14
+  silicon/8
+]
+
+researchCost: [
+  biotic-zlo-item-aluminum/72
+	biotic-zlo-item-iron/56
+	silicon/24
+]
+
+
+consumes: {
+  power: 2.2
+}
+
+research: {
+  parent: biotic-zlo-regen-emitter
+  objectives: [
+  
+  ]
+}
