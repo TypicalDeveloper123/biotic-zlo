@@ -55,7 +55,7 @@ allowLegStep: true
 abilities: [
     {
         type: RegenAbility
-        percentAmount: 0.2
+        percentAmount: 0.1
     }
     {
         type: SpawnDeathAbility
