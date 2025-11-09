@@ -37,6 +37,10 @@ research: {
 		biotic-zlo-item-biochar
 		biotic-zlo-crafting-pyrolytic-heater
 		biotic-zlo-crafting-briquette-press
+		{
+    	type: OnSector
+    	preset: groove
+    	}
 	]
 }
 
@@ -44,8 +48,11 @@ drawer: {
 	type: DrawMulti
 	drawers: [
 		{
+    	type: DrawRegion
+    	suffix: -bottom
+		}
+		{
     	type: DrawArcSmelt
-    	suffix: -top
 		}
 		{
 		type: DrawDefault

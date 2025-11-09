@@ -116,6 +116,10 @@ research: {
 	  biotic-zlo-item-infested-tissue
     biotic-zlo-item-iron
     silicon
+    {
+    type: OnSector
+    preset: groove
+    }
 ]
 
 }

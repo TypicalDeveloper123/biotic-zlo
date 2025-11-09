@@ -32,5 +32,9 @@ research: {
   	objectives: [  
 		biotic-zlo-production-bone-crusher
 		biotic-zlo-item-crushed-bones
+		{
+    	type: OnSector
+    	preset: groove
+    	}	
 	]
 }

@@ -31,6 +31,10 @@ research: {
   	parent:  biotic-zlo-crafting-iron-smelter
   	objectives: [  
 		biotic-zlo-production-flesh-crusher
+		{
+    	type: OnSector
+    	preset: groove
+    	}
 	]
 }
 
