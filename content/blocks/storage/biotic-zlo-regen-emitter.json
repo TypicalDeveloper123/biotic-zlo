@@ -1,9 +1,10 @@
 type: RegenProjector
 size: 1
 health: 360
-effectChance: 0.05
+effectChance: 0.02
+baseColor: 4dff70
 range: 12
-healPercent: 0.05
+healPercent: 0.03
 outputsPower: false
 hasPower: true
 consumePower: true
