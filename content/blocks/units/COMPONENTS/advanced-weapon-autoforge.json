@@ -1,0 +1,12 @@
+type: Wall
+size: 1
+customShadow: true
+placeablePlayer: false
+
+
+requirements: [
+  biotic-zlo-item-aluminum/14
+  biotic-zlo-item-iron/8
+  silicon/6
+]
+

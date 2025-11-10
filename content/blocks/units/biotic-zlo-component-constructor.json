@@ -31,9 +31,9 @@ buildSpeed: 1
 
 
 filter: [
-  corpuscles-standard-leggings, 
-  corpuscles-reinforced-leggings, 
-  corpuscles-fortified-leggings,
+  corpuscles-standard-limb-joint, 
+  corpuscles-reinforced-limb-joint, 
+  corpuscles-fortified-limb-joint,
   corpuscles-light-plates,
   corpuscles-medium-plates,
   corpuscles-heavy-plates,
