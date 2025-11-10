@@ -7,7 +7,7 @@ effect: {
   type: ParticleEffect
   colorFrom: 4dff70
   colorTo: 69a25e
-  particles: 4
+  particles: 3
   length: 5
   baseLength: 4
   strokeFrom: 0.8
