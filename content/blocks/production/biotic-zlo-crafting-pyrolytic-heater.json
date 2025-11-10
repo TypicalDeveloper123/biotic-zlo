@@ -45,9 +45,11 @@ drawer: {
 		type: DrawDefault
 		}
 		{
-    	type: DrawFlame
-    	suffix: -top	
-		size: 2
+    	type: DrawParticles
+		particles: 35
+		color: 332a1a
+		particleInterp: pow2Out
+		reverse: true
 		}
 	]
 }

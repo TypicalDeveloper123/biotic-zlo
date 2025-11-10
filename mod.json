@@ -64,10 +64,13 @@ contentOrder:[
     // power blocks
         biotic-zlo-power-power-beam
         biotic-zlo-power-biometric-pulsor
+        biotic-zlo-power-biochar-burner
 
     // walls 
         biotic-zlo-defense-aluminum-wall
         biotic-zlo-defense-large-aluminum-wall
+        biotic-zlo-defense-iron-wall
+        biotic-zlo-defense-large-iron-wall
 
     // production blocks
         biotic-zlo-crafting-iron-extractor
@@ -75,13 +78,28 @@ contentOrder:[
         biotic-zlo-crafting-briquette-press
         biotic-zlo-crafting-pyrolytic-heater
         biotic-zlo-crafting-silicon-synthesizer
+        biotic-zlo-crafting-distillation-unit
 
     // unit factories
+        biotic-zlo-component-constructor
 
-    // storage blocks
+    // storage blocks and effect blocks
         biotic-zlo-core-hazard
+        biotic-zlo-regen-emitter
+        biotic-zlo-regen-tower
 
     // logic blocks
+
+    // components
+        standard-limb-joint
+        reinforced-limb-joint
+        fortified-limb-joint
+        light-plates
+        medium-plates
+        heavy-plates
+        basic-weapon-autoforge
+        advanced-weapon-autoforge
+        exotic-weapon-autoforge
 
     // units
         // bio
@@ -109,9 +127,11 @@ contentOrder:[
             // core
         
         // metalloid
-            // ground
+            // ground/mech
+                biotic-zlo-unit-distal
+                biotic-zlo-unit-phalanx
 
-            // mech
+            // insectoid
 
             // air
 
