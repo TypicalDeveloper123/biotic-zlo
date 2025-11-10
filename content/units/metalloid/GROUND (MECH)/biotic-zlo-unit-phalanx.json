@@ -1,0 +1,40 @@
+type: mech
+speed: 0.7
+flying: false
+health: 1100
+armor: 10
+hitSize: 12
+outlineColor: 1b1a33
+mechLegColor: 1b1a33
+
+
+
+weapons: [
+    {
+        x: 1
+        y: 1.6
+        shootX: 3
+        rotate: false
+        mirror: true
+        top: false
+        inaccuracy: 2
+        reload: 30
+        recoil: 1.8
+        shootSound: shootAlt
+        name: biotic-zlo-unit-phalanx-weapon-0
+        shoot: {
+            shots: 5
+            shotDelay: 5
+        }
+        bullet: {
+            type: BasicBulletType
+            width: 8
+            height: 12
+            lifetime: 50
+            speed: 3
+            damage: 25
+        }
+    }
+]
+
+hiddenOnPlanets: [serpulo, erekir]

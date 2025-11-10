@@ -1,0 +1,32 @@
+type: mech
+speed: 0.8
+flying: false
+health: 500
+armor: 5
+hitSize: 8
+outlineColor: 1b1a33
+mechLegColor: 1b1a33
+
+weapons: [
+    {
+        x: 0.8
+        y: 0.3
+        shootX: 3
+        rotate: false
+        mirror: true
+        top: false
+        inaccuracy: 2
+        reload: 30
+        recoil: 1.8
+        shootSound: artillery
+        name: biotic-zlo-unit-distal-weapon-0
+        bullet: {
+            type: ArtilleryBulletType
+            speed: 2
+            splashDamage: 35
+            splashDamageRadius: 16
+        }
+    }
+]
+
+hiddenOnPlanets: [serpulo, erekir]
