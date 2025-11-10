@@ -1,6 +1,6 @@
 type: Wall
 size: 2
-health: 800
+health: 1600
 squareSprite: true
 category: defense
 
@@ -9,13 +9,13 @@ requirements: [
   biotic-zlo-item-aluminum/24
 ]
 
-
 research: {
-  parent: biotic-zlo-defense-aluminum-wall
+  parent: biotic-zlo-defense-iron-wall
   objectives: [  
-    biotic-zlo-defense-aluminum-wall
+    biotic-zlo-defense-iron-wall
   ]
 }
+
 researchCost: [
   biotic-zlo-item-aluminum/72
 ] 

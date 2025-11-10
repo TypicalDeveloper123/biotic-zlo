@@ -1,6 +1,6 @@
 type: Wall
 size: 1
-health: 200
+health: 400
 squareSprite: true
 category: defense
 
@@ -11,9 +11,9 @@ requirements: [
 
 
 research: {
-  parent: biotic-zlo-turret-bleed
+  parent: biotic-zlo-defense-aluminum-wall
   objectives: [  
-    biotic-zlo-production-aluminum-drill
+    biotic-zlo-turret-convergence
   ]
 }
 researchCost: [
