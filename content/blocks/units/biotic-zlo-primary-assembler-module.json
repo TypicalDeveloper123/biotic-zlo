@@ -1,0 +1,18 @@
+type: UnitAssemblerModule
+size: 3
+category: units
+hasPower: true
+hasLiquid: true
+
+requirements: [
+  biotic-zlo-item-aluminum/55
+  biotic-zlo-item-iron/35
+  silicon/10
+]
+
+consumes: {
+  power: 2
+  liquids: [
+    water/0.08
+  ]
+}

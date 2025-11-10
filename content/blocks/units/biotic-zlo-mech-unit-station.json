@@ -1,0 +1,42 @@
+type: UnitAssembler
+size: 5
+category: units
+droneType: assembly-drone
+hasPower: true
+
+requirements: [
+  biotic-zlo-item-aluminum/300
+  biotic-zlo-item-iron/150
+  silicon/50
+]
+
+
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: biotic-zlo-unit-distal
+    requirements: [
+    corpuscles-standard-limb-joint/2
+    corpuscles-light-plates/2
+    corpuscles-basic-weapon-autoforge/2
+    ]
+    time: 1500
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: biotic-zlo-unit-phalanx
+    requirements: [
+    corpuscles-standard-limb-joint/2
+    corpuscles-light-plates/4
+    corpuscles-basic-weapon-autoforge/2
+    ]
+    time: 3000
+  }
+]
+
+
+squareSprite: false
+consumes: {
+  power: 4
+}
+areaSize: 11
