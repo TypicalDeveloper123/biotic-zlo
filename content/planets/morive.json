@@ -15,7 +15,7 @@ mesh: [
     persistence: 1.8
   }
   {
-    //blood
+    //coagulated blood
     type: NoiseMesh
     planet: morive
     divisions: 5
@@ -27,7 +27,7 @@ mesh: [
     persistence: 15
   }
   {
-    //liquid blood
+    //blood
     type: NoiseMesh
     planet: morive
     divisions: 5
