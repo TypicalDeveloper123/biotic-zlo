@@ -45,3 +45,19 @@ researchCost: [
 	silicon/10
 ]
 
+drawer: {
+	type: DrawMulti
+	drawers: [
+		{
+    	type: DrawRegion
+    	suffix: -bottom
+		}
+		{
+    	type: DrawArcSmelt
+		}
+		{
+		type: DrawDefault
+		}
+	]
+}
+

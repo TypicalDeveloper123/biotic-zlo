@@ -35,3 +35,24 @@ research: {
 		
 	]
 }
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidRegion
+      suffix: -waterliquid1
+      drawLiquid: water
+      alpha: 0.7
+      padding: 2
+    } 
+    {
+      type: DrawDefault
+    } 
+  ]
+}
+
