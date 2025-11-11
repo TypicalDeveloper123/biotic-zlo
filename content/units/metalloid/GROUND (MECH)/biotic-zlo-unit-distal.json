@@ -10,9 +10,8 @@ targetAir: false
 
 weapons: [
     {
-        x: 0.8
-        y: 0.3
-        shootX: 3
+        x: 3.8
+        y: 1
         rotate: false
         mirror: true
         top: false

@@ -7,13 +7,9 @@ hitSize: 12
 outlineColor: 1b1a33
 mechLegColor: 1b1a33
 
-
-
 weapons: [
     {
-        x: 1
         y: 1.6
-        shootX: 3
         rotate: false
         mirror: true
         top: false
