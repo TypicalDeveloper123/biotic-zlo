@@ -16,7 +16,7 @@ plans: [
     type: AssemblerUnitPlan
     unit: biotic-zlo-unit-distal
     requirements: [
-    corpuscles-standard-limb-joint/2
+    corpuscles-standard-limb-joint/1
     corpuscles-light-plates/2
     corpuscles-basic-weapon-autoforge/2
     ]
@@ -26,7 +26,7 @@ plans: [
     type: AssemblerUnitPlan
     unit: biotic-zlo-unit-phalanx
     requirements: [
-    corpuscles-standard-limb-joint/2
+    corpuscles-standard-limb-joint/1
     corpuscles-light-plates/4
     corpuscles-basic-weapon-autoforge/2
     ]
