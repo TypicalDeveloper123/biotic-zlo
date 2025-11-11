@@ -82,6 +82,8 @@ contentOrder:[
 
     // unit factories
         biotic-zlo-component-constructor
+        biotic-zlo-mech-unit-station
+        biotic-zlo-primary-assembler-module
 
     // storage blocks and effect blocks
         biotic-zlo-core-hazard
@@ -165,5 +167,9 @@ contentOrder:[
             blood-boulder
             flesh-blob
             flesh-boulder
+
+    // status
+        radiated
+        tetanus
 
 ]
