@@ -6,7 +6,7 @@ category: defense
 
 
 requirements: [
-  biotic-zlo-item-iron/6
+  biotic-zlo-item-aluminum/6
 ]
 
 
@@ -17,5 +17,5 @@ research: {
   ]
 }
 researchCost: [
-  biotic-zlo-item-iron/18
+  biotic-zlo-item-aluminum/18
 ]
