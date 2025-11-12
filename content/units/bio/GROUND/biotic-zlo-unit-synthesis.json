@@ -145,6 +145,7 @@ weapons: [
         recoil: 0.3
         bullet: {
             type: LiquidBulletType
+           status: status-dissolving
             width: 2
             damage: 25
             pierceCap: 3
@@ -338,5 +339,6 @@ weapons: [
         }  
     }
 ]
+
 
 hiddenOnPlanets: [serpulo, erekir]
