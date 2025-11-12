@@ -12,7 +12,7 @@ squareSprite: false
 outputLiquid: biotic-zlo-liquid-blood/0.09
 
 consumes: {
-	power: 0.65
+	power: 0.6
 }
 
 category: production
@@ -54,5 +54,6 @@ drawer: {
     }
   ]
 }
+
 
 
