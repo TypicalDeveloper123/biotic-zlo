@@ -7,7 +7,7 @@ squareSprite: false
 outputItem: biotic-zlo-item-biochar/2
 
 consumes: {
-	power: 1.25
+	power: 1.10
 	items: {
 		items: [
 			biotic-zlo-item-infested-tissue/2
@@ -53,3 +53,4 @@ drawer: {
 		}
 	]
 }
+
