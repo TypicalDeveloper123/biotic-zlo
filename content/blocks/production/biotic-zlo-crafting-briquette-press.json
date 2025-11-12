@@ -7,7 +7,7 @@ squareSprite: false
 outputItem: sand/2
 
 consumes: {
-	power: 1.15
+	power: 1.2
 	items: {
 		items: [
 			biotic-zlo-item-crushed-bones/2
@@ -38,3 +38,4 @@ research: {
     	}	
 	]
 }
+
