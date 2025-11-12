@@ -233,6 +233,7 @@ weapons: [
         name: biotic-zlo-unit-embroider-weapon-1
         bullet: {
             type: LiquidBulletType
+            status: status-dissolving
             width: 2
             damage: 12
             pierceCap: 1
@@ -287,5 +288,6 @@ weapons: [
         }  
     }
 ]
+
 
 hiddenOnPlanets: [serpulo, erekir]
