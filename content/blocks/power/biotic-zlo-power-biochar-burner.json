@@ -6,7 +6,7 @@ hasLiquids: true
 hasPower: true
 itemDuration: 180
 
-powerProduction: 2.5
+powerProduction: 6
 
 consumes: {
 	items: {
@@ -60,4 +60,5 @@ drawer: {
 		}
 	]
 }
+
 
