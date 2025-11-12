@@ -7,7 +7,7 @@ squareSprite: false
 outputLiquid: water/0.05
 
 consumes: {
-	power: 0.8
+	power: 1.2
 	liquids: {
 		liquids: [
 			biotic-zlo-liquid-blood/0.1
@@ -55,5 +55,6 @@ drawer: {
     } 
   ]
 }
+
 
 
