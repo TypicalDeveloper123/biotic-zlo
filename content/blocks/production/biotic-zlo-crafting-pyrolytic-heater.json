@@ -51,9 +51,11 @@ drawer: {
 		particleInterp: pow2Out
 		reverse: true
 		baseRotation: 30
+		length: 24
 		}
 	]
 }
+
 
 
 
