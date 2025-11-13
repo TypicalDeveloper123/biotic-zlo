@@ -84,7 +84,6 @@ weapons: [
             layer: 90
             damage: 45
             speed: 3
-            range: 50
             height: 20
             lightRadius: -1
             lightOpacity: 0
@@ -154,7 +153,6 @@ weapons: [
             speed: 3
             lightRadius: -1
             lightOpacity: 0
-            range: 50
             height: 20
             width: 20
             hitEffect: none
@@ -289,11 +287,10 @@ weapons: [
             trailLength: 15
             trailWidth: 3
             layer: 90
-            damage: 60
             speed: 3
             lightRadius: -1
             lightOpacity: 0
-            range: 30
+            range: 450
             height: 20
             lifetime:  150
             width: 20
@@ -356,11 +353,10 @@ weapons: [
             trailLength: 15
             trailWidth: 4
             layer: 90
-            damage: 75
             speed: 4
             lightRadius: -1
             lightOpacity: 0
-            range: 50
+            range: 800
             height: 25
             width: 25
             lifetime:  200
@@ -456,4 +452,5 @@ weapons: [
 
 
 hiddenOnPlanets: [serpulo, erekir]
+
 
