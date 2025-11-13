@@ -145,11 +145,10 @@ weapons: [
             trailLength: 15
             trailWidth: 8
             layer: 90
-            damage: 75
             speed: 4
             lightRadius: -1
             lightOpacity: 0
-            range: 50
+            range: 800
             height: 30
             width: 30
             lifetime:  200
@@ -219,11 +218,10 @@ weapons: [
             trailLength: 24
             trailWidth: 10
             layer: 90
-            damage: 90
             speed: 4
             lightRadius: -1
             lightOpacity: 0
-            range: 50
+            range: 800
             height: 42
             width: 42
             lifetime:  200
@@ -287,7 +285,6 @@ weapons: [
             type: ContinuousFlameBulletType
             damage: 60
             speed: 0
-            range: 50
             length: 200
             width: 12
             lifetime: 20
@@ -315,7 +312,7 @@ weapons: [
             width: 2
             damage: 70
             pierceCap: 3
-            range: 30
+            range: 240
             liquid: biotic-zlo-liquid-acid
             orbSize: 8
             puddleSize: 20
@@ -351,11 +348,10 @@ weapons: [
             trailLength: 15
             trailWidth: 3
             layer: 90
-            damage: 60
             speed: 3
             lightRadius: -1
             lightOpacity: 0
-            range: 30
+            range: 450
             height: 20
             lifetime: 150
             width: 20
@@ -420,11 +416,10 @@ weapons: [
             trailLength: 15
             trailWidth: 3
             layer: 90
-            damage: 60
             speed: 3
             lightRadius: -1
             lightOpacity: 0
-            range: 30
+            range: 450
             height: 20
             lifetime: 150
             width: 20
@@ -489,11 +484,10 @@ weapons: [
             trailLength: 15
             trailWidth: 3
             layer: 90
-            damage: 60
             speed: 3
             lightRadius: -1
             lightOpacity: 0
-            range: 30
+            range: 450
             height: 20
             lifetime: 150
             width: 20
@@ -558,11 +552,10 @@ weapons: [
             trailLength: 15
             trailWidth: 3
             layer: 90
-            damage: 60
             speed: 3
             lightRadius: -1
             lightOpacity: 0
-            range: 30
+            range: 450
             height: 20
             lifetime: 150
             width: 20
@@ -901,5 +894,6 @@ weapons: [
         }  
     }
 ]
+
 
 hiddenOnPlanets: [serpulo, erekir]
