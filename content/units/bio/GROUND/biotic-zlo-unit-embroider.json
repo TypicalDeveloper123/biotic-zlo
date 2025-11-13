@@ -237,7 +237,7 @@ weapons: [
             width: 2
             damage: 12
             pierceCap: 1
-            range: 48
+            range: 52
             liquid: biotic-zlo-liquid-acid
             orbSize: 3
             puddleSize: 10
@@ -291,4 +291,5 @@ weapons: [
 
 
 hiddenOnPlanets: [serpulo, erekir]
+
 
