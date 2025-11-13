@@ -3,6 +3,7 @@ size: 5
 category: units
 droneType: assembly-drone
 hasPower: true
+hasLiquids: false
 
 requirements: [
   biotic-zlo-item-aluminum/300
@@ -39,4 +40,5 @@ squareSprite: false
 consumes: {
   power: 4
 }
+
 areaSize: 11
