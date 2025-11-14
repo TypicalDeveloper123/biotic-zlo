@@ -1,0 +1,8 @@
+shownPlanets: [serpulo, erekir, morive]
+
+research: {
+  parent: biotic-zlo-liquid-blood
+  objectives: [  
+    biotic-zlo-crafting-distillation-unit
+  ]
+}

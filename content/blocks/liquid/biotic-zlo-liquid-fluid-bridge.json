@@ -1,0 +1,29 @@
+type: DirectionLiquidBridge
+size: 1
+health: 80
+range: 5
+solid: false
+
+
+requirements: [
+  biotic-zlo-item-aluminum/3
+  biotic-zlo-item-infested-tissue/3
+]
+
+category: liquid
+squareSprite: true
+
+researchCost: [
+  biotic-zlo-item-aluminum/6
+  biotic-zlo-item-infested-tissue/6
+] 
+
+research: {
+  parent: biotic-zlo-liquid-liquid-router
+  objectives: [  
+    biotic-zlo-liquid-liquid-router
+  ]
+}
+
+
+

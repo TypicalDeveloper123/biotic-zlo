@@ -1,0 +1,9 @@
+shownPlanets: [serpulo, erekir, morive]
+
+research: {
+  parent: sand
+  objectives: [  
+    biotic-zlo-item-crushed-bones
+    biotic-zlo-item-biochar
+  ]
+}

@@ -1,0 +1,8 @@
+shownPlanets: [serpulo, erekir, morive]
+
+research: {
+  parent: biotic-zlo-item-crushed-bones
+  objectives: [  
+    biotic-zlo-crafting-briquette-press
+  ]
+}

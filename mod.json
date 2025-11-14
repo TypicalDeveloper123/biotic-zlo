@@ -46,10 +46,10 @@ contentOrder:[
         biotic-zlo-production-bone-crusher
 
     // distribution blocks
-        biotic-zlo-distribution-aluminum-duct
-        biotic-zlo-distribution-aluminum-junction
-        biotic-zlo-distribution-aluminum-router
-        biotic-zlo-distribution-aluminum-bridge
+        biotic-zlo-distribution-aluminum-channel
+        biotic-zlo-distribution-channel-junction
+        biotic-zlo-distribution-channel-router
+        biotic-zlo-distribution-channel-bridge
         biotic-zlo-distribution-organizer
         biotic-zlo-distribution-inverted-organizer
         biotic-zlo-distribution-overflow-controller
@@ -57,9 +57,9 @@ contentOrder:[
 
     // liquid distribution blocks
         biotic-zlo-liquid-aluminum-conduit
-        biotic-zlo-liquid-liquid-junction
-        biotic-zlo-liquid-liquid-bridge
-        biotic-zlo-liquid-liquid-router
+        biotic-zlo-liquid-fluid-junction
+        biotic-zlo-liquid-fluid-bridge
+        biotic-zlo-liquid-fluid-router
 
     // power blocks
         biotic-zlo-power-power-beam

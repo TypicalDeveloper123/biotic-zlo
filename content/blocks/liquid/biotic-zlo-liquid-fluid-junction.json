@@ -1,0 +1,22 @@
+type: LiquidJunction
+name: Liquid Junction
+solid: false
+category: liquid
+squareSprite: true
+
+requirements: [
+  biotic-zlo-item-aluminum/3
+  biotic-zlo-item-infested-tissue/3
+]
+
+researchCost: [
+  biotic-zlo-item-aluminum/6
+  biotic-zlo-item-infested-tissue/6
+]
+
+research: {
+  parent:  biotic-zlo-liquid-aluminum-conduit
+  objectives: [  
+    biotic-zlo-liquid-aluminum-conduit
+  ]
+}
