@@ -32,17 +32,9 @@ buildSpeed: 1
 
 filter: [
   corpuscles-standard-limb-joint, 
-  corpuscles-reinforced-limb-joint, 
-  corpuscles-fortified-limb-joint,
   corpuscles-light-plates,
-  corpuscles-medium-plates,
-  corpuscles-heavy-plates,
   corpuscles-basic-weapon-autoforge,
-  corpuscles-advanced-weapon-autoforge,
-  corpuscles-exotic-weapon-autoforge,
   corpuscles-light-actuator,
-  corpuscles-heavy-actuator,
-  corpuscles-dense-actuator
 ]
 
 squareSprite: false
