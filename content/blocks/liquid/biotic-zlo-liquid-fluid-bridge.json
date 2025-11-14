@@ -19,9 +19,9 @@ researchCost: [
 ] 
 
 research: {
-  parent: biotic-zlo-liquid-liquid-router
+  parent: biotic-zlo-liquid-fluid-router
   objectives: [  
-    biotic-zlo-liquid-liquid-router
+    biotic-zlo-liquid-fluid-router
   ]
 }
 

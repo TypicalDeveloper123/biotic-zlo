@@ -14,8 +14,8 @@ researchCost: [
 ]
 
 research: {
-  parent: biotic-zlo-distribution-aluminum-duct
+  parent: biotic-zlo-distribution-aluminum-channel
   objectives: [  
-    biotic-zlo-distribution-aluminum-duct
+    biotic-zlo-distribution-aluminum-channel
   ]
 }

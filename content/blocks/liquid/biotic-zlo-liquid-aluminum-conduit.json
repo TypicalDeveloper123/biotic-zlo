@@ -3,7 +3,7 @@ category: liquid
 
 requirements: [
   biotic-zlo-item-aluminum/2
-   biotic-zlo-item-infested-tissue/2
+  biotic-zlo-item-infested-tissue/2
 ]
 
 
@@ -11,8 +11,8 @@ health: 60
 leaks: true
 underBullets: true
 
-junctionReplacement: biotic-zlo-liquid-channel-junction
-rotBridgeReplacement:  biotic-zlo-liquid-channel-bridge
+junctionReplacement: biotic-zlo-liquid-fluid-junction
+rotBridgeReplacement:  biotic-zlo-liquid-fluid-bridge
 
 researchCost: [
   biotic-zlo-item-aluminum/4

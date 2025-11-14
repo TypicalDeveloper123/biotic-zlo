@@ -18,9 +18,9 @@ researchCost: [
 ]
 
 research: {
-  parent: biotic-zlo-liquid-channel-junction
+  parent: biotic-zlo-liquid-fluid-junction
   objectives: [  
-    biotic-zlo-liquid-channel-junction
+    biotic-zlo-liquid-fluid-junction
   ]
 }
 
