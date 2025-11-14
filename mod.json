@@ -30,9 +30,12 @@ contentOrder:[
         biotic-zlo-item-iron
         biotic-zlo-item-crushed-bones
         biotic-zlo-item-biochar
+        sand
+        silicon
 
     // liquids
         biotic-zlo-liquid-blood
+        water
         biotic-zlo-liquid-acid
 
     // turrets
