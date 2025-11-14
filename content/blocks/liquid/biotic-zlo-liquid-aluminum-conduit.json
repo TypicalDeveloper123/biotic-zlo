@@ -11,8 +11,8 @@ health: 60
 leaks: true
 underBullets: true
 
-junctionReplacement: biotic-zlo-liquid-liquid-junction
-rotBridgeReplacement:  biotic-zlo-liquid-liquid-bridge
+junctionReplacement: biotic-zlo-liquid-channel-junction
+rotBridgeReplacement:  biotic-zlo-liquid-channel-bridge
 
 researchCost: [
   biotic-zlo-item-aluminum/4

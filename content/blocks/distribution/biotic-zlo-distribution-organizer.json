@@ -11,9 +11,9 @@ researchCost: [
 
 
 research: {
-  parent: biotic-zlo-distribution-aluminum-router
+  parent: biotic-zlo-distribution-channel-router
   objectives: [  
-    biotic-zlo-distribution-aluminum-router
+    biotic-zlo-distribution-channel-router
   ]
 }
 

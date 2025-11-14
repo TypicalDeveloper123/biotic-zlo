@@ -3,8 +3,8 @@ speed: 3.5
 health: 90
 category: distribution
 
-bridgeReplacement: biotic-zlo-distribution-aluminum-bridge
-junctionReplacement: biotic-zlo-distribution-aluminum-junction
+bridgeReplacement: biotic-zlo-distribution-channel-bridge
+junctionReplacement: biotic-zlo-distribution-channel-junction
 
 requirements: [
   biotic-zlo-item-aluminum/2
