@@ -36,7 +36,7 @@ mesh: [
     color1: 327026
     color2: 265e1a
     octaves: 1
-    persistence: 1
+    persistence: 100
   }
   {
     //blood
@@ -48,7 +48,7 @@ mesh: [
     color1: 290707
     color2: 290707
     octaves: 2
-    persistence: 100
+    persistence: 1.9
   }
   {
     //sky
