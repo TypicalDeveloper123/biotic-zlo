@@ -1,0 +1,11 @@
+type: Floor
+speedMultiplier: 0.7
+variants: 0
+isLiquid: true
+liquidDrop: biotic-zlo-liquid-blood
+cacheLayer: tar
+supportsOverlay: true
+liquidMultiplier: 1.4
+drownTime: 140
+status: none
+statusDuration: 0

@@ -13,7 +13,11 @@ SaveFileReader.fallback.putAll(
   "corpuscles-biotic-zlo-distribution-aluminum-bridge", "corpuscles-biotic-zlo-distribution-channel-bridge",
   "corpuscles-biotic-zlo-liquid-liquid-junction", "corpuscles-biotic-zlo-liquid-fluid-junction",
   "corpuscles-biotic-zlo-liquid-liquid-router", "corpuscles-biotic-zlo-liquid-fluid-router",
-  "corpuscles-biotic-zlo-liquid-liquid-bridge", "corpuscles-biotic-zlo-liquid-fluid-bridge"
+  "corpuscles-biotic-zlo-liquid-liquid-bridge", "corpuscles-biotic-zlo-liquid-fluid-bridge",
+  "corpuscles-biotic-zlo-a1-liquid-blood", "corpuscles-biotic-zlo-liquid-liquidblood",
+  "corpuscles-biotic-zlo-tile-BLOOD", "corpuscles-biotic-zlo-tile-COAGULATED-BLOOD",
+  "corpuscles-biotic-zlo-wall-BLOOD", "corpuscles-biotic-zlo-wall-COAGULATED-BLOOD",
+  "corpuscles-blood-boulder", "corpuscles-coagulated-blood-boulder"
 )
 
 

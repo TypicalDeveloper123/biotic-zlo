@@ -144,19 +144,19 @@ contentOrder:[
 
     // environmental blocks
         // liquid tiles
-            biotic-zlo-a1-liquid-blood
+            biotic-zlo-liquid-liquidblood
 
         // tiles
             biotic-zlo-tile-BLOODSTONE  
             biotic-zlo-tile-CLAY
             biotic-zlo-tile-BONE
-            biotic-zlo-tile-BLOOD
+            biotic-zlo-tile-COAGULATED-BLOOD
             biotic-zlo-tile-FLESH
 
         // walls
             biotic-zlo-wall-BLOODSTONE
             biotic-zlo-wall-BONE
-            biotic-zlo-wall-BLOOD
+            biotic-zlo-wall-COAGULATED-BLOOD
             biotic-zlo-wall-FLESH
 
         // ores
@@ -166,7 +166,7 @@ contentOrder:[
             bloodstone-boulder
             crimson-bush
             crimson-tree
-            blood-boulder
+            coagulated-blood-boulder
             flesh-blob
             flesh-boulder
 
