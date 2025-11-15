@@ -48,7 +48,7 @@ mesh: [
     color1: 290707
     color2: 290707
     octaves: 2
-    persistence: 1.9
+    persistence: 100
   }
   {
     //sky
