@@ -114,4 +114,7 @@ itemWhitelist: [
   "biotic-zlo-item-infested-tissue"
   "biotic-zlo-item-raw-iron"
   "biotic-zlo-item-iron"
+  "biotic-zlo-item-crushed-bones"
+  "biotic-zlo-item-biochar"
+  "biotic-zlo-item-foritium"
 ]
