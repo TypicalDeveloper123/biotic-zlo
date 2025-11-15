@@ -1,8 +1,8 @@
 type: item
-flammability: 1
-explosiveness: 0.65
+flammability: 0
+explosiveness: 0
 radioactivity: 0
-charge: 0
+charge: 0.01
 color: 4d454a
 
 hiddenOnPlanets: [serpulo, erekir]
