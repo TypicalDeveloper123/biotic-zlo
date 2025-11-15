@@ -27,18 +27,6 @@ mesh: [
     persistence: 15
   }
   {
-    //rotten flesh
-    type: NoiseMesh
-    planet: morive
-    divisions: 5
-    seed: 2231
-    radius: 0.755556
-    color1: 327026
-    color2: 265e1a
-    octaves: 4
-    persistence: 1
-  }
-  {
     //blood
     type: NoiseMesh
     planet: morive
