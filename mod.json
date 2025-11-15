@@ -30,12 +30,9 @@ contentOrder:[
         biotic-zlo-item-iron
         biotic-zlo-item-crushed-bones
         biotic-zlo-item-biochar
-        sand
-        silicon
 
     // liquids
         biotic-zlo-liquid-blood
-        water
         biotic-zlo-liquid-acid
 
     // turrets
@@ -87,6 +84,8 @@ contentOrder:[
         biotic-zlo-component-constructor
         biotic-zlo-mech-unit-station
         biotic-zlo-primary-assembler-module
+        biotic-zlo-strengthened-payload-conveyor
+        biotic-zlo-strengthened-payload-router
 
     // storage blocks and effect blocks
         biotic-zlo-core-hazard
