@@ -8,6 +8,7 @@ requirements: [
   biotic-zlo-item-aluminum/55
   biotic-zlo-item-iron/35
   silicon/10
+  biotic-zlo-foritium/10
 ]
 
 consumes: {

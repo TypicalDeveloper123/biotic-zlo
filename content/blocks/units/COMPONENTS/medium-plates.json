@@ -7,5 +7,6 @@ placeablePlayer: false
 requirements: [
   biotic-zlo-item-aluminum/24
   biotic-zlo-item-iron/12
+  biotic-zlo-item-foritium/4
 ]
 
