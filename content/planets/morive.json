@@ -1,5 +1,5 @@
 localizedName: Morive
-description: WIP
+description: A planet with flesh.
 alwaysUnlocked: true
 mesh: [
   {
@@ -25,6 +25,18 @@ mesh: [
     color2: 991f1f
     octaves: 3
     persistence: 15
+  }
+  {
+    //rotten flesh
+    type: NoiseMesh
+    planet: morive
+    divisions: 5
+    seed: 2231
+    radius: 0.755556
+    color1: 327026
+    color2: 265e1a
+    octaves: 1
+    persistence: 1
   }
   {
     //blood
