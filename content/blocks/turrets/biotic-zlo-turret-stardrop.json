@@ -37,6 +37,7 @@ ammoPerShot: 6
 ammoTypes: {
   biotic-zlo-item-iron: {
     type: BasicBulletType
+    sprite: corpuscles-biotic-zlo-star
     buildingDamageMultiplier: 1.15
     damage: 95
     width: 11
@@ -51,6 +52,7 @@ ammoTypes: {
     fragBullets: 5
     fragBullet: {
       type: BasicBulletType
+      sprite: corpuscles-biotic-zlo-star
       fragLifeMin: 2
       homingPower: 0.035
       homingRange: 100
