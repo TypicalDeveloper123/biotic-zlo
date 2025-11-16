@@ -23,8 +23,6 @@ consumes: {
 		liquids: [
 			water/0.04
 		]
-		optional: true
-		booster: true
 	}
 } 
 
@@ -79,17 +77,17 @@ ammoTypes: {
   shootEffect: {
     	type: ParticleEffect
     	particles: 25
-    	lifetime: 45
+    	lifetime: 60
     	layer: 100.2
     	cone: 55
     	length: 30
-      width: 25
+      width: 15
     	interp: pow3Out
-    	sizeFrom: 5
+    	sizeFrom: 6
     	sizeTo: 0
       line: true
-    	colorFrom: c1dae3
-    	colorTo: 8fa9b3
+    	colorFrom: ffffff 
+    	colorTo: ffffff 
     }
   }
   biotic-zlo-item-iron: {
@@ -178,17 +176,17 @@ ammoTypes: {
   shootEffect: {
     	type: ParticleEffect
     	particles: 25
-    	lifetime: 45
+    	lifetime: 70
     	layer: 100.2
     	cone: 55
     	length: 30
-      width: 25
+      width: 45
     	interp: pow3Out
-    	sizeFrom: 5
+    	sizeFrom: 14
     	sizeTo: 0
       line: true
-    	colorFrom: c1dae3
-    	colorTo: 8fa9b3
+    	colorFrom: e682ff
+    	colorTo: e682ff
     }
   }
 }
