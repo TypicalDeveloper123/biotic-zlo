@@ -1,23 +1,23 @@
 type: ItemTurret
-size: 2
+size: 3
 squareSprite: false
-health: 600
+health: 1100
 hasItems: true
 hasPower: true
 hasLiquids: false
-laserAbsorb: false
+laserAbsorb: true
 
 requirements: [
-  biotic-zlo-item-aluminum/18
-  biotic-zlo-item-infested-tissue/12
-  biotic-zlo-item-iron/6
-  silicon/4
+  biotic-zlo-item-aluminum/24
+  biotic-zlo-item-iron/18
+  biotic-zlo-foritium/14
+  silicon/5
 ]
 
 
 category: turret
 consumes: {
-  power: 0.36
+  power: 0.5
 } 
 
 
@@ -25,37 +25,38 @@ recoil: 2
 outlineColor: 1b1a33
 targetAir: true
 targetGround: true
-rotateSpeed: 8
-reload: 15
+rotateSpeed: 7
+reload: 75
 range: 150
 shootY: 7
 shootX: 0
-inaccuracy: 15
-
-shoot: {
-  type: ShootAlternate
-  spread: 4
-  shots: 2
-}
 
 ammoPerShot: 2
 ammoTypes: {
-  biotic-zlo-item-aluminum: {
+  biotic-zlo-item-iron: {
     type: BasicBulletType
     buildingDamageMultiplier: 1.15
-    damage: 6
-    width: 9.5
-    height: 9.5
+    damage: 95
+    width: 11
+    height: 11
     lifetime: 30
-    pierceCap: 3
+    pierceCap: 4
     speed: 5
-    homingPower: 0.035
-    homingRange: 100
     pierce: true
     pierceBuilding: true
     frontColor: c1dae3
     backColor: c1dae3
-    shootEffect: {
+    fragBullets: 5
+    fragBullet: {
+      type: BasicBulletType
+      fragLifeMin: 1
+      trailColor: 990000
+      trailLength: 10
+      damage: 30
+      speed: 3   
+      hitEffect: none
+  }
+  shootEffect: {
     	type: ParticleEffect
     	particles: 20
     	lifetime: 20
@@ -65,6 +66,7 @@ ammoTypes: {
     	interp: pow3Out
     	sizeFrom: 2
     	sizeTo: 0
+      line: true
     	colorFrom: c1dae3
     	colorTo: 8fa9b3
     }
