@@ -36,10 +36,12 @@ maxAmmo: 10
 ammoPerShot: 6
 ammoTypes: {
   biotic-zlo-item-iron: {
-    type: ArtilleryBulletType
+    type: BasicBulletType
     sprite: corpuscles-biotic-zlo-star
     buildingDamageMultiplier: 1.15
-    damage: 95
+    damage: 105
+    trailColor: c1dae3
+    trailLength: 25
     width: 20
     height: 20
     lifetime: 30
