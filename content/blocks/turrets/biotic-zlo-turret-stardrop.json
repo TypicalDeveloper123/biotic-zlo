@@ -95,7 +95,7 @@ ammoTypes: {
     sprite: corpuscles-biotic-zlo-star
     buildingDamageMultiplier: 1.15
     damage: 105
-    trailColor: c1dae3
+    trailColor: ffffff
     trailLength: 25
     width: 20
     height: 20
@@ -104,8 +104,8 @@ ammoTypes: {
     speed: 4
     pierce: true
     pierceBuilding: true
-    frontColor: c1dae3
-    backColor: c1dae3
+    frontColor: ffffff
+    backColor: ffffff
     fragBullets: 5
     fragBullet: {
       type: BasicBulletType
@@ -113,14 +113,14 @@ ammoTypes: {
       fragLifeMin: 2
       homingPower: 0.035
       homingRange: 100
-      trailColor: c1dae3
+      trailColor: ffffff
       trailLength: 10
       width: 12
       height: 12
       damage: 30
       speed: 3 
-      frontColor: c1dae3
-      backColor: c1dae3  
+      frontColor: ffffff
+      backColor: ffffff 
       hitEffect: none
   }
   shootEffect: {
