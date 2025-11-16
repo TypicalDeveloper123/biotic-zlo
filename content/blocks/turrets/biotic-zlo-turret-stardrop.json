@@ -27,7 +27,7 @@ outlineColor: 1b1a33
 targetAir: true
 targetGround: true
 rotateSpeed: 7
-reload: 85
+reload: 80
 range: 150
 shootY: 7
 shootX: 0
