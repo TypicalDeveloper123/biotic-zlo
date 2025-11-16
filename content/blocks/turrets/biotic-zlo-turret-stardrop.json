@@ -42,7 +42,7 @@ ammoTypes: {
     height: 15
     lifetime: 30
     pierceCap: 4
-    speed: 3
+    speed: 4
     pierce: true
     pierceBuilding: true
     frontColor: c1dae3
