@@ -5,7 +5,7 @@ health: 1100
 shootSound: cannon
 hasItems: true
 hasPower: true
-hasLiquids: false
+hasLiquids: true
 laserAbsorb: true
 
 requirements: [
@@ -19,10 +19,17 @@ requirements: [
 category: turret
 consumes: {
   power: 0.8
+  liquids: {
+		liquids: [
+			water/0.04
+		]
+		optional: true
+		booster: true
+	}
 } 
 
 
-recoil: 2
+recoil: 3.5
 outlineColor: 1b1a33
 targetAir: true
 targetGround: true
@@ -35,6 +42,56 @@ shootX: 0
 maxAmmo: 10
 ammoPerShot: 6
 ammoTypes: {
+  silicon: {
+    reloadMultiplier: 1.2
+    type: BasicBulletType
+    sprite: corpuscles-biotic-zlo-star
+    buildingDamageMultiplier: 1.15
+    damage: 90
+    trailColor: ffffff
+    trailLength: 20
+    width: 20
+    height: 20
+    lifetime: 35
+    pierceCap: 4
+    speed: 4.5
+    pierce: true
+    pierceBuilding: true
+    frontColor: ffffff
+    backColor: ffffff
+    fragBullets: 4
+    fragBullet: {
+      type: BasicBulletType
+      sprite: corpuscles-biotic-zlo-star
+      fragLifeMin: 2
+      homingPower: 0.035
+      homingRange: 100
+      trailColor: ffffff
+      trailLength: 10
+      width: 12
+      height: 12
+      damage: 45
+      speed: 2.5
+      frontColor: ffffff
+      backColor: ffffff 
+      hitEffect: none
+  }
+  shootEffect: {
+    	type: ParticleEffect
+    	particles: 25
+    	lifetime: 45
+    	layer: 100.2
+    	cone: 55
+    	length: 30
+      width: 25
+    	interp: pow3Out
+    	sizeFrom: 5
+    	sizeTo: 0
+      line: true
+    	colorFrom: c1dae3
+    	colorTo: 8fa9b3
+    }
+  }
   biotic-zlo-item-iron: {
     type: BasicBulletType
     sprite: corpuscles-biotic-zlo-star
@@ -66,6 +123,56 @@ ammoTypes: {
       speed: 3 
       frontColor: c1dae3
       backColor: c1dae3  
+      hitEffect: none
+  }
+  shootEffect: {
+    	type: ParticleEffect
+    	particles: 25
+    	lifetime: 45
+    	layer: 100.2
+    	cone: 55
+    	length: 30
+      width: 25
+    	interp: pow3Out
+    	sizeFrom: 5
+    	sizeTo: 0
+      line: true
+    	colorFrom: c1dae3
+    	colorTo: 8fa9b3
+    }
+  }
+   biotic-zlo-item-foritium: {
+    reloadMultiplier: 0.45
+    type: BasicBulletType
+    sprite: corpuscles-biotic-zlo-star
+    buildingDamageMultiplier: 1.15
+    damage: 500
+    trailColor: e682ff
+    trailLength: 25
+    width: 28
+    height: 28
+    lifetime: 35
+    pierceCap: 4
+    speed: 4
+    pierce: true
+    pierceBuilding: true
+    frontColor: e682ff
+    backColor: e682ff
+    fragBullets: 5
+    fragBullet: {
+      type: BasicBulletType
+      sprite: corpuscles-biotic-zlo-star
+      fragLifeMin: 2.8
+      homingPower: 0.035
+      homingRange: 100
+      trailColor: e682ff
+      trailLength: 18
+      width: 15
+      height: 15
+      damage: 35
+      speed: 3.2
+      frontColor: e682ff
+      backColor: e682ff  
       hitEffect: none
   }
   shootEffect: {
