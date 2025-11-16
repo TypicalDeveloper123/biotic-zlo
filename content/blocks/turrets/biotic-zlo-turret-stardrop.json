@@ -135,8 +135,8 @@ ammoTypes: {
     	sizeFrom: 5
     	sizeTo: 0
       line: true
-    	colorFrom: c1dae3
-    	colorTo: 8fa9b3
+    	colorFrom: ffffff
+    	colorTo: ffffff
     }
   }
    biotic-zlo-item-foritium: {
