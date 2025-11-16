@@ -43,7 +43,6 @@ ammoTypes: {
   silicon: {
     type: BasicBulletType
     sprite: corpuscles-biotic-zlo-star
-    buildingDamageMultiplier: 1.15
     damage: 80
     trailColor: ffffff
     trailLength: 20
@@ -93,7 +92,7 @@ ammoTypes: {
     reloadMultiplier: 0.75
     type: BasicBulletType
     sprite: corpuscles-biotic-zlo-star
-    buildingDamageMultiplier: 1.15
+    buildingDamageMultiplier: 1.05
     damage: 105
     trailColor: ffffff
     trailLength: 25
@@ -143,7 +142,7 @@ ammoTypes: {
     reloadMultiplier: 0.2
     type: BasicBulletType
     sprite: corpuscles-biotic-zlo-star
-    buildingDamageMultiplier: 1.15
+    buildingDamageMultiplier: 1.25
     damage: 450
     trailColor: e682ff
     trailLength: 25
