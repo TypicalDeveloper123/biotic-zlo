@@ -41,7 +41,6 @@ maxAmmo: 10
 ammoPerShot: 6
 ammoTypes: {
   silicon: {
-    reloadMultiplier: 1.2
     type: BasicBulletType
     sprite: corpuscles-biotic-zlo-star
     buildingDamageMultiplier: 1.15
@@ -91,6 +90,7 @@ ammoTypes: {
     }
   }
   biotic-zlo-item-iron: {
+    reloadMultiplier: 0.75
     type: BasicBulletType
     sprite: corpuscles-biotic-zlo-star
     buildingDamageMultiplier: 1.15
@@ -140,7 +140,7 @@ ammoTypes: {
     }
   }
    biotic-zlo-item-foritium: {
-    reloadMultiplier: 0.45
+    reloadMultiplier: 0.2
     type: BasicBulletType
     sprite: corpuscles-biotic-zlo-star
     buildingDamageMultiplier: 1.15
