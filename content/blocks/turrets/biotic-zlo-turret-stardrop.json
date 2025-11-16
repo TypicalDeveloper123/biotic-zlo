@@ -106,28 +106,5 @@ ammoTypes: {
 
 drawer: {
   type: DrawTurret
-  basePrefix: metal1-
+  basePrefix: metal2-
 }
-
-
-research: {
-  parent: biotic-zlo-turret-bleed
-  objectives: [  
-    biotic-zlo-turret-bleed
-	  biotic-zlo-item-aluminum
-	  biotic-zlo-item-infested-tissue
-    biotic-zlo-item-iron
-    silicon
-    {
-    type: OnSector
-    preset: groove
-    }
-]
-
-}
-researchCost: [
-  biotic-zlo-item-aluminum/72
-  biotic-zlo-item-infested-tissue/48
-  biotic-zlo-item-iron/24
-  silicon/16
-]
