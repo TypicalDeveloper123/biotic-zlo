@@ -41,6 +41,7 @@ maxAmmo: 10
 ammoPerShot: 6
 ammoTypes: {
   silicon: {
+	reloadMultiplier: 0.8
     type: BasicBulletType
     sprite: corpuscles-biotic-zlo-star
     damage: 80
