@@ -21,7 +21,7 @@ consumes: {
   power: 0.8
   liquids: {
 		liquids: [
-			water/0.04
+			water/0.045
 		]
 	}
 } 
@@ -44,7 +44,7 @@ ammoTypes: {
     type: BasicBulletType
     sprite: corpuscles-biotic-zlo-star
     buildingDamageMultiplier: 1.15
-    damage: 90
+    damage: 80
     trailColor: ffffff
     trailLength: 20
     width: 20
@@ -144,7 +144,7 @@ ammoTypes: {
     type: BasicBulletType
     sprite: corpuscles-biotic-zlo-star
     buildingDamageMultiplier: 1.15
-    damage: 500
+    damage: 450
     trailColor: e682ff
     trailLength: 25
     width: 28
