@@ -26,7 +26,7 @@ outlineColor: 1b1a33
 targetAir: true
 targetGround: true
 rotateSpeed: 7
-reload: 75
+reload: 85
 range: 150
 shootY: 7
 shootX: 0
@@ -41,7 +41,7 @@ ammoTypes: {
     height: 11
     lifetime: 30
     pierceCap: 4
-    speed: 5
+    speed: 3
     pierce: true
     pierceBuilding: true
     frontColor: c1dae3
@@ -50,7 +50,6 @@ ammoTypes: {
     fragBullet: {
       type: BasicBulletType
       fragLifeMin: 1
-      trailColor: 990000
       trailLength: 10
       damage: 30
       speed: 3   
@@ -58,13 +57,14 @@ ammoTypes: {
   }
   shootEffect: {
     	type: ParticleEffect
-    	particles: 20
-    	lifetime: 20
+    	particles: 25
+    	lifetime: 25
     	layer: 100.2
-    	cone: 30
+    	cone: 55
     	length: 30
+      width: 25
     	interp: pow3Out
-    	sizeFrom: 2
+    	sizeFrom: 5
     	sizeTo: 0
       line: true
     	colorFrom: c1dae3
