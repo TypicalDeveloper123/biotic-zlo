@@ -32,6 +32,7 @@ range: 150
 shootY: 7
 shootX: 0
 
+maxAmmo: 10
 ammoPerShot: 6
 ammoTypes: {
   biotic-zlo-item-iron: {
