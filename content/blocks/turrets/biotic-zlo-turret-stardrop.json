@@ -63,7 +63,9 @@ ammoTypes: {
       width: 12
       height: 12
       damage: 30
-      speed: 3   
+      speed: 3 
+      frontColor: c1dae3
+      backColor: c1dae3  
       hitEffect: none
   }
   shootEffect: {
