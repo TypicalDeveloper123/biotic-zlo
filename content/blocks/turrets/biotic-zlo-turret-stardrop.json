@@ -21,7 +21,7 @@ consumes: {
   power: 0.8
   liquids: {
 		liquids: [
-			water/0.04
+			water/0.045
 		]
 	}
 } 
@@ -41,16 +41,16 @@ maxAmmo: 10
 ammoPerShot: 6
 ammoTypes: {
   silicon: {
+	reloadMultiplier: 0.8
     type: BasicBulletType
     sprite: corpuscles-biotic-zlo-star
-    buildingDamageMultiplier: 1.15
-    damage: 90
+    damage: 80
     trailColor: ffffff
     trailLength: 20
     width: 20
     height: 20
     lifetime: 35
-    pierceCap: 4
+    pierceCap: 5
     speed: 4.5
     pierce: true
     pierceBuilding: true
@@ -93,14 +93,14 @@ ammoTypes: {
     reloadMultiplier: 0.75
     type: BasicBulletType
     sprite: corpuscles-biotic-zlo-star
-    buildingDamageMultiplier: 1.15
+    buildingDamageMultiplier: 1.05
     damage: 105
     trailColor: ffffff
     trailLength: 25
     width: 20
     height: 20
     lifetime: 30
-    pierceCap: 4
+    pierceCap: 6
     speed: 4
     pierce: true
     pierceBuilding: true
@@ -135,22 +135,22 @@ ammoTypes: {
     	sizeFrom: 5
     	sizeTo: 0
       line: true
-    	colorFrom: c1dae3
-    	colorTo: 8fa9b3
+    	colorFrom: ffffff
+    	colorTo: ffffff
     }
   }
    biotic-zlo-item-foritium: {
     reloadMultiplier: 0.2
     type: BasicBulletType
     sprite: corpuscles-biotic-zlo-star
-    buildingDamageMultiplier: 1.15
-    damage: 500
+    buildingDamageMultiplier: 1.25
+    damage: 450
     trailColor: e682ff
     trailLength: 25
     width: 28
     height: 28
     lifetime: 35
-    pierceCap: 4
+    pierceCap: 6
     speed: 4
     pierce: true
     pierceBuilding: true
