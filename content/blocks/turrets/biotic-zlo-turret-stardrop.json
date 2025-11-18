@@ -208,8 +208,9 @@ drawer: [
     basePrefix: metal2-
   }
   {
-    type: RegionPart
+    type: DrawPart
     suffix: -barrel1
+    under: true
     x: 0
     y: 0
     moveX: 0
