@@ -26,6 +26,17 @@ consumes: {
 	}
 } 
 
+parts: [
+  {
+      type: RegionPart
+      suffix: -barrel
+      x: 0
+      y: 0
+      moveX: 0
+      moveY: -5
+      progress: recoil
+  }
+]
 
 recoil: 3.5
 outlineColor: 1b1a33
@@ -193,5 +204,5 @@ ammoTypes: {
 
 drawer: {
   type: DrawTurret
-  basePrefix: metal2-
+  basePrefix: -metal2
 }
