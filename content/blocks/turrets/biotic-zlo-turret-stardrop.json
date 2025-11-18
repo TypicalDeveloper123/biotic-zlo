@@ -29,16 +29,16 @@ consumes: {
 parts: [
   {
       type: RegionPart
-      suffix: -barrel
+      suffix: -barrel1
       x: 0
       y: 0
       moveX: 0
-      moveY: -5
+      moveY: -3.5
       progress: recoil
   }
 ]
 
-recoil: 3.5
+recoil: 0
 outlineColor: 1b1a33
 targetAir: true
 targetGround: true
