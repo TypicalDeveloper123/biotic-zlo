@@ -209,7 +209,8 @@ drawer: {
     {
       type: RegionPart
       suffix: -barrel1
-      under: true
+      under: false
+      moveY: -3.5
       progress: recoil
     }
   ]
