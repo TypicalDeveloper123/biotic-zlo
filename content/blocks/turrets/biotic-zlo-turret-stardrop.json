@@ -203,16 +203,14 @@ ammoTypes: {
 }
 
 drawer: {
-  {
-    type: DrawTurret
-    basePrefix: metal2-
-    parts: [
-      {
-        type: RegionPart
-        suffix: -barrel1
-        under: true
-        progress: recoil
-      }
-    ]
-  }
+  type: DrawTurret
+  basePrefix: metal2-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -barrel1
+      under: true
+      progress: recoil
+    }
+  ]
 }
