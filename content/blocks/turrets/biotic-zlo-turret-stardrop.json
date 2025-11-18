@@ -202,7 +202,18 @@ ammoTypes: {
   }
 }
 
-drawer: {
-  type: DrawTurret
-  basePrefix: metal2-
-}
+drawer: [
+  {
+    type: DrawTurret
+    basePrefix: metal2-
+    parts: {
+      type: RegionPart
+      suffix: -barrel1
+      x: 0
+      y: 0
+      moveX: 0
+      moveY: -3.5
+      progress: recoil
+    }
+  }
+]
