@@ -222,6 +222,6 @@ drawer: {
       moveX: 0
       moveY: 0
       under: false
-}
+    }
   ]
 }
