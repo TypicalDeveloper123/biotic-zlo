@@ -42,7 +42,7 @@ recoil: 0
 outlineColor: 1b1a33
 targetAir: true
 targetGround: true
-rotateSpeed: 7
+rotateSpeed: 4
 reload: 80
 range: 150
 shootY: 7
@@ -60,7 +60,7 @@ ammoTypes: {
     trailLength: 20
     width: 20
     height: 20
-    lifetime: 35
+    lifetime: 25
     pierceCap: 5
     speed: 4.5
     pierce: true
