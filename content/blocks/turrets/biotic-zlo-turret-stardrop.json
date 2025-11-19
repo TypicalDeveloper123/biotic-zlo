@@ -221,6 +221,7 @@ drawer: {
     {
       type: DrawRegion
       suffix: -barrel1
+      outline: true
     }
   ]
 }
