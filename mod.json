@@ -30,6 +30,7 @@ contentOrder:[
         biotic-zlo-item-iron
         biotic-zlo-item-crushed-bones
         biotic-zlo-item-biochar
+        biotic-zlo-item-foritium
 
     // liquids
         biotic-zlo-liquid-blood
@@ -38,6 +39,7 @@ contentOrder:[
     // turrets
         biotic-zlo-turret-bleed
         biotic-zlo-turret-convergence
+        biotic-zlo-turret-stardrop
 
     // drills
         biotic-zlo-production-aluminum-drill
