@@ -76,7 +76,7 @@ ammoTypes: {
 
 drawer: {
   type: DrawTurret
-  basePrefix: blob1-
+  basePrefix: blob-
 }
 
 

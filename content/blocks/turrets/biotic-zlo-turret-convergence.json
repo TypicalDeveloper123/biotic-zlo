@@ -104,7 +104,7 @@ ammoTypes: {
 
 drawer: {
   type: DrawTurret
-  basePrefix: metal1-
+  basePrefix: metal-
 }
 
 
