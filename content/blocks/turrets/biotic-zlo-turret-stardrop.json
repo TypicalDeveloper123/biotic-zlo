@@ -101,21 +101,21 @@ ammoTypes: {
           line: true
     	    colorFrom: e8e9eb
     	    colorTo: e8e9eb
-          offsetY: 0.5
+          offsetY: 2
         }
         {
     	    type: ParticleEffect
     	    particles: 20
     	    lifetime: 100
     	    layer: 100.2
-    	    cone: 360
+    	    cone: 145
     	    length: 60
     	    interp:pow3Out
     	    sizeFrom: 6
     	    sizeTo: 0
     	    colorFrom: e8e9eb
     	    colorTo: e8e9eb
-          offsetY: 0.5
+          offsetY: 2
         }
       ]   
     }
@@ -177,7 +177,7 @@ ammoTypes: {
     	    particles: 25
     	    lifetime: 120
     	    layer: 100.2
-    	    cone: 360
+    	    cone: 145
     	    length: 70
     	    interp:pow3Out
     	    sizeFrom: 7
@@ -246,7 +246,7 @@ ammoTypes: {
     	    particles: 28
     	    lifetime: 160
     	    layer: 100.2
-    	    cone: 360
+    	    cone: 145
     	    length: 95
     	    interp:pow3Out
     	    sizeFrom: 9
