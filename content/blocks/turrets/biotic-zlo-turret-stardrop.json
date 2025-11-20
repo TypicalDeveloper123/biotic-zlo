@@ -108,7 +108,7 @@ ammoTypes: {
     	    particles: 20
     	    lifetime: 100
     	    layer: 100.2
-    	    cone: 145
+    	    cone: 75
     	    length: 60
     	    interp:pow3Out
     	    sizeFrom: 6
@@ -178,7 +178,7 @@ ammoTypes: {
     	    particles: 25
     	    lifetime: 120
     	    layer: 100.2
-    	    cone: 145
+    	    cone: 75
     	    length: 70
     	    interp:pow3Out
     	    sizeFrom: 7
@@ -248,7 +248,7 @@ ammoTypes: {
     	    particles: 28
     	    lifetime: 160
     	    layer: 100.2
-    	    cone: 145
+    	    cone: 75
     	    length: 95
     	    interp:pow3Out
     	    sizeFrom: 9
@@ -270,7 +270,7 @@ drawer: {
       type: RegionPart
       suffix: -barrel
       under: false
-      moveY: -3.5
+      moveY: -4
       progress: recoil
     }
     {
@@ -280,7 +280,7 @@ drawer: {
       x: 0
       y: 0
       moveX: 0
-      moveY: 0
+      moveY: 0.8
       under: false
     }
   ]
