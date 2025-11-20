@@ -270,17 +270,17 @@ drawer: {
       type: RegionPart
       suffix: -barrel
       under: false
-      moveY: -4
+      moveY: -5
       progress: recoil
     }
     {
       type: RegionPart
       suffix: -mid
-      progress: warmup
+      progress: recoil
       x: 0
       y: 0
       moveX: 0
-      moveY: -0.8
+      moveY: -1
       under: false
     }
   ]
