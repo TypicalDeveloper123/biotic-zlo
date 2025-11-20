@@ -20,7 +20,7 @@ consumes: {
 }
 
 requirements: [
-  biotic-zlo-item-aluminum/10
+  	biotic-zlo-item-aluminum/10
 ]
 
 researchCost: [

@@ -18,6 +18,13 @@ requirements: [
 category: turret
 consumes: {
   power: 0.36
+  liquids: {
+		liquids: [
+			water/0.04
+		]
+		optional: true
+		booster: true
+	}
 } 
 
 
