@@ -18,15 +18,14 @@ requirements: [
 category: turret
 consumes: {
   power: 0.36
-  liquids: {
-		liquids: [
-			water/0.04
-		]
-		optional: true
-		booster: true
-	}
 } 
 
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.04
+}
 
 recoil: 2
 outlineColor: 1b1a33
