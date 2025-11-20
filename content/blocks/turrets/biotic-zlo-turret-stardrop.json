@@ -56,7 +56,7 @@ ammoTypes: {
     type: BasicBulletType
     sprite: corpuscles-biotic-zlo-star
     damage: 80
-    trailColor: ffffff
+    trailColor: e8e9eb
     trailLength: 20
     width: 20
     height: 20
@@ -65,8 +65,8 @@ ammoTypes: {
     speed: 4.5
     pierce: true
     pierceBuilding: true
-    frontColor: ffffff
-    backColor: ffffff
+    frontColor: e8e9eb
+    backColor: e8e9eb
     fragBullets: 4
     fragBullet: {
       type: BasicBulletType
@@ -74,30 +74,50 @@ ammoTypes: {
       fragLifeMin: 2
       homingPower: 0.035
       homingRange: 100
-      trailColor: ffffff
+      trailColor: e8e9eb
       trailLength: 10
       width: 12
       height: 12
       damage: 45
       speed: 2.5
-      frontColor: ffffff
-      backColor: ffffff 
+      frontColor: e8e9eb
+      backColor: e8e9eb 
       hitEffect: none
   }
   shootEffect: {
-    	type: ParticleEffect
-    	particles: 25
-    	lifetime: 60
-    	layer: 100.2
-    	cone: 55
-    	length: 30
-      width: 15
-    	interp: pow3Out
-    	sizeFrom: 6
-    	sizeTo: 0
-      line: true
-    	colorFrom: ffffff 
-    	colorTo: ffffff 
+      type: MultiEffect
+      effects: [
+        {
+    	    type: ParticleEffect
+    	    particles: 25
+    	    lifetime: 60
+    	    layer: 100.2
+    	    cone: 55
+    	    length: 30
+          width: 15
+    	    interp: pow3Out
+    	    sizeFrom: 6
+    	    sizeTo: 0
+          line: true
+    	    colorFrom: e8e9eb
+    	    colorTo: e8e9eb
+          offsetY: 0.5
+        }
+        {
+    	    type: ParticleEffect
+    	    particles: 20
+    	    lifetime: 100
+    	    layer: 100.2
+    	    cone: 360
+    	    length: 60
+    	    interp:pow3Out
+    	    sizeFrom: 6
+    	    sizeTo: 0
+    	    colorFrom: e8e9eb
+    	    colorTo: e8e9eb
+          offsetY: 0.5
+        }
+      ]   
     }
   }
   biotic-zlo-item-iron: {
@@ -135,19 +155,38 @@ ammoTypes: {
       hitEffect: none
   }
   shootEffect: {
-    	type: ParticleEffect
-    	particles: 25
-    	lifetime: 45
-    	layer: 100.2
-    	cone: 55
-    	length: 30
-      width: 25
-    	interp: pow3Out
-    	sizeFrom: 5
-    	sizeTo: 0
-      line: true
-    	colorFrom: ffffff
-    	colorTo: ffffff
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+    	    particles: 25
+    	    lifetime: 45
+    	    layer: 100.2
+    	    cone: 55
+    	    length: 30
+          width: 25
+    	    interp: pow3Out
+    	    sizeFrom: 5
+    	    sizeTo: 0
+          line: true
+    	    colorFrom: ffffff
+    	    colorTo: ffffff
+        }
+        {
+    	    type: ParticleEffect
+    	    particles: 25
+    	    lifetime: 120
+    	    layer: 100.2
+    	    cone: 360
+    	    length: 70
+    	    interp:pow3Out
+    	    sizeFrom: 7
+    	    sizeTo: 0
+    	    colorFrom: ffffff
+    	    colorTo: ffffff
+          offsetY: 0.5
+        }
+      ]
     }
   }
    biotic-zlo-item-foritium: {
@@ -185,19 +224,38 @@ ammoTypes: {
       hitEffect: none
   }
   shootEffect: {
-    	type: ParticleEffect
-    	particles: 25
-    	lifetime: 70
-    	layer: 100.2
-    	cone: 55
-    	length: 30
-      width: 45
-    	interp: pow3Out
-    	sizeFrom: 14
-    	sizeTo: 0
-      line: true
-    	colorFrom: e682ff
-    	colorTo: e682ff
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+    	    particles: 25
+    	    lifetime: 70
+    	    layer: 100.2
+    	    cone: 55
+    	    length: 30
+          width: 45
+    	    interp: pow3Out
+    	    sizeFrom: 14
+    	    sizeTo: 0
+          line: true
+    	    colorFrom: e682ff
+    	    colorTo: e682ff
+        }
+        {
+    	    type: ParticleEffect
+    	    particles: 28
+    	    lifetime: 160
+    	    layer: 100.2
+    	    cone: 360
+    	    length: 95
+    	    interp:pow3Out
+    	    sizeFrom: 9
+    	    sizeTo: 0
+    	    colorFrom: e682ff
+    	    colorTo: e682ff
+          offsetY: 0.5
+        }
+      ]
     }
   }
 }
