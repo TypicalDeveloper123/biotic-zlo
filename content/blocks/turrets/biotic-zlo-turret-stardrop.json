@@ -101,7 +101,7 @@ ammoTypes: {
           line: true
     	    colorFrom: e8e9eb
     	    colorTo: e8e9eb
-          offsetY: 2
+          offsetX: 1
         }
         {
     	    type: ParticleEffect
@@ -115,7 +115,7 @@ ammoTypes: {
     	    sizeTo: 0
     	    colorFrom: e8e9eb
     	    colorTo: e8e9eb
-          offsetY: 2
+          offsetX: 1
         }
       ]   
     }
@@ -171,6 +171,7 @@ ammoTypes: {
           line: true
     	    colorFrom: ffffff
     	    colorTo: ffffff
+          offsetX: 1
         }
         {
     	    type: ParticleEffect
@@ -184,7 +185,7 @@ ammoTypes: {
     	    sizeTo: 0
     	    colorFrom: ffffff
     	    colorTo: ffffff
-          offsetY: 0.5
+          offsetX: 1
         }
       ]
     }
@@ -240,6 +241,7 @@ ammoTypes: {
           line: true
     	    colorFrom: e682ff
     	    colorTo: e682ff
+          offsetX: 1
         }
         {
     	    type: ParticleEffect
@@ -253,7 +255,7 @@ ammoTypes: {
     	    sizeTo: 0
     	    colorFrom: e682ff
     	    colorTo: e682ff
-          offsetY: 0.5
+          offsetX: 1
         }
       ]
     }
