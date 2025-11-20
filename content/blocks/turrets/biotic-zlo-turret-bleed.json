@@ -8,7 +8,6 @@ hasPower: true
 hasLiquids: true
 laserAbsorb: true
 
-
 requirements: [
   biotic-zlo-item-aluminum/14
   biotic-zlo-item-infested-tissue/10
@@ -36,7 +35,6 @@ rotateSpeed: 10
 reload: 60
 range: 192
 shootY: 6
-
 
 ammoPerShot: 2
 ammoTypes: {
