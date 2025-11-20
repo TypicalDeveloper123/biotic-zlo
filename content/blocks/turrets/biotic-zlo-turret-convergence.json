@@ -24,7 +24,7 @@ coolant: {
   type: ConsumeCoolant
   allowGas: true
   allowLiquid: false
-  amount: 0.04
+  amount: 0.05
 }
 
 recoil: 2
