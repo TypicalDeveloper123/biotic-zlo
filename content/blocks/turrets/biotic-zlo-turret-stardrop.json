@@ -280,7 +280,7 @@ drawer: {
       x: 0
       y: 0
       moveX: 0
-      moveY: 0.8
+      moveY: -0.8
       under: false
     }
   ]
