@@ -6,7 +6,7 @@ shootSound: cannon
 hasItems: true
 hasPower: true
 hasLiquids: true
-laserAbsorb: true
+laserAbsorb: false
 
 requirements: [
   biotic-zlo-item-aluminum/24

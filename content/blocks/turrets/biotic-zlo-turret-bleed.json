@@ -5,7 +5,7 @@ health: 600
 shootSound: lasershoot
 hasItems: true
 hasPower: true
-hasLiquids: false
+hasLiquids: true
 laserAbsorb: true
 
 

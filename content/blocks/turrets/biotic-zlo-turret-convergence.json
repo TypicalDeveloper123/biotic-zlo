@@ -4,7 +4,7 @@ squareSprite: false
 health: 600
 hasItems: true
 hasPower: true
-hasLiquids: false
+hasLiquids: true
 laserAbsorb: false
 
 requirements: [
