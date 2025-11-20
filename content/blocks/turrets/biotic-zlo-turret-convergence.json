@@ -23,7 +23,7 @@ consumes: {
 coolant: {
   type: ConsumeCoolant
   allowGas: true
-  allowLiquid: true
+  allowLiquid: false
   amount: 0.04
 }
 
