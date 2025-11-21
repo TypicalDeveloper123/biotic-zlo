@@ -1,5 +1,5 @@
 type: legs
-speed: 2
+speed: 1.5
 flying: false
 health: 560
 armor: 5
@@ -13,7 +13,7 @@ legCount: 3
 lockLegBase: false
 legExtension: 4.5
 legBaseOffset: 3
-legLength: 25
+legLength: 20
 legMaxLength: 1.1
 legMinLength: 0.2
 legSpeed: 0.25
@@ -21,7 +21,7 @@ legGroupSize: 3
 legForwardScl: 1.05
 legLengthScl: 0.95
 legPhysicsLayer: false
-legStraightness: 0.4
+legStraightness: 0.2
 allowLegStep: true
 legContinuousMove: true
 
@@ -55,7 +55,7 @@ weapons: [
         mirror: false
         top: false
         inaccuracy: 7
-        reload: 15
+        reload: 35
         shootSound: missile
         name: biotic-zlo-unit-leech-weapon-1
         bullet: {
