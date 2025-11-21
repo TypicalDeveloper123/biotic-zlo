@@ -1,0 +1,104 @@
+type: legs
+speed: 2
+flying: false
+health: 560
+armor: 5
+hitSize: 8
+outlineColor: 1b1a33
+mechLegColor: 1b1a33
+targetAir: false
+
+type: legs
+legCount: 3
+lockLegBase: false
+legExtension: 4.5
+legBaseOffset: 3
+legLength: 25
+legMaxLength: 1.1
+legMinLength: 0.2
+legSpeed: 0.25
+legGroupSize: 3
+legForwardScl: 1.05
+legLengthScl: 0.95
+legPhysicsLayer: false
+legStraightness: 0.4
+allowLegStep: true
+legContinuousMove: true
+
+weapons: [
+    {
+        x: 3.8
+        y: 1
+        rotate: false
+        mirror: false
+        top: false
+        inaccuracy: 2
+        reload: 75
+        recoil: 1.8
+        shootSound: artillery
+        name: biotic-zlo-unit-leech-weapon-0
+        shoot: {
+            shots: 2
+            shotDelay: 3
+        }
+        bullet: {
+            type: ArtilleryBulletType
+            speed: 2
+            splashDamage: 35
+            splashDamageRadius: 16
+        }
+    }
+    {
+        x: -3.8
+        y: 1
+        rotate: false
+        mirror: false
+        top: false
+        inaccuracy: 7
+        reload: 15
+        shootSound: missile
+        name: biotic-zlo-unit-leech-weapon-1
+        bullet: {
+            type: MissileBulletType
+            sprite: corpuscles-biotic-zlo-teeth
+            trailColor: 990000
+            trailLength: 10
+            layer: 90
+            damage: 30
+            speed: 2
+            lightRadius: -1
+            lightOpacity: 0
+            hitEffect: none
+            smokeEffect: none
+            shootEffect: {
+            Type: MultiEffect
+                effects: [  
+                    {
+                        type: ParticleEffect
+                        particles: 10
+                        colorFrom: a33333
+                        colorTo: 33001b
+                        cone: 4
+                        length: 12
+                        sizeFrom: 2
+                        sizeTo: 0
+                        lightColor: de3a3a
+                    }
+                    {
+                        type: RadialEffect
+                        particles: 2
+                        colorFrom: 853d3d
+                        colorTo: 33001b
+                        cone: 4
+                        length: 12
+                        sizeFrom: 3
+                        sizeTo: 0
+                        lightColor: de3a3a
+                    }
+                ]
+            }   
+        }
+    }
+]
+
+hiddenOnPlanets: [serpulo, erekir]
