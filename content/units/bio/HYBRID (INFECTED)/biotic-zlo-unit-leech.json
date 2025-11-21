@@ -25,10 +25,16 @@ legStraightness: 0.25
 allowLegStep: true
 legContinuousMove: true
 
+abilities: [
+    {
+        type: RegenAbility
+        percentAmount: 0.2
+    }
+]
+
 weapons: [
     {
         x: 3.8
-        y: 1
         rotate: false
         mirror: false
         top: false
@@ -50,7 +56,6 @@ weapons: [
     }
     {
         x: -3.8
-        y: 1
         rotate: false
         mirror: false
         top: false

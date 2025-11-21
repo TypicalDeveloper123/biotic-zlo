@@ -11,7 +11,6 @@ targetAir: false
 weapons: [
     {
         x: 3.8
-        y: 1
         rotate: false
         mirror: true
         top: false
