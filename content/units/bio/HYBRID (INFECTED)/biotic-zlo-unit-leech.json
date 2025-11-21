@@ -11,9 +11,9 @@ targetAir: false
 type: legs
 legCount: 3
 lockLegBase: false
-legExtension: 4.5
+legExtension: 1
 legBaseOffset: 3
-legLength: 20
+legLength: 15
 legMaxLength: 1.1
 legMinLength: 0.2
 legSpeed: 0.25
