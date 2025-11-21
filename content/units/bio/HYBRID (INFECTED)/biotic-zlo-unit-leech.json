@@ -9,11 +9,11 @@ mechLegColor: 1b1a33
 targetAir: false
 
 type: legs
-legCount: 3
+legCount: 4
 lockLegBase: false
-legExtension: 1
+legExtension: 2.5
 legBaseOffset: 3
-legLength: 15
+legLength: 12
 legMaxLength: 1.1
 legMinLength: 0.2
 legSpeed: 0.25
@@ -21,7 +21,7 @@ legGroupSize: 3
 legForwardScl: 1.05
 legLengthScl: 0.95
 legPhysicsLayer: false
-legStraightness: 0.2
+legStraightness: 0.25
 allowLegStep: true
 legContinuousMove: true
 
