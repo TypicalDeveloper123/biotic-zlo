@@ -35,6 +35,10 @@ research: {
   objectives: [
 	biotic-zlo-item-biochar	
 	biotic-zlo-crafting-distillation-unit
+	{
+    type: OnSector
+    preset: husk
+    }
   ]
 }
 

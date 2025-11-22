@@ -1,0 +1,15 @@
+planet: morive
+sector: 142
+difficulty: 2
+captureWave: 35
+research: {
+  parent: groove
+  objectives: [
+    {
+    type: SectorComplete
+    preset: groove
+    }
+  ]
+}
+
+alwaysUnlocked: false

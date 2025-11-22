@@ -14,6 +14,10 @@ research: {
   parent: biotic-zlo-defense-aluminum-wall
   objectives: [  
     biotic-zlo-turret-convergence
+    {
+    type: OnSector
+    preset: husk
+    }
   ]
 }
 researchCost: [

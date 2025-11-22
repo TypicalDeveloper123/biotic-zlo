@@ -30,9 +30,12 @@ researchCost: [
 ]
 
 research: {
-  	parent:  biotic-zlo-production-blood-extractor
-  	objectives: [  
-		
+  parent:  biotic-zlo-production-blood-extractor
+  objectives: [  
+    {
+    type: OnSector
+    preset: husk
+    }
 	]
 }
 

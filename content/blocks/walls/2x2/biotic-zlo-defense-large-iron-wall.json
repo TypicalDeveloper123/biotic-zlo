@@ -13,6 +13,10 @@ research: {
   parent: biotic-zlo-defense-iron-wall
   objectives: [  
     biotic-zlo-defense-iron-wall
+    {
+    type: OnSector
+    preset: husk
+    }
   ]
 }
 

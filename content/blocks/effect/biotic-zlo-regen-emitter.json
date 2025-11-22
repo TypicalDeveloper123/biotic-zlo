@@ -42,6 +42,9 @@ consumes: {
 research: {
   parent: biotic-zlo-power-power-beam
   objectives: [
-  
+    {
+    type: OnSector
+    preset: husk
+    }
   ]
 }
