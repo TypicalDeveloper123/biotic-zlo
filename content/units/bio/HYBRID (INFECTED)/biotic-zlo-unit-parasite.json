@@ -34,35 +34,18 @@ abilities: [
 
 weapons: [
     {
-        x: 3.8
-        rotate: false
-        mirror: false
-        top: false
-        inaccuracy: 2
-        reload: 75
-        recoil: 1.8
-        shootSound: artillery
-        name: biotic-zlo-unit-leech-weapon-0
-        shoot: {
-            shots: 2
-            shotDelay: 3
-        }
-        bullet: {
-            type: ArtilleryBulletType
-            speed: 2
-            splashDamage: 35
-            splashDamageRadius: 16
-        }
-    }
-    {
-        x: -3.8
+        y: -1.8
         rotate: false
         mirror: false
         top: false
         inaccuracy: 7
-        reload: 35
+        reload: 75
         shootSound: missile
-        name: biotic-zlo-unit-leech-weapon-1
+        name: biotic-zlo-unit-parasite-weapon-0
+        shoot: {
+            shots: 5
+            shotDelay: 5
+        }
         bullet: {
             type: MissileBulletType
             sprite: corpuscles-biotic-zlo-teeth
@@ -105,6 +88,37 @@ weapons: [
         }
     } 
     {
+        y: 1.8
+        rotate: false
+        mirror: false
+        top: false
+        inaccuracy: 7
+        reload: 5
+        shootSound: mud
+        name: biotic-zlo-unit-parasite-weapon-1
+        bullet: {
+            type: FireBulletType
+            colorFrom: 50ff36
+            colorTo: 2d8731
+            layer: 90
+            damage: 30
+            speed: 2
+            hitEffect: none
+            smokeEffect: none
+            shootEffect: {
+                type: ParticleEffect
+                particles: 5
+                layer: 110
+                colorFrom: 50ff36
+                colorTo: 50ff36
+                cone: 100
+                length: 5
+                sizeFrom: 1
+                sizeTo: 0
+            }    
+        }
+    }
+    {
         display: false
         controllable: false
         aiControllable: false
@@ -131,8 +145,8 @@ weapons: [
             smokeEffect: none
             shootEffect: none
             puddles: 3
-            puddleRange: 10
-            puddleAmount: 25
+            puddleRange: 20
+            puddleAmount: 40
             puddleLiquid: corpuscles-biotic-zlo-liquid-blood
         }  
     }
