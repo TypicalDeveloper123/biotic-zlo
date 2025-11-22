@@ -88,9 +88,11 @@ weapons: [
         }
     } 
     {
+        x: -2
         y: 1.8
         rotate: false
         mirror: false
+        top: false
         inaccuracy: 7
         reload: 2
         recoil: 0.3
