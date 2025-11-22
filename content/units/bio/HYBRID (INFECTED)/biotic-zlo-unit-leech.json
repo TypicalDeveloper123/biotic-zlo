@@ -1,8 +1,8 @@
 type: legs
 speed: 1.5
 flying: false
-health: 560
-armor: 5
+health: 500
+armor: 7
 hitSize: 8
 outlineColor: 1b1a33
 mechLegColor: 1b1a33
@@ -12,7 +12,7 @@ type: legs
 legCount: 4
 lockLegBase: false
 legExtension: 2.5
-legBaseOffset: 3
+legBaseOffset: 2
 legLength: 12
 legMaxLength: 1.1
 legMinLength: 0.2
@@ -21,9 +21,8 @@ legGroupSize: 3
 legForwardScl: 1.05
 legLengthScl: 0.95
 legPhysicsLayer: false
-legStraightness: 0.25
+legStraightness: 0
 allowLegStep: true
-legContinuousMove: true
 
 abilities: [
     {
