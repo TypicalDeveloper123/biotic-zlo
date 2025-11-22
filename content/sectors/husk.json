@@ -1,6 +1,6 @@
 planet: morive
 sector: 142
-difficulty: 2
+difficulty: 3
 captureWave: 35
 research: {
   parent: groove
