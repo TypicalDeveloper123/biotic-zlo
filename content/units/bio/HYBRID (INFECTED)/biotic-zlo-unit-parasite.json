@@ -94,7 +94,7 @@ weapons: [
         mirror: false
         top: false
         inaccuracy: 7
-        reload: 2
+        reload: 5
         recoil: 0.3
         shootSound: mud
         name: biotic-zlo-unit-parasite-weapon-1
