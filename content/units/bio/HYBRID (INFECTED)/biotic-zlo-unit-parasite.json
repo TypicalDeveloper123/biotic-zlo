@@ -88,7 +88,7 @@ weapons: [
         }
     } 
     {
-        x: -4
+        x: -4.2
         y: 1.8
         rotate: false
         mirror: false
