@@ -88,13 +88,13 @@ weapons: [
         }
     } 
     {
-        x: -2
+        x: -4s
         y: 1.8
         rotate: false
         mirror: false
         top: false
         inaccuracy: 7
-        reload: 5
+        reload: 8
         recoil: 0.3
         shootSound: mud
         name: biotic-zlo-unit-parasite-weapon-1
