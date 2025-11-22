@@ -34,7 +34,7 @@ abilities: [
 
 weapons: [
     {
-        y: -1.8
+        y: 1.8
         rotate: false
         mirror: false
         top: false
@@ -91,20 +91,22 @@ weapons: [
         y: 1.8
         rotate: false
         mirror: false
-        top: false
         inaccuracy: 7
-        reload: 5
+        reload: 2
+        recoil: 0.3
         shootSound: mud
         name: biotic-zlo-unit-parasite-weapon-1
         bullet: {
-            type: FireBulletType
-            colorFrom: 50ff36
-            colorTo: 2d8731
-            layer: 90
-            damage: 30
+            type: LiquidBulletType
+            status: status-dissolving
+            width: 2
+            damage: 25
+            pierceCap: 1
+            range: 52
+            liquid: biotic-zlo-liquid-acid
+            orbSize: 3
+            puddleSize: 10
             speed: 2
-            hitEffect: none
-            smokeEffect: none
             shootEffect: {
                 type: ParticleEffect
                 particles: 5
@@ -115,7 +117,7 @@ weapons: [
                 length: 5
                 sizeFrom: 1
                 sizeTo: 0
-            }    
+            } 
         }
     }
     {
