@@ -295,8 +295,28 @@ drawer: {
       color1: 3682ff
 	  //I want to hear not a word about "6.7"
 	  radius: 6.75
-	  radiusTo: 6.75
-	  y: -8
+	  radiusTo: 5
+	  y: -10.5
+	  stroke: 1.75
+	  rotation: 45
+    }
+    {
+      type: FlarePart
+      color1: 3682ff
+	  radius: 4.25
+	  radiusTo: 3
+	  y: -9.5
+	  x: 3
+	  stroke: 2
+	  rotation: 45
+    }
+    {
+      type: FlarePart
+      color1: 3682ff
+	  radius: 4.25
+	  radiusTo: 3
+	  y: -9.5
+	  x: -3
 	  stroke: 2
 	  rotation: 45
     }
