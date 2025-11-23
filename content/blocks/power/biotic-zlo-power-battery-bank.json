@@ -1,0 +1,20 @@
+type: Battery
+size: 1
+squareSprite: false
+consumes: {
+  	powerBuffered: 150
+}
+
+requirements: [
+  	biotic-zlo-item-aluminum/12
+  	biotic-zlo-item-foritium/5
+  	biotic-zlo-item-iron/8
+]
+
+researchCost: [
+	biotic-zlo-item-aluminum/24
+  	biotic-zlo-item-foritium/10
+  	biotic-zlo-item-iron/16
+]
+
+category: power
