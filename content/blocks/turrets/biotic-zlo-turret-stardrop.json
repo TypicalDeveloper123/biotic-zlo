@@ -291,14 +291,14 @@ drawer: {
       under: false
     }
     {
-      type: FlarePart
+      type: Flare
       color1: ffffff
-	  radius: 50
-	  radiusTo: 50
+	  radius: 12.5
+	  radiusTo: 12.5
 	  y: -8
-	  moveY: 16
+	  stroke: 3
 	  progress: recoil
-	  moveRot: -720
+	  rotation: 45
     }
   ]
 }
