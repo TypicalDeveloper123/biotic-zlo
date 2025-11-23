@@ -292,11 +292,12 @@ drawer: {
     }
     {
       type: FlarePart
-      color1: ffffff
-	  radius: 12.5
-	  radiusTo: 12.5
+      color1: 3682ff
+	  //I want to hear not a word about "6.7"
+	  radius: 6.75
+	  radiusTo: 6.75
 	  y: -8
-	  stroke: 3
+	  stroke: 2
 	  rotation: 45
     }
   ]
