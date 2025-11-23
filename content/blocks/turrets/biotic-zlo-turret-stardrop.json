@@ -290,5 +290,15 @@ drawer: {
       moveY: -3
       under: false
     }
+    {
+      type: FlarePart
+      color1: ffffff
+	  radius: 50
+	  radiusTo: 50
+	  y: -8
+	  moveY: 16
+	  progress: recoil
+	  moveRot: -720
+    }
   ]
 }
