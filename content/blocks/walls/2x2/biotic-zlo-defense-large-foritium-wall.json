@@ -1,0 +1,13 @@
+type: Wall
+size: 2
+health: 2600
+squareSprite: true
+category: defense
+
+requirements: [
+  biotic-zlo-item-foritium/24
+]
+
+researchCost: [
+  biotic-zlo-item-foritium/72
+] 
