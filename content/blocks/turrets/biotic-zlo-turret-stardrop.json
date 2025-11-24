@@ -51,7 +51,7 @@ targetAir: true
 targetGround: true
 rotateSpeed: 4
 reload: 80
-range: 150
+range: 200
 shootY: 7
 shootX: 0
 
@@ -67,9 +67,9 @@ ammoTypes: {
     trailLength: 20
     width: 20
     height: 20
-    lifetime: 25
+    lifetime: 50
     pierceCap: 5
-    speed: 4.5
+    speed: 4.2
     pierce: true
     pierceBuilding: true
     frontColor: e8e9eb
@@ -137,9 +137,9 @@ ammoTypes: {
     trailLength: 25
     width: 20
     height: 20
-    lifetime: 30
+    lifetime: 55
     pierceCap: 6
-    speed: 4
+    speed: 4.6
     pierce: true
     pierceBuilding: true
     frontColor: ffffff
@@ -207,9 +207,9 @@ ammoTypes: {
     trailLength: 25
     width: 28
     height: 28
-    lifetime: 35
+    lifetime: 60
     pierceCap: 6
-    speed: 4
+    speed: 4.8
     pierce: true
     pierceBuilding: true
     frontColor: e682ff
