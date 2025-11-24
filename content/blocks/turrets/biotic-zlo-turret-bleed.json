@@ -73,9 +73,9 @@ ammoTypes: {
 				layer: 100.2
 	    		colorFrom: c1dae3
     	 		colorTo: 8fa9b3
-				lenFrom: 8
-				lenTo: 5
-				strokeFrom: 3.25
+				lenFrom: 19
+				lenTo: 17
+				strokeFrom: 7.65
 				strokeTo: 0
 				lifetime: 17.5
 				length: 35
