@@ -137,7 +137,7 @@ ammoTypes: {
     trailLength: 25
     width: 20
     height: 20
-    lifetime: 55
+    lifetime: 45
     pierceCap: 6
     speed: 4.6
     pierce: true
@@ -207,7 +207,7 @@ ammoTypes: {
     trailLength: 25
     width: 28
     height: 28
-    lifetime: 60
+    lifetime: 46
     pierceCap: 6
     speed: 4.8
     pierce: true
