@@ -48,7 +48,7 @@ ammoTypes: {
     pierceCap: 2
     pierce: true
     pierceBuilding: true
-	hitEffect: {
+	  hitEffect: {
 		type: MultiEffect
 		effects: [
 			{
