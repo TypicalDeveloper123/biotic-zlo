@@ -48,7 +48,7 @@ ammoTypes: {
     pierceCap: 2
     pierce: true
     pierceBuilding: true
-	//I may have fucked up the indentation, github sucks - NV
+	//I may have fucked up the indentation, github sucks, sorry - NV
 	hitEffect: {
 		type: MultiEffect
 		effects: [
@@ -67,19 +67,19 @@ ammoTypes: {
 				length: 22.5
 			}
 			{
-			type: ParticleEffect
-			particles: 4
-			line: true
-			layer: 100.2
-	    	colorFrom: c1dae3
-    	 	colorTo: 8fa9b3
-			lenFrom: 6
-			lenTo: 5
-			strokeFrom: 2.25
-			strokeTo: 0
-			lifetime: 17.5
-			length: 35
-			cone: -20
+				type: ParticleEffect
+				particles: 4
+				line: true
+				layer: 100.2
+	    		colorFrom: c1dae3
+    	 		colorTo: 8fa9b3
+				lenFrom: 8
+				lenTo: 5
+				strokeFrom: 3.25
+				strokeTo: 0
+				lifetime: 17.5
+				length: 35
+				cone: -20
 			}
 		]
 	}
