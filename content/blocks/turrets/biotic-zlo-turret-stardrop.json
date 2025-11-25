@@ -160,6 +160,21 @@ ammoTypes: {
       frontColor: ffffff
       backColor: ffffff 
       hitEffect: none
+      trailRotation: true
+      trailInterval: 2.5
+	    trailEffect: {
+        type: ParticleEffect
+        particles: 2
+        lifetime: 120
+        layer: 100.2
+        cone: 10
+        length: 85
+        interp: pow5Out
+        sizeFrom: 3
+        sizeTo: 0
+        colorFrom: e02407
+        colorTo: f2da1f
+		}
   }
 	despawnEffect: [
 		{
