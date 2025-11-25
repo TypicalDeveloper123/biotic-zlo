@@ -207,7 +207,7 @@ ammoTypes: {
     layer: 100.2
     cone: 12
     length: 80
-    interp: pow7Out
+    interp: pow5Out
     sizeFrom: 3
     sizeTo: 0
     colorFrom: e02407
