@@ -167,13 +167,14 @@ ammoTypes: {
         particles: 2
         lifetime: 120
         layer: 100.2
-        cone: -10
+        cone: 10
         length: 85
         interp: pow5Out
         sizeFrom: 3
         sizeTo: 0
         colorFrom: e02407
         colorTo: f2da1f
+	 	baseRotation: 180
 		}
   }
 	despawnEffect: [
@@ -216,7 +217,7 @@ ammoTypes: {
 	]
   trailRotation: true
   trailInterval: 2.5
-	trailEffect: {
+  trailEffect: {
     type: ParticleEffect
     particles: 3
     lifetime: 120
@@ -228,7 +229,8 @@ ammoTypes: {
     sizeTo: 0
     colorFrom: e02407
     colorTo: f2da1f
-		}
+	baseRotation: 180
+	}
   shootEffect: {
       type: MultiEffect
       effects: [
