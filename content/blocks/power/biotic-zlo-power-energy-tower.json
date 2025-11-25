@@ -1,5 +1,5 @@
 type: Battery
-size: 1
+size: 2
 squareSprite: false
 consumes: {
   	powerBuffered: 1000
