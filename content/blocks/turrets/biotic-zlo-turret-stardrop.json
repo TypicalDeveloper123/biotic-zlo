@@ -203,16 +203,16 @@ ammoTypes: {
   trailInterval: 2.5
 	trailEffect: {
     type: ParticleEffect
-    particles: 2
+    particles: 3
     lifetime: 120
     layer: 100.2
     cone: 12
-    length: 80
+    length: 85
     interp: pow5Out
-    sizeFrom: 3
+    sizeFrom: 3.75
     sizeTo: 0
     colorFrom: e02407
-    colorTo: fcba03
+    colorTo: f2da1f
 		}
   shootEffect: {
       type: MultiEffect
