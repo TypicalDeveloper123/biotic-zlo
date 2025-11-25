@@ -161,6 +161,41 @@ ammoTypes: {
       backColor: ffffff 
       hitEffect: none
   }
+	despawnEffect: [
+		{
+			type: WaveEffect
+			colorFrom: ffffff
+			colorTo: ffffff
+			strokeFrom: 5
+			strokeTo: 0
+			sizeFrom: 0
+			sizeTo: 40
+			lifetime: 80
+			sides: 7
+		}
+		{
+			type: WaveEffect
+			colorFrom: ffffff
+			colorTo: ffffff
+			strokeFrom: 5
+			strokeTo: 0
+			sizeFrom: 0
+			sizeTo: 90
+			lifetime: 80
+			sides: 7
+		}
+		{
+			type: WaveEffect
+			colorFrom: ffffff
+			colorTo: ffffff
+			strokeFrom: 5
+			strokeTo: 0
+			sizeFrom: 0
+			sizeTo: 140
+			lifetime: 80
+			sides: 7
+		}
+	]
   shootEffect: {
       type: MultiEffect
       effects: [
