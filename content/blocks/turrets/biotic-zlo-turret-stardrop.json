@@ -169,11 +169,11 @@ ammoTypes: {
         layer: 100.2
         cone: 10
         length: 42.5
-        interp: pow5Out
-        sizeFrom: 3
+        interp: pow10Out
+        sizeFrom: 2.5
         sizeTo: 0
-        colorFrom: e02407
-        colorTo: f2da1f
+        colorFrom: ffffff
+        colorTo: ffffff
 	 	baseRotation: 180
 		}
   }
