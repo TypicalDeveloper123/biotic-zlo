@@ -135,6 +135,36 @@ ammoTypes: {
     	colorFrom: ffffff
     	colorTo: ffffff
     }
+	trailInterval: 15
+	trailRotation: true
+	trailEffect: [
+		{
+			type: ParticleEffect
+    		particles: 7
+    		lifetime: 70
+    		layer: 100.2
+    		cone: 6
+    		length: 90
+    		interp: pow5Out
+    		sizeFrom: 2.25
+    		sizeTo: 0
+    		colorFrom: ffffff
+    		colorTo: ffffff
+		}
+		{
+			type: ParticleEffect
+    		particles: 4
+    		lifetime: 160
+    		layer: 100.2
+    		cone: 180
+    		length: 90
+    		interp: pow10Out
+    		sizeFrom: 3.5
+    		sizeTo: 3.5
+    		colorFrom: ffffff
+    		colorTo: ffffff00
+		}
+	]
   }
 }
 
