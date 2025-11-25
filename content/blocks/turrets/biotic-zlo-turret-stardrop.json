@@ -169,31 +169,34 @@ ammoTypes: {
 			strokeFrom: 5
 			strokeTo: 0
 			sizeFrom: 0
-			sizeTo: 40
+			sizeTo: 30
 			lifetime: 80
 			sides: 7
+			interp: pow6Out
 		}
 		{
 			type: WaveEffect
 			colorFrom: ffffff
 			colorTo: ffffff
-			strokeFrom: 5
+			strokeFrom: 7
 			strokeTo: 0
 			sizeFrom: 0
-			sizeTo: 90
+			sizeTo: 55
 			lifetime: 80
 			sides: 7
+			interp: pow6Out
 		}
 		{
 			type: WaveEffect
 			colorFrom: ffffff
 			colorTo: ffffff
-			strokeFrom: 5
+			strokeFrom: 9
 			strokeTo: 0
 			sizeFrom: 0
-			sizeTo: 140
+			sizeTo: 80
 			lifetime: 80
 			sides: 7
+			interp: pow6Out
 		}
 	]
   shootEffect: {
