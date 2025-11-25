@@ -61,6 +61,7 @@ ammoTypes: {
     pierceBuilding: true
     frontColor: c1dae3
     backColor: c1dae3
+	hitColor: c1dae3
     shootEffect: {
     	type: ParticleEffect
     	particles: 20
