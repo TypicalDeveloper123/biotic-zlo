@@ -24,7 +24,7 @@ shootType: {
   despawnHit: true
   hitSound: none
   despawnSound: none
-  fragBullets: 1
+  fragBullets: 2
   fragBullet: {
     lifetime: 1
     width: 0

@@ -12,7 +12,7 @@ alwaysShooting: true
 recoil: 0
 inaccuracy: 360
 minRange: 24
-range: 32
+range: 45
 shootX: 0
 shootY: 0
 shootType: {
@@ -32,7 +32,6 @@ shootType: {
     damage: 0
     despawnEffect: none
     spawnUnit: biotic-zlo-unit-ventral
-    despawnHit: true
   }
 } 
 
