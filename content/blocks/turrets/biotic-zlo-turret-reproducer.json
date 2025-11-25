@@ -6,10 +6,6 @@ reload: 1500
 health: 350
 size: 2
 rotateSpeed: 0
-drawer: {
-  type: DrawTurret
-  basePrefix: empty-
-}
 alwaysShooting: true
 recoil: 0
 inaccuracy: 360
