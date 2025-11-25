@@ -104,7 +104,6 @@ ammoTypes: {
 		}
 	]
 	trailInterval: 10
-	trailRotation: true
   }
   biotic-zlo-item-iron: {
     reloadMultiplier: 0.5
@@ -136,7 +135,6 @@ ammoTypes: {
     	colorTo: ffffff
     }
 	trailInterval: 15
-	trailRotation: true
 	trailEffect: [
 		{
 			type: ParticleEffect
@@ -153,14 +151,14 @@ ammoTypes: {
 		}
 		{
 			type: ParticleEffect
-    		particles: 4
-    		lifetime: 250
+    		particles: 5
+    		lifetime: 280
     		layer: 100.2
     		cone: 180
-    		length: 30
+    		length: 18.5
     		interp: pow10Out
-    		sizeFrom: 3.5
-    		sizeTo: 3.5
+    		sizeFrom: 6
+    		sizeTo: 4.25
     		colorFrom: ffffff
     		colorTo: ffffff00
 		}
