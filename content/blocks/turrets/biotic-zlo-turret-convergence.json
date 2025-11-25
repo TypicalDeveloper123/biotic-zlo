@@ -154,10 +154,10 @@ ammoTypes: {
 		{
 			type: ParticleEffect
     		particles: 4
-    		lifetime: 160
+    		lifetime: 250
     		layer: 100.2
     		cone: 180
-    		length: 90
+    		length: 30
     		interp: pow10Out
     		sizeFrom: 3.5
     		sizeTo: 3.5
