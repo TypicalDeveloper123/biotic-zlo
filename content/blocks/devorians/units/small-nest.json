@@ -16,7 +16,6 @@ range: 32
 shootX: 0
 shootY: 0
 
-
 shootType: {
   damage: 0
   width: 0

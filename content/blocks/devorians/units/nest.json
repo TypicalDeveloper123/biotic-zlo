@@ -16,7 +16,6 @@ range: 45
 shootX: 0
 shootY: 0
 
-
 shootType: {
   width: 0
   height: 0
@@ -31,16 +30,14 @@ shootType: {
     height: 0
     despawnEffect: none
     spawnUnit: biotic-zlo-unit-ventral
-    despawnHit: true
   }
 } 
 
-outlineColor: 000000
+outlineColor: 42413e
 squareSprite: false
 
 drawer: {
   type: DrawTurret
   basePrefix: blank-
-  outline: false
 }
 
