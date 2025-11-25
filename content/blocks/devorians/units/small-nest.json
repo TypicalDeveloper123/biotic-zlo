@@ -15,7 +15,7 @@ minRange: 24
 range: 32
 shootX: 0
 shootY: 0
-outlineRadius: 0
+outline: false
 
 shootType: {
   damage: 0
