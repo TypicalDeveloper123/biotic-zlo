@@ -32,7 +32,6 @@ shootType: {
     damage: 0
     despawnEffect: none
     spawnUnit: biotic-zlo-unit-cerebral
-    despawnHit: true
   }
 } 
 
