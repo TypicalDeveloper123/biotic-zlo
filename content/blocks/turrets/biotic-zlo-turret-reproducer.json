@@ -4,7 +4,7 @@ consumes: {}
 buildVisibility: editorOnly
 drawTeamOverlay: false
 reload: 2700
-health: 750
+health: 800
 size: 3
 shootSound: mud
 rotateSpeed: 0
