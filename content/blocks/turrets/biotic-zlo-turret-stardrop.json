@@ -172,7 +172,7 @@ ammoTypes: {
 			sizeTo: 30
 			lifetime: 80
 			sides: 7
-			interp: pow6Out
+			interp: pow5Out
 		}
 		{
 			type: WaveEffect
@@ -184,7 +184,7 @@ ammoTypes: {
 			sizeTo: 55
 			lifetime: 80
 			sides: 7
-			interp: pow6Out
+			interp: pow5Out
 		}
 		{
 			type: WaveEffect
@@ -196,7 +196,7 @@ ammoTypes: {
 			sizeTo: 80
 			lifetime: 80
 			sides: 7
-			interp: pow6Out
+			interp: pow5Out
 		}
 	]
   shootEffect: {
