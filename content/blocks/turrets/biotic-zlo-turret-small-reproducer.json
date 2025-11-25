@@ -21,7 +21,6 @@ shootType: {
   height: 0
   lifetime: 60
   spawnUnit: biotic-zlo-unit-BRAWN
-  despawnHit: true
   hitSound: none
   despawnSound: none
   fragBullets: 2
