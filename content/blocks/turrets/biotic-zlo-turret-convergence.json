@@ -74,19 +74,34 @@ ammoTypes: {
     	colorFrom: c1dae3
     	colorTo: 8fa9b3
     }
-	trailEffect: {
-		type: ParticleEffect
-    	particles: 2
-    	lifetime: 60
-    	layer: 100.2
-    	cone: -6
-    	length: 60
-    	interp: pow5Out
-    	sizeFrom: 2.25
-    	sizeTo: 0
-    	colorFrom: c1dae3
-    	colorTo: 8fa9b3
-	}
+	trailEffect: [
+		{
+			type: ParticleEffect
+    		particles: 2
+    		lifetime: 70
+    		layer: 100.2
+    		cone: -6
+    		length: 70
+    		interp: pow5Out
+    		sizeFrom: 2.25
+    		sizeTo: 0
+    		colorFrom: c1dae3
+    		colorTo: 8fa9b3
+		}
+		{
+			type: ParticleEffect
+    		particles: 1
+    		lifetime: 120
+    		layer: 100.2
+    		cone: -10
+    		length: 60
+    		interp: pow5Out
+    		sizeFrom: 3.5
+    		sizeTo: 3.5
+    		colorFrom: c1dae3
+    		colorTo: 8fa9b300
+		}
+	]
 	trailInterval: 10
 	trailRotation: true
   }
