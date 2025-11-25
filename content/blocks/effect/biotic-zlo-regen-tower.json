@@ -18,7 +18,7 @@ effect: {
   sizeInterp: pow2Out
 }
 range: 25
-healPercent: 0.09
+healPercent: 0.04
 outputsPower: false
 hasPower: true
 hasItems: true
