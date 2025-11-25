@@ -21,7 +21,7 @@ shootType: {
   width: 0
   height: 0
   lifetime: 1
-  spawnUnit: biotic-zlo-unit-BRAWN
+  spawnUnit: corpuscles-biotic-zlo-unit-BRAWN
   despawnEffect: none
   hitEffect: none 
   hitSound: none
@@ -34,7 +34,7 @@ shootType: {
       collides: false
       hitEffect: none
       despawnEffect: none
-      spawnUnit: biotic-zlo-unit-cerebral
+      spawnUnit: corpuscles-biotic-zlo-unit-cerebral
     }
   ]
 } 
