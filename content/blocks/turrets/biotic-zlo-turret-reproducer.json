@@ -1,0 +1,39 @@
+placeablePlayer: false
+consumes: {}
+buildVisibility: editorOnly
+drawTeamOverlay: false
+reload: 1500
+health: 350
+size: 2
+rotateSpeed: 0
+drawer: {
+  type: DrawTurret
+  basePrefix: empty-
+}
+alwaysShooting: true
+recoil: 0
+inaccuracy: 360
+minRange: 24
+range: 32
+shootX: 0
+shootY: 0
+shootType: {
+  damage: 0
+  width: 0
+  height: 0
+  lifetime: 60
+  spawnUnit: biotic-zlo-unit-BRAWN
+  despawnHit: true
+  hitEffect: {
+    type: ParticleEffect
+    spin: -2.34
+    colorFrom: e0d2a0
+    colorTo: 9a916e
+    lifetime: 127
+    sizeFrom: 7
+    sizeTo: 1
+  }
+  hitSound: none
+  despawnSound: none
+}  
+squareSprite: false
