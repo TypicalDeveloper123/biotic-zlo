@@ -21,6 +21,7 @@ range: 25
 healPercent: 0.09
 outputsPower: false
 hasPower: true
+hasItems: true
 consumePower: true
 category: effect
 
@@ -41,6 +42,11 @@ researchCost: [
 
 consumes: {
   power: 2.2
+  item: {
+    items: [
+      silicon/3
+    ]
+  }
 }
 
 research: {
