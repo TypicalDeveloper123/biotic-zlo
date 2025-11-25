@@ -167,7 +167,7 @@ ammoTypes: {
         particles: 2
         lifetime: 120
         layer: 100.2
-        cone: 10
+        cone: -10
         length: 85
         interp: pow5Out
         sizeFrom: 3
