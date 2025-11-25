@@ -134,7 +134,7 @@ ammoTypes: {
     	colorFrom: ffffff
     	colorTo: ffffff
     }
-	trailInterval: 15
+	trailInterval: 7
 	trailEffect: [
 		{
 			type: ParticleEffect
