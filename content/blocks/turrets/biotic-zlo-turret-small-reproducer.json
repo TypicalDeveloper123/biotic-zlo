@@ -3,9 +3,9 @@ placeablePlayer: false
 consumes: {}
 buildVisibility: editorOnly
 drawTeamOverlay: false
-reload: 2700
-health: 750
-size: 3
+reload: 1500
+health: 350
+size: 2
 shootSound: mud
 rotateSpeed: 0
 alwaysShooting: true
@@ -20,7 +20,7 @@ shootType: {
   width: 0
   height: 0
   lifetime: 60
-  spawnUnit: biotic-zlo-unit-embroider
+  spawnUnit: biotic-zlo-unit-BRAWN
   despawnHit: true
   hitSound: none
   despawnSound: none
