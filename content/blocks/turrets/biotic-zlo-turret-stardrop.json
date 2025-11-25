@@ -199,6 +199,7 @@ ammoTypes: {
 			interp: pow5Out
 		}
 	]
+  trailRotation: true
   trailInterval: 2.5
 	trailEffect: {
     type: ParticleEffect
