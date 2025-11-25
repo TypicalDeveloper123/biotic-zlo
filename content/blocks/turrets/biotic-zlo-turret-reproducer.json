@@ -3,8 +3,8 @@ placeablePlayer: false
 consumes: {}
 buildVisibility: editorOnly
 drawTeamOverlay: false
-reload: 2700
-health: 800
+reload: 3300
+health: 900
 size: 3
 shootSound: mud
 rotateSpeed: 0
@@ -24,6 +24,16 @@ shootType: {
   despawnHit: true
   hitSound: none
   despawnSound: none
+  fragBullets: 1
+  fragBullet: {
+    lifetime: 0
+    width: 0
+    height: 0
+    damage: 0
+    despawnEffect: none
+    spawnUnit: biotic-zlo-unit-ventral
+    despawnHit: true
+  }
 } 
 
 outlineColor: 1b1a33
