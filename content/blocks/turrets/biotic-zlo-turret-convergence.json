@@ -138,7 +138,7 @@ ammoTypes: {
 	trailEffect: [
 		{
 			type: ParticleEffect
-    		particles: 7
+    		particles: 3
     		lifetime: 70
     		layer: 100.2
     		cone: 6
@@ -151,13 +151,13 @@ ammoTypes: {
 		}
 		{
 			type: ParticleEffect
-    		particles: 5
+    		particles: 2
     		lifetime: 280
     		layer: 100.2
     		cone: 180
     		length: 18.5
     		interp: pow10Out
-    		sizeFrom: 6
+    		sizeFrom: 5.5
     		sizeTo: 4.25
     		colorFrom: ffffff
     		colorTo: ffffff00
