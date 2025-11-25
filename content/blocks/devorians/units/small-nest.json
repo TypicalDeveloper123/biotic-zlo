@@ -15,7 +15,7 @@ minRange: 24
 range: 32
 shootX: 0
 shootY: 0
-outline: false
+
 
 shootType: {
   damage: 0
@@ -44,4 +44,5 @@ squareSprite: false
 drawer: {
   type: DrawTurret
   basePrefix: blank-
+  outline: false
 }
