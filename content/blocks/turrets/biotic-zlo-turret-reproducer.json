@@ -21,9 +21,10 @@ shootType: {
   height: 0
   lifetime: 60
   spawnUnit: biotic-zlo-unit-embroider
+  despawnHit: true
   hitSound: none
   despawnSound: none
-  fragBullets: 2
+  fragBullets: 1
   fragBullet: {
     lifetime: 1
     width: 0
@@ -31,6 +32,7 @@ shootType: {
     damage: 0
     despawnEffect: none
     spawnUnit: biotic-zlo-unit-ventral
+    despawnHit: true
   }
 } 
 
