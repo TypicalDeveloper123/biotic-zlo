@@ -201,14 +201,14 @@ ammoTypes: {
 	]
   trailInterval: 2.5
 	trailEffect: {
-		type: ParticleEffect
+    type: ParticleEffect
     particles: 2
     lifetime: 120
     layer: 100.2
-    cone: 6
-    length: 50
-    interp: pow5Out
-    sizeFrom: 2.25
+    cone: 12
+    length: 80
+    interp: pow8Out
+    sizeFrom: 3
     sizeTo: 0
     colorFrom: e02407
     colorTo: fcba03
