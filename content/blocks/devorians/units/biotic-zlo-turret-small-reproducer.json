@@ -38,3 +38,8 @@ shootType: {
 
 outlineColor: 1b1a33
 squareSprite: false
+
+drawer: {
+  type: DrawTurret
+  basePrefix: blank-
+}
