@@ -199,6 +199,20 @@ ammoTypes: {
 			interp: pow5Out
 		}
 	]
+  trailInterval: 2.5
+	trailEffect: {
+		type: ParticleEffect
+    particles: 2
+    lifetime: 120
+    layer: 100.2
+    cone: 6
+    length: 50
+    interp: pow5Out
+    sizeFrom: 2.25
+    sizeTo: 0
+    colorFrom: e02407
+    colorTo: fcba03
+		}
   shootEffect: {
       type: MultiEffect
       effects: [
