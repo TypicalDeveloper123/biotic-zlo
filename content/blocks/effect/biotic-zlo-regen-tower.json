@@ -42,7 +42,7 @@ researchCost: [
 
 consumes: {
   power: 2.2
-  item: {
+  items: {
     items: [
       silicon/3
     ]
