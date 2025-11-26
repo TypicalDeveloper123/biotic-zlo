@@ -92,7 +92,7 @@ ammoTypes: {
 	 	colorFrom: e8e9eb
 	 	colorTo: e8e9eb00
 	 	sizeFrom: 0
-	 	sizeTo: 30
+	 	sizeTo: 18.5
 	 	strokeFrom: 4.5
 	  	strokeTo: 4.5
 	    interp: pow10Out
