@@ -76,7 +76,7 @@ ammoTypes: {
     backColor: e8e9eb
     fragBullets: 4
 	despawnEffect: [
-  	  }
+  	  {
 	 	type: WaveEffect
 	 	colorFrom: e8e9eb
 	 	colorTo: e8e9eb00
