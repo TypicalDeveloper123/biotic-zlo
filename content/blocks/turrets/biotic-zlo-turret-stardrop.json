@@ -301,7 +301,8 @@ ammoTypes: {
       backColor: e682ff  
       hitEffect: none
   }
-	trailInterval: 5
+	trailInterval: 3.5
+	trailRotation: true
 	trailEffect: {
 		type: SeqEffect
 		effects: [
