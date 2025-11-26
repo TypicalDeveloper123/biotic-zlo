@@ -300,19 +300,17 @@ ammoTypes: {
       frontColor: e682ff
       backColor: e682ff  
       hitEffect: none
-	  trailInterval: 0.875
-	  trailRotation: true
-	  trailEffect: {
-		 type: SeqEffect
-		 effects: [
+	  despawnEffect: {
+	    type: SeqEffect
+		effects: [
 			{
 			type: WaveEffect
 			colorFrom: e682ff
 			colorTo: e682ff
 			strokeFrom: 0
-			strokeTo: 0.625
+			strokeTo: 1.25
 			sizeFrom: 0
-			sizeTo: 3
+			sizeTo: 6
 			lifetime: 25
 			sides: 3
 			interp: pow3Out
@@ -321,9 +319,9 @@ ammoTypes: {
 			type: WaveEffect
 			colorFrom: e682ff
 			colorTo: e682ff
-			strokeFrom: 0.625
+			strokeFrom: 1.25
 			strokeTo: 0
-			sizeFrom: 3
+			sizeFrom: 6
 			sizeTo: 0
 			lifetime: 25
 			sides: 3
