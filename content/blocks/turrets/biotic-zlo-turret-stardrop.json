@@ -301,6 +301,36 @@ ammoTypes: {
       backColor: e682ff  
       hitEffect: none
   }
+	trailInterval: 5
+	trailEffect: {
+		type: SeqEffect
+		effects: [
+			{
+			type: WaveEffect
+			colorFrom: e682ff
+			colorTo: e682ff
+			strokeFrom: 0
+			strokeTo: 2
+			sizeFrom: 0
+			sizeTo: 12
+			lifetime: 40
+			sides: 3
+			interp: pow5Out
+			}
+			{
+			type: WaveEffect
+			colorFrom: e682ff
+			colorTo: e682ff
+			strokeFrom: 2
+			strokeTo: 0
+			sizeFrom: 12
+			sizeTo: 0
+			lifetime: 40
+			sides: 3
+			interp: pow5In
+			}
+		]
+	}
   shootEffect: {
       type: MultiEffect
       effects: [
