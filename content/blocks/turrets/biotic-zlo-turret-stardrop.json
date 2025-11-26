@@ -102,6 +102,23 @@ ammoTypes: {
 		cone: 12.5
 		baseRotation: 180
   		}
+	    {
+	  	type: ParticleEffect
+		line: true
+	  	colorFrom: e8e9eb
+	  	colorTo: e8e9eb00
+	  	lenFrom: 7.5
+		lenTo: 5
+		strokeFrom: 6
+		strokeTo: 0
+	  	interp: pow10Out
+		length: 55
+		lifetime: 85
+		particles: 10
+		cone: 12.5
+		baseRotation: 180
+		startDelay: 12.5
+  		}
 	  ]
     fragBullet: {
       type: BasicBulletType
