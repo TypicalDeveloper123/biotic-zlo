@@ -35,13 +35,13 @@ shootType: {
   fragBullets: [
     {
       bullet: "biotic-zlo-unit-cerebral"
-      amount: 1
-      angle: 0
+      amount: "1"
+      angle: "0"
     }
     {
       bullet: "dagger"
-      amount: 1
-      angle: 180
+      amount: "1"
+      angle: "180"
     }
   ]
 } 
