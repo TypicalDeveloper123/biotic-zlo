@@ -21,7 +21,7 @@ shootType: {
   type: BasicBulletType
   width: 5
   height: 5
-  lifetime: 1
+  lifetime: 100
   spawnUnit: biotic-zlo-unit-BRAWN
   despawnEffect: none
   hitEffect: none 
