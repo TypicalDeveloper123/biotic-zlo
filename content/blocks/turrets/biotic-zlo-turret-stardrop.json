@@ -81,10 +81,22 @@ ammoTypes: {
 	 	colorFrom: e8e9eb
 	 	colorTo: e8e9eb00
 	 	sizeFrom: 0
-	 	sizeTo: 24
+	 	sizeTo: 40
+	 	strokeFrom: 5
+	  	strokeTo: 5
+	    interp: pow10Out
+	  	lifetime: 70
+  	  }
+	  {
+	 	type: WaveEffect
+	 	colorFrom: e8e9eb
+	 	colorTo: e8e9eb00
+	 	sizeFrom: 0
+	 	sizeTo: 30
 	 	strokeFrom: 4.5
 	  	strokeTo: 4.5
 	    interp: pow10Out
+	  	lifetime: 50
   	  }
 	  {
 	  	type: ParticleEffect
@@ -152,7 +164,8 @@ ammoTypes: {
       frontColor: e8e9eb
       backColor: e8e9eb 
       hitEffect: none
-	  despawnEffect: {
+	  despawnEffect: [
+		{
 	  	type: ParticleEffect
 		line: true
 	  	colorFrom: e8e9eb
@@ -167,8 +180,19 @@ ammoTypes: {
 		particles: 12
 		cone: 10
 		baseRotation: 180
-  		}	
-  }
+  	    }	
+  	 	{
+	 	type: WaveEffect
+	 	colorFrom: e8e9eb
+	 	colorTo: e8e9eb00
+	 	sizeFrom: 0
+	 	sizeTo: 16
+	 	strokeFrom: 4
+	  	strokeTo: 4
+	    interp: pow10Out
+  	    }
+	  ]
+    }
   shootEffect: {
       type: MultiEffect
       effects: [
