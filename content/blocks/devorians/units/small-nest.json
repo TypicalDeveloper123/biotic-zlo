@@ -34,12 +34,12 @@ shootType: {
   fragOnDespawn: true
   fragBullets: [
     {
-      bullet: biotic-zlo-unit-cerebral
+      bullet: "biotic-zlo-unit-cerebral"
       amount: 1
       angle: 0
     }
     {
-      bullet: dagger
+      bullet: "dagger"
       amount: 1
       angle: 180
     }
