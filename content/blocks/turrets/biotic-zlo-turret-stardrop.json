@@ -117,7 +117,7 @@ ammoTypes: {
 		particles: 10
 		cone: 12.5
 		baseRotation: 180
-		startDelay: 12.5
+		startDelay: 7.5
   		}
 	  ]
     fragBullet: {
