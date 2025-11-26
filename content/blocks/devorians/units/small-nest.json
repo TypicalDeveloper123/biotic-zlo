@@ -19,9 +19,11 @@ outlineRadius: 0
 
 shootType: {
   type: BasicBulletType
-  width: 5
-  height: 5
+  width: 15
+  height: 15
   lifetime: 100
+  damage: 1
+  collides: false
   spawnUnit: biotic-zlo-unit-BRAWN
   despawnEffect: none
   hitEffect: none 
@@ -30,8 +32,8 @@ shootType: {
   spawnBullets: [
     {
       type: BasicBulletType
-      width: 5
-      height: 5
+      width: 15
+      height: 15
       lifetime: 1
       damage: 1
       collides: false
