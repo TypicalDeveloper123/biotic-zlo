@@ -311,10 +311,10 @@ ammoTypes: {
 			colorFrom: e682ff
 			colorTo: e682ff
 			strokeFrom: 0
-			strokeTo: 1
+			strokeTo: 1.25
 			sizeFrom: 0
 			sizeTo: 6
-			lifetime: 40
+			lifetime: 27.5
 			sides: 3
 			interp: pow5Out
 			}
@@ -322,11 +322,11 @@ ammoTypes: {
 			type: WaveEffect
 			colorFrom: e682ff
 			colorTo: e682ff
-			strokeFrom: 2
+			strokeFrom: 1.25
 			strokeTo: 0
 			sizeFrom: 6
 			sizeTo: 0
-			lifetime: 40
+			lifetime: 27.5
 			sides: 3
 			interp: pow5In
 			}
