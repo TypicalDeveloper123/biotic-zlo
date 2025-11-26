@@ -85,7 +85,7 @@ ammoTypes: {
 	 	strokeFrom: 5
 	  	strokeTo: 5
 	    interp: pow10Out
-	  	lifetime: 70
+	  	lifetime: 60
   	  }
 	  {
 	 	type: WaveEffect
@@ -96,7 +96,7 @@ ammoTypes: {
 	 	strokeFrom: 4.5
 	  	strokeTo: 4.5
 	    interp: pow10Out
-	  	lifetime: 50
+	  	lifetime: 90
   	  }
 	  {
 	  	type: ParticleEffect
