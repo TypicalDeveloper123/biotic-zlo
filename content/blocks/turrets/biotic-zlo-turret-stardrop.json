@@ -100,6 +100,23 @@ ammoTypes: {
       frontColor: e8e9eb
       backColor: e8e9eb 
       hitEffect: none
+	  despawnEffect: {
+	  	type: ParticleEffect
+		//truth nuke
+		line: true
+	  	colorFrom: e8e9eb
+	  	colorTo: e8e9eb00
+	  	lenFrom: 7
+		lenTo: 5
+		strokeFrom: 5
+		strokeTo: 0
+	  	interp: pow10Out
+		length: 50
+		lifetime: 80
+		particles: 12
+		cone: 10
+		baseRotation: 180
+  		}	
   }
   shootEffect: {
       type: MultiEffect
