@@ -41,6 +41,7 @@ shootType: {
 
 outlineColor: 42413e
 squareSprite: false
+createRubble: false
 
 drawer: {
   type: DrawTurret
