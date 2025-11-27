@@ -15,7 +15,6 @@ minRange: 24
 range: 45
 shootX: 0
 shootY: 0
-outlineRadius: 0
 
 destroyBullet: {
   instantDisappear: true
