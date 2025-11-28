@@ -522,37 +522,5 @@ drawer: {
       moveY: -3
       under: false
     }
-    //here begins NV's crazy modder rambling
-    {
-	  //fun fact I originally misspelled the hex code for the pink bullets of foritium ammo but I liked the new color so much I kept it 
-      type: FlarePart
-      color1: 3682ff
-	  radius: 4
-	  radiusTo: 8
-	  y: -12
-	  stroke: 1.75
-	  rotation: 90
-    }
-    {
-      type: FlarePart
-      color1: 3682ff
-	  radius: 2.75
-	  radiusTo: 5.5
-	  y: -9
-	  x: 7.25
-	  stroke: 1.75
-	  rotation: 90
-    }
-    {
-      type: FlarePart
-      color1: 3682ff
-	  radius: 2.75
-	  radiusTo: 5.5
-	  y: -9
-	  x: -7.25
-	  stroke: 1.75
-	  rotation: 90
-    }
-    //here ends NV's crazy modder rambling
   ]
 }
