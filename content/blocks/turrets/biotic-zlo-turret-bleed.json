@@ -120,6 +120,7 @@ ammoTypes: {
     	    sizeTo: 20
     	    colorFrom: c1dae3
     	    colorTo: 8fa9b3
+			sides: 6
         }
       ]
     }
