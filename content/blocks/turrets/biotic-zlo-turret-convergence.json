@@ -61,6 +61,7 @@ ammoTypes: {
     pierceBuilding: true
     frontColor: c1dae3
     backColor: c1dae3
+	hitColor: c1dae3
     shootEffect: {
     	type: ParticleEffect
     	particles: 20
@@ -74,6 +75,36 @@ ammoTypes: {
     	colorFrom: c1dae3
     	colorTo: 8fa9b3
     }
+	trailEffect: [
+		{
+			type: ParticleEffect
+    		particles: 2
+    		lifetime: 70
+    		layer: 100.2
+    		cone: -6
+    		length: 70
+    		interp: pow5Out
+    		sizeFrom: 2.25
+    		sizeTo: 0
+    		colorFrom: c1dae3
+    		colorTo: 8fa9b3
+		}
+		{
+			type: ParticleEffect
+    		particles: 1
+    		lifetime: 120
+    		layer: 100.2
+    		cone: -10
+    		length: 60
+    		interp: pow5Out
+    		sizeFrom: 3.5
+    		sizeTo: 3.5
+    		colorFrom: c1dae3
+    		colorTo: 8fa9b300
+		}
+	]
+	trailInterval: 10
+	trailRotation: true
   }
   biotic-zlo-item-iron: {
     reloadMultiplier: 0.5
@@ -104,6 +135,36 @@ ammoTypes: {
     	colorFrom: ffffff
     	colorTo: ffffff
     }
+	trailInterval: 7
+	trailRotation: true
+	trailEffect: [
+		{
+			type: ParticleEffect
+    		particles: 3
+    		lifetime: 70
+    		layer: 100.2
+    		cone: 6
+    		length: 90
+    		interp: pow5Out
+    		sizeFrom: 2.25
+    		sizeTo: 0
+    		colorFrom: ffffff
+    		colorTo: ffffff
+		}
+		{
+			type: ParticleEffect
+    		particles: 2
+    		lifetime: 280
+    		layer: 100.2
+    		cone: 180
+    		length: 18.5
+    		interp: pow10Out
+    		sizeFrom: 5.5
+    		sizeTo: 4.25
+    		colorFrom: ffffff
+    		colorTo: ffffff00
+		}
+	]
   }
 }
 
