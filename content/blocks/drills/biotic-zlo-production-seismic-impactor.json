@@ -1,15 +1,15 @@
 type: BurstDrill
 size: 3
 category: production
-hasLiquids: false
-drillTime: 100
+hasLiquids: true
+drillTime: 480
 drillHardnessMultiplier: 150
-hasPower: trueS
+hasPower: true
 tier: 2
 itemCapacity: 35
 
 consumes: {
-	power: 0.08
+	power: 0.25
 	liquids: {
 		liquids: [
 			water/0.038
@@ -30,9 +30,9 @@ researchCost: [
 ]
 
 research: {
-  	parent: biotic-zlo-core-hazard
-  	objectives: [  
-		biotic-zlo-item-aluminum
+  parent: biotic-zlo-production-aluminum-drill
+  objectives: [  
+    
 	]
 }
 
