@@ -1,0 +1,75 @@
+type: BurstDrill
+size: 3
+category: production
+hasLiquids: false
+drillTime: 100
+drillHardnessMultiplier: 150
+hasPower: trueS
+tier: 2
+itemCapacity: 35
+
+consumes: {
+	power: 0.08
+	liquids: {
+		liquids: [
+			water/0.038
+		]
+	}
+}
+
+requirements: [
+  	biotic-zlo-item-aluminum/25
+	biotic-zlo-item-iron/15
+	silicon/10
+]
+
+researchCost: [
+    biotic-zlo-item-aluminum/75
+	biotic-zlo-item-iron/45
+	silicon/30
+]
+
+research: {
+  	parent: biotic-zlo-core-hazard
+  	objectives: [  
+		biotic-zlo-item-aluminum
+	]
+}
+
+squareSprite: false
+
+drillEffect: [
+  {
+    type: WaveEffect
+    sizeFrom: 0.1
+    sizeTo: 15
+    strokeFrom: 2
+    strokeTo: 0.1
+    colorFrom: 8f8d87
+    colorTo: 6b6a66
+    lifetime: 40
+  }
+  {
+  type: MineImpact
+  } 
+  {
+  type: MineImpactSteam
+  } 
+  {
+  type: DrillSteam
+  } 
+]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -arrow
+    }
+    {
+      type: DrawDefault
+    } 
+  ]
+}
+
