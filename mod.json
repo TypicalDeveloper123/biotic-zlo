@@ -46,6 +46,7 @@ contentOrder:[
         biotic-zlo-production-flesh-crusher
         biotic-zlo-production-blood-extractor
         biotic-zlo-production-bone-crusher
+        biotic-zlo-production-seismic-impactor
 
     // distribution blocks
         biotic-zlo-distribution-aluminum-channel
@@ -95,6 +96,12 @@ contentOrder:[
         biotic-zlo-regen-tower
 
     // logic blocks
+
+    // devorians
+
+        // unit factories
+            nest
+            medium-nest
 
     // components
         standard-limb-joint
