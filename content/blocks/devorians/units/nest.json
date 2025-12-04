@@ -3,16 +3,16 @@ placeablePlayer: false
 consumes: {}
 buildVisibility: editorOnly
 drawTeamOverlay: false
-reload: 3300
-health: 900
-size: 3
+reload: 2100
+health: 450
+size: 2
 shootSound: mud
 rotateSpeed: 0
 alwaysShooting: true
 recoil: 0
 inaccuracy: 360
 minRange: 24
-range: 45
+range: 32
 shootX: 0
 shootY: 0
 
@@ -32,16 +32,17 @@ destroyBullet: {
     smokeEffect: none
     shootEffect: none
     puddles: 3
-    puddleRange: 20
-    puddleAmount: 40
+    puddleRange: 10
+    puddleAmount: 25
     puddleLiquid: corpuscles-biotic-zlo-liquid-blood
   } 
 }
+
 shootType: {
   width: 0
   height: 0
   lifetime: 1
-  spawnUnit: biotic-zlo-unit-embroider
+  spawnUnit: biotic-zlo-unit-BRAWN
   despawnEffect: none
   hitEffect: none 
   hitSound: none
@@ -54,7 +55,7 @@ shootType: {
       collides: false
       hitEffect: none
       despawnEffect: none
-      spawnUnit: biotic-zlo-unit-ventral
+      spawnUnit: biotic-zlo-unit-cerebral
     }
   ]
 } 
@@ -67,4 +68,3 @@ drawer: {
   type: DrawTurret
   basePrefix: blank-
 }
-
