@@ -70,6 +70,10 @@ drawer: {
     {
       type: DrawDefault
     } 
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
   ]
 }
 
