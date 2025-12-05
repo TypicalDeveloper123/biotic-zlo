@@ -168,9 +168,9 @@ contentOrder:[
 
         // walls
             biotic-zlo-wall-BLOODSTONE
-            biotic-zlo-wall-BONE
+            biotic-zlo-wall-DENSE-BONE
             biotic-zlo-wall-COAGULATED-BLOOD
-            biotic-zlo-wall-FLESH
+            biotic-zlo-wall-DENSE-FLESH
 
         // ores
             biotic-zlo-ore-aluminum

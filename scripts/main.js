@@ -17,7 +17,9 @@ SaveFileReader.fallback.putAll(
   "corpuscles-biotic-zlo-a1-liquid-blood", "corpuscles-biotic-zlo-liquid-liquidblood",
   "corpuscles-biotic-zlo-tile-BLOOD", "corpuscles-biotic-zlo-tile-COAGULATED-BLOOD",
   "corpuscles-biotic-zlo-wall-BLOOD", "corpuscles-biotic-zlo-wall-COAGULATED-BLOOD",
-  "corpuscles-blood-boulder", "corpuscles-coagulated-blood-boulder"
+  "corpuscles-blood-boulder", "corpuscles-coagulated-blood-boulder",
+  "corpuscles-biotic-zlo-wall-BONE", "corpuscles-biotic-zlo-wall-DENSE-BONE",
+  "corpuscles-biotic-zlo-wall-FLESH", "corpuscles-biotic-zlo-wall-DENSE-FLESH"
 )
 
 
