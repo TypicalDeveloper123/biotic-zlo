@@ -3,7 +3,7 @@ placeablePlayer: false
 consumes: {}
 buildVisibility: editorOnly
 drawTeamOverlay: false
-reload: 3300
+reload: 7200
 health: 900
 size: 3
 shootSound: mud
@@ -37,11 +37,11 @@ destroyBullet: {
     puddleLiquid: corpuscles-biotic-zlo-liquid-blood
   } 
 }
+
 shootType: {
   width: 0
   height: 0
   lifetime: 1
-  spawnUnit: biotic-zlo-unit-embroider
   despawnEffect: none
   hitEffect: none 
   hitSound: none
@@ -55,6 +55,15 @@ shootType: {
       hitEffect: none
       despawnEffect: none
       spawnUnit: biotic-zlo-unit-ventral
+    }
+    {
+      width: 0
+      lifetime: 1
+      damage: 1
+      collides: false
+      hitEffect: none
+      despawnEffect: none
+      spawnUnit: biotic-zlo-unit-embroider
     }
   ]
 } 
