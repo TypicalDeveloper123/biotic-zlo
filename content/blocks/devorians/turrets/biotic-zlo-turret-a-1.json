@@ -1,0 +1,57 @@
+type: ItemTurret
+size: 2
+squareSprite: false
+health: 600
+shootSound: lasershoot
+hasItems: true
+hasPower: false
+hasLiquids: false
+requirements: []
+placeablePlayer: false
+drawTeamOverlay: false
+buildVisibility: editorOnly
+
+recoil: 3
+outlineColor: 1b1a33
+targetAir: true
+targetGround: true
+rotateSpeed: 10
+reload: 10
+range: 192
+shootY: 6
+
+ammoPerShot: 2
+ammoTypes: {
+  biotic-zlo-item-infested-tissue: {
+    type: BasicBulletType
+	sprite: corpuscles-biotic-zlo-teeth
+    damage: 30
+    lifetime: 60
+    pierceCap: 2
+    pierce: true
+    pierceBuilding: true
+  }
+}
+
+drawer: {
+  type: DrawTurret
+  basePrefix: fleshy-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -mid
+      under: false
+      moveRot: 98
+      moveY: -1
+      progress: recoil
+    }
+    {
+      type: RegionPart
+      suffix: -left
+      progress: recoil
+      moveX: 0
+      moveY: -1
+      under: false
+    }
+  ]
+}
