@@ -1,0 +1,9 @@
+type: Wall
+size: 2
+health: 1600
+squareSprite: true
+requirements: []
+placeablePlayer: false
+drawTeamOverlay: false
+buildVisibility: editorOnly
+variants: 2
