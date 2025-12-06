@@ -18,7 +18,7 @@ targetGround: true
 rotateSpeed: 10
 reload: 10
 range: 192
-shootY: 4
+shootY: 2
 
 ammoPerShot: 2
 ammoTypes: {
