@@ -104,8 +104,8 @@ drawer: {
       type: RegionPart
       suffix: -ARTERY-R
       progress: warmup
-      moveRot: 20
-      moveX: 5.6
+      moveRot: 24
+      moveX: 5
       moveY: 0.4
       y: -2
       under: true
