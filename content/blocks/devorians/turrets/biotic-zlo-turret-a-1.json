@@ -94,20 +94,20 @@ drawer: {
       type: RegionPart
       suffix: -ARTERY-L
       progress: warmup
-      moveRot: -15
-      moveX: 6
-      moveY: -1
-      y: 2
+      moveRot: -12
+      moveX: 10
+      moveY: -2
+      y: -2
       under: true
     }
     {
       type: RegionPart
       suffix: -ARTERY-R
       progress: warmup
-      moveRot: 15
-      moveX: -6
-      moveY: -1
-      y: 2
+      moveRot: 12
+      moveX: -10
+      moveY: -2
+      y: -2
       under: true
     }
   ]
