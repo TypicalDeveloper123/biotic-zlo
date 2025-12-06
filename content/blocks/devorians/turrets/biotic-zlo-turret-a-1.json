@@ -2,7 +2,7 @@ type: ItemTurret
 size: 2
 squareSprite: false
 health: 600
-shootSound: lasershoot
+shootSound: 
 hasItems: true
 hasPower: false
 hasLiquids: false
@@ -24,12 +24,44 @@ ammoPerShot: 2
 ammoTypes: {
   biotic-zlo-item-infested-tissue: {
     type: BasicBulletType
-	sprite: corpuscles-biotic-zlo-teeth
+	  sprite: corpuscles-biotic-zlo-teeth
+    trailColor: 990000
+    trailLength: 10
+    layer: 90
     damage: 30
     lifetime: 60
     pierceCap: 2
+    lightRadius: -1
+    lightOpacity: 0
     pierce: true
     pierceBuilding: true
+    shootEffect: {
+      Type: MultiEffect
+      effects: [  
+        {
+          type: ParticleEffect
+          particles: 10
+          colorFrom: a33333
+          colorTo: 33001b
+          cone: 4
+          length: 12
+          sizeFrom: 2
+          sizeTo: 0
+          lightColor: de3a3a
+        }
+        {
+          type: RadialEffect
+          particles: 2
+          colorFrom: 853d3d
+          colorTo: 33001b
+          cone: 4
+          length: 12
+          sizeFrom: 3
+          sizeTo: 0
+          lightColor: de3a3a
+        }
+      ]
+    }
   }
 }
 
@@ -39,16 +71,18 @@ drawer: {
   parts: [
     {
       type: RegionPart
-      suffix: -mid
-      under: false
-      moveRot: 98
-      moveY: -1
+      suffix: -left
       progress: recoil
+      moveRot: -6
+      moveX: 0
+      moveY: -1
+      under: false
     }
     {
       type: RegionPart
-      suffix: -left
+      suffix: -right
       progress: recoil
+      moveRot: 4
       moveX: 0
       moveY: -1
       under: false
