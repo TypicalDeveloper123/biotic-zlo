@@ -2,7 +2,7 @@ type: ItemTurret
 size: 2
 squareSprite: false
 health: 600
-shootSound: 
+shootSound: missile
 hasItems: true
 hasPower: false
 hasLiquids: false
@@ -11,25 +11,26 @@ placeablePlayer: false
 drawTeamOverlay: false
 buildVisibility: editorOnly
 
-recoil: 3
+recoil: -0.5
 outlineColor: 1b1a33
 targetAir: true
 targetGround: true
 rotateSpeed: 10
 reload: 10
 range: 192
-shootY: 6
+shootY: 0
 
 ammoPerShot: 2
 ammoTypes: {
   biotic-zlo-item-infested-tissue: {
-    type: BasicBulletType
+    type: MissileBulletType
 	  sprite: corpuscles-biotic-zlo-teeth
     trailColor: 990000
     trailLength: 10
     layer: 90
     damage: 30
     lifetime: 60
+    speed: 2
     pierceCap: 2
     lightRadius: -1
     lightOpacity: 0
@@ -73,18 +74,18 @@ drawer: {
       type: RegionPart
       suffix: -left
       progress: recoil
-      moveRot: -6
+      moveRot: 10
       moveX: 0
-      moveY: -1
+      moveY: -0.5
       under: false
     }
     {
       type: RegionPart
       suffix: -right
       progress: recoil
-      moveRot: 4
+      moveRot: -9
       moveX: 0
-      moveY: -1
+      moveY: -0.5
       under: false
     }
   ]
