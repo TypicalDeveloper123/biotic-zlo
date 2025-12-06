@@ -95,8 +95,8 @@ drawer: {
       suffix: -ARTERY-L
       progress: warmup
       moveRot: -20
-      moveX: 6.2
-      moveY: 0.3
+      moveX: -6.2
+      moveY: 0.4
       y: -2
       under: true
     }
@@ -106,7 +106,7 @@ drawer: {
       progress: warmup
       moveRot: 20
       moveX: 6.2
-      moveY: 0.3
+      moveY: 0.4
       y: -2
       under: true
     }
