@@ -90,5 +90,23 @@ drawer: {
       moveY: -0.5
       under: false
     }
+    {
+      type: RegionPart
+      suffix: -L
+      progress: warmup
+      moveRot: 9
+      moveX: 2
+      moveY: -2
+      under: false
+    }
+    {
+      type: RegionPart
+      suffix: -R
+      progress: warmup
+      moveRot: -9
+      moveX: -2
+      moveY: -2
+      under: false
+    }
   ]
 }
