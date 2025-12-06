@@ -36,6 +36,8 @@ ammoTypes: {
     lightOpacity: 0
     pierce: true
     pierceBuilding: true
+    hitEffect: none
+    smokeEffect: none
     shootEffect: {
       Type: MultiEffect
       effects: [  
@@ -73,7 +75,7 @@ drawer: {
     {
       type: RegionPart
       suffix: -left
-      progress: recoil
+      progress: warmup
       moveRot: 10
       moveX: 0
       moveY: -0.5
@@ -82,7 +84,7 @@ drawer: {
     {
       type: RegionPart
       suffix: -right
-      progress: recoil
+      progress: warmup
       moveRot: -9
       moveX: 0
       moveY: -0.5
