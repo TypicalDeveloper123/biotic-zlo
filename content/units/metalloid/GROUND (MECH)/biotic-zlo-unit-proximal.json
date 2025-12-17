@@ -3,7 +3,7 @@ speed: 0.64
 flying: false
 health: 3500
 armor: 9
-hitSize: 16
+hitSize: 14
 outlineColor: 1b1a33
 mechLegColor: 1b1a33
 
@@ -40,6 +40,7 @@ weapons: [
                 sizeFrom: 30
                 sizeTo: 0
                 line: true
+                lifetime: 20
             }
         }
     }   
