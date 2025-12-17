@@ -19,9 +19,7 @@ weapons: [
         recoil: 2
         shootSound: shootFuse
         shootY: 12
-        shootStatus: {
-            speedMultiplier: 0.5
-        }
+        shootStatus: slow
         bullet: {
             type: ShrapnelBulletType
             damage: 100
