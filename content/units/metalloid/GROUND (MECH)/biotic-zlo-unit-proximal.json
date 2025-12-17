@@ -16,25 +16,17 @@ weapons: [
         inaccuracy: 2
         reload: 20
         name: biotic-zlo-unit-proximal-weapon-0
-        continuous: true
-        alwaysContinuous: true
         recoil: 2
-        shootSound: shootSublimate
-        loopSound: shootSublimate
+        shootSound: shootFuse
         bullet: {
-            type: ContinuousFlameBulletType
+            type: ShrapnelBulletType
             damage: 80
             speed: 0
             length: 40
             width: 5
             lifetime: 20
-            flareLength: 15
             hitEffect: none
             smokeEffect: none
-            flareColor: ff5959
-            colors: [
-                ff5959
-            ]
         }
     }   
 ]
