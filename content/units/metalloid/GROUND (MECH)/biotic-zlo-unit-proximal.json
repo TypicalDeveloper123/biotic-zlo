@@ -9,7 +9,7 @@ mechLegColor: 1b1a33
 
 weapons: [
     {
-        x: 1.6
+        x: 10
         rotate: false
         mirror: true
         top: false
@@ -25,10 +25,10 @@ weapons: [
             type: ContinuousFlameBulletType
             damage: 80
             speed: 0
-            length: 10
+            length: 40
             width: 5
             lifetime: 20
-            flareLength: 25
+            flareLength: 15
             hitEffect: none
             smokeEffect: none
             flareColor: ff5959
