@@ -35,8 +35,8 @@ weapons: [
                 colorFrom: fc4e4e
                 colorTo: fc4e4e
                 cone: 35
-                length: 12
-                sizeFrom: 2
+                length: 25
+                sizeFrom: 10
                 sizeTo: 0
                 line: true
             }
