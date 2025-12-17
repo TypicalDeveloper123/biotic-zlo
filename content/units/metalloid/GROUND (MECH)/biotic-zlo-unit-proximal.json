@@ -9,7 +9,7 @@ mechLegColor: 1b1a33
 
 weapons: [
     {
-        x: 10
+        x: 9
         rotate: false
         mirror: true
         top: false
