@@ -18,7 +18,7 @@ weapons: [
         name: biotic-zlo-unit-proximal-weapon-0
         recoil: 2
         shootSound: shootFuse
-        shootY: 2
+        shootY: 5
         bullet: {
             type: ShrapnelBulletType
             damage: 100
