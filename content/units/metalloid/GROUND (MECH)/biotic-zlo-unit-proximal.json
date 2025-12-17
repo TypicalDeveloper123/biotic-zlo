@@ -9,7 +9,7 @@ mechLegColor: 1b1a33
 
 weapons: [
     {
-        x: -8
+        x: -7
         rotate: false
         mirror: true
         top: false
@@ -19,7 +19,7 @@ weapons: [
         recoil: 2
         shootSound: shootFuse
         shootY: 12
-        shootStatus: slow
+        shootStatus: unmoving
         bullet: {
             type: ShrapnelBulletType
             damage: 100
