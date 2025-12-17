@@ -9,7 +9,7 @@ mechLegColor: 1b1a33
 
 weapons: [
     {
-        x: -7
+        x: -6.9
         rotate: false
         mirror: true
         top: false
@@ -18,13 +18,12 @@ weapons: [
         name: biotic-zlo-unit-proximal-weapon-0
         recoil: 2
         shootSound: shootFuse
-        shootY: 12
-        shootStatus: unmoving
+        shootStatus: slow
         bullet: {
             type: ShrapnelBulletType
             damage: 100
             speed: 0
-            length: 30
+            length: 25
             width: 5
             lifetime: 15
             hitEffect: none
