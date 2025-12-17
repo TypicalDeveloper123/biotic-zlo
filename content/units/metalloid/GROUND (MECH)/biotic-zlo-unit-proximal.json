@@ -3,13 +3,13 @@ speed: 0.64
 flying: false
 health: 3500
 armor: 9
-hitSize: 18
+hitSize: 16
 outlineColor: 1b1a33
 mechLegColor: 1b1a33
 
 weapons: [
     {
-        x: -6.8
+        x: -6.6
         rotate: false
         mirror: true
         top: false
@@ -29,6 +29,17 @@ weapons: [
             hitEffect: none
             smokeEffect: none
             toColor: fc4e4e
+            shootEffect: {
+                type: ParticleEffect
+                particles: 10
+                colorFrom: fc4e4e
+                colorTo: fc4e4e
+                cone: 35
+                length: 12
+                sizeFrom: 2
+                sizeTo: 0
+                line: true
+            }
         }
     }   
 ]
