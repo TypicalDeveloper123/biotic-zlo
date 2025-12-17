@@ -229,7 +229,7 @@ weapons: [
         inaccuracy: 7
         reload: 10
         recoil: 0.3
-        shootSound: stepWater
+        shootSound: stepMud
         name: biotic-zlo-unit-embroider-weapon-1
         bullet: {
             type: LiquidBulletType

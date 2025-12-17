@@ -75,7 +75,7 @@ weapons: [
         reload: 24
         name: biotic-zlo-unit-resurgence-weapon-0
         recoil: 0.3
-        shootSound: missile
+        shootSound: shootAtrax
         bullet: {
             type: MissileBulletType
             sprite: corpuscles-biotic-zlo-bigteeth
@@ -142,7 +142,7 @@ weapons: [
         reload: 24
         name: biotic-zlo-unit-resurgence-weapon-0
         recoil: 0.3
-        shootSound: missile
+        shootSound: shootAtrax
         bullet: {
             type: MissileBulletType
             sprite: corpuscles-biotic-zlo-bigteeth
@@ -207,7 +207,7 @@ weapons: [
         mirror: false
         inaccuracy: 2
         reload: 12
-        shootSound: mud
+        shootSound: stepMud
         name: biotic-zlo-unit-resurgence-weapon-1
         recoil: 0.3
         bullet: {
@@ -242,7 +242,7 @@ weapons: [
         mirror: false
         inaccuracy: 2
         reload: 12
-        shootSound: mud
+        shootSound: stepMud
         name: biotic-zlo-unit-resurgence-weapon-1
         recoil: 0.3
         bullet: {
@@ -278,7 +278,7 @@ weapons: [
         inaccuracy: 6
         reload: 50
         recoil: 0.3
-        shootSound: artillery
+        shootSound: shootArtillerySmall
         bullet: {
             type: ArtilleryBulletType
             sprite: corpuscles-biotic-zlo-fleshbomb
@@ -344,7 +344,7 @@ weapons: [
         inaccuracy: 1
         reload: 200
         recoil: 0.3
-        shootSound: largeCannon
+        shootSound: shootArtillery
         bullet: {
             type: ArtilleryBulletType
             sprite: corpuscles-biotic-zlo-bigbomb
