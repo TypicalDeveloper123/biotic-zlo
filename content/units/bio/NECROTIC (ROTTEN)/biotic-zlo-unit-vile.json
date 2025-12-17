@@ -67,7 +67,7 @@ weapons: [
         inaccuracy: 7
         reload: 10
         recoil: 0.3
-        shootSound: mud
+        shootSound: stepMud
         bullet: {
             type: LiquidBulletType
             width: 2

@@ -73,7 +73,7 @@ weapons: [
         reload: 24
         name: biotic-zlo-unit-ventral-weapon-0
         recoil: 0.3
-        shootSound: missile
+        shootSound: shootAtrax
         shoot: {
             type: ShootSpread
             shots: 3
