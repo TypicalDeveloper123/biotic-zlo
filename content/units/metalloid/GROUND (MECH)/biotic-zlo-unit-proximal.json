@@ -9,7 +9,7 @@ mechLegColor: 1b1a33
 
 weapons: [
     {
-        x: 8
+        x: -8
         rotate: false
         mirror: true
         top: false
@@ -26,7 +26,7 @@ weapons: [
             speed: 0
             length: 30
             width: 5
-            lifetime: 25
+            lifetime: 15
             hitEffect: none
             smokeEffect: none
             toColor: fc4e4e
