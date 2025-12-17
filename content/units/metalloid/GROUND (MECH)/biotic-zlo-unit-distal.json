@@ -17,7 +17,7 @@ weapons: [
         inaccuracy: 2
         reload: 30
         recoil: 1.8
-        shootSound: artillery
+        shootSound: shootArtillerySmall
         name: biotic-zlo-unit-distal-weapon-0
         bullet: {
             type: ArtilleryBulletType

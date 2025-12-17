@@ -2,7 +2,7 @@ type: mech
 speed: 0.7
 flying: false
 health: 1100
-armor: 10
+armor: 7
 hitSize: 12
 outlineColor: 1b1a33
 mechLegColor: 1b1a33
@@ -16,7 +16,7 @@ weapons: [
         inaccuracy: 2
         reload: 30
         recoil: 1.8
-        shootSound: shootAlt
+        shootSound: shootBreach
         name: biotic-zlo-unit-phalanx-weapon-0
         shoot: {
             shots: 5
