@@ -65,7 +65,7 @@ weapons: [
         mirror: true
         inaccuracy: 7
         reload: 15
-        shootSound: missile
+        shootSound: shootAtrax
         bullet: {
             type: MissileBulletType
             sprite: corpuscles-biotic-zlo-teeth

@@ -2,7 +2,7 @@ type: ItemTurret
 size: 3
 squareSprite: false
 health: 1100
-shootSound: cannon
+shootSound: shootAfflict
 hasItems: true
 hasPower: true
 hasLiquids: true

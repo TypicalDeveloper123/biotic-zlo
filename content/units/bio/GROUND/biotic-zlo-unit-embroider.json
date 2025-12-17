@@ -72,7 +72,7 @@ weapons: [
         mirror: false
         inaccuracy: 5
         reload: 20
-        shootSound: missile
+        shootSound: shootAtrax
         name: biotic-zlo-unit-embroider-weapon-0
         recoil: 0.3
         bullet: {
@@ -124,7 +124,7 @@ weapons: [
         mirror: false
         inaccuracy: 5
         reload: 20
-        shootSound: missile
+        shootSound: shootAtrax
         name: biotic-zlo-unit-embroider-weapon-0
         recoil: 0.3
         bullet: {
@@ -176,7 +176,7 @@ weapons: [
         mirror: false
         inaccuracy: 5
         reload: 20
-        shootSound: missile
+        shootSound: shootAtrax
         name: biotic-zlo-unit-embroider-weapon-0
         recoil: 0.3
         bullet: {
@@ -229,7 +229,7 @@ weapons: [
         inaccuracy: 7
         reload: 10
         recoil: 0.3
-        shootSound: mud
+        shootSound: stepWater
         name: biotic-zlo-unit-embroider-weapon-1
         bullet: {
             type: LiquidBulletType

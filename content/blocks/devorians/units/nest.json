@@ -6,7 +6,7 @@ drawTeamOverlay: false
 reload: 3600
 health: 450
 size: 2
-shootSound: mud
+shootSound: stepMud
 rotateSpeed: 0
 alwaysShooting: true
 recoil: 0

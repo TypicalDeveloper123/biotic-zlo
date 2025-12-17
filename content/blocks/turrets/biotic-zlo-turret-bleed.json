@@ -2,7 +2,7 @@ type: ItemTurret
 size: 2
 squareSprite: false
 health: 600
-shootSound: lasershoot
+shootSound: shootLaser
 hasItems: true
 hasPower: true
 hasLiquids: true
