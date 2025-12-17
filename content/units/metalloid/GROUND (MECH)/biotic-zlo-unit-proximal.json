@@ -14,19 +14,21 @@ weapons: [
         mirror: true
         top: false
         inaccuracy: 2
-        reload: 20
+        reload: 30
         name: biotic-zlo-unit-proximal-weapon-0
         recoil: 2
         shootSound: shootFuse
+        shootY: 2
         bullet: {
             type: ShrapnelBulletType
-            damage: 80
+            damage: 100
             speed: 0
-            length: 40
+            length: 30
             width: 5
-            lifetime: 20
+            lifetime: 25
             hitEffect: none
             smokeEffect: none
+            toColor: fc4e4e
         }
     }   
 ]
