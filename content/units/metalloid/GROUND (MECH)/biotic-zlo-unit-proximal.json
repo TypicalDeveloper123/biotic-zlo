@@ -25,8 +25,8 @@ weapons: [
             type: ShrapnelBulletType
             damage: 135
             speed: 0
-            length: 25
-            width: 5
+            length: 45
+            width: 7
             lifetime: 15
             hitEffect: none
             smokeEffect: none
