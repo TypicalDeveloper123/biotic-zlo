@@ -6,16 +6,16 @@ armor: 9
 hitSize: 13
 outlineColor: 1b1a33
 mechLegColor: 1b1a33
-range: 70
+range: 78
 
 abilities: [
     {
         type: ShieldArcAbility
         radius: 20
         angle: 55
-        regen: 18
+        regen: 0.2
         cooldown: 120
-        max: 500
+        max: 600
         y: -10
         width: 4.5
         whenShooting: false
