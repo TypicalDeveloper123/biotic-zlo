@@ -34,6 +34,16 @@ plans: [
     ]
     time: 3000
   }
+  {
+    type: AssemblerUnitPlan
+    unit: biotic-zlo-unit-proximal
+    requirements: [
+    corpuscles-reinforced-limb-joint/1
+    corpuscles-medium-plates/2
+    corpuscles-advanced-weapon-autoforge/2
+    ]
+    time: 4500
+  }
 ]
 
 
