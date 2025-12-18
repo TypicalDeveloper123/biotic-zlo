@@ -13,9 +13,9 @@ abilities: [
         type: ShieldArcAbility
         radius: 20
         angle: 55
-        regen: 0.2
+        regen: 0.28
         cooldown: 120
-        max: 600
+        max: 800
         y: -10
         width: 4.5
         whenShooting: false
