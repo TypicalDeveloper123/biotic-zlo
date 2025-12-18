@@ -6,7 +6,7 @@ drillTime: 480
 drillHardnessMultiplier: 150
 hasPower: true
 tier: 2
-itemCapacity: 35
+itemCapacity: 50
 
 consumes: {
 	power: 0.25
@@ -38,6 +38,8 @@ research: {
 
 squareSprite: false
 
+arrows: 1
+
 drillEffect: [
   {
     type: WaveEffect
@@ -59,21 +61,4 @@ drillEffect: [
   type: DrillSteam
   } 
 ]
-
-drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawRegion
-      suffix: -arrow
-    }
-    {
-      type: DrawDefault
-    } 
-    {
-      type: DrawRegion
-      suffix: -bottom
-    }
-  ]
-}
 
