@@ -3,9 +3,10 @@ speed: 0.64
 flying: false
 health: 3500
 armor: 9
-hitSize: 14
+hitSize: 13
 outlineColor: 1b1a33
 mechLegColor: 1b1a33
+range: 30a
 
 weapons: [
     {
@@ -22,7 +23,7 @@ weapons: [
         shootStatus: slow
         bullet: {
             type: ShrapnelBulletType
-            damage: 100
+            damage: 135
             speed: 0
             length: 25
             width: 5
@@ -40,7 +41,7 @@ weapons: [
                 sizeFrom: 30
                 sizeTo: 0
                 line: true
-                lifetime: 20
+                lifetime: 30
             }
         }
     }   
