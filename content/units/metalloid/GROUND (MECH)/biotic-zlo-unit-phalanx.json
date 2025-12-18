@@ -16,7 +16,7 @@ weapons: [
         inaccuracy: 2
         reload: 30
         recoil: 1.8
-        shootSound: shootBreach
+        shootSound: shootSalvo
         name: biotic-zlo-unit-phalanx-weapon-0
         shoot: {
             shots: 5

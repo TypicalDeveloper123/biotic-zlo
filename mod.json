@@ -93,6 +93,7 @@ contentOrder:[
         biotic-zlo-component-constructor
         biotic-zlo-mech-unit-station
         biotic-zlo-primary-assembler-module
+        biotic-zlo-secondary-assembler-module
         biotic-zlo-strengthened-payload-conveyor
         biotic-zlo-strengthened-payload-router
 
@@ -104,7 +105,7 @@ contentOrder:[
     // logic blocks
 
     // devorians
-        // unit factories
+        // turrets
             biotic-zlo-turret-spear
 
         // unit factories
@@ -153,6 +154,7 @@ contentOrder:[
             // ground/mech
                 biotic-zlo-unit-distal
                 biotic-zlo-unit-phalanx
+                biotic-zlo-unit-proximal
 
             // insectoid
 
