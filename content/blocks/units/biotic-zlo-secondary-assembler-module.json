@@ -3,7 +3,7 @@ size: 4
 category: units
 hasPower: true
 hasLiquid: true
-tier: 3
+tier: 2
 
 requirements: [
   biotic-zlo-item-aluminum/95
