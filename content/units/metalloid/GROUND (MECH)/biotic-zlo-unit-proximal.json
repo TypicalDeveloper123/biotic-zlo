@@ -6,7 +6,7 @@ armor: 9
 hitSize: 13
 outlineColor: 1b1a33
 mechLegColor: 1b1a33
-range: 30a
+range: 30
 
 weapons: [
     {
