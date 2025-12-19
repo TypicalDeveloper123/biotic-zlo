@@ -7,6 +7,8 @@ hitSize: 90
 outlineColor: 1b1a33
 mechLegColor: 1b1a33
 groundLayer: 75
+stepSound: walkerStep
+stepSoundVolume: 1.5
 deathExplosionEffect: {
     type: MultiEffect
         effects: [
