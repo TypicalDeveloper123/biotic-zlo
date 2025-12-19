@@ -130,7 +130,7 @@ weapons: [
         inaccuracy: 2
         reload: 200
         recoil: 0.3
-        shootSound: artillery
+        shootSound: shootArtillerySmall
         shoot: {
             type: ShootSpread
             shots: 3
@@ -203,7 +203,7 @@ weapons: [
         inaccuracy: 0
         reload: 250
         recoil: 0.3
-        shootSound: largeCannon
+        shootSound: shootArtillery
         shoot: {    
             type: ShootSpread
             shots: 2
@@ -279,8 +279,8 @@ weapons: [
         continuous: true
         alwaysContinuous: true
         recoil: 0.3
-        shootSound: torch
-        loopSound: torch
+        shootSound: shootSublimate
+        loopSound: shootSublimate
         bullet: {
             type: ContinuousFlameBulletType
             damage: 60
@@ -306,7 +306,7 @@ weapons: [
         reload: 8
         name: biotic-zlo-unit-origin-weapon-1
         recoil: 0.3
-        shootSound: mud
+        shootSound: stepMud
         bullet: {
             type: LiquidBulletType
             width: 2
@@ -339,7 +339,7 @@ weapons: [
         inaccuracy: 6
         reload: 50
         recoil: 0.3
-        shootSound: artillery
+        shootSound: shootArtillerySmall
         bullet: {
             type: ArtilleryBulletType
             sprite: corpuscles-biotic-zlo-fleshbomb
@@ -407,7 +407,7 @@ weapons: [
         inaccuracy: 6
         reload: 50
         recoil: 0.3
-        shootSound: artillery
+        shootSound: shootArtillerySmall
         bullet: {
             type: ArtilleryBulletType
             sprite: corpuscles-biotic-zlo-fleshbomb
@@ -475,7 +475,7 @@ weapons: [
         inaccuracy: 6
         reload: 50
         recoil: 0.3
-        shootSound: artillery
+        shootSound: shootArtillerySmall
         bullet: {
             type: ArtilleryBulletType
             sprite: corpuscles-biotic-zlo-fleshbomb
@@ -543,7 +543,7 @@ weapons: [
         inaccuracy: 6
         reload: 50
         recoil: 0.3
-        shootSound: artillery
+        shootSound: shootArtillerySmall
         bullet: {
             type: ArtilleryBulletType
             sprite: corpuscles-biotic-zlo-fleshbomb

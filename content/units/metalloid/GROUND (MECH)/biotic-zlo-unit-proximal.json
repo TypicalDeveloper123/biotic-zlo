@@ -37,7 +37,7 @@ weapons: [
         name: biotic-zlo-unit-proximal-weapon-0
         recoil: 2
         shootSound: shootFuse
-        shootSoundVolume: 0.6
+        shootSoundVolume: 0.5
         shootStatus: slow
         bullet: {
             type: ShrapnelBulletType
