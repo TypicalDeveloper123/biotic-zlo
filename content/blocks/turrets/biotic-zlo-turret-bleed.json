@@ -41,7 +41,7 @@ ammoTypes: {
   biotic-zlo-item-aluminum: {
     type: LaserBulletType
     buildingDamageMultiplier: 0.25
-    damage: 55
+    damage: 42
     width: 20
     height: 9.5
     lifetime: 60
