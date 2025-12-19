@@ -7,6 +7,9 @@ hitSize: 13
 outlineColor: 1b1a33
 mechLegColor: 1b1a33
 range: 78
+stepSound: mechStepSmall
+stepSoundPitch: 0.75
+stepSoundVolume: 0.75
 
 abilities: [
     {

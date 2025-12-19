@@ -75,9 +75,8 @@ weapons: [
         recoil: 0.3
         shootSound: shootAtrax
         shoot: {
-            type: ShootSpread
             shots: 3
-            spread: 5
+            shotDelay: 3
         }
         bullet: {
             type: MissileBulletType
