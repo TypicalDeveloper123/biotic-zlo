@@ -23,6 +23,8 @@ legLengthScl: 0.95
 legPhysicsLayer: false
 legStraightness: 0
 allowLegStep: true
+stepSound: walkerStepTiny
+stepSoundVolume: 0.1
 
 abilities: [
     {
@@ -40,7 +42,7 @@ weapons: [
         inaccuracy: 2
         reload: 75
         recoil: 1.8
-        shootSound: artillery
+        shootSound: shootArtillerySmall
         name: biotic-zlo-unit-leech-weapon-0
         shoot: {
             shots: 2
@@ -60,7 +62,7 @@ weapons: [
         top: false
         inaccuracy: 7
         reload: 35
-        shootSound: missile
+        shootSound: shootAtrax
         name: biotic-zlo-unit-leech-weapon-1
         bullet: {
             type: MissileBulletType

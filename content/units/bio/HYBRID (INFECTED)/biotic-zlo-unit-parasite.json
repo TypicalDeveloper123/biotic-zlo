@@ -23,6 +23,9 @@ legLengthScl: 0.95
 legPhysicsLayer: false
 legStraightness: 0
 allowLegStep: true
+stepSound: walkerStepSmall
+stepSoundPitch: 0.90
+stepSoundVolume: 0.20
 
 abilities: [
     {
@@ -39,7 +42,7 @@ weapons: [
         top: false
         inaccuracy: 7
         reload: 75
-        shootSound: missile
+        shootSound: shootAtrax
         name: biotic-zlo-unit-parasite-weapon-0
         shoot: {
             shots: 5
@@ -95,13 +98,13 @@ weapons: [
         inaccuracy: 7
         reload: 8
         recoil: 0.3
-        shootSound: mud
+        shootSound: stepMud
         name: biotic-zlo-unit-parasite-weapon-1
         bullet: {
             type: LiquidBulletType
             status: status-dissolving
             width: 2
-            damage: 25
+            damage: 28
             pierceCap: 1
             range: 52
             liquid: biotic-zlo-liquid-acid

@@ -6,6 +6,9 @@ armor: 10
 hitSize: 17
 outlineColor: 1b1a33
 mechLegColor: 1b1a33
+stepSound: walkerStepSmall
+stepSoundPitch: 0.9
+stepSoundVolume: 0.3
 deathExplosionEffect: {
     type: MultiEffect
         effects: [
