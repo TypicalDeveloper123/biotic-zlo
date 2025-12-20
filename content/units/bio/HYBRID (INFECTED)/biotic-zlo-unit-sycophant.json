@@ -36,9 +36,9 @@ abilities: [
 
 weapons: [
     {
-        x: -1
+        x: 0
         shootY: 6
-        shootX: -1
+        shootX: 2
         rotate: false
         mirror: false
         top: false
@@ -106,9 +106,9 @@ weapons: [
         }
     }
     {
-        x: 1
+        x: 0
         shootY: 4
-        shootX: 1
+        shootX: -2
         rotate: false
         mirror: false
         top: false
