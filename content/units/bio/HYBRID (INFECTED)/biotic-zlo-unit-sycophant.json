@@ -26,6 +26,7 @@ allowLegStep: true
 stepSound: walkerStepSmall
 stepSoundPitch: 0.8
 stepSoundVolume: 0.3
+
 abilities: [
     {
         type: RegenAbility
@@ -35,8 +36,9 @@ abilities: [
 
 weapons: [
     {
-        x: -5
+        x: -3
         shootY: 6
+        shootX: -1
         rotate: false
         mirror: false
         top: false
@@ -104,8 +106,9 @@ weapons: [
         }
     }
     {
-        x: 5
+        x: 3
         shootY: 4
+        shootX: 1
         rotate: false
         mirror: false
         top: false
