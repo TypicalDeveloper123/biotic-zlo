@@ -1,27 +1,20 @@
 type: mech
-speed: 0.64
+speed: 1.2
 flying: false
-health: 3500
-armor: 6
+health: 1200
+armor: 7
 hitSize: 13
 outlineColor: 1b1a33
 mechLegColor: 1b1a33
 range: 78
-stepSound: mechStepSmall
-stepSoundPitch: 0.75
-stepSoundVolume: 0.84
+stepSound: walkerStepSmall
+stepSoundPitch: 0.8
+stepSoundVolume: 0.3
 
 abilities: [
     {
-        type: ShieldArcAbility
-        radius: 20
-        angle: 64
-        regen: 0.28
-        cooldown: 120
-        max: 800
-        y: -10
-        width: 4.5
-        whenShooting: false
+        type: RegenAbility
+        percentAmount: 0.2
     }
 ]
 
@@ -34,7 +27,7 @@ weapons: [
         top: false
         inaccuracy: 2
         reload: 30
-        name: biotic-zlo-unit-proximal-weapon-0
+        name: biotic-zlo-unit-sycophant-weapon-0
         recoil: 2
         shootSound: shootFuse
         shootSoundVolume: 0.5
