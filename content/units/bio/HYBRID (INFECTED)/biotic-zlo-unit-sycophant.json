@@ -1,4 +1,4 @@
-type: mech
+type: legs
 speed: 1.2
 flying: false
 health: 1200
@@ -6,11 +6,26 @@ armor: 7
 hitSize: 13
 outlineColor: 1b1a33
 mechLegColor: 1b1a33
-range: 78
+targetAir: false
+
+type: legs
+legCount: 4
+lockLegBase: false
+legExtension: 2.5
+legBaseOffset: 2
+legLength: 24
+legMaxLength: 1.1
+legMinLength: 0.2
+legSpeed: 0.25
+legGroupSize: 3
+legForwardScl: 1.05
+legLengthScl: 0.95
+legPhysicsLayer: false
+legStraightness: 0
+allowLegStep: true
 stepSound: walkerStepSmall
 stepSoundPitch: 0.8
 stepSoundVolume: 0.3
-
 abilities: [
     {
         type: RegenAbility
