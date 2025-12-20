@@ -38,7 +38,7 @@ weapons: [
     {
         x: 0
         shootY: 6
-        shootX: 2
+        shootX: -5
         rotate: false
         mirror: false
         top: false
@@ -108,7 +108,7 @@ weapons: [
     {
         x: 0
         shootY: 4
-        shootX: -2
+        shootX: 5
         rotate: false
         mirror: false
         top: false
