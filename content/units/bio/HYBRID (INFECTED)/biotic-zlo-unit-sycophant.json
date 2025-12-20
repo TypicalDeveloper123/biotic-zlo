@@ -38,11 +38,48 @@ weapons: [
         x: -6.6
         shootY: 5
         rotate: false
-        mirror: true
+        mirror: false
         top: false
         inaccuracy: 2
         reload: 30
         name: biotic-zlo-unit-sycophant-weapon-0
+        recoil: 2
+        shootSound: shootFuse
+        shootSoundVolume: 0.5
+        shootStatus: slow
+        bullet: {
+            type: ShrapnelBulletType
+            damage: 135
+            speed: 0
+            length: 65
+            width: 7
+            lifetime: 15
+            hitEffect: none
+            smokeEffect: none
+            toColor: fc4e4e
+            shootEffect: {
+                type: ParticleEffect
+                particles: 10
+                colorFrom: ff8f8f
+                colorTo: ff8f8f
+                cone: 35
+                length: 45
+                sizeFrom: 30
+                sizeTo: 0
+                line: true
+                lifetime: 30
+            }
+        }
+    }
+    {
+        x: 6.6
+        shootY: 5
+        rotate: false
+        mirror: false
+        top: false
+        inaccuracy: 2
+        reload: 30
+        name: biotic-zlo-unit-sycophant-weapon-1
         recoil: 2
         shootSound: shootFuse
         shootSoundVolume: 0.5
