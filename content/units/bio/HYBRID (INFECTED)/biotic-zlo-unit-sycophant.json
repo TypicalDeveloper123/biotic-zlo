@@ -35,9 +35,11 @@ abilities: [
 
 weapons: [
     {
+        x: -5
         shootY: 6
         rotate: false
         mirror: false
+        top: false
         inaccuracy: 2
         reload: 24
         name: biotic-zlo-unit-sycophant-weapon-0
@@ -102,9 +104,11 @@ weapons: [
         }
     }
     {
+        x: 5
         shootY: 4
         rotate: false
         mirror: false
+        top: false
         inaccuracy: 2
         reload: 20
         name: biotic-zlo-unit-sycophant-weapon-1
@@ -117,7 +121,7 @@ weapons: [
             type: ContinuousFlameBulletType
             damage: 60
             speed: 0
-            length: 25
+            length: 65
             width: 2
             flareLength: 8
             hitEffect: none
