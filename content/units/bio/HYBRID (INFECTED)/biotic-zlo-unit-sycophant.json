@@ -35,8 +35,7 @@ abilities: [
 
 weapons: [
     {
-        x: -6.6
-        shootY: 5
+        shootY: 6
         rotate: false
         mirror: false
         inaccuracy: 2
@@ -103,7 +102,6 @@ weapons: [
         }
     }
     {
-        x: 6.6
         shootY: 4
         rotate: false
         mirror: false
@@ -119,9 +117,9 @@ weapons: [
             type: ContinuousFlameBulletType
             damage: 60
             speed: 0
-            length: 12
-            width: 4
-            flareLength: 6
+            length: 25
+            width: 2
+            flareLength: 8
             hitEffect: none
             smokeEffect: none
             flareColor: 83ff7d
