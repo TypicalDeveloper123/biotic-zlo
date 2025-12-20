@@ -30,13 +30,13 @@ stepSoundVolume: 0.3
 abilities: [
     {
         type: RegenAbility
-        percentAmount: 0.2
+        percentAmount: 0.1
     }
 ]
 
 weapons: [
     {
-        x: -3
+        x: -1
         shootY: 6
         shootX: -1
         rotate: false
@@ -106,7 +106,7 @@ weapons: [
         }
     }
     {
-        x: 3
+        x: 1
         shootY: 4
         shootX: 1
         rotate: false

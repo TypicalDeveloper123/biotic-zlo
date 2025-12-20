@@ -66,6 +66,7 @@ weapons: [
      {
         x: 0
         y: -3
+        shootY: 1
         rotate: true
         rotateSpeed: 45
         mirror: false
@@ -76,7 +77,7 @@ weapons: [
         shootSound: shootAtrax
         shoot: {
             shots: 3
-            shotDelay: 3
+            shotDelay: 5
         }
         bullet: {
             type: MissileBulletType
