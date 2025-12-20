@@ -119,10 +119,9 @@ weapons: [
             type: ContinuousFlameBulletType
             damage: 60
             speed: 0
-            length: 200
-            width: 12
-            lifetime: 20
-            flareLength: 45
+            length: 12
+            width: 4
+            flareLength: 6
             hitEffect: none
             smokeEffect: none
             flareColor: 83ff7d
