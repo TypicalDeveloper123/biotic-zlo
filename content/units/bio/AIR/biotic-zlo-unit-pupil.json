@@ -43,6 +43,28 @@ abilities: [
         type: RegenAbility
         percentAmount: 0.2
     }
+    {
+		type: MoveEffectAbility
+		rotateEffect: true
+		rotation: 225
+		effect: {
+			type: MultiEffect
+			effects: [
+				{
+					type: ParticleEffect
+					cone: 45
+					lifetime: 15
+					baseLength: 0
+					particles: 2
+					length: 15
+					sizeFrom: 3
+					sizeTo: 0
+					colorFrom: ff5959
+					colorTo: c92a2a
+				}
+			]
+		}
+	}
 ]
 
 weapons: [
