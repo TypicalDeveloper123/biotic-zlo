@@ -1,6 +1,6 @@
 type: flying
 flying: true
-speed: 2.6
+speed: 2.2
 accel: 0.08
 drag: 0.03
 health: 260
