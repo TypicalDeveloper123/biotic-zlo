@@ -95,13 +95,14 @@ weapons: [
         recoil: 0.3
         shoot: {
             shots: 3
-            delay: 6
+            shotDelay: 6
         }
         bullet: {
             type: MissileBulletType
             sprite: corpuscles-biotic-zlo-teeth
             trailColor: 990000
             trailLength: 10
+            layer: 116
             damage: 30
             speed: 2
             lightRadius: -1
@@ -134,14 +135,14 @@ weapons: [
         recoil: 0.3
         shoot: {
             shots: 3
-            delay: 6
+            shotDelay: 6
         }
         bullet: {
             type: MissileBulletType
             sprite: corpuscles-biotic-zlo-teeth
             trailColor: 990000
             trailLength: 10
-            layer: 90
+            layer: 116
             damage: 30
             speed: 2
             lightRadius: -1
