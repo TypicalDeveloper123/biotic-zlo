@@ -85,6 +85,7 @@ weapons: [
                 length: 12
                 sizeFrom: 2
                 sizeTo: 0
+                layer: 99
             }   
         }
     }

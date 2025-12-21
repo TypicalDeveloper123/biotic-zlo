@@ -116,6 +116,7 @@ weapons: [
                 length: 12
                 sizeFrom: 2
                 sizeTo: 0
+                layer: 99
             }   
         }
     }
@@ -166,6 +167,7 @@ weapons: [
                 length: 12
                 sizeFrom: 2
                 sizeTo: 0
+                layer: 99
             }
         }
     }
@@ -275,6 +277,7 @@ weapons: [
                 length: 12
                 sizeFrom: 2
                 sizeTo: 0
+                layer: 99
             }
             shootEffect: {
                 Type: MultiEffect
@@ -288,6 +291,7 @@ weapons: [
                         length: 12
                         sizeFrom: 2
                         sizeTo: 0
+                        layer: 99
                     }
                     {
                         type: WaveEffect
@@ -297,6 +301,7 @@ weapons: [
                         length: 12
                         sizeFrom: 3
                         sizeTo: 9
+                        layer: 99
                     }
                 ]       
             }
@@ -352,6 +357,7 @@ weapons: [
                 length: 12
                 sizeFrom: 3
                 sizeTo: 0
+                layer: 99
             }
             shootEffect: {
                 Type: MultiEffect
@@ -365,6 +371,7 @@ weapons: [
                         length: 20
                         sizeFrom: 4
                         sizeTo: 0
+                        layer: 99
                     }
                     {
                         type: WaveEffect
@@ -374,6 +381,7 @@ weapons: [
                         length: 12
                         sizeFrom: 6
                         sizeTo: 15
+                        layer: 99
                     }
                 ]       
             }
