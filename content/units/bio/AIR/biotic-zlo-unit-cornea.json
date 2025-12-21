@@ -101,7 +101,6 @@ weapons: [
             sprite: corpuscles-biotic-zlo-teeth
             trailColor: 990000
             trailLength: 10
-            layer: 90
             damage: 30
             speed: 2
             lightRadius: -1
@@ -118,13 +117,13 @@ weapons: [
                 length: 12
                 sizeFrom: 2
                 sizeTo: 0
-                layer: 99
+                layer: 116
             }   
         }
     }
     {
-        x: -6
-        y: 4
+        x: -4
+        y: 5
         rotate: false
         mirror: false
         inaccuracy: 5

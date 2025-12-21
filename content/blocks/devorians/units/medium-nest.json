@@ -65,6 +65,15 @@ shootType: {
       despawnEffect: none
       spawnUnit: biotic-zlo-unit-embroider
     }
+    {
+      width: 0
+      lifetime: 1
+      damage: 1
+      collides: false
+      hitEffect: none
+      despawnEffect: none
+      spawnUnit: biotic-zlo-unit-cornea
+    }
   ]
 } 
 
