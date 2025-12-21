@@ -2,7 +2,7 @@ type: legs
 speed: 0.6
 flying: false
 health: 900
-armor: 10
+armor: 5
 hitSize: 17
 outlineColor: 1b1a33
 mechLegColor: 1b1a33

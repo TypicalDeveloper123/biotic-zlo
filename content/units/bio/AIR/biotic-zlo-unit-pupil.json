@@ -1,0 +1,137 @@
+type: flying
+speed: 2.6
+accel: 0.08
+drag: 0.04
+health: 260
+armor: 5
+hitSize: 11
+outlineColor: 1b1a33
+mechLegColor: 1b1a33
+moveSound: shipMove
+moveSoundVolume: 0.2
+
+deathExplosionEffect: {
+    type: MultiEffect
+        effects: [
+        {
+            type: ParticleEffect
+            particles: 2
+            colorFrom: a33333
+            colorTo: 33001b
+            cone: 360
+            length: 15
+            sizeFrom: 4
+            sizeTo: 0
+        }   
+        {
+            type: ParticleEffect
+            particles: 1
+            layer: 110
+            colorFrom: 50ff36
+            colorTo: 50ff36
+            cone: 360
+            length: 15
+            sizeFrom: 2
+            sizeTo: 0
+        }
+    ] 
+}
+
+abilities: [
+    {
+        type: RegenAbility
+        percentAmount: 0.2
+    }
+]
+
+weapons: [
+    {
+        x: 0
+        y: 1
+        rotate: false
+        mirror: false
+        inaccuracy: 7
+        reload: 15
+        shootSound: shootAtrax
+        shoot: {
+            type: ShootSpread
+            shots: 2
+            spread: 2
+        }
+        bullet: {
+            type: MissileBulletType
+            sprite: corpuscles-biotic-zlo-teeth
+            trailColor: 990000
+            trailLength: 10
+            layer: 90
+            damage: 30
+            speed: 2
+            lightRadius: -1
+            lightOpacity: 0
+            hitEffect: none
+            smokeEffect: none
+            shootEffect: {
+            Type: MultiEffect
+                effects: [  
+                    {
+                        type: ParticleEffect
+                        particles: 10
+                        colorFrom: a33333
+                        colorTo: 33001b
+                        cone: 4
+                        length: 12
+                        sizeFrom: 2
+                        sizeTo: 0
+                        lightColor: de3a3a
+                    }
+                    {
+                        type: RadialEffect
+                        particles: 2
+                        colorFrom: 853d3d
+                        colorTo: 33001b
+                        cone: 4
+                        length: 12
+                        sizeFrom: 3
+                        sizeTo: 0
+                        lightColor: de3a3a
+                    }
+                ]
+            }   
+        }
+    }
+    {
+        display: false
+        controllable: false
+        aiControllable: false
+        x: 0
+        y: 0
+        rotate: false
+        mirror: false
+        inaccuracy: 0
+        shootCone: 180
+        shoot:{
+            shots: 5
+        }
+        reload: 1
+        shootSound: none
+        shootOnDeath: true
+        bullet: {
+            type: EmptyBulletType
+            despawnHit: true
+            collides: true
+            layer: 90
+            damage: 0
+            lifetime: 0
+            hitEffect: none
+            smokeEffect: none
+            shootEffect: none
+            puddles: 3
+            puddleRange: 10
+            puddleAmount: 25
+            puddleLiquid: corpuscles-biotic-zlo-liquid-blood
+        }  
+    }
+]
+
+
+hiddenOnPlanets: [serpulo, erekir]

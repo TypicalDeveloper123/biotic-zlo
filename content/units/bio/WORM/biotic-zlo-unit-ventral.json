@@ -2,7 +2,7 @@ type: crawl
 speed: 0.85
 flying: false
 health: 640
-armor: 8
+armor: 5
 hitSize: 24
 outlineColor: 1b1a33
 segments: 3
