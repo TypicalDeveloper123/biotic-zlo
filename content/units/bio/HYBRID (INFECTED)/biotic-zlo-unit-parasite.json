@@ -61,31 +61,14 @@ weapons: [
             hitEffect: none
             smokeEffect: none
             shootEffect: {
-            Type: MultiEffect
-                effects: [  
-                    {
-                        type: ParticleEffect
-                        particles: 10
-                        colorFrom: a33333
-                        colorTo: 33001b
-                        cone: 4
-                        length: 12
-                        sizeFrom: 2
-                        sizeTo: 0
-                        lightColor: de3a3a
-                    }
-                    {
-                        type: RadialEffect
-                        particles: 2
-                        colorFrom: 853d3d
-                        colorTo: 33001b
-                        cone: 4
-                        length: 12
-                        sizeFrom: 3
-                        sizeTo: 0
-                        lightColor: de3a3a
-                    }
-                ]
+                type: ParticleEffect
+                particles: 10
+                colorFrom: a33333
+                colorTo: 33001b
+                cone: 4
+                length: 12
+                sizeFrom: 2
+                sizeTo: 0
             }   
         }
     } 
