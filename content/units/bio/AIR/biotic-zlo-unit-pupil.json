@@ -46,7 +46,7 @@ abilities: [
     }
     {
 		type: MoveEffectAbility
-        x: -0.55
+        y: -0.55
 		rotateEffect: true
 		rotation: 225
 		effect: {
