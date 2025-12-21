@@ -1,9 +1,9 @@
 type: flying
 flying: true
-speed: 2.4
+speed: 2.6
 accel: 0.08
-drag: 0.04
-health: 850
+drag: 0.03
+health: 260
 armor: 5
 hitSize: 11
 outlineColor: 1b1a33
@@ -17,12 +17,12 @@ deathExplosionEffect: {
         effects: [
         {
             type: ParticleEffect
-            particles: 2
+            particles: 3
             colorFrom: a33333
             colorTo: 33001b
             cone: 360
-            length: 15
-            sizeFrom: 4
+            length: 30
+            sizeFrom: 4.5
             sizeTo: 0
         }   
         {
@@ -33,9 +33,9 @@ deathExplosionEffect: {
             colorTo: 50ff36
             cone: 360
             length: 15
-            sizeFrom: 2
+            sizeFrom: 4
             sizeTo: 0
-        }
+        }  
     ] 
 }
 
@@ -57,8 +57,20 @@ abilities: [
 					cone: 45
 					lifetime: 15
 					baseLength: 0
-					particles: 2
+					particles: 3
 					length: 15
+					sizeFrom: 4
+					sizeTo: 0
+					colorFrom: b30000
+					colorTo: 590000
+				}
+                {
+					type: ParticleEffect
+					cone: 60
+					lifetime: 25
+					baseLength: 0
+					particles: 2
+					length: 20
 					sizeFrom: 3
 					sizeTo: 0
 					colorFrom: b30000
@@ -71,17 +83,18 @@ abilities: [
 
 weapons: [
     {
-        x: 0
-        y: 1
+        x: 6
+        y: 3
         rotate: false
         mirror: false
-        inaccuracy: 7
-        reload: 15
+        inaccuracy: 5
+        reload: 20
         shootSound: shootAtrax
+        name: biotic-zlo-unit-cornea-weapon-0
+        recoil: 0.3
         shoot: {
-            type: ShootSpread
-            shots: 2
-            spread: 2
+            shots: 3
+            delay: 6
         }
         bullet: {
             type: MissileBulletType
@@ -93,6 +106,47 @@ weapons: [
             speed: 2
             lightRadius: -1
             lightOpacity: 0
+            range: 30
+            hitEffect: none
+            smokeEffect: none
+            shootEffect: {
+                type: ParticleEffect
+                particles: 10
+                colorFrom: a33333
+                colorTo: 33001b
+                cone: 4
+                length: 12
+                sizeFrom: 2
+                sizeTo: 0
+                layer: 99
+            }   
+        }
+    }
+    {
+        x: -6
+        y: 4
+        rotate: false
+        mirror: false
+        inaccuracy: 5
+        reload: 20
+        shootSound: shootAtrax
+        name: biotic-zlo-unit-cornea-weapon-0
+        recoil: 0.3
+        shoot: {
+            shots: 3
+            delay: 6
+        }
+        bullet: {
+            type: MissileBulletType
+            sprite: corpuscles-biotic-zlo-teeth
+            trailColor: 990000
+            trailLength: 10
+            layer: 90
+            damage: 30
+            speed: 2
+            lightRadius: -1
+            lightOpacity: 0
+            range: 30
             hitEffect: none
             smokeEffect: none
             shootEffect: {

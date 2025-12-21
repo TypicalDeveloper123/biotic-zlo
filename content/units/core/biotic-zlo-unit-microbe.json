@@ -21,7 +21,7 @@ canDrown: false
 mineWalls: true
 mineTiles: true
 mineSpeed: 8
-mineTier: 4
+mineTier: 1
 buildSpeed: 1
 itemCapacity: 20
 fogRadius: 15
