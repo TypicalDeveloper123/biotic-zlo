@@ -5,7 +5,7 @@ accel: 0.08
 drag: 0.03
 health: 260
 armor: 5
-hitSize: 11
+hitSize: 17
 outlineColor: 1b1a33
 mechLegColor: 1b1a33
 moveSound: shipMove
@@ -94,8 +94,8 @@ weapons: [
         name: biotic-zlo-unit-cornea-weapon-0
         recoil: 0.3
         shoot: {
-            shots: 3
-            shotDelay: 6
+            shots: 2
+            shotDelay: 5
         }
         bullet: {
             type: MissileBulletType
@@ -134,8 +134,8 @@ weapons: [
         name: biotic-zlo-unit-cornea-weapon-0
         recoil: 0.3
         shoot: {
-            shots: 3
-            shotDelay: 6
+            shots: 2
+            shotDelay: 4
         }
         bullet: {
             type: MissileBulletType
