@@ -124,7 +124,7 @@ weapons: [
         }
     }
     {
-        x: -4
+        x: -5
         y: 5
         rotate: false
         mirror: false
