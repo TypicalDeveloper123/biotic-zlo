@@ -10,6 +10,7 @@ outlineColor: 1b1a33
 mechLegColor: 1b1a33
 moveSound: shipMove
 moveSoundVolume: 0.2
+engineSize: 0
 
 deathExplosionEffect: {
     type: MultiEffect
@@ -45,6 +46,7 @@ abilities: [
     }
     {
 		type: MoveEffectAbility
+        x: -0.55
 		rotateEffect: true
 		rotation: 225
 		effect: {
