@@ -84,7 +84,7 @@ abilities: [
 
 weapons: [
     {
-        x: 6
+        x: 5
         y: 3
         rotate: false
         mirror: false

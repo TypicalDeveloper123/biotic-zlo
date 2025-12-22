@@ -13,8 +13,8 @@ mesh: [
     color2: 663d3d
     octaves: 3.7
     persistence: 1.8
-    mag: 2.4
-		scl: 12
+    mag: 5
+		scl: 4
   }
   {
     //coagulated blood
