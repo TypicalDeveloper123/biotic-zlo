@@ -35,8 +35,8 @@ mesh: [
     type: NoiseMesh
     planet: morive
     divisions: 5
-    seed: 25
-    radius: 0.704
+    seed: 24
+    radius: 0.66
     color1: 444957
     color2: 30333d
     octaves: 3.4
