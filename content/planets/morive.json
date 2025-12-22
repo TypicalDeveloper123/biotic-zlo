@@ -40,7 +40,7 @@ mesh: [
     color1: 444957
     color2: 30333d
     octaves: 3.4
-    persistence: 10
+    persistence: 8
     mag: 2.2
 		scl: 3
   }
