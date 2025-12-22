@@ -9,7 +9,7 @@ hitSize: 17
 outlineColor: 1b1a33
 mechLegColor: 1b1a33
 moveSound: shipMove
-moveSoundVolume: 0.2
+moveSoundVolume: 0.9
 engineSize: 0
 
 deathExplosionEffect: {
