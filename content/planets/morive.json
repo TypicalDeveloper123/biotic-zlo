@@ -39,10 +39,10 @@ mesh: [
     radius: 0.704
     color1: 444957
     color2: 30333d
-    octaves: 3.6
-    persistence: 4
-    mag: 1.1
-		scl: 15
+    octaves: 4
+    persistence: 6
+    mag: 1.15
+		scl: 8
   }
   {
     //blood
