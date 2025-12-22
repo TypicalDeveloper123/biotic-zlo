@@ -202,7 +202,7 @@ weapons: [
     }
     {
         x: -5
-        y: -7
+        y: -9
         rotate: false
         mirror: false
         inaccuracy: 7
