@@ -13,7 +13,7 @@ mesh: [
     color2: 663d3d
     octaves: 3.7
     persistence: 1.8
-    mag: 0.9
+    mag: 1.1
 		scl: 4
   }
   {
@@ -27,15 +27,14 @@ mesh: [
     color2: 991f1f
     octaves: 3
     persistence: 15
-    mag: 0.7
-		scl: 12
+    mag: 0.9
+		scl: 8
   }
   {
     //blood
     type: NoiseMesh
     planet: morive
     divisions: 5
-    seed: 7
     radius: 0.699
     color1: 290707
     color2: 290707
