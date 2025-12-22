@@ -25,7 +25,7 @@ mesh: [
     radius: 0.705
     color1: 661616
     color2: 991f1f
-    octaves: 3
+    octaves: 5
     persistence: 15
     mag: 0.9
 		scl: 5
@@ -35,7 +35,7 @@ mesh: [
     type: NoiseMesh
     planet: morive
     divisions: 5
-    radius: 0.705
+    radius: 0.71
     color1: 290707
     color2: 290707
     octaves: 2
