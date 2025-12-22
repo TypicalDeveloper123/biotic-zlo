@@ -59,9 +59,9 @@ abilities: [
 					cone: 45
 					lifetime: 15
 					baseLength: 0
-					particles: 3
+					particles: 4
 					length: 15
-					sizeFrom: 4
+					sizeFrom: 5
 					sizeTo: 0
 					colorFrom: b30000
 					colorTo: 590000
@@ -71,8 +71,20 @@ abilities: [
 					cone: 60
 					lifetime: 25
 					baseLength: 0
-					particles: 2
+					particles: 3
 					length: 20
+					sizeFrom: 4
+					sizeTo: 0
+					colorFrom: b30000
+					colorTo: 590000
+				}
+                {
+					type: ParticleEffect
+					cone: 68
+					lifetime: 34
+					baseLength: 0
+					particles: 2
+					length: 30
 					sizeFrom: 3
 					sizeTo: 0
 					colorFrom: b30000
@@ -92,7 +104,7 @@ weapons: [
         inaccuracy: 5
         reload: 20
         shootSound: shootAtrax
-        name: biotic-zlo-unit-cornea-weapon-0
+        name: biotic-zlo-unit-iris-weapon-0
         recoil: 0.3
         shoot: {
             shots: 2
@@ -132,7 +144,7 @@ weapons: [
         inaccuracy: 5
         reload: 20
         shootSound: shootAtrax
-        name: biotic-zlo-unit-cornea-weapon-0
+        name: biotic-zlo-unit-iris-weapon-0
         recoil: 0.3
         shoot: {
             shots: 2
