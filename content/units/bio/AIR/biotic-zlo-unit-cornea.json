@@ -84,8 +84,8 @@ abilities: [
 
 weapons: [
     {
-        x: 5
-        y: 3
+        x: 4
+        y: 2
         rotate: false
         mirror: false
         inaccuracy: 5
