@@ -58,6 +58,7 @@ abilities: [
 					lifetime: 15
 					baseLength: 0
 					particles: 2
+                    layer: 89
 					length: 15
 					sizeFrom: 3
 					sizeTo: 0

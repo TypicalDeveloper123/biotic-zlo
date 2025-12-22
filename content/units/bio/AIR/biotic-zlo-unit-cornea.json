@@ -59,6 +59,7 @@ abilities: [
 					lifetime: 15
 					baseLength: 0
 					particles: 3
+                    layer: 89
 					length: 15
 					sizeFrom: 4
 					sizeTo: 0
@@ -71,6 +72,7 @@ abilities: [
 					lifetime: 25
 					baseLength: 0
 					particles: 2
+                    layer: 89
 					length: 20
 					sizeFrom: 3
 					sizeTo: 0
