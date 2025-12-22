@@ -1,15 +1,16 @@
 type: flying
 flying: true
-speed: 2.2
-accel: 0.08
-drag: 0.03
-health: 260
+speed: 2
+accel: 0.065
+drag: 0.028
+health: 1100
 armor: 5
-hitSize: 17
+hitSize: 25
 outlineColor: 1b1a33
 mechLegColor: 1b1a33
 moveSound: shipMove
-moveSoundVolume: 0.2
+moveSoundPitch: 0.7
+moveSoundVolume: 0.3
 engineSize: 0
 
 deathExplosionEffect: {
@@ -17,14 +18,14 @@ deathExplosionEffect: {
         effects: [
         {
             type: ParticleEffect
-            particles: 3
+            particles: 4
             colorFrom: a33333
             colorTo: 33001b
             cone: 360
-            length: 30
-            sizeFrom: 4.5
+            length: 55
+            sizeFrom: 6
             sizeTo: 0
-        }   
+        }    
         {
             type: ParticleEffect
             particles: 1
@@ -33,7 +34,7 @@ deathExplosionEffect: {
             colorTo: 50ff36
             cone: 360
             length: 15
-            sizeFrom: 4
+            sizeFrom: 6.5
             sizeTo: 0
         }  
     ] 
@@ -46,8 +47,8 @@ abilities: [
     }
     {
 		type: MoveEffectAbility
-        x: -2
-        y: -2
+        x: -3
+        y: -4
 		rotateEffect: true
 		rotation: 225
 		effect: {
