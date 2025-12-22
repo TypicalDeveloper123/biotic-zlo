@@ -42,7 +42,7 @@ mesh: [
     octaves: 3.4
     persistence: 8
     mag: 2.2
-		scl: 3
+		scl: 2
   }
   {
     //blood
