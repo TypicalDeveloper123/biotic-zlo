@@ -40,8 +40,8 @@ mesh: [
     color2: 30333d
     octaves: 3.1
     persistence: 16
-    mag: 2.3
-		scl: 20
+    mag: 2.2
+		scl: 25
   }
   {
     //blood
