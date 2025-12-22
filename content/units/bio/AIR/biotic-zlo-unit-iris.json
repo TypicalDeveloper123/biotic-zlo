@@ -12,6 +12,7 @@ moveSound: shipMove
 moveSoundPitch: 0.7
 moveSoundVolume: 0.3
 engineSize: 0
+lowAltitude: true
 
 deathExplosionEffect: {
     type: MultiEffect
@@ -201,8 +202,8 @@ weapons: [
         }
     }
     {
-        x: -5
-        y: -9
+        x: -5.5
+        y: -8.5
         rotate: false
         mirror: false
         inaccuracy: 7
@@ -225,7 +226,7 @@ weapons: [
             shootEffect: {
                 type: ParticleEffect
                 particles: 10
-                layer: 116
+                layer: 110
                 colorFrom: 50ff36
                 colorTo: 50ff36
                 cone: 100
