@@ -13,7 +13,7 @@ mesh: [
     color2: 663d3d
     octaves: 3.7
     persistence: 1.8
-    mag: 5
+    mag: 1
 		scl: 4
   }
   {
