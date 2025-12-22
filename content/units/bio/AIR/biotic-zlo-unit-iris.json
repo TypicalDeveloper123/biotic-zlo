@@ -111,6 +111,7 @@ weapons: [
             sprite: corpuscles-biotic-zlo-bigteeth
             trailColor: 990000
             trailLength: 15
+            layer: 116
             damage: 45
             speed: 3
             lightRadius: -1
@@ -127,6 +128,7 @@ weapons: [
                 fragLifeMin: 1
                 trailColor: 990000
                 trailLength: 10
+                layer: 116
                 damage: 30
                 speed: 3   
                 lightRadius: -1
@@ -161,6 +163,7 @@ weapons: [
             sprite: corpuscles-biotic-zlo-bigteeth
             trailColor: 990000
             trailLength: 15
+            layer: 116
             damage: 45
             speed: 3
             lightRadius: -1
@@ -177,6 +180,7 @@ weapons: [
                 fragLifeMin: 1
                 trailColor: 990000
                 trailLength: 10
+                layer: 116
                 damage: 30
                 speed: 3   
                 lightRadius: -1
@@ -197,18 +201,19 @@ weapons: [
         }
     }
     {
-        x: -2
-        y: -5
+        x: -5
+        y: -7
         rotate: false
         mirror: false
         inaccuracy: 7
         reload: 12
         recoil: 0.3
         shootSound: stepMud
-        name: biotic-zlo-unit-embroider-weapon-1
+        name: biotic-zlo-unit-iris-weapon-1
         bullet: {
             type: LiquidBulletType
             status: status-dissolving
+            lifetime:  75
             width: 2
             damage: 25
             pierceCap: 1
