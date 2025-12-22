@@ -98,7 +98,7 @@ abilities: [
 weapons: [
     {
         x: 6
-        y: 7
+        y: 2
         rotate: false
         mirror: false
         inaccuracy: 2
@@ -111,7 +111,6 @@ weapons: [
             sprite: corpuscles-biotic-zlo-bigteeth
             trailColor: 990000
             trailLength: 15
-            layer: 90
             damage: 45
             speed: 3
             lightRadius: -1
@@ -128,7 +127,6 @@ weapons: [
                 fragLifeMin: 1
                 trailColor: 990000
                 trailLength: 10
-                layer: 90
                 damage: 30
                 speed: 3   
                 lightRadius: -1
@@ -144,7 +142,7 @@ weapons: [
                 length: 12
                 sizeFrom: 2
                 sizeTo: 0
-                layer: 99
+                layer: 116
             }   
         }
     }
@@ -163,7 +161,6 @@ weapons: [
             sprite: corpuscles-biotic-zlo-bigteeth
             trailColor: 990000
             trailLength: 15
-            layer: 90
             damage: 45
             speed: 3
             lightRadius: -1
@@ -180,7 +177,6 @@ weapons: [
                 fragLifeMin: 1
                 trailColor: 990000
                 trailLength: 10
-                layer: 90
                 damage: 30
                 speed: 3   
                 lightRadius: -1
@@ -196,8 +192,42 @@ weapons: [
                 length: 12
                 sizeFrom: 2
                 sizeTo: 0
-                layer: 99
+                layer: 116
             }   
+        }
+    }
+    {
+        x: -2
+        y: -5
+        rotate: false
+        mirror: false
+        inaccuracy: 7
+        reload: 12
+        recoil: 0.3
+        shootSound: stepMud
+        name: biotic-zlo-unit-embroider-weapon-1
+        bullet: {
+            type: LiquidBulletType
+            status: status-dissolving
+            width: 2
+            damage: 25
+            pierceCap: 1
+            range: 70
+            liquid: biotic-zlo-liquid-acid
+            orbSize: 4
+            puddleSize: 12
+            speed: 1.3
+            shootEffect: {
+                type: ParticleEffect
+                particles: 10
+                layer: 116
+                colorFrom: 50ff36
+                colorTo: 50ff36
+                cone: 100
+                length: 12
+                sizeFrom: 2
+                sizeTo: 0
+            }  
         }
     }
     {
