@@ -65,6 +65,8 @@ abilities: [
 					sizeTo: 0
 					colorFrom: b30000
 					colorTo: 590000
+					lightRadius: -1
+                    lightOpacity: 0
 				}
                 {
 					type: ParticleEffect
@@ -78,6 +80,8 @@ abilities: [
 					sizeTo: 0
 					colorFrom: b30000
 					colorTo: 590000
+				    lightRadius: -1
+                    lightOpacity: 0
 				}
 			]
 		}
