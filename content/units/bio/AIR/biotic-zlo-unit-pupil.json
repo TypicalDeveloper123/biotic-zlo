@@ -3,7 +3,7 @@ flying: true
 speed: 2.4
 accel: 0.08
 drag: 0.04
-health: 850
+health: 260
 armor: 5
 hitSize: 11
 outlineColor: 1b1a33

@@ -61,7 +61,7 @@ mesh: [
     planet: morive
     speed: 1.01
     radius: 0.11
-    divisions: 4
+    divisions: 5
     color: eafffd7e
     octaves: 3
     persistence: 0.4
@@ -74,7 +74,7 @@ mesh: [
     planet: morive
     speed: 0.3
     radius: 0.10
-    divisions: 4
+    divisions: 5
     color: 610303
     octaves: 2
     persistence: 0.4
