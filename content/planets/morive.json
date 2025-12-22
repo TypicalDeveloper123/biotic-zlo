@@ -39,7 +39,7 @@ mesh: [
     radius: 0.6
     color1: 444957
     color2: 30333d
-    octaves: 3.1
+    octaves: 2.6
     persistence: 16
     mag: 2.2
 		scl: 25
