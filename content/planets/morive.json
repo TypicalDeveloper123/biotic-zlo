@@ -6,13 +6,13 @@ mesh: [
     //bloodstone
     type: NoiseMesh
     planet: morive
-    divisions: 6
+    divisions: 5
     seed: 25
     radius: 0.69
     color1: 995d5d
     color2: 663d3d
     octaves: 3.7
-    persistence: 1.8
+    persistence: 2
     mag: 1.2
 		scl: 4
   }
@@ -20,13 +20,13 @@ mesh: [
     //coagulated blood
     type: NoiseMesh
     planet: morive
-    divisions: 6
+    divisions: 5
     seed: 25
     radius: 0.686
     color1: 661616
     color2: 991f1f
     octaves: 3.8
-    persistence: 12
+    persistence: 9
     mag: 1.1
 		scl: 7
   }
@@ -34,14 +34,14 @@ mesh: [
     //hematite
     type: NoiseMesh
     planet: morive
-    divisions: 6
+    divisions: 5
     seed: 50
     radius: 0.55
     color1: 444957
     color2: 30333d
     octaves: 3.4
-    persistence: 6
-    mag: 2.4
+    persistence: 4
+    mag: 2.5
 		scl: 14
   }
   {
