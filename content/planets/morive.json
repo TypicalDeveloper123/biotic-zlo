@@ -6,49 +6,49 @@ mesh: [
     //bloodstone
     type: NoiseMesh
     planet: morive
-    divisions: 5
+    divisions: 6
     seed: 25
     radius: 0.7
     color1: 995d5d
     color2: 663d3d
     octaves: 3.7
     persistence: 1.8
-    mag: 1.1
+    mag: 1.3
 		scl: 4
   }
   {
     //coagulated blood
     type: NoiseMesh
     planet: morive
-    divisions: 5
+    divisions: 6
     seed: 25
     radius: 0.708
     color1: 661616
     color2: 991f1f
     octaves: 3.6
     persistence: 15
-    mag: 1
+    mag: 1.35
 		scl: 4
   }
   {
     //hematite
     type: NoiseMesh
     planet: morive
-    divisions: 5
+    divisions: 6
     seed: 50
-    radius: 0.6
+    radius: 0.5
     color1: 444957
     color2: 30333d
     octaves: 3.4
     persistence: 6
-    mag: 2.2
+    mag: 2.4
 		scl: 2
   }
   {
     //blood
     type: NoiseMesh
     planet: morive
-    divisions: 5
+    divisions: 6
     radius: 0.725
     color1: 290707
     color2: 290707
@@ -99,7 +99,7 @@ generator: {
 }
 
 orbitRadius: 28
-sectorSize: 2
+sectorSize: 3
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
