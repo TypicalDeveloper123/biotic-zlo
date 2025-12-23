@@ -25,10 +25,10 @@ mesh: [
     radius: 0.708
     color1: 661616
     color2: 991f1f
-    octaves: 3.8
+    octaves: 4
     persistence: 15
-    mag: 1.25
-		scl: 4
+    mag: 1.21
+		scl: 7
   }
   {
     //hematite
