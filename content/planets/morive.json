@@ -11,7 +11,7 @@ mesh: [
     radius: 0.67
     color1: 995d5d
     color2: 663d3d
-    octaves: 2.7
+    octaves: 3
     persistence: 1.8
     mag: 0.95
 		scl: 2
