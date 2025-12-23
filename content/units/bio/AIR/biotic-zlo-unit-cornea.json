@@ -45,6 +45,11 @@ abilities: [
         percentAmount: 0.2
     }
     {
+        type: SpawnDeathAbility
+        amount: 1
+        unit: biotic-zlo-unit-pupil
+    }
+    {
 		type: MoveEffectAbility
         x: -2
         y: -2
