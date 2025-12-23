@@ -11,7 +11,7 @@ mesh: [
     radius: 0.67
     color1: 995d5d
     color2: 663d3d
-    octaves: 3
+    octaves: 2.7
     persistence: 1.8
     mag: 0.95
 		scl: 2
@@ -22,10 +22,10 @@ mesh: [
     planet: morive
     divisions: 5
     seed: 15
-    radius: 0.669
+    radius: 0.67
     color1: 661616
     color2: 991f1f
-    octaves: 3.3
+    octaves: 3.2
     persistence: 12
     mag: 0.95
 		scl: 4
