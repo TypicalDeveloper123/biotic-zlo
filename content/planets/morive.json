@@ -35,7 +35,7 @@ mesh: [
     type: NoiseMesh
     planet: morive
     divisions: 5
-    seed: 30
+    seed: 31
     radius: 0.58
     color1: 444957
     color2: 30333d
@@ -53,7 +53,7 @@ mesh: [
     color1: 290707
     color2: 290707
     octaves: 2
-    persistence: 1.9
+    persistence: 1
   }
   {
     //sky
@@ -109,7 +109,7 @@ radius: 0.75
 minZoom: 0.8
 drawOrbit: true
 atmosphereRadIn: 0
-atmosphereRadOut: 0.3
+atmosphereRadOut: 0.29
 accessible: true
 updateLighting: false
 sectorSeed: 14513
