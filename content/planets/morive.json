@@ -12,7 +12,7 @@ mesh: [
     color1: 995d5d
     color2: 663d3d
     octaves: 3.7
-    persistence: 5
+    persistence: 0.8
     mag: 1.2
 		scl: 3
   }
@@ -26,7 +26,7 @@ mesh: [
     color1: 661616
     color2: 991f1f
     octaves: 3.8
-    persistence: 1.2
+    persistence: 15
     mag: 1.15
 		scl: 6
   }
