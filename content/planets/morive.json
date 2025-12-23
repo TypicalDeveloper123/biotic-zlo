@@ -49,11 +49,12 @@ mesh: [
     type: NoiseMesh
     planet: morive
     divisions: 5
-    radius: 0.725
+    radius: 0.726
     color1: 290707
     color2: 290707
-    octaves: 2
-    persistence: 1
+    octaves: 3
+    persistence: 0.2
+    mag: 0
   }
   {
     //sky
