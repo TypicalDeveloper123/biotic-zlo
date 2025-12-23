@@ -7,7 +7,7 @@ mesh: [
     type: NoiseMesh
     planet: morive
     divisions: 5
-    seed: 25
+    seed: 26
     radius: 0.69
     color1: 995d5d
     color2: 663d3d
@@ -21,7 +21,7 @@ mesh: [
     type: NoiseMesh
     planet: morive
     divisions: 5
-    seed: 25
+    seed: 26
     radius: 0.687
     color1: 661616
     color2: 991f1f
@@ -48,7 +48,7 @@ mesh: [
     //blood
     type: NoiseMesh
     planet: morive
-    divisions: 6
+    divisions: 5
     radius: 0.725
     color1: 290707
     color2: 290707
