@@ -14,7 +14,7 @@ mesh: [
     octaves: 3.6
     persistence: 1.8
     mag: 1.2
-		scl: 3
+		scl: 2
   }
   {
     //coagulated blood
@@ -22,7 +22,7 @@ mesh: [
     planet: morive
     divisions: 5
     seed: 15
-    radius: 0.605
+    radius: 0.61
     color1: 661616
     color2: 991f1f
     octaves: 3.7
@@ -36,7 +36,7 @@ mesh: [
     planet: morive
     divisions: 5
     seed: 31
-    radius: 0.58
+    radius: 0.6
     color1: 444957
     color2: 30333d
     octaves: 3.2
