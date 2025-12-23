@@ -8,7 +8,7 @@ mesh: [
     planet: morive
     divisions: 5
     seed: 15
-    radius: 0.69
+    radius: 0.6
     color1: 995d5d
     color2: 663d3d
     octaves: 3.6
@@ -22,7 +22,7 @@ mesh: [
     planet: morive
     divisions: 5
     seed: 15
-    radius: 0.689
+    radius: 0.605
     color1: 661616
     color2: 991f1f
     octaves: 3.7
