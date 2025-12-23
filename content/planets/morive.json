@@ -27,7 +27,7 @@ mesh: [
     color2: 991f1f
     octaves: 3.8
     persistence: 15
-    mag: 1.15
+    mag: 1.13
 		scl: 6
   }
   {
