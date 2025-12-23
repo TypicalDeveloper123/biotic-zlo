@@ -12,9 +12,9 @@ mesh: [
     color1: 995d5d
     color2: 663d3d
     octaves: 3.7
-    persistence: 4
+    persistence: 5
     mag: 1.2
-		scl: 4
+		scl: 3
   }
   {
     //coagulated blood
@@ -26,7 +26,7 @@ mesh: [
     color1: 661616
     color2: 991f1f
     octaves: 3.8
-    persistence: 4
+    persistence: 1.2
     mag: 1.15
 		scl: 6
   }
