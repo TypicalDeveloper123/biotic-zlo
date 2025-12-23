@@ -12,7 +12,7 @@ mesh: [
     color1: 995d5d
     color2: 663d3d
     octaves: 3.7
-    persistence: 2
+    persistence: 4
     mag: 1.2
 		scl: 4
   }
@@ -26,9 +26,9 @@ mesh: [
     color1: 661616
     color2: 991f1f
     octaves: 3.8
-    persistence: 9
+    persistence: 12
     mag: 1.15
-		scl: 7
+		scl: 6
   }
   {
     //hematite
