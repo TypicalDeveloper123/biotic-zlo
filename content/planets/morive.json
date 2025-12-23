@@ -36,7 +36,7 @@ mesh: [
     planet: morive
     divisions: 5
     seed: 31
-    radius: 0.6
+    radius: 0.54
     color1: 444957
     color2: 30333d
     octaves: 3.2
