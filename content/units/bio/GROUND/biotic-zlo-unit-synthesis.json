@@ -193,6 +193,8 @@ weapons: [
                 sizeFrom: 2
                 sizeTo: 0
                 layer: 99
+                lightRadius: -1
+                lightOpacity: 0
             }
             shootEffect: {
                 Type: MultiEffect
@@ -261,6 +263,8 @@ weapons: [
                 sizeFrom: 2
                 sizeTo: 0
                 layer: 99
+                lightRadius: -1
+                lightOpacity: 0
             }
             shootEffect: {
                 Type: MultiEffect

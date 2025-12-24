@@ -167,6 +167,8 @@ weapons: [
                 length: 12
                 sizeFrom: 3
                 sizeTo: 0
+                lightRadius: -1
+                lightOpacity: 0
             }
             shootEffect: {
                 Type: MultiEffect
@@ -237,6 +239,8 @@ weapons: [
                 length: 12
                 sizeFrom: 6
                 sizeTo: 0
+                lightRadius: -1
+                lightOpacity: 0
             }
             shootEffect: {
                 Type: MultiEffect
@@ -365,6 +369,8 @@ weapons: [
                 length: 12
                 sizeFrom: 2
                 sizeTo: 0
+                lightRadius: -1
+                lightOpacity: 0
             }
             shootEffect: {
                 Type: MultiEffect
@@ -430,6 +436,8 @@ weapons: [
                 length: 12
                 sizeFrom: 2
                 sizeTo: 0
+                lightRadius: -1
+                lightOpacity: 0
             }
             shootEffect: {
                 Type: MultiEffect
@@ -495,6 +503,8 @@ weapons: [
                 length: 12
                 sizeFrom: 2
                 sizeTo: 0
+                lightRadius: -1
+                lightOpacity: 0
             }
             shootEffect: {
                 Type: MultiEffect
@@ -560,6 +570,8 @@ weapons: [
                 length: 12
                 sizeFrom: 2
                 sizeTo: 0
+                lightRadius: -1
+                lightOpacity: 0
             }
             shootEffect: {
                 Type: MultiEffect
