@@ -3,7 +3,7 @@ speed: 0.8
 flying: false
 health: 1000
 armor: 3
-hitSize: 10
+hitSize: 24
 outlineColor: 1b1a33
 mechLegColor: 1b1a33
 stepSound: walkerStepSmall
@@ -42,7 +42,7 @@ legCount: 4
 lockLegBase: true
 legExtension: 4.5
 legBaseOffset: 3
-legLength: 28
+legLength: 38
 legMaxLength: 1.1
 legMinLength: 0.2
 legSpeed: 0.25
@@ -63,22 +63,60 @@ abilities: [
 
 weapons: [
     {
-        x: 4
-        y: -6
+        x: 5
+        y: -4
         rotate: false
         mirror: false
         inaccuracy: 7
-        reload: 10
+        reload: 8
         recoil: 0.3
         shootSound: stepMud
         bullet: {
             type: LiquidBulletType
             width: 2
-            damage: 20
+            damage: 28
             pierceCap: 1
             range: 20
             liquid: biotic-zlo-liquid-acid
             orbSize: 3
+            puddleSize: 15
+            speed: 1.6
+            shootEffect: {
+                Type: MultiEffect
+                effects: [  
+                    {
+                        type: ParticleEffect
+                        particles: 10
+                        layer: 110
+                        colorFrom: 50ff36
+                        colorTo: 50ff36
+                        cone: 360
+                        length: 12
+                        sizeFrom: 2
+                        sizeTo: 0
+                    }         
+                ]       
+            }
+        }
+    }
+    {
+        x: -6
+        y: 3
+        rotate: false
+        mirror: false
+        inaccuracy: 7
+        reload: 12
+        recoil: 0.3
+        shootSound: stepMud
+        bullet: {
+            type: LiquidBulletType
+            width: 2
+            damage: 35
+            pierceCap: 1
+            range: 100
+            lifetime: 60
+            liquid: biotic-zlo-liquid-acid
+            orbSize: 5
             puddleSize: 15
             speed: 1.5
             shootEffect: {
@@ -100,39 +138,70 @@ weapons: [
         }
     }
     {
-        x: -6
-        y: 0
+        x: -2
+        y: -8
         rotate: false
         mirror: false
-        inaccuracy: 7
-        reload: 10
+        inaccuracy: 6
+        reload: 50
         recoil: 0.3
-        shootSound: stepMud
+        shootSound: shootArtillerySmall
+        name: biotic-zlo-unit-horrid-weapon-0
         bullet: {
-            type: LiquidBulletType
-            width: 2
-            damage: 28
-            pierceCap: 1
-            range: 20
-            lifetime: 50
-            liquid: biotic-zlo-liquid-acid
-            orbSize: 5
-            puddleSize: 15
-            speed: 1.7
+            type: ArtilleryBulletType
+            sprite: corpuscles-biotic-zlo-fleshbomb
+            shrinkY: 0
+            trailColor: 990000
+            trailLength: 15
+            trailWidth: 3
+            layer: 90
+            speed: 2
+            lightRadius: -1
+            lightOpacity: 0
+            range: 220
+            height: 20
+            lifetime: 110
+            width: 20
+            splashDamage: 100
+            splashDamageRadius: 20
+            hitEffect: none
+            smokeEffect: none
+            trailEffect:  {
+                type: WaveEffect
+                particles: 20
+                colorFrom: 97ad8c
+                colorTo: 6e7d66
+                cone: 4
+                length: 12
+                sizeFrom: 2
+                sizeTo: 0
+                layer: 99
+            }
             shootEffect: {
                 Type: MultiEffect
                 effects: [  
                     {
                         type: ParticleEffect
-                        particles: 10
-                        layer: 110
-                        colorFrom: 50ff36
-                        colorTo: 50ff36
-                        cone: 360
+                        particles: 20
+                        colorFrom: 97ad8c
+                        colorTo: 6e7d66
+                        cone: 4
                         length: 12
                         sizeFrom: 2
                         sizeTo: 0
-                    }         
+                        layer: 99
+                    }
+                    {
+                        type: WaveEffect
+                        particles: 2
+                        colorFrom: 6e7d66
+                        colorTo: #5a6654
+                        cone: 4
+                        length: 12
+                        sizeFrom: 3
+                        sizeTo: 9
+                        layer: 99
+                    }
                 ]       
             }
         }
@@ -163,9 +232,9 @@ weapons: [
             hitEffect: none
             smokeEffect: none
             shootEffect: none
-            puddles: 3
-            puddleRange: 20
-            puddleAmount: 40
+            puddles: 6
+            puddleRange: 30
+            puddleAmount: 60
             puddleLiquid: corpuscles-biotic-zlo-liquid-acid
         }  
     }
