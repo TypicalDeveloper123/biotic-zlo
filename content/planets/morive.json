@@ -119,7 +119,7 @@ allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
-startSector: 222
+startSector: 142
 radius: 0.75
 minZoom: 0.8
 drawOrbit: true
