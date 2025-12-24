@@ -19,7 +19,7 @@ deathExplosionEffect: {
             colorTo: 014214
             cone: 360
             length: 15
-            sizeFrom: 5
+            sizeFrom: 6.5
             sizeTo: 0
         }   
         {
@@ -30,7 +30,7 @@ deathExplosionEffect: {
             colorTo: 50ff36
             cone: 360
             length: 15
-            sizeFrom: 3
+            sizeFrom: 5
             sizeTo: 0
         }
     ] 
