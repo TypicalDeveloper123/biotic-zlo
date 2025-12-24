@@ -22,12 +22,12 @@ mesh: [
     planet: morive
     divisions: 5
     seed: 15
-    radius: 0.67
+    radius: 0.65
     color1: 661616
     color2: 991f1f
     octaves: 3.1
-    persistence: 10
-    mag: 0.95
+    persistence: 0.6
+    mag: 1.33
 		scl: 4
   }
   {
@@ -49,7 +49,7 @@ mesh: [
     type: NoiseMesh
     planet: morive
     divisions: 5
-    radius: 0.726
+    radius: 0.72
     color1: 290707
     color2: 290707
     octaves: 3
