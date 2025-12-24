@@ -63,8 +63,8 @@ abilities: [
 
 weapons: [
     {
-        x: 5
-        y: -4
+        x: 6
+        y: 3
         rotate: false
         mirror: false
         inaccuracy: 7
@@ -100,8 +100,8 @@ weapons: [
         }
     }
     {
-        x: -6
-        y: 3
+        x: -5
+        y: 5
         rotate: false
         mirror: false
         inaccuracy: 7
@@ -139,7 +139,7 @@ weapons: [
     }
     {
         x: -2
-        y: -8
+        y: -7
         rotate: false
         mirror: false
         inaccuracy: 6
@@ -149,7 +149,7 @@ weapons: [
         name: biotic-zlo-unit-horrid-weapon-0
         bullet: {
             type: ArtilleryBulletType
-            sprite: corpuscles-biotic-zlo-fleshbomb
+            sprite: corpuscles-biotic-zlo-cystbomb
             shrinkY: 0
             trailColor: 990000
             trailLength: 15
@@ -195,7 +195,7 @@ weapons: [
                         type: WaveEffect
                         particles: 2
                         colorFrom: 6e7d66
-                        colorTo: #5a6654
+                        colorTo: 616e5a
                         cone: 4
                         length: 12
                         sizeFrom: 3
