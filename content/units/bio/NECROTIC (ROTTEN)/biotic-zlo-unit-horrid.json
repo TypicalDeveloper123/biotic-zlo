@@ -151,8 +151,8 @@ weapons: [
             type: ArtilleryBulletType
             sprite: corpuscles-biotic-zlo-cystbomb
             shrinkY: 0
-            trailColor: 990000
-            trailLength: 15
+            trailColor: 6e7d66
+            trailLength: 12
             trailWidth: 3
             layer: 90
             speed: 2
