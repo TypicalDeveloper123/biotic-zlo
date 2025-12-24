@@ -11,10 +11,10 @@ mesh: [
     radius: 0.55
     color1: 995d5d
     color2: 663d3d
-    octaves: 3
+    octaves: 3.1
     persistence: 0.8
     mag: 1.4
-		scl: 2
+		scl: 4
   }
   {
     //coagulated blood
@@ -35,14 +35,14 @@ mesh: [
     type: NoiseMesh
     planet: morive
     divisions: 5
-    seed: 31
+    seed: 15
     radius: 0.54
     color1: 444957
     color2: 30333d
-    octaves: 3
-    persistence: 2
-    mag: 2.6
-		scl: 1
+    octaves: 3.1
+    persistence: 0.8
+    mag: 1.6
+		scl: 4
   }
   {
     //blood
@@ -99,7 +99,7 @@ generator: {
   ferricChance: 0.26
 }
 
-orbitRadius: 28
+orbitRadius: 35
 sectorSize: 3
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
