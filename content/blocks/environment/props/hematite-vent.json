@@ -14,8 +14,8 @@ effect:{
             sizeInterp: slope
             length: 65
             baseLength: 4
-            sizeFrom: 4
-            sizeTo: 8
+            sizeFrom: 2
+            sizeTo: 6.5
             colorFrom: 888d9e
             colorTo: 545969
             layer: 61.8
@@ -27,7 +27,7 @@ effect:{
             lifetime: 195
             sizeInterp: slope
             length: 65
-            baseLength: 4
+            baseLength: 2
             sizeFrom: 4
             sizeTo: 8
             colorFrom: 888d9e
