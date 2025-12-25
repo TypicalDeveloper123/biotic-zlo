@@ -28,8 +28,8 @@ effect:{
             sizeInterp: slope
             length: 65
             baseLength: 2
-            sizeFrom: 2
-            sizeTo: 8
+            sizeFrom: 3
+            sizeTo: 6
             colorFrom: 888d9e
             colorTo: 545969
             layer: 61.9
