@@ -1,7 +1,7 @@
 type: SteamVent
 variants: 0
-blendGroup: biotic-zlo-tile-hematite
-parent: biotic-zlo-tile-hematite
+blendGroup: biotic-zlo-tile-HEMATITE
+parent: biotic-zlo-tile-HEMATITE
 
 effectSpacing: 15
 
