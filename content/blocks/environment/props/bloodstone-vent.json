@@ -15,7 +15,7 @@ effect:{
             length: 65
             baseLength: 4
             sizeFrom: 1
-            sizeTo: 6
+            sizeTo: 8
             colorFrom: b09c86
             colorTo: 615950
             layer: 61.8
@@ -29,7 +29,7 @@ effect:{
             length: 65
             baseLength: 2
             sizeFrom: 1
-            sizeTo: 5.5
+            sizeTo: 8
             colorFrom: b09c86
             colorTo: 615950
             layer: 61.9
