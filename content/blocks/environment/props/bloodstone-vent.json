@@ -1,0 +1,40 @@
+type: SteamVent
+variants: 2
+blendGroup: biotic-zlo-tile-BLOODSTONE
+parent: biotic-zlo-tile-BLOODSTONE
+
+effectSpacing: 15
+
+effect:{
+    type: MultiEffect
+    effects: [
+        {
+            type: ParticleEffect
+            lifetime: 240
+            sizeInterp: slope
+            length: 65
+            baseLength: 4
+            sizeFrom: 1
+            sizeTo: 3
+            colorFrom: b59874
+            colorTo: 5e503f
+            layer: 61.8
+            cone: 45
+            baseRotation: 30
+        }
+        {
+            type: ParticleEffect
+            lifetime: 195
+            sizeInterp: slope
+            length: 65
+            baseLength: 2
+            sizeFrom: 1
+            sizeTo: 4
+            colorFrom: b59874
+            colorTo: 5e503f
+            layer: 61.9
+            cone: 35
+            baseRotation: 30
+        }
+    ]
+}
