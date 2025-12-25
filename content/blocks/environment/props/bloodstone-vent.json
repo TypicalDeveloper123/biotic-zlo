@@ -16,8 +16,8 @@ effect:{
             baseLength: 4
             sizeFrom: 1
             sizeTo: 6
-            colorFrom: b59874
-            colorTo: 5e503f
+            colorFrom: b09c86
+            colorTo: 615950
             layer: 61.8
             cone: 45
             baseRotation: 30
@@ -30,8 +30,8 @@ effect:{
             baseLength: 2
             sizeFrom: 1
             sizeTo: 5.5
-            colorFrom: b59874
-            colorTo: 5e503f
+            colorFrom: b09c86
+            colorTo: 615950
             layer: 61.9
             cone: 35
             baseRotation: 30
