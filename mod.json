@@ -173,7 +173,8 @@ contentOrder:[
             biotic-zlo-liquid-liquidblood
 
         // tiles
-            biotic-zlo-tile-BLOODSTONE  
+            biotic-zlo-tile-BLOODSTONE
+            biotic-zlo-tile-HEMATITE 
             biotic-zlo-tile-CLAY
             biotic-zlo-tile-BONE
             biotic-zlo-tile-COAGULATED-BLOOD
@@ -181,6 +182,7 @@ contentOrder:[
 
         // walls
             biotic-zlo-wall-BLOODSTONE
+            biotic-zlo-wall-HEMATITE 
             biotic-zlo-wall-DENSE-BONE
             biotic-zlo-wall-COAGULATED-BLOOD
             biotic-zlo-wall-DENSE-FLESH
