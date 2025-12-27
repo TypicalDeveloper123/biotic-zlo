@@ -1,0 +1,51 @@
+type: PointDefenseTurret
+size: 2
+squareSprite: false
+health: 600
+hasItems: false
+hasPower: true
+hasLiquids: true
+laserAbsorb: false
+
+requirements: [
+  biotic-zlo-item-aluminum/22
+  biotic-zlo-item-infested-tissue/10
+  biotic-zlo-item-iron/14
+  silicon/8
+  biotic-zlo-item-foritium/8
+]
+
+
+category: turret
+consumes: {
+  power: 0.38
+} 
+
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: false
+  amount: 0.05
+}
+
+recoil: 2
+outlineColor: 1b1a33
+targetAir: true
+targetGround: true
+rotateSpeed: 6
+reload: 12
+range: 120
+shootY: 7
+shootX: 0
+
+drawer: {
+  type: DrawTurret
+  basePrefix: metal-
+}
+
+researchCost: [
+  biotic-zlo-item-aluminum/72
+  biotic-zlo-item-infested-tissue/48
+  biotic-zlo-item-iron/24
+  silicon/16
+]
