@@ -8,5 +8,4 @@ viscosity: 0.4
 temperature: 0.9
 blockReactive: true
 
-research: biotic-zlo-liquid-blood
 hiddenOnPlanets: [serpulo, erekir]
