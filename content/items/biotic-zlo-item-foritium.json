@@ -6,4 +6,11 @@ charge: 0.01
 hardness: 2
 color: eb78ff
 
+research: {
+  parent: biotic-zlo-liquid-blood
+  objectives: [  
+    biotic-zlo-production-seismic-impactor
+  ]
+}
+
 hiddenOnPlanets: [serpulo, erekir]

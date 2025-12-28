@@ -26,8 +26,8 @@ research: {
   parent: biotic-zlo-turret-convergence
   objectives: [
     {
-    type: SectorComplete
-    preset: husk
+    type: OnSector
+    preset: strand
     }
   ]
 }
