@@ -33,10 +33,8 @@ outlineColor: 1b1a33
 targetAir: true
 targetGround: true
 rotateSpeed: 6
-reload: 12
+reload: 10
 range: 120
-shootY: 7
-shootX: 0
 
 drawer: {
   type: DrawTurret
