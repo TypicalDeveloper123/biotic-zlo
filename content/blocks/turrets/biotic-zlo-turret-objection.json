@@ -32,7 +32,7 @@ recoil: 2
 outlineColor: 1b1a33
 targetAir: true
 targetGround: true
-rotateSpeed: 6
+rotateSpeed: 8
 reload: 10
 range: 120
 
