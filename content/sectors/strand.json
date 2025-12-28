@@ -1,0 +1,15 @@
+planet: morive
+sector: 23
+difficulty: 3
+captureWave: 18
+research: {
+  parent: husk
+  objectives: [
+    {
+    type: SectorComplete
+    preset: husk
+    }
+  ]
+}
+
+alwaysUnlocked: false

@@ -15,7 +15,6 @@ requirements: [
   biotic-zlo-item-foritium/8
 ]
 
-
 category: turret
 consumes: {
   power: 0.38
@@ -48,3 +47,13 @@ researchCost: [
   silicon/32
   biotic-zlo-item-foritium/32
 ]
+
+research: {
+  parent: biotic-zlo-turret-convergence
+  objectives: [
+    {
+    type: OnSector
+    preset: strand
+    }
+  ]
+}

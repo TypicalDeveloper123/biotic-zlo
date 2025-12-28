@@ -8,6 +8,19 @@ requirements: [
   biotic-zlo-item-foritium/6
 ]
 
+research: {
+  parent: biotic-zlo-defense-iron-wall
+  objectives: [  
+    biotic-zlo-defense-iron-wall
+    biotic-zlo-item-foritium
+    {
+    type: OnSector
+    preset: strand
+    }
+  ]
+}
+
+
 researchCost: [
   biotic-zlo-item-foritium/18
 ]

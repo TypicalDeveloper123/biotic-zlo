@@ -15,6 +15,22 @@ requirements: [
   silicon/5
 ]
 
+researchCost: [
+  biotic-zlo-item-aluminum/96
+  biotic-zlo-item-iron/72
+  biotic-zlo-item-foritium/56
+  silicon/20
+]
+
+research: {
+  parent: biotic-zlo-turret-convergence
+  objectives: [
+    {
+    type: SectorComplete
+    preset: husk
+    }
+  ]
+}
 
 category: turret
 consumes: {

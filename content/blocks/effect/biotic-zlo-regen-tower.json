@@ -52,6 +52,10 @@ consumes: {
 research: {
   parent: biotic-zlo-regen-emitter
   objectives: [
-  
+    biotic-zlo-item-foritium
+    {
+    type: SectorComplete
+    preset: husk
+    }
   ]
 }

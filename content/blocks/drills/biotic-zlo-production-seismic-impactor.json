@@ -31,8 +31,11 @@ researchCost: [
 
 research: {
   parent: biotic-zlo-production-aluminum-drill
-  objectives: [  
-    
+  objectives: [
+    {
+    type: SectorComplete
+    preset: husk
+    }
 	]
 }
 
