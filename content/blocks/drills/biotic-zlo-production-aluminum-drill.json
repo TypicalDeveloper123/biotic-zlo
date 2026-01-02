@@ -2,7 +2,7 @@ type: Drill
 size: 2
 category: production
 hasLiquids: false
-drillTime: 100
+drillTime: 20
 drillHardnessMultiplier: 150
 hasPower: false
 tier: 1

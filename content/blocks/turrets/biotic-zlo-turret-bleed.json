@@ -9,9 +9,9 @@ hasLiquids: true
 laserAbsorb: true
 
 requirements: [
-  biotic-zlo-item-aluminum/14
-  biotic-zlo-item-infested-tissue/10
-  biotic-zlo-item-iron/6
+  biotic-zlo-item-aluminum/24
+  biotic-zlo-item-infested-tissue/18
+  biotic-zlo-item-iron/10
 ]
 
 

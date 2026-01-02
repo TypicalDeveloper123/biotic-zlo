@@ -9,10 +9,10 @@ hasLiquids: true
 laserAbsorb: false
 
 requirements: [
-  biotic-zlo-item-aluminum/24
-  biotic-zlo-item-iron/18
-  biotic-zlo-item-foritium/14
-  silicon/5
+  biotic-zlo-item-aluminum/40
+  biotic-zlo-item-iron/30
+  biotic-zlo-item-foritium/25
+  silicon/18
 ]
 
 researchCost: [
