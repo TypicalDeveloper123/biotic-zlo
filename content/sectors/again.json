@@ -1,8 +1,9 @@
 planet: morive
 sector: 142
 difficulty: 1
-captureWave: 8
+captureWave: 4
 research: {
   parent: biotic-zlo-core-hazard
 }
+
 alwaysUnlocked: true
