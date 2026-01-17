@@ -12,7 +12,7 @@ segmentScl: 4
 drawCell: true
 drawBody: false
 segmentRotSpeed: 2
-crawlSlowDown: 0.6
+crawlSlowDown: 0.5
 segmentRotationRange: 75
 crushDamage: 2.4
 targetAir: true
