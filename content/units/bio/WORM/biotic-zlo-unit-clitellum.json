@@ -64,8 +64,44 @@ hiddenOnPlanets: [serpulo, erekir]
 
 weapons: [
     {
+        x: 4.5
+        y: -1.5
+        shootY: 1
+        rotate: true
+        rotateSpeed: 50
+        mirror: false
+        inaccuracy: 7
+        reload: 20
+        name: biotic-zlo-unit-clitellum-weapon-1
+        shootSound: shootAtrax
+        bullet: {
+            type: MissileBulletType
+            sprite: corpuscles-biotic-zlo-teeth
+            trailColor: 990000
+            trailLength: 10
+            layer: 90
+            damage: 30
+            speed: 2
+            lightRadius: -1
+            lightOpacity: 0
+            hitEffect: none
+            smokeEffect: none
+            shootEffect: {
+                type: ParticleEffect
+                particles: 10
+                colorFrom: a33333
+                colorTo: 33001b
+                cone: 4
+                length: 12
+                sizeFrom: 2
+                sizeTo: 0
+                layer: 59
+            }   
+        }
+    }
+    {
         x: -4
-        y: -5
+        y: -4.5
         shootY: 2
         rotate: true
         rotateSpeed: 30
@@ -118,42 +154,6 @@ weapons: [
                 sizeTo: 0
                 layer: 99
             }
-        }
-    }
-    {
-        x: 4
-        y: -1
-        shootY: 1
-        rotate: true
-        rotateSpeed: 50
-        mirror: false
-        inaccuracy: 7
-        reload: 20
-        name: biotic-zlo-unit-clitellum-weapon-1
-        shootSound: shootAtrax
-        bullet: {
-            type: MissileBulletType
-            sprite: corpuscles-biotic-zlo-teeth
-            trailColor: 990000
-            trailLength: 10
-            layer: 90
-            damage: 30
-            speed: 2
-            lightRadius: -1
-            lightOpacity: 0
-            hitEffect: none
-            smokeEffect: none
-            shootEffect: {
-                type: ParticleEffect
-                particles: 10
-                colorFrom: a33333
-                colorTo: 33001b
-                cone: 4
-                length: 12
-                sizeFrom: 2
-                sizeTo: 0
-                layer: 59
-            }   
         }
     }
     {
