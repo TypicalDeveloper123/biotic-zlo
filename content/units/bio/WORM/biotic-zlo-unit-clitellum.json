@@ -19,7 +19,7 @@ targetAir: true
 rotateToBuilding: false
 rotateSpeed: 7
 omniMovement: false
-softShadowScl: 10
+softShadowScl: 2
 legPhysicsLayer: false
 deathExplosionEffect: {
     type: MultiEffect
@@ -64,9 +64,8 @@ hiddenOnPlanets: [serpulo, erekir]
 
 weapons: [
     {
-        x: -1
-        y: -2
-        shootX: -1
+        x: -2
+        y: -3
         shootY: 1
         rotate: true
         rotateSpeed: 30
@@ -122,9 +121,8 @@ weapons: [
         }
     }
     {
-        x: 1
-        y: 2
-        shootX: 1
+        x: 2
+        y: 1
         shootY: 1
         rotate: true
         rotateSpeed: 50
