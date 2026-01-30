@@ -63,35 +63,48 @@ abilities: [
 hiddenOnPlanets: [serpulo, erekir]
 
 weapons: [
-     {
-        x: 0
-        y: -3
-        shootY: 1
-        rotate: true
-        rotateSpeed: 45
+    {
+        x: -2
+        y: 0
+        rotate: false
         mirror: false
         inaccuracy: 2
-        reload: 24
-        name: biotic-zlo-unit-ventral-weapon-0
+        reload: 30
+        name: biotic-zlo-unit-clitellum-weapon-0
         recoil: 0.3
         shootSound: shootAtrax
         shoot: {
             shots: 3
-            shotDelay: 5
+            shotDelay: 8
         }
         bullet: {
             type: MissileBulletType
-            sprite: corpuscles-biotic-zlo-teeth
+            sprite: corpuscles-biotic-zlo-bigteeth
             trailColor: 990000
-            trailLength: 10
+            trailLength: 15
             layer: 90
-            damage: 30
-            speed: 2
+            damage: 45
+            speed: 3
             lightRadius: -1
             lightOpacity: 0
-            range: 30
+            height: 20
+            width: 20
             hitEffect: none
             smokeEffect: none
+            fragBullets: 3
+            fragBullet: {
+                type: MissileBulletType
+                sprite: corpuscles-biotic-zlo-teeth
+                fragLifeMin: 1
+                trailColor: 990000
+                trailLength: 10
+                layer: 90
+                damage: 30
+                speed: 3
+                lightRadius: -1
+                lightOpacity: 0
+                hitEffect: none
+            }
             shootEffect: {
                 type: ParticleEffect
                 particles: 10
@@ -103,6 +116,40 @@ weapons: [
                 sizeTo: 0
                 layer: 99
             }
+        }
+    }
+    {
+        x: 2
+        y: 4
+        rotate: false
+        mirror: true
+        inaccuracy: 7
+        reload: 20
+        name: biotic-zlo-unit-clitellum-weapon-1
+        shootSound: shootAtrax
+        bullet: {
+            type: MissileBulletType
+            sprite: corpuscles-biotic-zlo-teeth
+            trailColor: 990000
+            trailLength: 10
+            layer: 59
+            damage: 30
+            speed: 2
+            lightRadius: -1
+            lightOpacity: 0
+            hitEffect: none
+            smokeEffect: none
+            shootEffect: {
+                type: ParticleEffect
+                particles: 10
+                colorFrom: a33333
+                colorTo: 33001b
+                cone: 4
+                length: 12
+                sizeFrom: 2
+                sizeTo: 0
+                layer: 59
+            }   
         }
     }
     {
