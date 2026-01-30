@@ -3,7 +3,7 @@ speed: 0.65
 flying: false
 health: 920
 armor: 5
-hitSize: 30
+hitSize: 32
 outlineColor: 1b1a33
 segments: 3
 segmentMag: 2
@@ -19,7 +19,7 @@ targetAir: true
 rotateToBuilding: false
 rotateSpeed: 7
 omniMovement: false
-softShadowScl: 1
+softShadowScl: 10
 legPhysicsLayer: false
 deathExplosionEffect: {
     type: MultiEffect
@@ -64,18 +64,21 @@ hiddenOnPlanets: [serpulo, erekir]
 
 weapons: [
     {
-        x: -2
-        y: 0
-        rotate: false
+        x: -1
+        y: -2
+        shootX: -1
+        shootY: 1
+        rotate: true
+        rotateSpeed: 30
         mirror: false
         inaccuracy: 2
-        reload: 30
+        reload: 140
         name: biotic-zlo-unit-clitellum-weapon-0
         recoil: 0.3
         shootSound: shootAtrax
         shoot: {
             shots: 3
-            shotDelay: 8
+            shotDelay: 12
         }
         bullet: {
             type: MissileBulletType
@@ -119,10 +122,13 @@ weapons: [
         }
     }
     {
-        x: 2
-        y: 4
-        rotate: false
-        mirror: true
+        x: 1
+        y: 2
+        shootX: 1
+        shootY: 1
+        rotate: true
+        rotateSpeed: 50
+        mirror: false
         inaccuracy: 7
         reload: 20
         name: biotic-zlo-unit-clitellum-weapon-1
@@ -132,7 +138,7 @@ weapons: [
             sprite: corpuscles-biotic-zlo-teeth
             trailColor: 990000
             trailLength: 10
-            layer: 59
+            layer: 90
             damage: 30
             speed: 2
             lightRadius: -1
