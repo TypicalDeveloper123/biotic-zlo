@@ -19,7 +19,7 @@ targetAir: true
 rotateToBuilding: false
 rotateSpeed: 7
 omniMovement: false
-softShadowScl: 1.2
+softShadowScl: 0.7
 legPhysicsLayer: false
 deathExplosionEffect: {
     type: MultiEffect
