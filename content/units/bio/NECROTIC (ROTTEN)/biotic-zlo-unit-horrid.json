@@ -73,6 +73,7 @@ weapons: [
         shootSound: stepMud
         bullet: {
             type: LiquidBulletType
+            status: status-dissolving
             width: 2
             damage: 28
             pierceCap: 1
@@ -110,6 +111,7 @@ weapons: [
         shootSound: stepMud
         bullet: {
             type: LiquidBulletType
+            status: status-dissolving
             width: 2
             damage: 35
             pierceCap: 1
