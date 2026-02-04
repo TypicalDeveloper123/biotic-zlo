@@ -18,7 +18,7 @@ crushDamage: 2
 targetAir: false
 rotateSpeed: 8
 omniMovement: false
-softShadowScl: 0.65
+softShadowScl: 0.6
 legPhysicsLayer: false
 deathExplosionEffect: {
     type: MultiEffect
