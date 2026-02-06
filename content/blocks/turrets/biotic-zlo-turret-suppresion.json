@@ -33,12 +33,15 @@ outlineColor: 1b1a33
 targetAir: true
 targetGround: true
 rotateSpeed: 6
-mirror: true
 reload: 8
 range: 260
 shootY: 9
-shootX: 2
+x: -2
 inaccuracy: 2
+
+shoot: {
+  type: ShootAlternate
+}
 
 ammoPerShot: 2
 ammoTypes: {
@@ -61,7 +64,7 @@ ammoTypes: {
     	layer: 100.2
     	cone: 30
     	length: 50
-    	sizeFrom: 3
+    	sizeFrom: 
     	sizeTo: 0
     	colorFrom: ffffff
     	colorTo: ffffff
