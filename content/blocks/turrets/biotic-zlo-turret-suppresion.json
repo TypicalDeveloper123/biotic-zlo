@@ -1,0 +1,86 @@
+type: ItemTurret
+size: 3
+squareSprite: false
+health: 1100
+shootSound: shootReign
+hasItems: true
+hasPower: true
+hasLiquids: true
+laserAbsorb: false
+
+requirements: [
+  biotic-zlo-item-aluminum/80
+  biotic-zlo-item-iron/50
+  biotic-zlo-item-foritium/45
+  silicon/35
+]
+
+
+category: turret
+consumes: {
+  power: 1
+} 
+
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: false
+  amount: 0.05
+}
+
+recoil: 2
+outlineColor: 1b1a33
+targetAir: true
+targetGround: true
+rotateSpeed: 6
+reload: 8
+range: 165
+shootY: 7
+shootX: 0
+inaccuracy: 4
+
+shoot: {
+  type: ShootAlternate
+}
+
+ammoPerShot: 2
+ammoTypes: {
+  biotic-zlo-item-iron: {
+    type: BasicBulletType
+    damage: 35
+    width: 10
+    height: 12
+    lifetime: 30
+    pierceCap: 3
+    speed: 5.8
+    pierce: true
+    pierceBuilding: true
+    shootEffect: {
+    	type: ParticleEffect
+    	particles: 20
+    	lifetime: 20
+    	layer: 100.2
+    	cone: 30
+    	length: 30
+    	sizeFrom: 2
+    	sizeTo: 0
+    	colorFrom: c1dae3
+    	colorTo: 8fa9b3
+    }
+  }
+}
+
+
+drawer: {
+  type: DrawTurret
+  basePrefix: metal-
+}
+
+
+
+researchCost: [
+  biotic-zlo-item-aluminum/72
+  biotic-zlo-item-infested-tissue/48
+  biotic-zlo-item-iron/24
+  silicon/16
+]
