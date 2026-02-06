@@ -36,7 +36,7 @@ rotateSpeed: 6
 reload: 8
 range: 260
 shootY: 9
-x: -2
+shootX: 0
 inaccuracy: 2
 
 shoot: {
