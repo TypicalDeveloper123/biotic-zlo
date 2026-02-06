@@ -35,8 +35,8 @@ targetGround: true
 rotateSpeed: 6
 reload: 8
 range: 260
-shootY: 7
-x: -2
+shootY: 9
+x: 4
 inaccuracy: 2
 
 shoot: {
