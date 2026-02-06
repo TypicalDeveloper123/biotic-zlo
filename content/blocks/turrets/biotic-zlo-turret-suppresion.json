@@ -34,10 +34,10 @@ targetAir: true
 targetGround: true
 rotateSpeed: 6
 reload: 8
-range: 165
+range: 260
 shootY: 7
-shootX: 0
-inaccuracy: 4
+shootX: -2
+inaccuracy: 2
 
 shoot: {
   type: ShootAlternate
@@ -47,25 +47,27 @@ ammoPerShot: 2
 ammoTypes: {
   biotic-zlo-item-iron: {
     type: BasicBulletType
-    damage: 35
+    damage: 60
     width: 10
     height: 12
-    lifetime: 30
+    lifetime: 50
     pierceCap: 3
     speed: 5.8
     pierce: true
     pierceBuilding: true
+	frontColor: ffffff
+    backColor: ffffff
     shootEffect: {
     	type: ParticleEffect
     	particles: 20
-    	lifetime: 20
+    	lifetime: 40
     	layer: 100.2
     	cone: 30
-    	length: 30
-    	sizeFrom: 2
+    	length: 50
+    	sizeFrom: 4
     	sizeTo: 0
-    	colorFrom: c1dae3
-    	colorTo: 8fa9b3
+    	colorFrom: ffffff
+    	colorTo: ffffff
     }
   }
 }
