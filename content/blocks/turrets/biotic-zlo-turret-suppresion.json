@@ -79,8 +79,8 @@ drawer: {
 
 
 researchCost: [
-  biotic-zlo-item-aluminum/72
-  biotic-zlo-item-infested-tissue/48
-  biotic-zlo-item-iron/24
-  silicon/16
+  biotic-zlo-item-aluminum/320
+  biotic-zlo-item-iron/200
+  biotic-zlo-item-foritium/180
+  silicon/140
 ]
