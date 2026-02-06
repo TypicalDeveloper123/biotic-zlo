@@ -18,7 +18,7 @@ requirements: [
 
 category: turret
 consumes: {
-  power: 1
+  power: 0.75
 } 
 
 coolant: {
