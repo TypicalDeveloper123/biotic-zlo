@@ -48,7 +48,7 @@ ammoPerShot: 2
 ammoTypes: {
   biotic-zlo-item-iron: {
     type: BasicBulletType
-    damage: 60
+    damage: 75
     width: 10
     height: 12
     lifetime: 50
