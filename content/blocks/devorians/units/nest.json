@@ -3,7 +3,7 @@ placeablePlayer: false
 consumes: {}
 buildVisibility: editorOnly
 drawTeamOverlay: false
-reload: 3600
+reload: 7200
 health: 450
 size: 2
 shootSound: stepMud
