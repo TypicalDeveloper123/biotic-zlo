@@ -1,0 +1,50 @@
+type: ForceProjector
+size: 3
+radius: 105
+shieldHealth: 1150
+cooldownNormal: 1.8
+cooldownLiquid: 1.4
+cooldownBrokenBase: 0.35
+category: effect
+
+requirements: [
+  biotic-zlo-item-aluminum/18
+  biotic-zlo-item-iron/14
+  silicon/8
+  biotic-zlo-item-foritium/10
+]
+
+researchCost: [
+  biotic-zlo-item-aluminum/72
+	biotic-zlo-item-iron/56
+	silicon/24
+  biotic-zlo-item-foritium/40
+]
+
+
+consumes: {
+  power: 2.2
+  items: {
+    items: [
+      silicon/3
+    ]
+  }
+}
+
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: false
+  amount: 0.05
+}
+
+research: {
+  parent: biotic-zlo-regen-emitter
+  objectives: [
+    biotic-zlo-item-foritium
+    {
+    type: SectorComplete
+    preset: husk
+    }
+  ]
+}
