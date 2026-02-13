@@ -29,22 +29,9 @@ consumes: {
       silicon/3
     ]
   }
-}
-
-coolant: {
-  type: ConsumeCoolant
-  allowGas: true
-  allowLiquid: false
-  amount: 0.05
-}
-
-research: {
-  parent: biotic-zlo-regen-emitter
-  objectives: [
-    biotic-zlo-item-foritium
-    {
-    type: SectorComplete
-    preset: husk
-    }
-  ]
+  liquids: {
+    liquids: [
+      water/3
+    ]
+  }
 }
