@@ -3,7 +3,6 @@ size: 3
 radius: 105
 shieldHealth: 1150
 cooldownNormal: 1.8
-cooldownLiquid: 1.4
 cooldownBrokenBase: 0.35
 category: effect
 
@@ -31,7 +30,7 @@ consumes: {
   }
   liquids: {
     liquids: [
-      water/3
+      water/0.085
     ]
   }
 }
