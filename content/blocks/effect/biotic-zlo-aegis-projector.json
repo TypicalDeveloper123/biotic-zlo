@@ -1,6 +1,6 @@
 type: ForceProjector
 size: 3
-radius: 105
+radius: 140
 shieldHealth: 1150
 cooldownNormal: 1.8
 cooldownBrokenBase: 0.35
@@ -30,7 +30,7 @@ consumes: {
   }
   liquids: {
     liquids: [
-      water/0.085
+      water/0.075
     ]
   }
 }
