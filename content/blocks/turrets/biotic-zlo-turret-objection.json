@@ -40,14 +40,14 @@ drawer: {
   drawers: [
     {
       type: DrawRegion
-      suffix: -block-2
+      region: metal-block-2
     }
     {
-      type: DrawDefault
+      type: DrawTurret
+      basePrefix: metal-
     }
   ]
 }
-
 researchCost: [
   biotic-zlo-item-aluminum/88
   biotic-zlo-item-infested-tissue/40
