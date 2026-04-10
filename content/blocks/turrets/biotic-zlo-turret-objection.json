@@ -36,8 +36,16 @@ reload: 10
 range: 120
 
 drawer: {
-  type: DrawTurret
-  basePrefix: metal-
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -block-2
+    }
+    {
+      type: DrawDefault
+    }
+  ]
 }
 
 researchCost: [
