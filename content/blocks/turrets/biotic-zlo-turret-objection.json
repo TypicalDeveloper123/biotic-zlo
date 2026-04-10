@@ -36,18 +36,10 @@ reload: 10
 range: 120
 
 drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawRegion
-      region: metal-block-2
-    }
-    {
-      type: DrawTurret
-      basePrefix: metal-
-    }
-  ]
+  type: DrawTurret
+  basePrefix: metal-
 }
+
 researchCost: [
   biotic-zlo-item-aluminum/88
   biotic-zlo-item-infested-tissue/40
