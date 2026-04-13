@@ -18,7 +18,7 @@ abilities: [
         angle: 64
         regen: 0.28
         cooldown: 120
-        max: 800
+        max: 820
         y: -10
         width: 4.5
         whenShooting: false
@@ -41,7 +41,7 @@ weapons: [
         shootStatus: slow
         bullet: {
             type: ShrapnelBulletType
-            damage: 135
+            damage: 145
             speed: 0
             length: 65
             width: 7
