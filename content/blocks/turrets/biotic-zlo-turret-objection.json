@@ -36,16 +36,8 @@ reload: 10
 range: 120
 
 drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawRegion
-      region: biotic-zlo-metal-block-2
-    }
-    {
-      type: DrawDefault
-    }
-  ]
+  type: DrawTurret
+  basePrefix: biotic-zlo-metal-
 }
 
 researchCost: [
