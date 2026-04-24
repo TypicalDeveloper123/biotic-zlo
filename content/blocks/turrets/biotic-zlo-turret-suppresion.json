@@ -109,6 +109,38 @@ drawer: {
   parts: [
     {
       type: RegionPart
+      suffix: -mid
+      progress: recoil
+      x: 0
+      y: 0
+      moveX: 0
+      moveY: -3
+      under: false
+    }
+	{
+      type: RegionPart
+      suffix: -rightwing
+      progress: warmup
+      moveRot: 20
+      moveX: 6.2
+      moveY: 0.4
+      under: true
+    }
+	{
+      type: RegionPart
+      suffix: -leftwing
+      progress: warmup
+      moveRot: -20
+      moveX: -6.2
+      moveY: 0.4
+      under: true
+    }
+  ]
+}
+
+parts: [
+  	{
+      type: RegionPart
       suffix: -barrel1
       under: false
       moveY: -5
@@ -128,20 +160,7 @@ drawer: {
       moveY: -5
       progress: recoil
     }
-    {
-      type: RegionPart
-      suffix: -mid
-      progress: recoil
-      x: 0
-      y: 0
-      moveX: 0
-      moveY: -3
-      under: false
-    }
-  ]
-}
-
-
+]
 
 researchCost: [
   biotic-zlo-item-aluminum/320
