@@ -139,27 +139,27 @@ drawer: {
 }
 
 parts: [
-  	{
-      type: RegionPart
-      suffix: -barrel1
-      under: false
-      moveY: -5
-      progress: recoil
-    }
+  {
+    type: RegionPart
+    suffix: -barrel1
+    under: false
+    moveY: -5
+    progress: recoil
+  }
 	{
-      type: RegionPart
-      suffix: -barrel2
-      under: false
-      moveY: -5
-      progress: recoil
-    }
+    type: RegionPart
+    suffix: -barrel2
+    under: false
+    moveY: -5
+    progress: recoil
+  }
 	{
-      type: RegionPart
-      suffix: -barrel3
-      under: false
-      moveY: -5
-      progress: recoil
-    }
+    type: RegionPart
+    suffix: -barrel3
+    under: false
+    moveY: -5
+    progress: recoil
+  }
 ]
 
 researchCost: [
