@@ -42,7 +42,7 @@ inaccuracy: 2
 shoot: {
   type: ShootAlternate
   spread: 10
-  shots: 3
+  shots: 2
 }
 
 ammoPerShot: 2
@@ -143,8 +143,8 @@ drawer: {
       type: RegionPart
       suffix: -rightwing
       progress: warmup
-      moveRot: -45
-      moveX: 2
+      moveRot: -55
+      moveX: 2.4
       moveY: 0.4
       under: true
     }
@@ -152,8 +152,8 @@ drawer: {
       type: RegionPart
       suffix: -leftwing
       progress: warmup
-      moveRot: 45
-      moveX: -2
+      moveRot: 55
+      moveX: -2.4
       moveY: 0.4
       under: true
     }
