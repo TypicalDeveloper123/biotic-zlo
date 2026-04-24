@@ -49,18 +49,6 @@ coolant: {
   amount: 0.05
 }
 
-parts: [
-  {
-      type: RegionPart
-      suffix: -barrel1
-      x: 0
-      y: 0
-      moveX: 0
-      moveY: -3.5
-      progress: recoil
-  }
-]
-
 recoil: 0
 outlineColor: 1b1a33
 targetAir: true
