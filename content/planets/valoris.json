@@ -1,6 +1,6 @@
 localizedName: Valoris
 description: Morive's moon.
-alwaysUnlocked: false
+alwaysUnlocked: true
 mesh: [
   {
     //hematite
