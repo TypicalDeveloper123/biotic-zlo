@@ -68,12 +68,12 @@ allowSectorInvasion: false
 startSector: 20
 radius: 0.6
 minZoom: 1.8
-minZoom: 2.4
+maxZoom: 2.4
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.2
 accessible: true
-updateLighting: false
+updateLighting: true
 sectorSeed: 14513
 bloom: true
 visible: true
