@@ -44,7 +44,6 @@ shoot: {
   barrels: 3
   spread: 20
   shots: 1
-  delay: 5
 }
 
 ammoPerShot: 2

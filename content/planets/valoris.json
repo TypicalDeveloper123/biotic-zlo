@@ -21,7 +21,7 @@ mesh: [
     type: HexSkyMesh
     planet: valoris
     speed: 0.9
-    radius: 0.21
+    radius: 0.19
     divisions: 5
     color: c9c2cf
     octaves: 3
@@ -34,7 +34,7 @@ mesh: [
     type: HexSkyMesh
     planet: valoris
     speed: 0.5
-    radius: 0.195
+    radius: 0.18
     divisions: 5
     color: 59565c
     octaves: 2
@@ -67,7 +67,7 @@ allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 20
 radius: 0.5
-minZoom: 2
+minZoom: 3
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.25
