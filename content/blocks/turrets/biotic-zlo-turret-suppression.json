@@ -41,8 +41,9 @@ inaccuracy: 2
 
 shoot: {
   type: ShootAlternate
-  spread: 10
-  shots: 2
+  barrels:  3
+  spread:  20
+  shots: 3
 }
 
 ammoPerShot: 2
