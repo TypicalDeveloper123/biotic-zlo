@@ -1,0 +1,91 @@
+localizedName: Valoris
+description: Morive's moon.
+alwaysUnlocked: false
+mesh: [
+  {
+    //hematite
+    type: NoiseMesh
+    planet: valoris
+    divisions: 5
+    seed: 14
+    radius: 0.575
+    color1: 444957
+    color2: 30333d
+    octaves: 3.4
+    persistence: 0.8
+    mag: 2.6
+		scl: 1
+  }
+  {
+    //sky
+    type: HexSkyMesh
+    planet: valoris
+    speed: 0.9
+    radius: 0.11
+    divisions: 5
+    color: c9c2cf
+    octaves: 3
+    persistence: 0.4
+    scl: 0.9
+    thresh: 0.6
+  }
+  {
+    //sky 2
+    type: HexSkyMesh
+    planet: valoris
+    speed: 0.5
+    radius: 0.10
+    divisions: 5
+    color: 59565c
+    octaves: 2
+    persistence: 0.4
+    scl: 0.9
+    thresh: 0.7
+  }
+]
+generator: {
+  octaves: 4
+  persistence: 0.52
+  scale: 10
+  mag: 0.721
+  thresh: 1.18
+  min: 100
+  max: 100
+  radMin: 100
+  radMax: 300
+  iceChance: 0.51
+  carbonChance: 0.32
+  berylChance: 0
+  ferricChance: 0.26
+}
+
+orbitRadius: 50
+sectorSize: 3
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+radius: 0.5
+minZoom: 0.8
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.29
+accessible: true
+updateLighting: false
+sectorSeed: 14513
+bloom: true
+visible: true
+atmosphereColor: 735e85
+iconColor: 7a6b87
+hasAtmosphere: true
+allowWaveSimulation: false
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: false
+defaultCore: biotic-zlo-core-hazard
+parent: morive
+solarSystem: sun
+launchCandidates: []
+itemWhitelist: [
+
+]
