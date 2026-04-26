@@ -12,10 +12,6 @@ viscosity: 0.8
 temperature: 0.62
 blockReactive: false
 
-attributes: {
-  blood: 1
-}
-
 research: biotic-zlo-item-infested-tissue
 
 shownPlanets: [morive]

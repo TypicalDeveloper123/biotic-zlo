@@ -2,7 +2,8 @@ type: WallCrafter
 name: Bone Crusher
 attribute: bones
 description: Mines Bones from Bone walls.
-optinalBoostIntensity: 2.5
+liquidBoostIntensity: 2.5
+liquidCapacity: 30
 drillTime: 90
 size: 3
 hasLiquids: true

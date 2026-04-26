@@ -3,7 +3,7 @@ size: 3
 category: production
 hasLiquids: true
 drillTime: 480
-drillHardnessMultiplier: 150
+hardnessDrillMultiplier: 150
 hasPower: true
 tier: 2
 itemCapacity: 50

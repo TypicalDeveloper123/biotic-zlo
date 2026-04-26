@@ -9,7 +9,8 @@ hitSize: 25
 outlineColor: 1b1a33
 mechLegColor: 1b1a33
 moveSound: shipMove
-moveSoundPitch: 0.7
+moveSoundPitchMin:0.7
+moveSoundPitchMax: 0.7
 moveSoundVolume: 1
 engineSize: 0
 lowAltitude: true

@@ -3,7 +3,7 @@ attribute: fleshtile
 baseEfficiency: 0
 minEfficiency: 0.001
 maxBoost: 2
-drillTime: 90
+craftTime: 90
 liquidCapacity: 20
 size: 2
 hasPower: true

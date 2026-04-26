@@ -6,7 +6,6 @@ shootSound: shootReign
 hasItems: true
 hasPower: true
 hasLiquids: true
-laserAbsorb: false
 
 requirements: [
   biotic-zlo-item-aluminum/80

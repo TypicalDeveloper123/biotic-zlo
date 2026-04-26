@@ -51,7 +51,6 @@ drawer: {
       suffix: -waterliquid1
       drawLiquid: water
       alpha: 0.7
-      padding: 2
     } 
     {
       type: DrawDefault

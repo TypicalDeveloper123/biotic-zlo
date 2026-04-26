@@ -5,7 +5,6 @@ health: 600
 hasItems: false
 hasPower: true
 hasLiquids: true
-laserAbsorb: false
 
 requirements: [
   biotic-zlo-item-aluminum/40
@@ -27,18 +26,12 @@ coolant: {
   amount: 0.05
 }
 
-recoil: 2
 outlineColor: 1b1a33
-targetAir: true
-targetGround: true
 rotateSpeed: 8
 reload: 10
 range: 120
 
-drawer: {
-  type: DrawTurret
-  basePrefix: biotic-zlo-metal-
-}
+baseRegion: biotic-zlo-metal-
 
 researchCost: [
   biotic-zlo-item-aluminum/88

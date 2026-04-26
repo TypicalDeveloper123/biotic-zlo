@@ -42,9 +42,7 @@ drawer: {
 		type: DrawDefault
 		}
 		{
-    	type: DrawFlame
-    	suffix: -top	
-		size: 3
+    	type: DrawFlamex
 		}
 	]
 }
