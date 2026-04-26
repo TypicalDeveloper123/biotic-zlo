@@ -11,4 +11,5 @@ research: {
     biotic-zlo-production-blood-extractor
   ]
 }
-hiddenOnPlanets: [serpulo, erekir]
+
+shownPlanets: [morive, valoris]

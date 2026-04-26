@@ -8,4 +8,4 @@ viscosity: 0.4
 temperature: 0.9
 blockReactive: true
 
-hiddenOnPlanets: [serpulo, erekir]
+shownPlanets: [morive]

@@ -17,4 +17,5 @@ attributes: {
 }
 
 research: biotic-zlo-item-infested-tissue
-hiddenOnPlanets: [serpulo, erekir]
+
+shownPlanets: [morive]

@@ -12,4 +12,4 @@ research: {
     biotic-zlo-item-aluminum
   ]
 }
-hiddenOnPlanets: [serpulo, erekir]
+shownPlanets: [morive, valoris]

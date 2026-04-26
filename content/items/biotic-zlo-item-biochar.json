@@ -11,4 +11,5 @@ research: {
     biotic-zlo-production-flesh-crusher
   ]
 }
-hiddenOnPlanets: [serpulo, erekir]
+
+shownPlanets: [morive]

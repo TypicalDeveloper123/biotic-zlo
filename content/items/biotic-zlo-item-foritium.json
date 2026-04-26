@@ -13,4 +13,4 @@ research: {
   ]
 }
 
-hiddenOnPlanets: [serpulo, erekir]
+shownPlanets: [morive]
