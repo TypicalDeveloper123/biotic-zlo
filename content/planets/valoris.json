@@ -21,7 +21,7 @@ mesh: [
     type: HexSkyMesh
     planet: valoris
     speed: 0.9
-    radius: 0.25
+    radius: 0.235
     divisions: 5
     color: c9c2cf
     octaves: 3
@@ -34,7 +34,7 @@ mesh: [
     type: HexSkyMesh
     planet: valoris
     speed: 0.5
-    radius: 0.235
+    radius: 0.215
     divisions: 5
     color: 59565c
     octaves: 2
