@@ -1,6 +1,6 @@
 localizedName: Valoris
 description: Morive's moon.
-alwaysUnlocked: true
+alwaysUnlocked: false
 mesh: [
   {
     //hematite
@@ -8,12 +8,12 @@ mesh: [
     planet: valoris
     divisions: 5
     seed: 14
-    radius: 0.4
+    radius: 0.42
     color1: 444957
     color2: 30333d
     octaves: 3.4
     persistence: 0.8
-    mag: 1.5
+    mag: 1.8
 		scl: 1
   }
   {
@@ -60,7 +60,7 @@ generator: {
 }
 
 orbitRadius: 5
-sectorSize: 3
+sectorSize: 2
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
