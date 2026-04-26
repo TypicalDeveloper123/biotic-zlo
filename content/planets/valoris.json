@@ -21,7 +21,7 @@ mesh: [
     type: HexSkyMesh
     planet: valoris
     speed: 0.9
-    radius: 0.12
+    radius: 0.16
     divisions: 5
     color: c9c2cf
     octaves: 3
@@ -34,7 +34,7 @@ mesh: [
     type: HexSkyMesh
     planet: valoris
     speed: 0.5
-    radius: 0.11
+    radius: 0.15
     divisions: 5
     color: 59565c
     octaves: 2
@@ -66,11 +66,11 @@ allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 20
-radius: 0.5
-minZoom: 1.8
+radius: 0.6
+minZoom: 1.6
 drawOrbit: true
 atmosphereRadIn: 0
-atmosphereRadOut: 0.14
+atmosphereRadOut: 0.18
 accessible: true
 updateLighting: false
 sectorSeed: 14513
