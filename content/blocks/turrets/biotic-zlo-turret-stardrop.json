@@ -6,7 +6,6 @@ shootSound: shootAfflict
 hasItems: true
 hasPower: true
 hasLiquids: true
-laserAbsorb: false
 
 requirements: [
   biotic-zlo-item-aluminum/40

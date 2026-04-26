@@ -88,7 +88,7 @@ sectorSeed: 14513
 orbitRadius: 10
 sectorSize: 1
 
-atmosphereColor: 735e85
+atmosphereColor: 7d6890
 iconColor: 7a6b87
 hasAtmosphere: true
 bloom: true

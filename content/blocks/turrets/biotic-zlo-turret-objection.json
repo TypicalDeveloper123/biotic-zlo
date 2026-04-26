@@ -31,7 +31,7 @@ rotateSpeed: 8
 reload: 10
 range: 120
 
-baseRegion: biotic-zlo-metal-
+baseRegion: biotic-zlo-metal-block-2
 
 researchCost: [
   biotic-zlo-item-aluminum/88
