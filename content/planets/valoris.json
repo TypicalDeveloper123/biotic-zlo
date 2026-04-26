@@ -1,6 +1,6 @@
 localizedName: Valoris
 description: Morive's moon.
-alwaysUnlocked: false
+alwaysUnlocked: true
 mesh: [
   {
     //hematite
@@ -59,7 +59,7 @@ generator: {
   ferricChance: 0.26
 }
 
-orbitRadius: 50
+orbitRadius: 10
 sectorSize: 3
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
