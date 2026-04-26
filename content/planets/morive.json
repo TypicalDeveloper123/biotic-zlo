@@ -113,7 +113,7 @@ generator: {
   ferricChance: 0.26
 }
 
-orbitRadius: 50
+orbitRadius: 70
 sectorSize: 3
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
