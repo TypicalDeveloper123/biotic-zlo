@@ -67,10 +67,10 @@ allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 20
 radius: 0.5
-minZoom: 1
+minZoom: 1.2
 drawOrbit: true
 atmosphereRadIn: 0
-atmosphereRadOut: 0.29
+atmosphereRadOut: 0.25
 accessible: true
 updateLighting: false
 sectorSeed: 14513
