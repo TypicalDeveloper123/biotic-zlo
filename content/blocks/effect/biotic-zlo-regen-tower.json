@@ -22,7 +22,6 @@ healPercent: 0.04
 outputsPower: false
 hasPower: true
 hasItems: true
-consumePower: true
 category: effect
 
 requirements: [

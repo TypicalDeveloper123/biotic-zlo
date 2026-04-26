@@ -12,7 +12,6 @@ segmentScl: 4
 drawCell: true
 drawBody: false
 segmentRotSpeed: 2
-crawlSlowDown: 0.4
 segmentRotationRange: 60
 crushDamage: 2.4
 targetAir: true
@@ -59,8 +58,6 @@ abilities: [
         unit: biotic-zlo-unit-cerebral
     }
 ]
-
-hiddenOnPlanets: [serpulo, erekir]
 
 weapons: [
     {

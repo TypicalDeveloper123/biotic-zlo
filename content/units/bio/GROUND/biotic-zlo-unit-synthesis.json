@@ -133,7 +133,6 @@ weapons: [
         bullet: {
             type: LiquidBulletType
            status: status-dissolving
-            width: 2
             damage: 25
             pierceCap: 3
             range: 110
@@ -185,15 +184,11 @@ weapons: [
             smokeEffect: none
             trailEffect:  {
                 type: WaveEffect
-                particles: 20
                 colorFrom: a33333
                 colorTo: 33001b
-                cone: 4
-                length: 12
                 sizeFrom: 2
                 sizeTo: 0
                 layer: 99
-                lightRadius: -1
                 lightOpacity: 0
             }
             shootEffect: {
@@ -212,11 +207,8 @@ weapons: [
                     }
                     {
                         type: WaveEffect
-                        particles: 2
                         colorFrom: 853d3d
                         colorTo: 33001b
-                        cone: 4
-                        length: 12
                         sizeFrom: 3
                         sizeTo: 9
                         layer: 99
@@ -255,15 +247,11 @@ weapons: [
             smokeEffect: none
             trailEffect:  {
                 type: WaveEffect
-                particles: 20
                 colorFrom: a33333
                 colorTo: 33001b
-                cone: 4
-                length: 12
                 sizeFrom: 2
                 sizeTo: 0
                 layer: 99
-                lightRadius: -1
                 lightOpacity: 0
             }
             shootEffect: {
@@ -282,11 +270,8 @@ weapons: [
                     }
                     {
                         type: WaveEffect
-                        particles: 2
                         colorFrom: 853d3d
                         colorTo: 33001b
-                        cone: 4
-                        length: 12
                         sizeFrom: 3
                         sizeTo: 9
                         layer: 99
@@ -328,8 +313,3 @@ weapons: [
         }  
     }
 ]
-
-
-hiddenOnPlanets: [serpulo, erekir]
-
-

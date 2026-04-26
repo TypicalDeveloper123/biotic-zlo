@@ -1,6 +1,7 @@
 localizedName: Valoris
 description: Morive's moon.
 alwaysUnlocked: true
+visible: true
 mesh: [
   {
     //hematite
@@ -59,12 +60,21 @@ generator: {
   ferricChance: 0.26
 }
 
-orbitRadius: 10
-sectorSize: 1
+campaignRuleDefaults: {
+ fog: false
+ showSpawns: true
+ rtsAI: false
+}
+
+allowCampaignRules: true
+allowLaunchLoadout: false
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
-allowLaunchLoadout: false
+allowLegacyLaunchPads: false
 allowSectorInvasion: false
+allowSelfSectorLaunch: false
+allowWaves: true
+
 startSector: 20
 radius: 0.6
 minZoom: 1.85
@@ -75,18 +85,20 @@ atmosphereRadOut: 0.3
 accessible: true
 updateLighting: true
 sectorSeed: 14513
-bloom: true
-visible: true
+orbitRadius: 10
+sectorSize: 1
+
 atmosphereColor: 735e85
 iconColor: 7a6b87
 hasAtmosphere: true
-allowWaveSimulation: false
+bloom: true
+
 clearSectorOnLose: true
-allowWaves: true
 prebuildBase: false
 defaultCore: biotic-zlo-core-hazard
 parent: morive
 solarSystem: sun
+
 launchCandidates: []
 itemWhitelist: [
 

@@ -184,7 +184,6 @@ weapons: [
         bullet: {
             type: LiquidBulletType
             status: status-dissolving
-            width: 2
             damage: 40
             pierceCap: 3
             range: 150
@@ -219,7 +218,6 @@ weapons: [
         bullet: {
             type: LiquidBulletType
             status: status-dissolving
-            width: 2
             damage: 40
             pierceCap: 3
             range: 150
@@ -271,14 +269,11 @@ weapons: [
             smokeEffect: none
             trailEffect:  {
                 type: WaveEffect
-                particles: 20
                 colorFrom: a33333
                 colorTo: 33001b
-                length: 12
                 sizeFrom: 2
                 sizeTo: 0
                 layer: 99
-                lightRadius: -1
                 lightOpacity: 0
             }
             shootEffect: {
@@ -297,10 +292,8 @@ weapons: [
                     }
                     {
                         type: WaveEffect
-                        particles: 2
                         colorFrom: 853d3d
                         colorTo: 33001b
-                        length: 12
                         sizeFrom: 3
                         sizeTo: 9
                         layer: 99
@@ -353,14 +346,11 @@ weapons: [
             }
             trailEffect:  {
                 type: WaveEffect
-                particles: 20
                 colorFrom: a33333
                 colorTo: 33001b
-                length: 12
                 sizeFrom: 3
                 sizeTo: 0
                 layer: 99
-                lightRadius: -1
                 lightOpacity: 0
             }
             shootEffect: {
@@ -379,10 +369,8 @@ weapons: [
                     }
                     {
                         type: WaveEffect
-                        particles: 2
                         colorFrom: 8a3838
                         colorTo: 3d1414
-                        length: 12
                         sizeFrom: 6
                         sizeTo: 15
                         layer: 99

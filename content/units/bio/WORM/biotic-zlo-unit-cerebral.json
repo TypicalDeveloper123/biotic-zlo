@@ -12,7 +12,6 @@ segmentScl: 4
 drawCell: true
 drawBody: false
 segmentRotSpeed: 2
-crawlSlowDown: 0.6
 segmentRotationRange: 80
 crushDamage: 2
 targetAir: false
@@ -89,5 +88,3 @@ weapons: [
         }  
     }
 ]
-
-hiddenOnPlanets: [serpulo, erekir]
