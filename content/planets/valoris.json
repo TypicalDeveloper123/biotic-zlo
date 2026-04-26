@@ -8,7 +8,7 @@ mesh: [
     planet: valoris
     divisions: 5
     seed: 14
-    radius: 0.42
+    radius: 0.32
     color1: 444957
     color2: 30333d
     octaves: 3.4
@@ -66,7 +66,7 @@ allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 20
-radius: 0.5
+radius: 0.3
 minZoom: 1.2
 drawOrbit: true
 atmosphereRadIn: 0
