@@ -13,7 +13,7 @@ mesh: [
     color2: 30333d
     octaves: 3.4
     persistence: 0.8
-    mag: 1.6
+    mag: 1.2
 		scl: 1
   }
   {
@@ -21,7 +21,7 @@ mesh: [
     type: HexSkyMesh
     planet: valoris
     speed: 0.9
-    radius: 0.15
+    radius: 0.3
     divisions: 5
     color: c9c2cf
     octaves: 3
@@ -34,7 +34,7 @@ mesh: [
     type: HexSkyMesh
     planet: valoris
     speed: 0.5
-    radius: 0.13
+    radius: 0.38
     divisions: 5
     color: 59565c
     octaves: 2
