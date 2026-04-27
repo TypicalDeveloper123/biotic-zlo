@@ -76,7 +76,7 @@ allowSelfSectorLaunch: false
 allowWaves: true
 
 startSector: 20
-radius: 0.5
+radius: 0.4
 minZoom: 1.85
 maxZoom: 3
 drawOrbit: true
