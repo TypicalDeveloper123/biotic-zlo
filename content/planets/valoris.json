@@ -76,7 +76,7 @@ allowSelfSectorLaunch: false
 allowWaves: true
 
 startSector: 20
-radius: 0.7
+radius: 0.5
 minZoom: 1.85
 maxZoom: 3
 drawOrbit: true
@@ -86,7 +86,7 @@ accessible: true
 updateLighting: true
 sectorSeed: 14513
 orbitRadius: 10
-sectorSize: 1
+sectorSize: 2
 
 atmosphereColor: 7d6890
 iconColor: 7a6b87
