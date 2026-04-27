@@ -25,10 +25,10 @@ mesh: [
     radius: 0.15
     divisions: 5
     color: c9c2cf
-    octaves: 8
+    octaves: 5
     persistence: 0.4
     scl: 0.9
-    thresh: 0.6
+    thresh: 0.9
   }
   {
     //sky 2
