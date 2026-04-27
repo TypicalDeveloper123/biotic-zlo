@@ -82,7 +82,7 @@ mesh: [
     octaves: 3
     persistence: 0.4
     scl: 0.9
-    thresh: 0.4
+    thresh: 0.5
   }
   {
     //sky 2

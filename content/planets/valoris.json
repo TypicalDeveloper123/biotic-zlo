@@ -28,7 +28,7 @@ mesh: [
     octaves: 5
     persistence: 0.4
     scl: 0.9
-    thresh: 0.2
+    thresh: 0.4
   }
   {
     //sky 2
@@ -41,7 +41,7 @@ mesh: [
     octaves: 2
     persistence: 0.4
     scl: 0.9
-    thresh: 0.6
+    thresh: 0.55
   }
 ]
 generator: {
