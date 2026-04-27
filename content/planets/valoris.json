@@ -77,7 +77,7 @@ allowWaves: true
 
 startSector: 20
 radius: 0.4
-minZoom: 1.85
+minZoom: 1.88
 maxZoom: 3
 drawOrbit: true
 atmosphereRadIn: 0
