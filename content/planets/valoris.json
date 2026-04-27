@@ -86,7 +86,7 @@ accessible: true
 updateLighting: true
 sectorSeed: 14513
 orbitRadius: 10
-sectorSize: 2
+sectorSize: 1
 
 atmosphereColor: 7d6890
 iconColor: 7a6b87
