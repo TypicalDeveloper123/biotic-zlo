@@ -6,7 +6,6 @@ shootSound: shootLaser
 hasItems: true
 hasPower: true
 hasLiquids: true
-laserAbsorb: true
 
 requirements: [
   biotic-zlo-item-aluminum/24
@@ -43,7 +42,7 @@ ammoTypes: {
     buildingDamageMultiplier: 0.25
     damage: 42
     width: 20
-    height: 9.5
+    length: 9.5
     lifetime: 60
     pierceCap: 2
     pierce: true
@@ -114,7 +113,6 @@ ammoTypes: {
         }
     	  {
     	    type: WaveEffect
-    	    particles: 1
     	    lifetime: 45
     	    sizeFrom: 10
     	    sizeTo: 20

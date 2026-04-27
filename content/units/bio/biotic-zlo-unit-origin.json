@@ -160,14 +160,10 @@ weapons: [
             smokeEffect: none
             trailEffect:  {
                 type: WaveEffect
-                particles: 20
                 colorFrom: a33333
                 colorTo: 33001b
-                cone: 4
-                length: 12
                 sizeFrom: 3
                 sizeTo: 0
-                lightRadius: -1
                 lightOpacity: 0
             }
             shootEffect: {
@@ -185,10 +181,8 @@ weapons: [
                     }
                     {
                         type: WaveEffect
-                        particles: 2
                         colorFrom: 8a3838
                         colorTo: 3d1414
-                        length: 12
                         sizeFrom: 6
                         sizeTo: 15
                     }
@@ -232,14 +226,10 @@ weapons: [
             smokeEffect: none
             trailEffect:  {
                 type: WaveEffect
-                particles: 20
                 colorFrom: 662626
                 colorTo: 3d1313
-                cone: 4
-                length: 12
                 sizeFrom: 6
                 sizeTo: 0
-                lightRadius: -1
                 lightOpacity: 0
             }
             shootEffect: {
@@ -257,10 +247,8 @@ weapons: [
                     }
                     {
                         type: WaveEffect
-                        particles: 2
                         colorFrom: 8a3838
                         colorTo: 3d1414
-                        length: 20
                         sizeFrom: 10
                         sizeTo: 30
                     }
@@ -280,7 +268,6 @@ weapons: [
         alwaysContinuous: true
         recoil: 0.3
         shootSound: shootSublimate
-        loopSound: shootSublimate
         bullet: {
             type: ContinuousFlameBulletType
             damage: 60
@@ -310,7 +297,6 @@ weapons: [
         shootSound: stepMud
         bullet: {
             type: LiquidBulletType
-            width: 2
             damage: 70
             pierceCap: 3
             range: 240
@@ -362,14 +348,10 @@ weapons: [
             smokeEffect: none
             trailEffect:  {
                 type: WaveEffect
-                particles: 20
                 colorFrom: a33333
                 colorTo: 33001b
-                cone: 4
-                length: 12
                 sizeFrom: 2
                 sizeTo: 0
-                lightRadius: -1
                 lightOpacity: 0
             }
             shootEffect: {
@@ -387,11 +369,8 @@ weapons: [
                     }
                     {
                         type: WaveEffect
-                        particles: 2
                         colorFrom: 853d3d
                         colorTo: 33001b
-                        cone: 4
-                        length: 12
                         sizeFrom: 3
                         sizeTo: 9
                     }
@@ -429,14 +408,10 @@ weapons: [
             smokeEffect: none
             trailEffect:  {
                 type: WaveEffect
-                particles: 20
                 colorFrom: a33333
                 colorTo: 33001b
-                cone: 4
-                length: 12
                 sizeFrom: 2
                 sizeTo: 0
-                lightRadius: -1
                 lightOpacity: 0
             }
             shootEffect: {
@@ -454,11 +429,8 @@ weapons: [
                     }
                     {
                         type: WaveEffect
-                        particles: 2
                         colorFrom: 853d3d
                         colorTo: 33001b
-                        cone: 4
-                        length: 12
                         sizeFrom: 3
                         sizeTo: 9
                     }
@@ -496,14 +468,10 @@ weapons: [
             smokeEffect: none
             trailEffect:  {
                 type: WaveEffect
-                particles: 20
                 colorFrom: a33333
                 colorTo: 33001b
-                cone: 4
-                length: 12
                 sizeFrom: 2
                 sizeTo: 0
-                lightRadius: -1
                 lightOpacity: 0
             }
             shootEffect: {
@@ -521,11 +489,8 @@ weapons: [
                     }
                     {
                         type: WaveEffect
-                        particles: 2
                         colorFrom: 853d3d
                         colorTo: 33001b
-                        cone: 4
-                        length: 12
                         sizeFrom: 3
                         sizeTo: 9
                     }
@@ -563,14 +528,10 @@ weapons: [
             smokeEffect: none
             trailEffect:  {
                 type: WaveEffect
-                particles: 20
                 colorFrom: a33333
                 colorTo: 33001b
-                cone: 4
-                length: 12
                 sizeFrom: 2
                 sizeTo: 0
-                lightRadius: -1
                 lightOpacity: 0
             }
             shootEffect: {
@@ -588,11 +549,8 @@ weapons: [
                     }
                     {
                         type: WaveEffect
-                        particles: 2
                         colorFrom: 853d3d
                         colorTo: 33001b
-                        cone: 4
-                        length: 12
                         sizeFrom: 3
                         sizeTo: 9
                     }
@@ -891,6 +849,3 @@ weapons: [
         }  
     }
 ]
-
-
-hiddenOnPlanets: [serpulo, erekir]

@@ -1,6 +1,7 @@
 localizedName: Morive
 description: A planet with flesh.
 alwaysUnlocked: true
+visible: true
 mesh: [
   {
     //bloodstone
@@ -113,12 +114,21 @@ generator: {
   ferricChance: 0.26
 }
 
-orbitRadius: 78
-sectorSize: 3
+campaignRuleDefaults: {
+ fog: false
+ showSpawns: true
+ rtsAI: false
+}
+
+allowCampaignRules: true
+allowLaunchLoadout: false
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
-allowLaunchLoadout: false
+allowLegacyLaunchPads: false
 allowSectorInvasion: false
+allowSelfSectorLaunch: false
+allowWaves: true
+
 startSector: 142
 radius: 0.75
 minZoom: 0.8
@@ -128,18 +138,20 @@ atmosphereRadOut: 0.29
 accessible: true
 updateLighting: false
 sectorSeed: 14513
-bloom: true
-visible: true
+orbitRadius: 78
+sectorSize: 3
+
 atmosphereColor: cf5d5d
 iconColor: 850d0d
 hasAtmosphere: true
-allowWaveSimulation: false
+bloom: true
+
 clearSectorOnLose: true
-allowWaves: true
 prebuildBase: false
 defaultCore: biotic-zlo-core-hazard
 parent: sun
 solarSystem: sun
+
 launchCandidates: []
 itemWhitelist: [
   "biotic-zlo-item-aluminum"

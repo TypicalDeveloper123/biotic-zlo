@@ -6,7 +6,6 @@ shootSound: shootAfflict
 hasItems: true
 hasPower: true
 hasLiquids: true
-laserAbsorb: false
 
 requirements: [
   biotic-zlo-item-aluminum/40
@@ -207,7 +206,6 @@ ammoTypes: {
     	    layer: 100.2
     	    cone: 55
     	    length: 30
-          width: 15
     	    interp: pow3Out
     	    sizeFrom: 6
     	    sizeTo: 0
@@ -347,7 +345,6 @@ ammoTypes: {
     	    layer: 100.2
     	    cone: 55
     	    length: 30
-          width: 25
     	    interp: pow3Out
     	    sizeFrom: 5
     	    sizeTo: 0
@@ -477,7 +474,6 @@ ammoTypes: {
     	    layer: 100.2
     	    cone: 55
     	    length: 30
-          width: 45
     	    interp: pow3Out
     	    sizeFrom: 14
     	    sizeTo: 0

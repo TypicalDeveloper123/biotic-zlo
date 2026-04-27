@@ -87,7 +87,6 @@ weapons: [
         bullet: {
             type: LiquidBulletType
             status: status-dissolving
-            width: 2
             damage: 28
             pierceCap: 1
             range: 52
@@ -141,5 +140,3 @@ weapons: [
         }  
     }
 ]
-
-hiddenOnPlanets: [serpulo, erekir]

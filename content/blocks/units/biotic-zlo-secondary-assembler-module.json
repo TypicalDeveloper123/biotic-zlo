@@ -2,7 +2,7 @@ type: UnitAssemblerModule
 size: 4
 category: units
 hasPower: true
-hasLiquid: true
+hasLiquids: true
 tier: 2
 
 requirements: [

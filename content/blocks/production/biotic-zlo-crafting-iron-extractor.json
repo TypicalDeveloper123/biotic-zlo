@@ -1,7 +1,7 @@
 type: GenericCrafter
 size: 3
 hasPower: true
-hasLiquid: true
+hasLiquids: true
 squareSprite: false
 
 outputItem: biotic-zlo-item-raw-iron/2
@@ -47,8 +47,6 @@ drawer: {
 		}
 		{
     	type: DrawFlame
-    	suffix: -top	
-		size: 3
 		}
 	]
 

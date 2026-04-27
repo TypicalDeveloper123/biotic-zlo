@@ -21,7 +21,6 @@ range: 12
 healPercent: 0.03
 outputsPower: false
 hasPower: true
-consumePower: true
 category: effect
 
 requirements: [

@@ -103,7 +103,6 @@ weapons: [
         alwaysContinuous: true
         recoil: 2
         shootSound: shootSublimate
-        loopSound: shootSublimate
         shootSoundVolume: 0.5
         bullet: {
             type: ContinuousFlameBulletType
@@ -154,5 +153,3 @@ weapons: [
         }  
     }  
 ]
-
-hiddenOnPlanets: [serpulo, erekir]

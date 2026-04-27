@@ -49,8 +49,6 @@ drawer: {
 		}
 		{
     	type: DrawFlame
-    	suffix: -top	
-		size: 3
 		}
 	]
 }

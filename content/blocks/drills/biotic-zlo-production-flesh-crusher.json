@@ -1,7 +1,8 @@
 type: WallCrafter
 name: Flesh Crusher
 attribute: fleshwall
-optinalBoostIntensity: 2.5
+liquidBoostIntensity: 2.5
+liquidCapacity: 15
 drillTime: 90
 size: 2
 hasLiquids: true

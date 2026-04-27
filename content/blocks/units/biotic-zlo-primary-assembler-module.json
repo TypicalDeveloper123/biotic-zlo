@@ -2,7 +2,7 @@ type: UnitAssemblerModule
 size: 3
 category: units
 hasPower: true
-hasLiquid: true
+hasLiquids: true
 
 requirements: [
   biotic-zlo-item-aluminum/55

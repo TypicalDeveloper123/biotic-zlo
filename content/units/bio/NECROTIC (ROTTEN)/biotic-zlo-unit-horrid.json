@@ -74,7 +74,6 @@ weapons: [
         bullet: {
             type: LiquidBulletType
             status: status-dissolving
-            width: 2
             damage: 28
             pierceCap: 1
             range: 20
@@ -112,7 +111,6 @@ weapons: [
         bullet: {
             type: LiquidBulletType
             status: status-dissolving
-            width: 2
             damage: 35
             pierceCap: 1
             range: 100
@@ -170,15 +168,11 @@ weapons: [
             smokeEffect: none
             trailEffect:  {
                 type: WaveEffect
-                particles: 20
                 colorFrom: 97ad8c
                 colorTo: 6e7d66
-                cone: 4
-                length: 12
                 sizeFrom: 2
                 sizeTo: 0
                 layer: 99
-                lightRadius: -1
                 lightOpacity: 0
             }
             shootEffect: {
@@ -197,11 +191,8 @@ weapons: [
                     }
                     {
                         type: WaveEffect
-                        particles: 2
                         colorFrom: 6e7d66
                         colorTo: 616e5a
-                        cone: 4
-                        length: 12
                         sizeFrom: 3
                         sizeTo: 9
                         layer: 99
@@ -243,6 +234,3 @@ weapons: [
         }  
     }
 ]
-
-
-hiddenOnPlanets: [serpulo, erekir]
