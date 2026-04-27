@@ -9,7 +9,7 @@ mesh: [
     planet: morive
     divisions: 5
     seed: 14
-    radius: 0.625
+    radius: 0.725
     color1: 995d5d
     color2: 663d3d
     octaves: 3.4
@@ -23,7 +23,7 @@ mesh: [
     planet: morive
     divisions: 5
     seed: 14
-    radius: 0.61
+    radius: 0.71
     color1: 661616
     color2: 991f1f
     octaves: 4
@@ -37,7 +37,7 @@ mesh: [
     planet: morive
     divisions: 5
     seed: 14
-    radius: 0.655
+    radius: 0.755
     color1: 661616
     color2: 991f1f
     octaves: 3.4
@@ -51,7 +51,7 @@ mesh: [
     planet: morive
     divisions: 5
     seed: 14
-    radius: 0.575
+    radius: 0.675
     color1: 444957
     color2: 30333d
     octaves: 3.4
@@ -130,7 +130,7 @@ allowSelfSectorLaunch: false
 allowWaves: true
 
 startSector: 142
-radius: 0.75
+radius: 0.85
 minZoom: 0.8
 drawOrbit: true
 atmosphereRadIn: 0
