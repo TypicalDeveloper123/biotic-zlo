@@ -22,10 +22,10 @@ mesh: [
     type: HexSkyMesh
     planet: valoris
     speed: 0.9
-    radius: 0.18
+    radius: 0.15
     divisions: 5
     color: c9c2cf
-    octaves: 2
+    octaves: 8
     persistence: 0.4
     scl: 0.9
     thresh: 0.6
@@ -35,7 +35,7 @@ mesh: [
     type: HexSkyMesh
     planet: valoris
     speed: 0.5
-    radius: 0.17
+    radius: 0.14
     divisions: 5
     color: 59565c
     octaves: 2
