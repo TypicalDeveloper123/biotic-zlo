@@ -77,11 +77,11 @@ allowWaves: true
 
 startSector: 20
 radius: 0.4
-minZoom: 1.9
+minZoom: 1.85
 maxZoom: 3
 drawOrbit: true
 atmosphereRadIn: 0
-atmosphereRadOut: 0.3
+atmosphereRadOut: 0.25
 accessible: true
 updateLighting: true
 sectorSeed: 14513
