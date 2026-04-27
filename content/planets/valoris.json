@@ -9,7 +9,7 @@ mesh: [
     planet: valoris
     divisions: 5
     seed: 14
-    radius: 0.44
+    radius: 0.34
     color1: 444957
     color2: 30333d
     octaves: 3.4
@@ -77,7 +77,7 @@ allowWaves: true
 
 startSector: 20
 radius: 0.4
-minZoom: 1.85
+minZoom: 1.9
 maxZoom: 3
 drawOrbit: true
 atmosphereRadIn: 0
