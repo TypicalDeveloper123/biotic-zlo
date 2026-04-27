@@ -104,7 +104,7 @@ contentOrder:[
         biotic-zlo-core-hazard
         biotic-zlo-regen-emitter
         biotic-zlo-regen-tower
-        biotic-zlo-aegis-projecto
+        biotic-zlo-aegis-projector
 
     // logic blocks
 
@@ -208,7 +208,7 @@ contentOrder:[
             flesh-boulder
 
     // status
-        dissolving
-        tetanus
+        status-dissolving
+        status-tetanus
 
 ]
