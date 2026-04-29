@@ -178,16 +178,17 @@ contentOrder:[
             biotic-zlo-liquid-liquidblood
 
         // tiles
-            biotic-zlo-tile-BLOODSTONE
-            biotic-zlo-tile-HEMATITE 
+            biotic-zlo-tile-SCORIA
+            biotic-zlo-tile-LODESTONE 
+            biotic-zlo-tile-DENSE-HEMATITE
             biotic-zlo-tile-CLAY
             biotic-zlo-tile-BONE
             biotic-zlo-tile-COAGULATED-BLOOD
             biotic-zlo-tile-FLESH
 
         // walls
-            biotic-zlo-wall-BLOODSTONE
-            biotic-zlo-wall-HEMATITE 
+            biotic-zlo-wall-SCORIA
+            biotic-zlo-wall-LODESTONE
             biotic-zlo-wall-DENSE-BONE
             biotic-zlo-wall-COAGULATED-BLOOD
             biotic-zlo-wall-DENSE-FLESH
@@ -197,10 +198,10 @@ contentOrder:[
             biotic-zlo-ore-foritium
 
         // props
-            bloodstone-vent
-            bloodstone-boulder
-            hematite-vent
-            hematite-boulder
+            scoria-vent
+            scoria-boulder
+            lodestone-vent
+            lodestone-boulder
             crimson-bush
             crimson-tree
             coagulated-blood-boulder
