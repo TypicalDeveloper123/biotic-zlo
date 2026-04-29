@@ -1,7 +1,7 @@
 type: SteamVent
 variants: 2
-blendGroup: biotic-zlo-tile-BLOODSTONE
-parent: biotic-zlo-tile-BLOODSTONE
+blendGroup: biotic-zlo-tile-SCORIA
+parent: biotic-zlo-tile-SCORIA
 
 effectSpacing: 15
 
