@@ -2,7 +2,7 @@ type: Wall
 size: 2
 customShadow: true
 placeablePlayer: false
-
+databaseTag: unitpart
 
 requirements: [
   biotic-zlo-item-aluminum/12

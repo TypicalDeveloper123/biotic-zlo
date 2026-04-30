@@ -43,12 +43,11 @@ ammoTypes: {
     buildingDamageMultiplier: 0.25
     damage: 42
     width: 20
-    length: 9.5
+    length: 170
     lifetime: 60
     pierceCap: 2
     pierce: true
     pierceBuilding: true
-	//I may have fucked up the indentation, github sucks, sorry - NV
 	hitEffect: {
 		type: MultiEffect
 		effects: [
