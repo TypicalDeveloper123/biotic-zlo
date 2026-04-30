@@ -3,7 +3,7 @@ size: 4
 customShadow: true
 placeablePlayer: false
 databaseTag: unitpart
-
+shownPlanets: [morive]
 requirements: [
   biotic-zlo-item-aluminum/25
   biotic-zlo-item-iron/10
