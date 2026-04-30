@@ -1,0 +1,15 @@
+type: Liquid
+color: ab5938
+
+gas: true
+
+explosiveness: 0
+flammability: 0
+heatCapacity: 0
+viscosity: 0
+temperature: 0
+blockReactive: false
+
+research: biotic-zlo-liquid-air
+
+shownPlanets: [morive]
