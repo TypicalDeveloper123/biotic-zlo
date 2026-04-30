@@ -40,6 +40,9 @@ contentOrder:[
     // liquids
         biotic-zlo-liquid-blood
         biotic-zlo-liquid-acid
+        biotic-zlo-liquid-air
+        biotic-zlo-liquid-ammonia
+        biotic-zlo-liquid-methane
 
     // turrets
         biotic-zlo-turret-bleed
