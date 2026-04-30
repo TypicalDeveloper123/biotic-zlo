@@ -2,7 +2,7 @@ type: Wall
 size: 4
 customShadow: true
 placeablePlayer: false
-databaseTag = unitpart
+databaseTag: unitpart
 
 requirements: [
   biotic-zlo-item-aluminum/25
