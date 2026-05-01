@@ -43,7 +43,7 @@ ammoTypes: {
     buildingDamageMultiplier: 0.25
     damage: 42
     width: 20
-    length: 170
+    length: 172
     lifetime: 60
     pierceCap: 2
     pierce: true
