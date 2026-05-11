@@ -17,17 +17,15 @@ requirements: [
 
 category: turret
 consumes: {
-  	power: 0.36
-  	liquids: {
-		liquids: [
-			biotic-zlo-liquid-ammonia/0.05
-		]
-    	optional: true
-    	booster: true
-	}	
+  power: 0.36	
 }
-liquidBoostIntensity: 1.5
 
+coolant: {
+  type: ConsumeLiquid
+  liquid: biotic-zlo-liquid-ammonia
+  amount: 0.05
+}
+coolantMultiplier: 1.3
 
 recoil: 2
 outlineColor: 1b1a33

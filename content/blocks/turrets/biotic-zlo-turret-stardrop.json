@@ -34,16 +34,15 @@ research: {
 category: turret
 consumes: {
 	liquid: water/0.045
-  	power: 0.8
-  	liquids: {
-		liquids: [
-			biotic-zlo-liquid-ammonia/0.08
-		]
-    optional: true
-    booster: true
-	}	
+  	power: 0.8	
 } 
-liquidBoostIntensity: 1.5
+
+coolant: {
+  type: ConsumeLiquid
+  liquid: biotic-zlo-liquid-ammonia
+  amount: 0.08
+}
+coolantMultiplier: 1.3
 
 recoil: 0
 outlineColor: 1b1a33
