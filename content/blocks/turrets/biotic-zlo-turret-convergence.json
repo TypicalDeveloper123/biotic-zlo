@@ -26,6 +26,8 @@ consumes: {
     	booster: true
 	}	
 }
+liquidBoostIntensity: 10
+
 
 recoil: 2
 outlineColor: 1b1a33
