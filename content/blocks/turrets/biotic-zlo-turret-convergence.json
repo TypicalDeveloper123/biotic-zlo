@@ -26,7 +26,7 @@ consumes: {
     	booster: true
 	}	
 }
-liquidBoostIntensity: 10
+liquidBoostIntensity: 1.5
 
 
 recoil: 2
