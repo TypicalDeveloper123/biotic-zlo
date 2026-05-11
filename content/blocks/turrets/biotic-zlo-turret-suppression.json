@@ -6,7 +6,6 @@ shootSound: shootReign
 hasItems: true
 hasPower: true
 hasLiquids: true
-coolantMultiplier: 1.5
 
 requirements: [
   biotic-zlo-item-aluminum/80
@@ -19,14 +18,15 @@ requirements: [
 category: turret
 consumes: {
   power: 0.75
+  liquids: {
+		liquids: [
+			biotic-zlo-liquid-ammonia/0.1
+		]
+    	optional: true
+    	booster: true
+	}
 } 
-
-coolant: {
-  type: ConsumeCoolant
-  allowGas: true
-  allowLiquid: false
-  amount: 0.05
-}
+liquidBoostIntensity: 1.5
 
 recoil: 2
 outlineColor: 1b1a33

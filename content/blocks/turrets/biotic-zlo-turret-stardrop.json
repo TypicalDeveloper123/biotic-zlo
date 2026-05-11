@@ -6,7 +6,6 @@ shootSound: shootAfflict
 hasItems: true
 hasPower: true
 hasLiquids: true
-coolantMultiplier: 1.5
 
 requirements: [
   biotic-zlo-item-aluminum/40
@@ -34,20 +33,17 @@ research: {
 
 category: turret
 consumes: {
-  power: 0.8
-  liquids: {
+	liquids: water/0.045
+  	power: 0.8
+  	liquids: {
 		liquids: [
-			water/0.045
+			biotic-zlo-liquid-ammonia/0.08
 		]
-	}
+    optional: true
+    booster: true
+	}	
 } 
-
-coolant: {
-  type: ConsumeCoolant
-  allowGas: true
-  allowLiquid: false
-  amount: 0.05
-}
+liquidBoostIntensity: 1.5
 
 recoil: 0
 outlineColor: 1b1a33

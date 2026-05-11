@@ -6,7 +6,6 @@ shootSound: shootLaser
 hasItems: true
 hasPower: true
 hasLiquids: true
-coolantMultiplier: 1.5
 
 requirements: [
   biotic-zlo-item-aluminum/24
@@ -17,15 +16,16 @@ requirements: [
 
 category: turret
 consumes: {
-  power: 0.25
-} 
-
-coolant: {
-  type: ConsumeCoolant
-  allowGas: true
-  allowLiquid: false
-  amount: 0.05
+  	power: 0.25
+  	liquids: {
+		liquids: [
+			biotic-zlo-liquid-ammonia/0.045
+		]
+    	optional: true
+    	booster: true
+	}	
 }
+liquidBoostIntensity: 1.5
 
 recoil: 3
 outlineColor: 1b1a33
