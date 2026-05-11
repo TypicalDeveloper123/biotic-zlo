@@ -33,7 +33,7 @@ research: {
 
 category: turret
 consumes: {
-	liquids: water/0.045
+	liquid: water/0.045
   	power: 0.8
   	liquids: {
 		liquids: [

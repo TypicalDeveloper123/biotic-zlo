@@ -17,6 +17,7 @@ requirements: [
 
 category: turret
 consumes: {
+  liquid: nitrogen/0.055
   power: 0.75
   liquids: {
 		liquids: [
