@@ -1,0 +1,28 @@
+type: GenericCrafter
+size: 4
+hasPower: true
+hasLiquids: false
+squareSprite: false
+
+outputLiquid: biotic-zlo-liquid-air/0.15
+
+consumes: {
+	power: 0.9
+	heat: 2
+}
+
+category: crafting
+
+requirements: [
+	biotic-zlo-item-aluminum/100
+  	biotic-zlo-item-iron/65
+  	biotic-zlo-item-foritium/60
+  	silicon/40
+]
+
+researchCost: [
+    biotic-zlo-item-aluminum/400
+  	biotic-zlo-item-iron/260
+  	biotic-zlo-item-foritium/240
+  	silicon/160
+]
