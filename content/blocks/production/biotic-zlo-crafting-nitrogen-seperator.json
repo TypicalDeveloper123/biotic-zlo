@@ -1,5 +1,5 @@
-type: HeatCrafter
-size: 4
+type: GenericCrafter
+size: 2
 hasPower: true
 hasLiquids: false
 squareSprite: false
@@ -7,10 +7,9 @@ squareSprite: false
 outputLiquid: nitrogen/0.02
 
 consumes: {
-	power: 0.9
-	item: biotic-zlo-liquid-air/0.12
+	power: 0.2
+	liquid: biotic-zlo-liquid-air/0.12
 }
-heatRequirement: 4
 
 category: crafting
 
