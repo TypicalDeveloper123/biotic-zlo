@@ -242,13 +242,3 @@ weapons: [
         }  
     }
 ]
-
-research: {
-  	parent:  biotic-zlo-unit-BRAWN
-  	objectives: [
-        {
-        type: SectorComplete
-        preset: groove
-        }
-	]
-}

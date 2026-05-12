@@ -1,9 +1,9 @@
 research: {
-  	parent:  biotic-zlo-core-hazard
+  	parent:  biotic-zlo-unit-BRAWN
   	objectives: [
         {
         type: SectorComplete
-        preset: again
+        preset: groove
         }
 	]
 }
