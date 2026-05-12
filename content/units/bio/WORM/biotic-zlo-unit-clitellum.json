@@ -1,4 +1,5 @@
 type: crawl
+aiController: HugAI
 speed: 0.65
 flying: false
 health: 920
