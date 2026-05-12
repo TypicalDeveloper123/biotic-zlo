@@ -3,11 +3,11 @@ color: 69fbff
 
 gas: true
 
-explosiveness: 0
-flammability: 0
-heatCapacity: 0
+explosiveness: 0.2
+flammability: 1
+heatCapacity: 0.35
 viscosity: 0
-temperature: 0
+temperature: 0.55
 blockReactive: false
 
 research: biotic-zlo-liquid-air
