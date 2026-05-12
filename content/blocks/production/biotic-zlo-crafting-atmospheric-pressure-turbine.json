@@ -4,7 +4,7 @@ hasPower: true
 hasLiquids: false
 squareSprite: false
 
-outputLiquid: biotic-zlo-liquid-air/0.15
+outputLiquid: biotic-zlo-liquid-air/0.2
 
 consumes: {
 	power: 0.9
