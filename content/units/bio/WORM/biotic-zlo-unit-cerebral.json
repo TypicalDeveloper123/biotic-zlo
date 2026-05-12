@@ -1,5 +1,5 @@
 type: crawl
-aiController: hugAI
+aiController: hug
 speed: 0.9
 flying: false
 health: 420
