@@ -8,11 +8,7 @@ outputItem: biotic-zlo-item-biochar/2
 
 consumes: {
 	power: 0.9
-	items: {
-		items: [
-			biotic-zlo-item-infested-tissue/2
-		]
-	}
+	item: biotic-zlo-item-infested-tissue/2
 }
 
 category: crafting

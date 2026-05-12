@@ -4,10 +4,11 @@ hasPower: true
 hasLiquids: false
 squareSprite: false
 
-outputLiquid: biotic-zlo-liquid-air/0.24
+outputLiquid: nitrogen/0.02
 
 consumes: {
 	power: 0.9
+	item: biotic-zlo-liquid-air/0.12
 }
 heatRequirement: 4
 
