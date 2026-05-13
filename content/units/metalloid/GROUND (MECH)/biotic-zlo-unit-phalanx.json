@@ -42,7 +42,7 @@ weapons: [
             fragAngle: 5
             fragBullet: {
                 type: BasicBulletType
-                lifetime: 35
+                lifetime: 10
                 trailLength: 5
                 frontColor: ffe6c9
                 backColor: ffe6c9
