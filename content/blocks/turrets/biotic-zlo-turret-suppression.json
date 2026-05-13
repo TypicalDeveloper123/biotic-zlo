@@ -115,7 +115,7 @@ ammoTypes: {
     	sizeTo: 0
       cone: 10
       line: true
-      width: 1.4
+      width: 1.5
       height: 2.4
     }
 
