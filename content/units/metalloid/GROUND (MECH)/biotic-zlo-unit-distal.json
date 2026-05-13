@@ -21,9 +21,9 @@ weapons: [
         name: biotic-zlo-unit-distal-weapon-0
         bullet: {
             type: BasicBulletType
-            trailLength: 1.2
-            width: 4
-            height: 8
+            trailLength: 2
+            width: 8
+            height: 10
             lifetime: 40
             speed: 4
             damage: 15
