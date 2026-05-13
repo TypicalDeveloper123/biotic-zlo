@@ -28,7 +28,7 @@ coolant: {
 }
 coolantMultiplier: 1.2
 
-recoil: 2
+recoils: 2
 outlineColor: 1b1a33
 targetAir: true
 targetGround: true
