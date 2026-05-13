@@ -37,8 +37,6 @@ weapons: [
             fragSpread: 30
             fragBullet: {
                 type: BasicBulletType
-                homingPower: 0.035
-                homingRange: 70
                 lifetime: 35
                 trailLength: 5
                 frontColor: ffe6c9
