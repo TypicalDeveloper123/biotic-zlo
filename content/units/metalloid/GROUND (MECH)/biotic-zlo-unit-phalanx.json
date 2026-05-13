@@ -39,7 +39,9 @@ weapons: [
                 homingPower: 0.035
                 homingRange: 70
                 lifetime: 35
-                trailLength: 4
+                trailLength: 5
+                frontColor: ffe6c9
+                backColor: ffe6c9
                 trailColor: ffc88a
                 width: 8
                 height: 12
