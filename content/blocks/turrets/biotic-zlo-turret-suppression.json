@@ -80,9 +80,9 @@ ammoTypes: {
     hitEffect: {
       type: ParticleEffect
       particles: 8
-      lifetime: 60
+      lifetime: 10
       length: 30
-      sizeFrom: 3
+      sizeFrom: 1.8
     	sizeTo: 0
       cone: 25
       colorFrom: ffffff
@@ -93,9 +93,9 @@ ammoTypes: {
     despawnEffect: {
       type: ParticleEffect
       particles: 8
-      lifetime: 20
+      lifetime: 10
       length: 30
-      sizeFrom: 2
+      sizeFrom: 1.8
     	sizeTo: 0
       cone: 25
       colorFrom: ffffff
