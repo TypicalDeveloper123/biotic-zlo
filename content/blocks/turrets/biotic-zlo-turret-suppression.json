@@ -83,6 +83,7 @@ ammoTypes: {
       lifetime: 20
       sizeFrom: 3
     	sizeTo: 0
+      cone: 25
       colorFrom: ffffff
     	colorTo: ffffff
       square: true
