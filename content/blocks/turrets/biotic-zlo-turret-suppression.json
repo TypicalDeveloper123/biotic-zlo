@@ -29,6 +29,7 @@ coolant: {
 coolantMultiplier: 2
 
 recoils: 3
+recoil: 2
 outlineColor: 1b1a33
 targetAir: true
 targetGround: true
@@ -80,11 +81,11 @@ ammoTypes: {
     hitEffect: {
       type: ParticleEffect
       particles: 8
-      lifetime: 10
+      lifetime: 15
       length: 30
-      sizeFrom: 1.8
+      sizeFrom: 2
     	sizeTo: 0
-      cone: 25
+      cone: 20
       colorFrom: ffffff
     	colorTo: ffffff
       square: true
@@ -93,11 +94,11 @@ ammoTypes: {
     despawnEffect: {
       type: ParticleEffect
       particles: 8
-      lifetime: 10
+      lifetime: 15
       length: 30
-      sizeFrom: 1.8
+      sizeFrom: 2
     	sizeTo: 0
-      cone: 25
+      cone: 20
       colorFrom: ffffff
     	colorTo: ffffff
       square: true
