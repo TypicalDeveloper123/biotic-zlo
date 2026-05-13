@@ -131,7 +131,7 @@ drawer: {
       type: RegionPart
       suffix: -barrel1
       under: false
-      moveY: -8
+      moveY: -3
       progress: recoil
       recoilIndex: 0
     }
@@ -139,7 +139,7 @@ drawer: {
       type: RegionPart
       suffix: -barrel2
       under: false
-      moveY: -8
+      moveY: -3
       progress: recoil
       recoilIndex: 1
     }
@@ -147,7 +147,7 @@ drawer: {
       type: RegionPart
       suffix: -barrel3
       under: false
-      moveY: -8
+      moveY: -3
       progress: recoil
       recoilIndex: 2
     }
