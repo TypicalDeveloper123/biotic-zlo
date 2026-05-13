@@ -6,7 +6,7 @@ shootSound: shootBleed-test
 soundPitchMin: 0.9
 soundPitchMax: 1
 hasItems: true
-hasPower: true
+hasPower: false
 hasLiquids: true
 
 requirements: [
@@ -15,11 +15,7 @@ requirements: [
   biotic-zlo-item-iron/10
 ]
 
-
 category: turret
-consumes: {
-  power: 0.25
-}
 
 coolant: {
   type: ConsumeLiquid

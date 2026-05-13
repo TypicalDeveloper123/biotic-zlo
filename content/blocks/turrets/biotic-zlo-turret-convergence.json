@@ -4,7 +4,7 @@ squareSprite: false
 shootSound: shootScatter
 health: 600
 hasItems: true
-hasPower: true
+hasPower: false
 hasLiquids: true
 
 requirements: [
@@ -14,11 +14,7 @@ requirements: [
   silicon/8
 ]
 
-
 category: turret
-consumes: {
-  power: 0.36	
-}
 
 coolant: {
   type: ConsumeLiquid
