@@ -76,7 +76,7 @@ ammoTypes: {
     	colorFrom: ffffff
     	colorTo: ffffff
       square: true
-      interp: pow1Out
+      interp: powOut
     }
 
     hitEffect: {
@@ -90,7 +90,7 @@ ammoTypes: {
       colorFrom: ffffff
     	colorTo: ffffff
       square: true
-      interp: pow1Out
+      interp: powOut
     }
     
     despawnEffect: {
@@ -104,7 +104,7 @@ ammoTypes: {
       colorFrom: ffffff
     	colorTo: ffffff
       square: true
-      interp: pow1Out
+      interp: powOut
     }
 
     trailEffect: {
