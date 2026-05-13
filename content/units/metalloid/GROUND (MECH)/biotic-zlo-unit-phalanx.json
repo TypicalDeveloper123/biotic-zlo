@@ -25,7 +25,7 @@ weapons: [
         bullet: {
             type: BasicBulletType
             trailLength: 6
-            width: 8
+            width: 10
             height: 12
             lifetime: 50
             speed: 5
@@ -37,8 +37,8 @@ weapons: [
                 homingRange: 15
                 lifetime: 35
                 trailLength: 4
-                width: 10
-                height: 10
+                width: 8
+                height: 12
                 layer: 90
                 damage: 8
                 speed: 3 
