@@ -56,24 +56,31 @@ ammoTypes: {
     width: 10
     height: 12
     lifetime: 50
-    pierceCap: 3
+    pierceCap: 1
     speed: 5.8
     pierce: true
     pierceBuilding: true
-	frontColor: ffffff
+	  frontColor: ffffff
     backColor: ffffff
     shootEffect: {
     	type: ParticleEffect
-    	particles: 20
+    	particles: 15
     	lifetime: 40
     	layer: 100.2
     	cone: 30
     	length: 50
-    	sizeFrom: 2.8
+    	sizeFrom: 2.4
     	sizeTo: 0
     	colorFrom: ffffff
     	colorTo: ffffff
     }
+
+    hitEffect: {
+      type: ParticleEffect
+      particles: 8
+      lifetime: 20
+    }
+    
   }
 }
 
