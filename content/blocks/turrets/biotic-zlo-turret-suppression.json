@@ -69,7 +69,7 @@ ammoTypes: {
     	lifetime: 15
     	layer: 100.2
     	cone: 30
-    	length: 50
+    	length: 40
     	sizeFrom: 2.4
     	sizeTo: 0
     	colorFrom: ffffff
@@ -81,7 +81,7 @@ ammoTypes: {
       type: ParticleEffect
       particles: 8
       lifetime: 60
-      length: 100
+      length: 30
       sizeFrom: 3
     	sizeTo: 0
       cone: 25
@@ -93,9 +93,9 @@ ammoTypes: {
     despawnEffect: {
       type: ParticleEffect
       particles: 8
-      lifetime: 60
-      length: 100
-      sizeFrom: 3
+      lifetime: 20
+      length: 30
+      sizeFrom: 2
     	sizeTo: 0
       cone: 25
       colorFrom: ffffff
