@@ -37,6 +37,8 @@ weapons: [
                 homingRange: 15
                 lifetime: 35
                 trailLength: 4
+                width: 10
+                height: 10
                 layer: 90
                 damage: 8
                 speed: 3 
