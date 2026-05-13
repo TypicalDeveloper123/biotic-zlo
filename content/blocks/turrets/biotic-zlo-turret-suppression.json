@@ -50,6 +50,7 @@ ammoPerShot: 2
 ammoTypes: {
   biotic-zlo-item-iron: {
     type: BasicBulletType
+    trailLength: 15
     damage: 90
     width: 10
     height: 12
@@ -72,36 +73,6 @@ ammoTypes: {
     	colorFrom: ffffff
     	colorTo: ffffff
     }
-	trailEffect: [
-		{
-			type: ParticleEffect
-    		particles: 4
-    		lifetime: 70
-    		layer: 100.2
-    		cone: -6
-    		length: 70
-    		interp: pow5Out
-    		sizeFrom: 2.25
-    		sizeTo: 0
-    		colorFrom: ffffff
-    		colorTo: ffffff
-		}
-		{
-			type: ParticleEffect
-    		particles: 2
-    		lifetime: 120
-    		layer: 100.2
-    		cone: -10
-    		length: 60
-    		interp: pow5Out
-    		sizeFrom: 2
-    		sizeTo: 0
-    		colorFrom: ffffff
-    		colorTo: ffffff
-		}
-	]
-	trailInterval: 8
-	trailRotation: true
   }
 }
 
