@@ -28,7 +28,7 @@ coolant: {
 }
 coolantMultiplier: 1.2
 
-recoils: 5
+recoils: 3
 outlineColor: 1b1a33
 targetAir: true
 targetGround: true
@@ -80,7 +80,7 @@ ammoTypes: {
       particles: 8
       lifetime: 20
     }
-    
+
   }
 }
 
