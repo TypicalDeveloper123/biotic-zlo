@@ -19,8 +19,8 @@ weapons: [
         shootSound: shootSalvo
         name: biotic-zlo-unit-phalanx-weapon-0
         shoot: {
-            shots: 5
-            shotDelay: 5
+            shots: 2
+            shotDelay: 10
         }
         bullet: {
             type: BasicBulletType
@@ -33,7 +33,7 @@ weapons: [
             fragBullets: 3
             fragBullet: {
                 type: MissileBulletType
-                fragLifeMin: 1
+                lifetime: 35
                 trailLength: 10
                 layer: 90
                 damage: 8
