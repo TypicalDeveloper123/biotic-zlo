@@ -73,6 +73,7 @@ ammoTypes: {
     	sizeTo: 0
     	colorFrom: ffffff
     	colorTo: ffffff
+      square: true
     }
 
     hitEffect: {
@@ -84,6 +85,15 @@ ammoTypes: {
       square: true
     }
 
+    trailEffect: {
+      type: ParticleEffect
+      particles: 15
+      lifetime: 40
+      sizeFrom: 1
+    	sizeTo: 0
+      cone: 15
+      square: true
+    }
   }
 }
 
