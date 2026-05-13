@@ -51,7 +51,6 @@ weapons: [
 		        weaveScale: 2
                 width: 8
                 height: 12
-                layer: 90
                 damage: 8
                 speed: 2.5
             }
