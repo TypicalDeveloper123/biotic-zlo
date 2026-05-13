@@ -33,8 +33,12 @@ weapons: [
             lifetime: 50
             speed: 5
             damage: 20
-            fragBullets: 3
-            fragSpread: 30
+            fragBullets: 2
+            fragSpread: 15
+            fragVelocityMin: 1
+            fragVelocityMax: 1
+            fragOnHit: true
+            fragAngle: 5
             fragBullet: {
                 type: BasicBulletType
                 lifetime: 35
