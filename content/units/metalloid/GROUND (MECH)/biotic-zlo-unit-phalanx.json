@@ -42,8 +42,8 @@ weapons: [
             fragAngle: 5
             fragBullet: {
                 type: BasicBulletType
-                lifetime: 10
-                trailLength: 5
+                lifetime: 15
+                trailLength: 6
                 frontColor: ffe6c9
                 backColor: ffe6c9
                 trailColor: ffc88a
@@ -53,7 +53,7 @@ weapons: [
                 height: 12
                 layer: 90
                 damage: 8
-                speed: 2
+                speed: 2.5
             }
         }
     }
