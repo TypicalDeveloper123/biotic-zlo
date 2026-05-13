@@ -69,7 +69,7 @@ ammoTypes: {
     	particles: 15
     	lifetime: 15
     	layer: 100.2
-    	cone: 30
+    	cone: 20
     	length: 40
     	sizeFrom: 2.4
     	sizeTo: 0
@@ -115,6 +115,8 @@ ammoTypes: {
     	sizeTo: 0
       cone: 10
       line: true
+      width: 1.4
+      height: 2.4
     }
 
     trailChance: 0.5
