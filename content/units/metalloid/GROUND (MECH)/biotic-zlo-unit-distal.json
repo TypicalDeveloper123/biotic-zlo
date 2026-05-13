@@ -17,13 +17,16 @@ weapons: [
         inaccuracy: 2
         reload: 30
         recoil: 1.8
-        shootSound: shootArtillerySmall
+        shootSound: shootSalvo
         name: biotic-zlo-unit-distal-weapon-0
         bullet: {
-            type: ArtilleryBulletType
-            speed: 2
-            splashDamage: 35
-            splashDamageRadius: 16
+            type: BasicBulletType
+            trailLength: 1.2
+            width: 4
+            height: 8
+            lifetime: 40
+            speed: 4
+            damage: 15
         }
     }
 ]
