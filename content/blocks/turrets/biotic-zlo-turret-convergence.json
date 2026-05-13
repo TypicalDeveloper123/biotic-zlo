@@ -25,7 +25,7 @@ coolant: {
   liquid: biotic-zlo-liquid-ammonia
   amount: 0.05
 }
-coolantMultiplier: 1.3
+coolantMultiplier: 2 
 
 recoil: 2
 outlineColor: 1b1a33
