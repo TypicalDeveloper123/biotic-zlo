@@ -28,7 +28,7 @@ coolant: {
 }
 coolantMultiplier: 1.2
 
-recoils: 2
+recoils: 3
 outlineColor: 1b1a33
 targetAir: true
 targetGround: true
@@ -87,7 +87,6 @@ drawer: {
       moveY: -5
       progress: recoil
       recoilIndex: 0
-      recoils: 2
     }
     {
       type: RegionPart
@@ -96,7 +95,6 @@ drawer: {
       moveY: -5
       progress: recoil
       recoilIndex: 1
-      recoils: 2
     }
     {
       type: RegionPart
@@ -104,8 +102,6 @@ drawer: {
       under: false
       moveY: -5
       progress: recoil
-      recoilIndex: 2
-      recoils: 2
     }
     {
       type: RegionPart
