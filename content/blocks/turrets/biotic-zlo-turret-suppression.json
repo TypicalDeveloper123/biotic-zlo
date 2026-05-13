@@ -81,7 +81,7 @@ ammoTypes: {
       type: ParticleEffect
       particles: 8
       lifetime: 20
-      sizeFrom: 2
+      sizeFrom: 3
     	sizeTo: 0
       colorFrom: ffffff
     	colorTo: ffffff
