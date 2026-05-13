@@ -29,7 +29,6 @@ coolant: {
 coolantMultiplier: 2
 
 recoils: 3
-recoil: 2
 outlineColor: 1b1a33
 targetAir: true
 targetGround: true
