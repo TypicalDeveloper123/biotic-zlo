@@ -51,7 +51,7 @@ ammoTypes: {
   biotic-zlo-item-iron: {
     type: BasicBulletType
     trailLength: 15
-    trailColor: #dedede
+    trailColor: dedede
     damage: 90
     width: 10
     height: 12
