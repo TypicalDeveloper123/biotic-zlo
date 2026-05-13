@@ -159,7 +159,7 @@ drawer: {
       x: 0
       y: 0
       moveX: 0
-      moveY: -3
+      moveY: 0
       under: false
     }
 	  {
