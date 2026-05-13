@@ -117,7 +117,7 @@ ammoTypes: {
       line: true
     }
 
-    trailInterval: 1
+    trailChance: 0.5
     trailRotation: true
   }
 }
