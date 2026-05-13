@@ -115,6 +115,7 @@ drawer: {
       under: false
       moveY: -5
       progress: recoil
+      recoilIndex: 0
     }
     {
       type: RegionPart
@@ -122,6 +123,7 @@ drawer: {
       under: false
       moveY: -5
       progress: recoil
+      recoilIndex: 1
     }
     {
       type: RegionPart
@@ -129,6 +131,7 @@ drawer: {
       under: false
       moveY: -5
       progress: recoil
+      recoilIndex: 2
     }
     {
       type: RegionPart
@@ -140,7 +143,7 @@ drawer: {
       moveY: -3
       under: false
     }
-	{
+	  {
       type: RegionPart
       suffix: -rightwing
       progress: warmup
@@ -149,7 +152,7 @@ drawer: {
       moveY: 0.4
       under: true
     }
-	{
+	  {
       type: RegionPart
       suffix: -leftwing
       progress: warmup
