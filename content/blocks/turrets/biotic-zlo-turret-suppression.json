@@ -81,11 +81,11 @@ ammoTypes: {
     hitEffect: {
       type: ParticleEffect
       particles: 8
-      lifetime: 15
+      lifetime: 25
       length: 30
       sizeFrom: 2
     	sizeTo: 0
-      cone: 20
+      cone: 15
       colorFrom: ffffff
     	colorTo: ffffff
       square: true
@@ -95,11 +95,11 @@ ammoTypes: {
     despawnEffect: {
       type: ParticleEffect
       particles: 8
-      lifetime: 15
+      lifetime: 25
       length: 30
       sizeFrom: 2
     	sizeTo: 0
-      cone: 20
+      cone: 15
       colorFrom: ffffff
     	colorTo: ffffff
       square: true
