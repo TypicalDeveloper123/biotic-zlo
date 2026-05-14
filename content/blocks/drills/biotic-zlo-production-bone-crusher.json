@@ -30,8 +30,8 @@ requirements: [
 ]
 
 researchCost: [
-    biotic-zlo-item-aluminum/66
-	biotic-zlo-item-infested-tissue/24
+    biotic-zlo-item-aluminum/660
+	biotic-zlo-item-infested-tissue/240
 ]
 
 research: {

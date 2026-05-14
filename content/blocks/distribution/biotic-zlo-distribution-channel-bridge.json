@@ -16,7 +16,7 @@ range: 6
 speed: 3
 
 researchCost: [
-  biotic-zlo-item-aluminum/6
+  biotic-zlo-item-aluminum/60
 ]
 
 research: {

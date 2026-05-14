@@ -25,7 +25,7 @@ requirements: [
 ]
 
 researchCost: [
-    biotic-zlo-item-aluminum/30
+    biotic-zlo-item-aluminum/300
 ]
 
 research: {
