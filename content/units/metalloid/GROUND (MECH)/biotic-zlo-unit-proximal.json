@@ -39,8 +39,8 @@ weapons: [
         shootSound: shootFuse
         shootSoundVolume: 0.5
         shoot: {
-            shots: 3
-            shotDelay: 5
+            shots: 1
+            shotDelay: 0
         }
         bullet: {
             type: BasicBulletType
@@ -71,8 +71,8 @@ weapons: [
             }
 
             intervalBullets: 1
-		    bulletInterval: 10
-            intervalSpread: 60
+		    bulletInterval: 20
+            intervalSpread: 5
 		    intervalBullet: {
 			    type: BasicBulletType
                 trailLength: 6
