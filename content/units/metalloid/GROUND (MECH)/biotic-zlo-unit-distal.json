@@ -43,27 +43,13 @@ weapons: [
             }
 
             hitEffect: {
-            type: ParticleEffect
-            particles: 8
-            lifetime: 25
-            length: 30
-            sizeFrom: 2
-            sizeTo: 0
-            cone: 15
-            colorFrom: ffffff
-            colorTo: ffffff
-            square: true
-            interp: pow2Out
-            }
-    
-            despawnEffect: {
                 Type: MultiEffect
                 effects: [  
                     {
                         type: ParticleEffect
-                        particles: 20
-                        colorFrom: a33333
-                        colorTo: 33001b
+                        particles: 5
+                        colorFrom: ff8e85
+                        colorTo: ffb4ad
                         line: true
                         lifetime: 15
                         length: 12
@@ -72,8 +58,32 @@ weapons: [
                     }
                     {
                         type: WaveEffect
-                        colorFrom: 853d3d
-                        colorTo: 33001b
+                        colorFrom: ff8e85
+                        colorTo: ffb4ad
+                        sizeFrom: 3
+                        sizeTo: 9
+                    }
+                ]       
+            }
+    
+            despawnEffect: {
+                Type: MultiEffect
+                effects: [  
+                    {
+                        type: ParticleEffect
+                        particles: 5
+                        colorFrom: ff8e85
+                        colorTo: ffb4ad
+                        line: true
+                        lifetime: 15
+                        length: 12
+                        sizeFrom: 2
+                        sizeTo: 0
+                    }
+                    {
+                        type: WaveEffect
+                        colorFrom: ff8e85
+                        colorTo: ffb4ad
                         sizeFrom: 3
                         sizeTo: 9
                     }
