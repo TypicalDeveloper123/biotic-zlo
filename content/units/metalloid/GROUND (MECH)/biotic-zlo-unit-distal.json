@@ -42,6 +42,44 @@ weapons: [
             colorTo: ff847a
             }
 
+            hitEffect: {
+            type: ParticleEffect
+            particles: 8
+            lifetime: 25
+            length: 30
+            sizeFrom: 2
+            sizeTo: 0
+            cone: 15
+            colorFrom: ffffff
+            colorTo: ffffff
+            square: true
+            interp: pow2Out
+            }
+    
+            despawnEffect: {
+                Type: MultiEffect
+                effects: [  
+                    {
+                        type: ParticleEffect
+                        particles: 20
+                        colorFrom: a33333
+                        colorTo: 33001b
+                        line: true
+                        lifetime: 15
+                        length: 12
+                        sizeFrom: 2
+                        sizeTo: 0
+                    }
+                    {
+                        type: WaveEffect
+                        colorFrom: 853d3d
+                        colorTo: 33001b
+                        sizeFrom: 3
+                        sizeTo: 9
+                    }
+                ]       
+            }
+
             trailChance: 0.4
             trailRotation: true
         }
