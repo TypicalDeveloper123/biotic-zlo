@@ -38,6 +38,10 @@ weapons: [
         recoil: 2
         shootSound: shootFuse
         shootSoundVolume: 0.5
+        shoot: {
+            shots: 3
+            shootDelay: 5
+        }
         bullet: {
             type: BasicBulletType
             trailLength: 5
