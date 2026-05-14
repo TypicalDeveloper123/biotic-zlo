@@ -73,7 +73,7 @@ weapons: [
             trailRotation: true
         }
 
-        intervalBullets: 3
+        intervalBullets: 1
 		bulletInterval: 3
         intervalRandomSpread: 60
 		intervalBullet: {
