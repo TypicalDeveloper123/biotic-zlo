@@ -39,9 +39,6 @@ weapons: [
             sizeFrom: 2
     	    sizeTo: 0
             cone: 10
-            line: true
-            width: 1.5
-            height: 2.5
             }
 
             trailChance: 0.4
