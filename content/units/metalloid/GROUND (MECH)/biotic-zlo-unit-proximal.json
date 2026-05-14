@@ -4,8 +4,8 @@ flying: false
 health: 3500
 armor: 6
 hitSize: 13
-outlineColor: 1b1a33
-mechLegColor: 1b1a33
+outlineColor: 1b1c26
+mechLegColor: 1b1c26
 range: 78
 stepSound: mechStepSmall
 stepSoundPitch: 0.75
