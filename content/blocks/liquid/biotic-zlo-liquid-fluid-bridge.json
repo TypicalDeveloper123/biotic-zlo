@@ -14,8 +14,8 @@ category: liquid
 squareSprite: true
 
 researchCost: [
-  biotic-zlo-item-aluminum/6
-  biotic-zlo-item-infested-tissue/6
+  biotic-zlo-item-aluminum/60
+  biotic-zlo-item-infested-tissue/60
 ] 
 
 research: {

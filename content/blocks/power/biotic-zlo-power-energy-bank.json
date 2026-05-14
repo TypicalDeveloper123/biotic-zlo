@@ -12,9 +12,9 @@ requirements: [
 ]
 
 researchCost: [
-	biotic-zlo-item-aluminum/24
-  	biotic-zlo-item-foritium/10
-  	biotic-zlo-item-iron/16
+	biotic-zlo-item-aluminum/240
+  	biotic-zlo-item-foritium/100
+  	biotic-zlo-item-iron/160
 ]
 
 category: power

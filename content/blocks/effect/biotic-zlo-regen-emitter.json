@@ -29,8 +29,8 @@ requirements: [
 ]
 
 researchCost: [
-  biotic-zlo-item-aluminum/40
-	silicon/20
+  biotic-zlo-item-aluminum/400
+	silicon/200
 ]
 
 consumes: {
