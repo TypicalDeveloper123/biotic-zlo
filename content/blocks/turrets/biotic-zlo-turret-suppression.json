@@ -81,7 +81,7 @@ ammoTypes: {
     hitEffect: {
       type: ParticleEffect
       particles: 8
-      lifetime: 25
+      lifetime: 30
       length: 30
       sizeFrom: 2
     	sizeTo: 0
@@ -95,7 +95,7 @@ ammoTypes: {
     despawnEffect: {
       type: ParticleEffect
       particles: 8
-      lifetime: 25
+      lifetime: 30
       length: 30
       sizeFrom: 2
     	sizeTo: 0

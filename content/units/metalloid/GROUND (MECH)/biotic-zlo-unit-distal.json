@@ -57,12 +57,24 @@ weapons: [
                         sizeTo: 0
                     }
                     {
+                        type: ParticleEffect
+                        particles: 8
+                        colorFrom: ff8e85
+                        colorTo: ffb4ad
+                        cone: 15
+                        lifetime: 25
+                        length: 12
+                        sizeFrom: 3
+                        sizeTo: 0
+                        interp: pow2Out
+                    }
+                    {
                         type: WaveEffect
                         colorFrom: ff8e85
                         colorTo: ffb4ad
                         lifetime: 15
-                        sizeFrom: 3
-                        sizeTo: 9
+                        sizeFrom: 1
+                        sizeTo: 5
                         interp: pow2Out
                     }
                 ]       
