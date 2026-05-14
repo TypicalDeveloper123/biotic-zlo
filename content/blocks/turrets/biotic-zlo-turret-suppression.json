@@ -114,6 +114,7 @@ ammoTypes: {
     	sizeTo: 0
       cone: 10
       line: true
+      lightScl: 0
     }
 
     trailChance: 0.5
