@@ -1,17 +1,17 @@
 type: PayloadConveyor
 category: units
 
-researchCost: [
-  biotic-zlo-item-aluminum/45
-  biotic-zlo-item-iron/30
-  silicon/15
-] 
-
 requirements: [
   biotic-zlo-item-aluminum/15
   biotic-zlo-item-iron/10
   silicon/5
 ]
+
+researchCost: [
+  biotic-zlo-item-aluminum/450
+  biotic-zlo-item-iron/300
+  silicon/150
+] 
 
 canOverdrive: false
 payloadLimit: 4
