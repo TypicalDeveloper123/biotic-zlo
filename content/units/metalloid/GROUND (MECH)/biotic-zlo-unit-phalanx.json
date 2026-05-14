@@ -4,8 +4,8 @@ flying: false
 health: 1100
 armor: 6
 hitSize: 10
-outlineColor: 1b1a33
-mechLegColor: 1b1a33
+outlineColor: 1b1c26
+mechLegColor: 1b1c26
 
 weapons: [
     {
