@@ -109,13 +109,13 @@ ammoTypes: {
     trailEffect: {
       type: ParticleEffect
       particles: 1
-      lifetime: 25
+      lifetime: 30
       sizeFrom: 2
     	sizeTo: 0
       cone: 10
       line: true
-      width: 1.5
-      height: 2.4
+      width: 2.5
+      height: 3.4
     }
 
     trailChance: 0.5
