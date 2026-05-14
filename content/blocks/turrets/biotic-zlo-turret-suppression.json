@@ -90,6 +90,7 @@ ammoTypes: {
     	colorTo: ffffff
       square: true
       interp: pow2Out
+      lightScl: 0
     }
     
     despawnEffect: {
@@ -104,6 +105,7 @@ ammoTypes: {
     	colorTo: ffffff
       square: true
       interp: pow2Out
+      lightScl: 0
     }
 
     trailEffect: {
