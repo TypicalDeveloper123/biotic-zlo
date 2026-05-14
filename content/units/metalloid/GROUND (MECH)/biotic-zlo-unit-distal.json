@@ -40,6 +40,7 @@ weapons: [
             cone: 10
             colorFrom: ff847a
             colorTo: ff847a
+            lightScl: 0
             }
 
             hitEffect: hitBulletColor
