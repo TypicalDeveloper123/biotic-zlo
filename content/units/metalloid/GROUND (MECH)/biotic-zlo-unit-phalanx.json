@@ -20,7 +20,6 @@ weapons: [
         name: biotic-zlo-unit-phalanx-weapon-0
         shoot: {
             shots: 2
-            shotDelay: 10
         }
         bullet: {
             type: BasicBulletType
@@ -33,6 +32,8 @@ weapons: [
             lifetime: 25
             speed: 5
             damage: 20
+            weaveMag: 5
+		    weaveScale: 2
 
             trailEffect: {
             type: ParticleEffect
@@ -48,38 +49,6 @@ weapons: [
 
             trailChance: 0.45
             trailRotation: true
-            
-            fragBullets: 3
-            fragRandomSpread: 0
-            fragSpread: 15
-            fragVelocityMin: 1
-            fragVelocityMax: 1
-            fragOnHit: true
-            fragAngle: 5
-            fragBullet: {
-                type: BasicBulletType
-                lifetime: 30
-                trailLength: 6
-                trailColor: ff847a
-                frontColor: ff948c
-                backColor: ff948c
-                width: 8
-                height: 12
-                damage: 8
-                speed: 2.5
-
-                trailEffect: {
-                type: ParticleEffect
-                particles: 1
-                lifetime: 25
-                sizeFrom: 1.5
-    	        sizeTo: 0
-                cone: 10
-                colorFrom: ff847a
-                colorTo: ff847a
-                lightScl: 0
-                }
-            }
         }
     }
 ]
