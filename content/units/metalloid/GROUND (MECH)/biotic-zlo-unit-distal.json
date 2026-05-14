@@ -35,15 +35,15 @@ weapons: [
             hitColor: ff847a
 
             trailEffect: {
-            type: ParticleEffect
-            particles: 1
-            lifetime: 25
-            sizeFrom: 2
-    	    sizeTo: 0
-            cone: 10
-            colorFrom: ff847a
-            colorTo: ff847a
-            lightScl: 0
+                type: ParticleEffect
+                particles: 1
+                lifetime: 25
+                sizeFrom: 2
+                sizeTo: 0
+                cone: 10
+                colorFrom: ff847a
+                colorTo: ff847a
+                lightScl: 0
             }
 
             trailChance: 0.4

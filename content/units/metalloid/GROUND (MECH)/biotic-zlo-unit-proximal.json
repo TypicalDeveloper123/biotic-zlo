@@ -59,54 +59,51 @@ weapons: [
             hitColor: ff847a
 
             trailEffect: {
-            type: ParticleEffect
-            particles: 1
-            lifetime: 25
-            sizeFrom: 2
-    	    sizeTo: 0
-            cone: 10
-            colorFrom: ff847a
-            colorTo: ff847a
-            lightScl: 0
+                type: ParticleEffect
+                particles: 1
+                lifetime: 25
+                sizeFrom: 2
+                sizeTo: 0
+                cone: 10
+                colorFrom: ff847a
+                colorTo: ff847a
+                lightScl: 0
+            }
+
+            intervalBullets: 1
+		    bulletInterval: 10
+            intervalSpread: 60
+		    intervalBullet: {
+			    type: BasicBulletType
+                trailLength: 6
+                trailColor: ff847a
+                frontColor: ff948c
+                backColor: ff948c
+			    speed: 8
+			    damage: 30
+			    lifetime: 8	
+			    width: 12
+                height: 15
+                weaveMag: 2
+                weaveScale: 5
+                hitEffect: hitBulletColor
+                despawnEffect: hitBulletColor
+                hitColor: ff847a
+            
+            trailEffect: {
+                type: ParticleEffect
+                particles: 1
+                lifetime: 30
+                sizeFrom: 2.4
+    	        sizeTo: 0
+                cone: 10
+                colorFrom: ff847a
+                colorTo: ff847a
+                lightScl: 0
+                }
             }
 
             trailChance: 0.4
-            trailRotation: true
-        }
-
-        intervalBullets: 1
-		bulletInterval: 10
-        intervalSpread: 60
-		intervalBullet: {
-			type: BasicBulletType
-            trailLength: 6
-            trailColor: ff847a
-            frontColor: ff948c
-            backColor: ff948c
-			speed: 8
-			damage: 30
-			lifetime: 8	
-			width: 12
-            height: 15
-            weaveMag: 2
-		    weaveScale: 5
-			hitEffect: hitBulletColor
-            despawnEffect: hitBulletColor
-            hitColor: ff847a
-            
-            trailEffect: {
-            type: ParticleEffect
-            particles: 1
-            lifetime: 30
-            sizeFrom: 2.4
-    	    sizeTo: 0
-            cone: 10
-            colorFrom: ff847a
-            colorTo: ff847a
-            lightScl: 0
-            }
-
-            trailChance: 0.45
             trailRotation: true
 		}
     }   
