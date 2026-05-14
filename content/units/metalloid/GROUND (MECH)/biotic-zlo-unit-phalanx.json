@@ -25,9 +25,9 @@ weapons: [
         bullet: {
             type: BasicBulletType
             trailLength: 6
+            trailColor: ff847a
             frontColor: ff948c
             backColor: ff948c
-            trailColor: ff847a
             width: 10
             height: 12
             lifetime: 25
@@ -44,9 +44,9 @@ weapons: [
                 type: BasicBulletType
                 lifetime: 30
                 trailLength: 6
+                trailColor: ff847a
                 frontColor: ff948c
                 backColor: ff948c
-                trailColor: ff847a
                 weaveMag: 5
 		        weaveScale: 2
                 width: 8

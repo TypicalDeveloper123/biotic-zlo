@@ -33,7 +33,7 @@ weapons: [
 
             trailEffect: {
             type: ParticleEffect
-            color: ff847a
+            trailColor: ff847a
             particles: 1
             lifetime: 25
             sizeFrom: 2
