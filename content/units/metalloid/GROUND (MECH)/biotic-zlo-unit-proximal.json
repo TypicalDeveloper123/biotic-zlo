@@ -84,8 +84,8 @@ weapons: [
 			    lifetime: 8	
 			    width: 12
                 height: 15
-                weaveMag: 2
-                weaveScale: 5
+                weaveMag: 5
+                weaveScale: 2
                 hitEffect: hitBulletColor
                 despawnEffect: hitBulletColor
                 hitColor: ff847a
