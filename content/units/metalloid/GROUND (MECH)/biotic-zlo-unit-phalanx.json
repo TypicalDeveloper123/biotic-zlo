@@ -3,7 +3,7 @@ speed: 0.7
 flying: false
 health: 1100
 armor: 6
-hitSize: 9
+hitSize: 10
 outlineColor: 1b1a33
 mechLegColor: 1b1a33
 
@@ -25,12 +25,12 @@ weapons: [
         bullet: {
             type: BasicBulletType
             trailLength: 6
-            frontColor: ffc9c9
-            backColor: ffc9c9
-            trailColor: ff8c8c
+            frontColor: ff948c
+            backColor: ff948c
+            trailColor: ff5145
             width: 10
             height: 12
-            lifetime: 35
+            lifetime: 25
             speed: 5
             damage: 20
             fragBullets: 2
@@ -42,11 +42,11 @@ weapons: [
             fragAngle: 5
             fragBullet: {
                 type: BasicBulletType
-                lifetime: 25
+                lifetime: 30
                 trailLength: 6
-                frontColor: ffc9c9
-                backColor: ffc9c9
-                trailColor: ff8c8c
+                frontColor: ff948c
+                backColor: ff948c
+                trailColor: ff5145
                 weaveMag: 5
 		        weaveScale: 2
                 width: 8
