@@ -37,7 +37,7 @@ reload: 8
 range: 260
 shootY: 9
 shootX: 0
-inaccuracy: 2
+inaccuracy: 5
 
 shoot: {
   type: ShootAlternate
