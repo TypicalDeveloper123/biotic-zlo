@@ -40,7 +40,7 @@ weapons: [
         shootSoundVolume: 0.5
         shoot: {
             shots: 3
-            shootDelay: 5
+            shotsDelay: 5
         }
         bullet: {
             type: BasicBulletType
