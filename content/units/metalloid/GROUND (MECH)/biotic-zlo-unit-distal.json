@@ -33,14 +33,15 @@ weapons: [
 
             trailEffect: {
             type: ParticleEffect
+            color: ff847a
             particles: 1
             lifetime: 25
             sizeFrom: 2
     	    sizeTo: 0
             cone: 10
             line: true
-            width: 2.5
-            height: 4
+            width: 2
+            height: 3
             }
 
             trailChance: 0.5
