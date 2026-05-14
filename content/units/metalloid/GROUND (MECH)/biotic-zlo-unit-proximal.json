@@ -38,8 +38,7 @@ weapons: [
         recoil: 2
         shootSound: shootFuse
         shootSoundVolume: 0.5
-        shootStatus: slow
-        intervalBullets: 1
+        intervalBullets: 3
 		bulletInterval: 3
         intervalRandomSpread: 60
 		intervalBullet: {
