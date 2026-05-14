@@ -15,10 +15,10 @@ requirements: [
 ]
 
 researchCost: [
-  biotic-zlo-item-aluminum/96
-  biotic-zlo-item-iron/72
-  biotic-zlo-item-foritium/56
-  silicon/20
+  biotic-zlo-item-aluminum/960
+  biotic-zlo-item-iron/720
+  biotic-zlo-item-foritium/560
+  silicon/200
 ]
 
 research: {
