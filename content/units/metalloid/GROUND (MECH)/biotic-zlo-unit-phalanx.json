@@ -33,6 +33,18 @@ weapons: [
             lifetime: 25
             speed: 5
             damage: 20
+
+            trailEffect: {
+            type: ParticleEffect
+            particles: 1
+            lifetime: 25
+            sizeFrom: 2.4
+    	    sizeTo: 0
+            cone: 10
+            colorFrom: ff847a
+            colorTo: ff847a
+            }
+            
             fragBullets: 2
             fragRandomSpread: 0
             fragSpread: 15
@@ -53,6 +65,17 @@ weapons: [
                 height: 12
                 damage: 8
                 speed: 2.5
+
+                trailEffect: {
+                type: ParticleEffect
+                particles: 1
+                lifetime: 25
+                sizeFrom: 1.5
+    	        sizeTo: 0
+                cone: 10
+                colorFrom: ff847a
+                colorTo: ff847a
+                }
             }
         }
     }
