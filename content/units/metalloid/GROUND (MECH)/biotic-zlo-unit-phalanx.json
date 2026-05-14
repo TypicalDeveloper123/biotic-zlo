@@ -13,9 +13,9 @@ weapons: [
         rotate: false
         mirror: true
         top: false
-        inaccuracy: 2
+        inaccuracy: 5
         reload: 30
-        recoil: 1.8
+        recoil: 2
         shootSound: shootSalvo
         name: biotic-zlo-unit-phalanx-weapon-0
         shoot: {
@@ -27,7 +27,7 @@ weapons: [
             trailLength: 6
             frontColor: ff948c
             backColor: ff948c
-            trailColor: ff5145
+            trailColor: ff847a
             width: 10
             height: 12
             lifetime: 25
@@ -46,7 +46,7 @@ weapons: [
                 trailLength: 6
                 frontColor: ff948c
                 backColor: ff948c
-                trailColor: ff5145
+                trailColor: ff847a
                 weaveMag: 5
 		        weaveScale: 2
                 width: 8

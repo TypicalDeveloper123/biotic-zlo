@@ -22,9 +22,9 @@ weapons: [
         bullet: {
             type: BasicBulletType
             trailLength: 5
+            trailColor: ff847a
             frontColor: ff948c
             backColor: ff948c
-            trailColor: ff5145
             width: 8
             height: 10
             lifetime: 40
@@ -43,7 +43,7 @@ weapons: [
             height: 4
             }
 
-            trailChance: 0.3
+            trailChance: 0.5
             trailRotation: true
         }
     }
