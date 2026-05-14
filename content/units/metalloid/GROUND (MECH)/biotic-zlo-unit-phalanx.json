@@ -38,14 +38,18 @@ weapons: [
             type: ParticleEffect
             particles: 1
             lifetime: 25
-            sizeFrom: 2.4
+            sizeFrom: 2.2
     	    sizeTo: 0
             cone: 10
             colorFrom: ff847a
             colorTo: ff847a
+            lightScl: 0
             }
+
+            trailChance: 0.45
+            trailRotation: true
             
-            fragBullets: 2
+            fragBullets: 3
             fragRandomSpread: 0
             fragSpread: 15
             fragVelocityMin: 1
@@ -59,8 +63,6 @@ weapons: [
                 trailColor: ff847a
                 frontColor: ff948c
                 backColor: ff948c
-                weaveMag: 5
-		        weaveScale: 2
                 width: 8
                 height: 12
                 damage: 8
@@ -75,6 +77,7 @@ weapons: [
                 cone: 10
                 colorFrom: ff847a
                 colorTo: ff847a
+                lightScl: 0
                 }
             }
         }
