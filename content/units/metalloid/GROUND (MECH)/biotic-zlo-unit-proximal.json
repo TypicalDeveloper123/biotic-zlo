@@ -84,7 +84,7 @@ weapons: [
             backColor: ff948c
 			speed: 8
 			damage: 30
-			lifetime: 35	
+			lifetime: 8	
 			width: 12
             height: 15
 			hitEffect: hitBulletColor
