@@ -11,20 +11,6 @@ stepSound: mechStepSmall
 stepSoundPitch: 0.75
 stepSoundVolume: 0.84
 
-abilities: [
-    {
-        type: ShieldArcAbility
-        radius: 20
-        angle: 64
-        regen: 0.28
-        cooldown: 120
-        max: 820
-        y: -10
-        width: 4.5
-        whenShooting: false
-    }
-]
-
 weapons: [
     {
         x: -6.6
@@ -54,6 +40,13 @@ weapons: [
             despawnEffect: hitBulletColor
             hitColor: ff847a
             pierceCap: 2
+
+            effects: {
+                type: MultiEffect
+                effects: [
+
+                ]
+            }
 
             trailEffect: {
                 type: ParticleEffect
