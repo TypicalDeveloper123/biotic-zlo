@@ -38,11 +38,6 @@ weapons: [
         recoil: 2
         shootSound: shootFuse
         shootSoundVolume: 0.5
-        shoot: {
-            type: ShootHelix
-            shots: 1
-            shotDelay: 0
-        }
         bullet: {
             type: BasicBulletType
             knockback: 5
@@ -92,6 +87,12 @@ weapons: [
                 hitEffect: hitBulletColor
                 despawnEffect: hitBulletColor
                 hitColor: ff847a
+
+                shootPattern: {
+                    type: ShootHelix
+                    shots: 1
+                    shotDelay: 0
+                }
             
             trailEffect: {
                 type: ParticleEffect
