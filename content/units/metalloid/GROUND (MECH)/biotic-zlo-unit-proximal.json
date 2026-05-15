@@ -78,7 +78,7 @@ weapons: [
                 trailColor: ff847a
                 frontColor: ff948c
                 backColor: ff948c
-			    speed: 4
+			    speed: 3
 			    damage: 8
 			    lifetime: 8
 			    width: 8
