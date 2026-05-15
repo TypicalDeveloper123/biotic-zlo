@@ -83,8 +83,8 @@ weapons: [
 			    lifetime: 8
 			    width: 8
                 height: 12
-                hitEffect: hitBulletColor
-                despawnEffect: hitBulletColor
+                hitEffect: none
+                despawnEffect: none
                 hitColor: ff847a
 
                 trailEffect: {
