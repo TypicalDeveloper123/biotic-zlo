@@ -67,7 +67,7 @@ weapons: [
             }
 
             intervalBullets: 2
-		    bulletInterval: 5
+		    bulletInterval: 80
             intervalRandomSpread: 0
             intervalSpread: 20
 		    intervalBullet: {
@@ -78,7 +78,7 @@ weapons: [
                 backColor: ff948c
 			    speed: 8
 			    damage: 5
-			    lifetime: 8	
+			    lifetime: 100
 			    width: 8
                 height: 12
                 hitEffect: hitBulletColor
