@@ -36,7 +36,7 @@ weapons: [
         reload: 30
         name: biotic-zlo-unit-proximal-weapon-0
         recoil: 2
-        shootSound: shootFuse
+        shootSound: shootSalvo
         shootSoundVolume: 0.5
         bullet: {
             type: BasicBulletType
