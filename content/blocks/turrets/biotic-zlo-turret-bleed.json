@@ -42,7 +42,6 @@ ammoTypes: {
     width: 20
     length: 172
     lifetime: 60
-    pierceCap: 2
     pierce: true
     pierceBuilding: true
 	hitEffect: {

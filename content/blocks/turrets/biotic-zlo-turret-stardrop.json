@@ -69,7 +69,6 @@ ammoTypes: {
     lifetime: 50
     pierceCap: 5
     speed: 4.2
-    pierce: true
     pierceBuilding: true
     frontColor: e8e9eb
     backColor: e8e9eb

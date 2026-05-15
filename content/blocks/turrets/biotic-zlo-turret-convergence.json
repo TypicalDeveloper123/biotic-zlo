@@ -49,12 +49,10 @@ ammoTypes: {
     width: 9.5
     height: 9.5
     lifetime: 30
-    pierceCap: 3
+    pierceCap: 1
     speed: 5
     homingPower: 0.035
     homingRange: 100
-    pierce: true
-    pierceBuilding: true
     frontColor: c1dae3
     backColor: c1dae3
 	hitColor: c1dae3

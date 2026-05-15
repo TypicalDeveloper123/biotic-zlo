@@ -53,6 +53,7 @@ weapons: [
             hitEffect: hitBulletColor
             despawnEffect: hitBulletColor
             hitColor: ff847a
+            pierceCap: 2
 
             trailEffect: {
                 type: ParticleEffect
@@ -69,31 +70,23 @@ weapons: [
             bulletInterval: 3
             intervalBullets: 2
             intervalRandomSpread: 0
-            intervalSpread: 300
-            
+            intervalSpread: 50
+
 		    intervalBullet: {
 			    type: BasicBulletType
-                trailLength: 5
+                trailLength: 3
                 trailColor: ff847a
                 frontColor: ff948c
                 backColor: ff948c
 			    speed: 6
-			    damage: 5
-			    lifetime: 80
+			    damage: 8
+			    lifetime: 8
 			    width: 8
                 height: 12
                 hitEffect: hitBulletColor
                 despawnEffect: hitBulletColor
                 hitColor: ff847a
 
-                shootPattern: {
-                    type: ShootHelix
-                    mag: 5
-                    scl: 2
-                    shots: 1
-                    shotDelay: 0
-                }
-            
                 trailEffect: {
                     type: ParticleEffect
                     particles: 1

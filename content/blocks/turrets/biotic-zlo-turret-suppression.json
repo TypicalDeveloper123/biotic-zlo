@@ -56,9 +56,8 @@ ammoTypes: {
     width: 10
     height: 12
     lifetime: 50
-    pierceCap: 1
+    pierceCap: 3
     speed: 5.8
-    pierce: true
     pierceBuilding: true
 	  frontColor: ffffff
     backColor: ffffff
