@@ -73,6 +73,7 @@ weapons: [
             intervalBullets: 2
 		    bulletInterval: 15
             intervalSpread: 5
+            intervalAngle: 0
 		    intervalBullet: {
 			    type: BasicBulletType
                 trailLength: 6
