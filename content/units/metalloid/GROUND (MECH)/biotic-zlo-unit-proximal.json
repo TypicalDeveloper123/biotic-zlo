@@ -41,23 +41,36 @@ weapons: [
             hitColor: ff847a
             pierceCap: 2
 
-            effects: {
+            effect: {
                 type: MultiEffect
                 effects: [
+                    trailEffect: {
+                        type: ParticleEffect
+                        particles: 1
+                        lifetime: 25
+                        sizeFrom: 2
+                        sizeTo: 0
+                        cone: 10
+                        colorFrom: ff847a
+                        colorTo: ff847a
+                        lightScl: 0
+                    }
 
+                    trailEffect: {
+                        type: ParticleEffect
+                        particles: 1
+                        lifetime: 25
+                        sizeFrom: 2
+                        sizeTo: 0
+                        cone: 10
+                        colorFrom: ff847a
+                        colorTo: ff847a
+                        lightScl: 0
+                    }
+
+                    trailChance: 0.4
+                    trailRotation: true
                 ]
-            }
-
-            trailEffect: {
-                type: ParticleEffect
-                particles: 1
-                lifetime: 25
-                sizeFrom: 2
-                sizeTo: 0
-                cone: 10
-                colorFrom: ff847a
-                colorTo: ff847a
-                lightScl: 0
             }
 
             bulletInterval: 3
@@ -91,10 +104,10 @@ weapons: [
                     colorTo: ff847a
                     lightScl: 0
                 }
-            }
 
-            trailChance: 0.4
-            trailRotation: true
+                trailChance: 0.4
+                trailRotation: true
+            }   
 		}
     }   
 ]
