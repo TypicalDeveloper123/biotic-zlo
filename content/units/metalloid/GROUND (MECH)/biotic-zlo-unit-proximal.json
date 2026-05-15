@@ -67,9 +67,6 @@ weapons: [
                         colorTo: ff847a
                         lightScl: 0
                     }
-
-                    trailChance: 0.4
-                    trailRotation: true
                 ]
             }
 
