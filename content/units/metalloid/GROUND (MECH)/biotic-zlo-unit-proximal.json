@@ -72,8 +72,8 @@ weapons: [
 
             intervalBullets: 2
 		    bulletInterval: 15
-            intervalSpread: 0
-            intervalAngle: 0
+            intervalRandomSpread: 0
+            intervalSpread: 2
 		    intervalBullet: {
 			    type: BasicBulletType
                 trailLength: 6
@@ -85,7 +85,7 @@ weapons: [
 			    lifetime: 8	
 			    width: 12
                 height: 15
-                weaveMag: 5
+                weaveMag: 8
                 weaveRandom: false
                 weaveScale: 2
                 hitEffect: hitBulletColor
