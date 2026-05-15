@@ -83,8 +83,8 @@ weapons: [
 			    speed: 8
 			    damage: 5
 			    lifetime: 8	
-			    width: 12
-                height: 15
+			    width: 8
+                height: 12
                 weaveMag: 8
                 weaveRandom: false
                 weaveScale: 2
