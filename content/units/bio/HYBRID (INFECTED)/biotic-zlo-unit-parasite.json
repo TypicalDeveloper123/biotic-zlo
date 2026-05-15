@@ -54,7 +54,7 @@ weapons: [
             trailColor: 990000
             trailLength: 10
             layer: 90
-            damage: 30
+            damage: 20
             speed: 2
             lightRadius: -1
             lightOpacity: 0

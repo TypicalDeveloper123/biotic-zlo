@@ -125,7 +125,7 @@ weapons: [
             trailColor: 990000
             trailLength: 15
             layer: 116
-            damage: 45
+            damage: 35
             speed: 3
             lightRadius: -1
             lightOpacity: 0
@@ -177,7 +177,7 @@ weapons: [
             trailColor: 990000
             trailLength: 15
             layer: 116
-            damage: 45
+            damage: 35
             speed: 3
             lightRadius: -1
             lightOpacity: 0
