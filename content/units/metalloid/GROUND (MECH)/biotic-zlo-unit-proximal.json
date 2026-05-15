@@ -87,6 +87,8 @@ weapons: [
 
                 shootPattern: {
                     type: ShootHelix
+                    mag: 10
+                    scl: 2
                     shots: 1
                     shotDelay: 0
                 }
