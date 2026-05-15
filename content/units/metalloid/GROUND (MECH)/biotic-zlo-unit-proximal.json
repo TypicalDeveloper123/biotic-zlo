@@ -67,7 +67,7 @@ weapons: [
             }
 
             intervalBullets: 2
-		    bulletInterval: 15
+		    bulletInterval: 5
             intervalRandomSpread: 0
             intervalSpread: 20
 		    intervalBullet: {
