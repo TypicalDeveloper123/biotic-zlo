@@ -39,6 +39,7 @@ weapons: [
         shootSound: shootFuse
         shootSoundVolume: 0.5
         shoot: {
+            type: ShootHelix
             shots: 1
             shotDelay: 0
         }
