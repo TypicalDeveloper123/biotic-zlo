@@ -4,7 +4,7 @@ speed: 2.4
 accel: 0.08
 drag: 0.04
 health: 260
-armor: 5
+armor: 0
 hitSize: 11
 outlineColor: 1b1a33
 mechLegColor: 1b1a33

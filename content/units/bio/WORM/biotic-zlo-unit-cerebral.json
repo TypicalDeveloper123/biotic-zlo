@@ -3,7 +3,7 @@ controller: HugAI
 speed: 0.9
 flying: false
 health: 420
-armor: 5
+armor: 0
 hitSize: 15
 outlineColor: 1b1a33
 segments: 3
