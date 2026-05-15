@@ -35,7 +35,7 @@ weapons: [
             height: 15
             lifetime: 40
             speed: 4
-            damage: 25
+            damage: 90
             hitEffect: hitBulletColor
             despawnEffect: hitBulletColor
             hitColor: ff847a
@@ -65,7 +65,7 @@ weapons: [
                 frontColor: ff948c
                 backColor: ff948c
 			    speed: 3
-			    damage: 8
+			    damage: 25
 			    lifetime: 8
 			    width: 8
                 height: 12
