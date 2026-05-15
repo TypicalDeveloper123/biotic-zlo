@@ -76,7 +76,7 @@ weapons: [
                 trailColor: ff847a
                 frontColor: ff948c
                 backColor: ff948c
-			    speed: 8
+			    speed: 6
 			    damage: 5
 			    lifetime: 100
 			    width: 8
@@ -87,7 +87,7 @@ weapons: [
 
                 shootPattern: {
                     type: ShootHelix
-                    mag: 10
+                    mag: 5
                     scl: 2
                     shots: 1
                     shotDelay: 0
