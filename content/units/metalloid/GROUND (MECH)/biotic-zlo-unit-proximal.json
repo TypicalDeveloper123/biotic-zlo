@@ -104,7 +104,10 @@ weapons: [
 
                 trailChance: 0.4
                 trailRotation: true
-            }   
+            }
+            
+            trailChance: 0.4
+            trailRotation: true
 		}
     }   
 ]
