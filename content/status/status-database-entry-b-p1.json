@@ -1,5 +1,5 @@
 research: {
-  	parent:  biotic-zlo-unit-BRAWN
+  	parent:  status-database-entry-a-p1
   	objectives: [
         {
         type: SectorComplete
