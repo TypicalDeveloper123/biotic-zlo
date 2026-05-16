@@ -3,7 +3,7 @@ speed: 0.7
 flying: false
 health: 1600
 armor: 6
-hitSize: 10
+hitSize: 12
 outlineColor: 1b1c26
 mechLegColor: 1b1c26
 
