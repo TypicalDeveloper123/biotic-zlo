@@ -4,8 +4,8 @@ flying: false
 health: 360
 armor: 0
 hitSize: 11
-outlineColor: 1b1a33
-mechLegColor: 1b1a33
+outlineColor: 260f1d
+mechLegColor: 260f1d
 stepSound: walkerStepTiny
 stepSoundVolume: 0.25
 deathExplosionEffect: {
