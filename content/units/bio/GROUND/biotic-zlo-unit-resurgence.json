@@ -4,8 +4,8 @@ flying: false
 health: 3000
 armor: 8
 hitSize: 30
-outlineColor: 1b1a33
-mechLegColor: 1b1a33
+outlineColor: 260f1d
+mechLegColor: 260f1d
 groundLayer: 75
 stepSound: walkerStep
 stepSoundVolume: 0.8

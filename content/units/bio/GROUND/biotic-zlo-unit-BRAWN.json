@@ -3,7 +3,7 @@ speed: 0.75
 flying: false
 health: 360
 armor: 0
-hitSize: 11
+hitSize: 10
 outlineColor: 260f1d
 mechLegColor: 260f1d
 stepSound: walkerStepTiny
