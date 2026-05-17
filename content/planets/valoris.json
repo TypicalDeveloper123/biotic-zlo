@@ -64,6 +64,7 @@ campaignRuleDefaults: {
  fog: true
  showSpawns: false
  rtsAI: false
+ sectorInvasion: true
 }
 
 allowCampaignRules: true
