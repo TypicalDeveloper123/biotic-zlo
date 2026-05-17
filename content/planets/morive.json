@@ -4,21 +4,19 @@ alwaysUnlocked: true
 visible: true
 mesh: [
   {
-    //bloodstone
+    //blood
     type: NoiseMesh
     planet: morive
     divisions: 5
-    seed: 14
-    radius: 0.625
-    color1: 995d5d
-    color2: 663d3d
-    octaves: 3.4
-    persistence: 0.8
-    mag: 1.8
-		scl: 6
+    radius: 0.72
+    color1: 290707
+    color2: 290707
+    octaves: 3
+    persistence: 0.2
+    mag: 0
   }
   {
-    //coagulated blood 2
+    //coagulated blood
     type: NoiseMesh
     planet: morive
     divisions: 5
@@ -32,7 +30,7 @@ mesh: [
 		scl: 6
   }
   {
-    //coagulated blood
+    //coagulated blood 2
     type: NoiseMesh
     planet: morive
     divisions: 5
@@ -46,17 +44,17 @@ mesh: [
 		scl: 6
   }
   {
-    //ice
+    //scoria
     type: NoiseMesh
     planet: morive
     divisions: 5
     seed: 14
-    radius: 0.575006
-    color1: ffffff
-    color2: ffffff
+    radius: 0.625
+    color1: 995d5d
+    color2: 663d3d
     octaves: 3.4
     persistence: 0.8
-    mag: 2.62
+    mag: 1.8
 		scl: 6
   }
   {
@@ -74,16 +72,18 @@ mesh: [
 		scl: 6
   }
   {
-    //blood
+    //ice
     type: NoiseMesh
     planet: morive
     divisions: 5
-    radius: 0.72
-    color1: 290707
-    color2: 290707
-    octaves: 3
-    persistence: 0.2
-    mag: 0
+    seed: 14
+    radius: 0.425
+    color1: ffffff
+    color2: ffffff
+    octaves: 3.4
+    persistence: 0.8
+    mag: 3.4
+		scl: 6
   }
   {
     //sky
