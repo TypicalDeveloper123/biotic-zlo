@@ -61,8 +61,8 @@ generator: {
 }
 
 campaignRuleDefaults: {
- fog: false
- showSpawns: true
+ fog: true
+ showSpawns: false
  rtsAI: false
 }
 
@@ -76,7 +76,7 @@ allowSelfSectorLaunch: false
 allowWaves: true
 
 startSector: 20
-radius: 0.4
+radius: 0.75
 minZoom: 1.88
 maxZoom: 3
 drawOrbit: true
