@@ -22,7 +22,7 @@ coolant: {
   liquid: biotic-zlo-liquid-ammonia
   amount: 0.045
 }
-coolantMultiplier: 2
+coolantMultiplier: 3
 
 recoil: 3
 outlineColor: 1b1a33
@@ -123,7 +123,7 @@ ammoTypes: {
 
 drawer: {
   type: DrawTurret
-  basePrefix: blob-
+  basePrefix: metal-
 }
 
 
