@@ -72,7 +72,7 @@ allowLaunchLoadout: false
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLegacyLaunchPads: false
-allowSectorInvasion: false
+allowSectorInvasion: true
 allowSelfSectorLaunch: false
 allowWaves: true
 
