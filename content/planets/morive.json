@@ -51,7 +51,7 @@ mesh: [
     planet: morive
     divisions: 5
     seed: 14
-    radius: 0.57
+    radius: 0.575006
     color1: ffffff
     color2: ffffff
     octaves: 3.4
@@ -60,7 +60,7 @@ mesh: [
 		scl: 6
   }
   {
-    //hematite
+    //lodestone
     type: NoiseMesh
     planet: morive
     divisions: 5
