@@ -1,5 +1,5 @@
 research: {
-  	parent:  status-database-entry-a-p1
+  	parent:  status-database-entry-b-p1
   	objectives: [
         {
         type: SectorComplete
