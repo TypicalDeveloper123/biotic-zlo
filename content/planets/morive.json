@@ -8,7 +8,7 @@ mesh: [
     type: NoiseMesh
     planet: morive
     divisions: 6
-    radius: 0.8
+    radius: 0.85
     color1: 290707
     color2: 290707
     octaves: 3
@@ -26,7 +26,7 @@ mesh: [
     color2: 991f1f
     octaves: 4
     persistence: 0.8
-    mag: 1.8
+    mag: 1.6
 		scl: 6
   }
   {
