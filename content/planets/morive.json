@@ -147,7 +147,7 @@ startSector: 142
 radius: 0.85
 drawOrbit: true
 atmosphereRadIn: 0
-atmosphereRadOut: 0.2
+atmosphereRadOut: 0.24
 accessible: true
 updateLighting: false
 sectorSeed: 14513
