@@ -144,10 +144,10 @@ allowSelfSectorLaunch: false
 allowWaves: true
 
 startSector: 142
-radius: 0.80
+radius: 0.78
 drawOrbit: true
-atmosphereRadIn: -0.02
-atmosphereRadOut: 0.1
+atmosphereRadIn: -0.05
+atmosphereRadOut: 0.2
 accessible: true
 updateLighting: false
 sectorSeed: 14513
