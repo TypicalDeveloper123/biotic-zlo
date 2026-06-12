@@ -146,7 +146,7 @@ allowWaves: true
 startSector: 142
 radius: 0.85
 drawOrbit: true
-atmosphereRadIn: -0.05
+atmosphereRadIn: -0.08
 atmosphereRadOut: 0.2
 accessible: true
 updateLighting: false
