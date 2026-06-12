@@ -7,7 +7,7 @@ mesh: [
     //blood
     type: NoiseMesh
     planet: morive
-    divisions: 5
+    divisions: 6
     radius: 0.8
     color1: 290707
     color2: 290707
@@ -19,21 +19,21 @@ mesh: [
     //coagulated blood
     type: NoiseMesh
     planet: morive
-    divisions: 5
+    divisions: 6
     seed: 14
-    radius: 0.7
+    radius: 0.6
     color1: 661616
     color2: 991f1f
     octaves: 4
     persistence: 0.8
-    mag: 1.9
+    mag: 1.8
 		scl: 6
   }
   {
     //coagulated blood 2
     type: NoiseMesh
     planet: morive
-    divisions: 5
+    divisions: 6
     seed: 14
     radius: 0
     color1: 661616
@@ -47,9 +47,9 @@ mesh: [
     //scoria
     type: NoiseMesh
     planet: morive
-    divisions: 5
+    divisions: 6
     seed: 14
-    radius: 0.66
+    radius: 0
     color1: 995d5d
     color2: 663d3d
     octaves: 3.4
@@ -61,9 +61,9 @@ mesh: [
     //lodestone
     type: NoiseMesh
     planet: morive
-    divisions: 5
+    divisions: 6
     seed: 14
-    radius: 0.5
+    radius: 0
     color1: 444957
     color2: 30333d
     octaves: 3.4
@@ -75,9 +75,9 @@ mesh: [
     //ice
     type: NoiseMesh
     planet: morive
-    divisions: 5
+    divisions: 6
     seed: 14
-    radius: 0.53
+    radius: 0
     color1: ffffff
     color2: ffffff
     octaves: 3.4
