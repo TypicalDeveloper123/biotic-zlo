@@ -144,7 +144,7 @@ allowSelfSectorLaunch: false
 allowWaves: true
 
 startSector: 142
-radius: 0.75
+radius: 0.72
 drawOrbit: true
 atmosphereRadIn: -0.05
 atmosphereRadOut: 0.2
