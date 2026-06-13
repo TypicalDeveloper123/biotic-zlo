@@ -137,7 +137,7 @@ research: {
 
 }
 researchCost: [
-  biotic-zlo-item-aluminum/560
-  biotic-zlo-item-infested-tissue/400
-  biotic-zlo-item-iron/240
+  biotic-zlo-item-aluminum/600
+  biotic-zlo-item-infested-tissue/100
+  biotic-zlo-item-iron/50
 ]

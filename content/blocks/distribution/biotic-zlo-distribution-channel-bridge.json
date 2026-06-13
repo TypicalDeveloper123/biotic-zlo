@@ -1,5 +1,4 @@
 type: DuctBridge
-description: Can bridge 6 blocks over natural walls.
 health: 140
 size: 1
 solid: false
@@ -12,11 +11,11 @@ requirements: [
 
 category: distribution
 squareSprite: true
-range: 6
+range: 4
 speed: 3
 
 researchCost: [
-  biotic-zlo-item-aluminum/60
+  biotic-zlo-item-aluminum/100
 ]
 
 research: {
