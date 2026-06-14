@@ -1,5 +1,6 @@
 type: OverflowGate
 category: distribution
+health: 180
 
 requirements: [
   biotic-zlo-item-aluminum/3

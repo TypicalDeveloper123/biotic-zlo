@@ -1,6 +1,6 @@
 type: Duct
 speed: 3.5
-health: 90
+health: 150
 category: distribution
 
 bridgeReplacement: biotic-zlo-distribution-channel-bridge

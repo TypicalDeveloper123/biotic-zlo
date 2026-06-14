@@ -9,6 +9,7 @@ tier: 1
 itemCapacity: 30
 liquidBoostIntensity: 2.5
 liquidCapacity: 15
+health: 200
 
 consumes: {
 	liquids: {

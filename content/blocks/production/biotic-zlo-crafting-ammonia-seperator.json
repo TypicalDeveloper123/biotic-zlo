@@ -3,6 +3,7 @@ size: 2
 hasPower: true
 hasLiquids: false
 squareSprite: false
+health: 200
 
 outputLiquid: biotic-zlo-liquid-ammonia/0.02
 

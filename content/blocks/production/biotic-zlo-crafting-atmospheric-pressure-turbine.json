@@ -3,6 +3,7 @@ size: 4
 hasPower: true
 hasLiquids: false
 squareSprite: false
+health: 500
 
 outputLiquid: biotic-zlo-liquid-air/0.24
 

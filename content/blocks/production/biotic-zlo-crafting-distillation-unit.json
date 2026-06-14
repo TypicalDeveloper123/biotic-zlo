@@ -3,6 +3,7 @@ size: 2
 hasPower: true
 hasLiquids: true
 squareSprite: false
+health: 200
 
 outputLiquid: water/0.05
 

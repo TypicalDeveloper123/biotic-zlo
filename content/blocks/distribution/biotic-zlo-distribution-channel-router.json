@@ -1,7 +1,7 @@
 type: Router
 regionRotated1: 1
 size: 1
-health: 80
+health: 180
 requirements: [
 	biotic-zlo-item-aluminum/3
 ]

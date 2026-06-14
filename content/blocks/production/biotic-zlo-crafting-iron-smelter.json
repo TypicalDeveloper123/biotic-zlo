@@ -3,6 +3,7 @@ size: 2
 hasPower: true
 hasItems: true
 squareSprite: false
+health: 200
 
 outputItem: biotic-zlo-item-iron/2
 

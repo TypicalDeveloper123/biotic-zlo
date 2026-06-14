@@ -4,6 +4,7 @@ hasPower: true
 hasItems: true
 squareSprite: false
 itemCapacity: 30
+health: 300
 
 outputItem: silicon/3
 

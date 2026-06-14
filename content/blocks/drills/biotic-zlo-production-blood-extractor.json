@@ -5,15 +5,12 @@ minEfficiency: 0.001
 maxBoost: 2
 craftTime: 90
 liquidCapacity: 20
+hasPower: false
 size: 2
-hasPower: true
 squareSprite: false
+health: 200
 
 outputLiquid: biotic-zlo-liquid-blood/0.09
-
-consumes: {
-	power: 0.6
-}
 
 category: production
 
@@ -39,15 +36,25 @@ research: {
 drawer: {
   type: DrawMulti
   drawers: [
-	  {
-      type: DrawDefault
-    }
+    {
+    	type: DrawRegion
+    	suffix: -bottom
+		}
+    {
+      type: DrawLiquidRegion
+      suffix: -liquid
+      drawLiquid: biotic-zlo-liquid-blood
+      alpha: 0.7
+    } 
     {
       type: DrawRegion
       suffix: -rotator
 	    spinSprite: true
 	    rotateSpeed: 2
     } 
+	  {
+      type: DrawDefault
+    }
     {
       type: DrawRegion
       suffix: -top

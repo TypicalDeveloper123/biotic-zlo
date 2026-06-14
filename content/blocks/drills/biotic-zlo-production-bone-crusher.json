@@ -1,7 +1,5 @@
 type: WallCrafter
-name: Bone Crusher
 attribute: bones
-description: Mines Bones from Bone walls.
 liquidBoostIntensity: 2.5
 liquidCapacity: 30
 drillTime: 90
@@ -9,6 +7,7 @@ size: 3
 hasLiquids: true
 squareSprite: false
 itemCapacity: 35
+health: 400
 
 output: biotic-zlo-item-crushed-bones
 
