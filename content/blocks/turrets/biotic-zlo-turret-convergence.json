@@ -179,7 +179,7 @@ research: {
     silicon
     {
     type: OnSector
-    preset: groove
+    preset: reckoning
     }
 ]
 

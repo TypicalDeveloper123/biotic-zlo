@@ -2,8 +2,8 @@ research: {
       parent:  status-database-entry-a-p1
       objectives: [
             {
-            type: SectorComplete
-            preset: groove
+                  type: SectorComplete
+                  preset: reckoning
             }
       ]
 }

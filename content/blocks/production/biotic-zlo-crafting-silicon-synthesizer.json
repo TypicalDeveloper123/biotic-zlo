@@ -39,7 +39,7 @@ research: {
 		biotic-zlo-crafting-briquette-press
 		{
     	type: OnSector
-    	preset: groove
+    	preset: reckoning
     	}
 	]
 }

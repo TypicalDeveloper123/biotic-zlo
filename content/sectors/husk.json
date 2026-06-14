@@ -3,11 +3,11 @@ sector: 222
 difficulty: 3
 captureWave: 35
 research: {
-  parent: groove
+  parent: reckoning
   objectives: [
     {
     type: SectorComplete
-    preset: groove
+    preset: reckoning
     }
   ]
 }

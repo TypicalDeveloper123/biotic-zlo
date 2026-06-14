@@ -1,10 +1,10 @@
 research: {
   	parent:  biotic-zlo-core-hazard
   	objectives: [
-            {
+        {
             type: SectorComplete
             preset: again
-            }
+        }
 	]
 }
 databaseCategory: entry

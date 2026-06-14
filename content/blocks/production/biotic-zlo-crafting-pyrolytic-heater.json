@@ -34,7 +34,7 @@ research: {
 		biotic-zlo-production-flesh-crusher
 		{
     	type: OnSector
-    	preset: groove
+    	preset: reckoning
     	}
 	]
 }

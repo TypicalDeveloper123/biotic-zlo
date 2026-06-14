@@ -38,7 +38,7 @@ research: {
   objectives: [
 	{
     type: OnSector
-    preset: groove
+    preset: reckoning
 	}
   ]
 }
