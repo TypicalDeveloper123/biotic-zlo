@@ -35,7 +35,6 @@ researchCost: [
 research: {
   	parent:  biotic-zlo-crafting-iron-smelter
   	objectives: [  
-		biotic-zlo-item-biochar
 		biotic-zlo-crafting-pyrolytic-heater
 		biotic-zlo-crafting-briquette-press
 		{
