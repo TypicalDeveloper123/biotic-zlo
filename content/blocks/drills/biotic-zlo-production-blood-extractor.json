@@ -11,7 +11,7 @@ size: 2
 squareSprite: false
 health: 200
 
-outputLiquid: biotic-zlo-liquid-blood/0.09
+outputLiquid: biotic-zlo-liquid-blood/0.08
 
 category: production
 
