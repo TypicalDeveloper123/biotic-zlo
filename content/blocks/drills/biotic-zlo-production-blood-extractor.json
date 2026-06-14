@@ -6,6 +6,7 @@ maxBoost: 2
 craftTime: 90
 liquidCapacity: 20
 hasPower: false
+hasLiquids: true
 size: 2
 squareSprite: false
 health: 200
