@@ -32,9 +32,6 @@ research: {
   	parent:  biotic-zlo-crafting-iron-extractor
   	objectives: [  
 	  	biotic-zlo-item-aluminum
-    	biotic-zlo-crafting-iron-extractor
-		biotic-zlo-liquid-blood
-		biotic-zlo-item-infested-tissue
 	]
 }
 
