@@ -77,8 +77,8 @@ weapons: [
             layer: 59
             damage: 50
             speed: 2
-            length: 5.25
-            width: 3.5
+            length: 21
+            width: 14
             lightRadius: -1
             lightOpacity: 0
             hitEffect: none
