@@ -69,12 +69,12 @@ weapons: [
         reload: 30
         shootSound: shootAtrax
         bullet: {
-            type: MissileBulletType
+            type: BasicBulletType
             sprite: corpuscles-biotic-zlo-teeth
             trailColor: 990000
             trailLength: 10
             layer: 59
-            damage: 20
+            damage: 25
             speed: 2
             lightRadius: -1
             lightOpacity: 0
