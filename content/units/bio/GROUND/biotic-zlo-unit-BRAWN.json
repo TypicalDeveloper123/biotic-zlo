@@ -71,8 +71,7 @@ weapons: [
         bullet: {
             type: BasicBulletType
             sprite: corpuscles-biotic-zlo-teeth
-            trailColor: 990000
-            trailLength: 10
+            trailLength: 5
             layer: 59
             damage: 50
             speed: 2
@@ -91,6 +90,21 @@ weapons: [
                 sizeTo: 0
                 layer: 59
             }   
+
+            trailEffect: {
+                type: ParticleEffect
+                particles: 1
+                lifetime: 25
+                sizeFrom: 1.5
+                sizeTo: 0
+                cone: 10
+                colorFrom: 990000
+                colorTo: 990000
+                lightScl: 0
+            }
+
+            trailChance: 0.4
+            trailRotation: true
         }
     }
     {
