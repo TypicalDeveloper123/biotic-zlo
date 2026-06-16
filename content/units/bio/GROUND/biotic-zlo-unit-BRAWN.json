@@ -133,9 +133,9 @@ parts: [
         suffix: -teethright
         x: 0
         y: 0
-        moveX: 1
-        moveY: -2
-        moveRot: -2
+        moveX: 0.5
+        moveY: -0.5
+        moveRot: -5
         progress: warmup
     }
     {
@@ -144,7 +144,7 @@ parts: [
         x: 0
         y: 0
         moveX: 0
-        moveY: -2
+        moveY: -0.5
         progress: warmup
     }
     {
@@ -152,9 +152,9 @@ parts: [
         suffix: -teethleft
         x: 0
         y: 0
-        moveX: -1
-        moveY: -2
-        moveRot: 2
+        moveX: -0.5
+        moveY: -0.5
+        moveRot: 5
         progress: warmup
     }
 ]
