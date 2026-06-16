@@ -126,3 +126,35 @@ weapons: [
         }  
     }
 ]
+
+parts: [
+    {
+        type: RegionPart
+        suffix: -teethright
+        x: 0
+        y: 0
+        moveX: 1
+        moveY: -2
+        moveRot: -2
+        progress: warmup
+    }
+    {
+        type: RegionPart
+        suffix: -teethmid
+        x: 0
+        y: 0
+        moveX: 0
+        moveY: -2
+        progress: warmup
+    }
+    {
+        type: RegionPart
+        suffix: -teethleft
+        x: 0
+        y: 0
+        moveX: -1
+        moveY: -2
+        moveRot: 2
+        progress: warmup
+    }
+]
