@@ -71,10 +71,14 @@ weapons: [
         bullet: {
             type: BasicBulletType
             sprite: corpuscles-biotic-zlo-teeth
+            trailColor: 990000
+            trailWidth: 1
             trailLength: 5
             layer: 59
             damage: 50
             speed: 2
+            length: 5
+            width: 5
             lightRadius: -1
             lightOpacity: 0
             hitEffect: none
