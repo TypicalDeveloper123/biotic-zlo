@@ -61,12 +61,12 @@ abilities: [
 
 weapons: [
     {
-        x: -2
+        x: 0
         y: 1
         rotate: false
-        mirror: true
+        mirror: false
         inaccuracy: 7
-        reload: 15
+        reload: 30
         shootSound: shootAtrax
         bullet: {
             type: MissileBulletType
