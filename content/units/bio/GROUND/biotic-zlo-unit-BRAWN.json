@@ -79,11 +79,13 @@ weapons: [
             trailLength: 5
             layer: 59
             damage: 50
-            speed: 2
+            range: 75
             height: 5.25
             length: 7
             lightRadius: -1
             lightOpacity: 0
+            speed: 2.2
+            lifetime: 30
             hitEffect: none
             smokeEffect: none
             shootEffect: {
