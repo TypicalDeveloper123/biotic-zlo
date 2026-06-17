@@ -68,6 +68,7 @@ weapons: [
         mirror: false
         inaccuracy: 7
         reload: 60
+        range: 80
         shootSound: shootAtrax
         bullet: {
             type: BasicBulletType
@@ -79,12 +80,11 @@ weapons: [
             trailLength: 5
             layer: 59
             damage: 50
-            range: 75
             height: 5.25
             length: 7
             lightRadius: -1
             lightOpacity: 0
-            speed: 2.2
+            speed: 2
             lifetime: 30
             hitEffect: none
             smokeEffect: none

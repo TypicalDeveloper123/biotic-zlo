@@ -72,6 +72,7 @@ weapons: [
         top: false
         inaccuracy: 7
         reload: 10
+        range: 120
         recoil: 0.5
         shootSound: stepMud
         name: biotic-zlo-unit-embroider-weapon-0
@@ -79,7 +80,6 @@ weapons: [
             type: LiquidBulletType
             status: status-dissolving
             damage: 25
-            range: 120
             liquid: biotic-zlo-liquid-acid
             orbSize: 3
             puddleSize: 10
@@ -119,6 +119,7 @@ weapons: [
         top: false
         inaccuracy: 7
         reload: 10
+        range: 120
         recoil: 0.5
         shootSound: stepMud
         name: biotic-zlo-unit-embroider-weapon-1
@@ -126,7 +127,6 @@ weapons: [
             type: LiquidBulletType
             status: status-dissolving
             damage: 25
-            range: 120
             liquid: biotic-zlo-liquid-acid
             orbSize: 3
             puddleSize: 10
