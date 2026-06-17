@@ -1,7 +1,7 @@
 type: legs
 speed: 0.7
 flying: false
-health: 900
+health: 1000
 armor: 0
 hitSize: 18
 outlineColor: 260f1d
@@ -69,7 +69,7 @@ weapons: [
         shootX: -10
         rotate: false
         mirror: false
-        under: true
+        top: false
         inaccuracy: 7
         reload: 10
         recoil: 0.5
@@ -116,7 +116,7 @@ weapons: [
         shootX: 10
         rotate: false
         mirror: false
-        under: true
+        top: false
         inaccuracy: 7
         reload: 10
         recoil: 0.5
@@ -153,7 +153,7 @@ weapons: [
                 y: 0
                 moveX: 0
                 moveY: -0.2
-                moveRot: -5
+                moveRot: 5
                 progress: warmup
             }
             {
@@ -163,7 +163,7 @@ weapons: [
                 y: 0
                 moveX: 0
                 moveY: -0.2
-                moveRot: 5
+                moveRot: -5
                 progress: warmup
             }
         ]
