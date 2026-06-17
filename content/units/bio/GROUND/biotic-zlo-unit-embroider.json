@@ -46,11 +46,11 @@ legLength: 20
 legMaxLength: 1.15
 legMinLength: 0.2
 legSpeed: 0.20
-legGroupSize: 3
+legGroupSize: 2
 legForwardScl: 1.05
 legLengthScl: 0.95
 legPhysicsLayer: false
-legStraightness: 0.5
+legStraightness: 0
 legSplashDamage: 20
 legSplashRange: 20
 allowLegStep: true
@@ -74,7 +74,6 @@ weapons: [
         reload: 10
         range: 120
         recoil: 0.5
-        layerOffset: 59
         shootSound: stepMud
         name: biotic-zlo-unit-embroider-weapon-0
         bullet: {
@@ -106,7 +105,7 @@ weapons: [
                 x: 0
                 y: 0
                 moveX: 0
-                moveY: -0.2
+                moveY: -0.1
                 moveRot: 5
                 progress: warmup
             }
@@ -122,7 +121,6 @@ weapons: [
         reload: 10
         range: 120
         recoil: 0.5
-        layerOffset: 59
         shootSound: stepMud
         name: biotic-zlo-unit-embroider-weapon-1
         bullet: {
@@ -154,8 +152,8 @@ weapons: [
                 x: 0
                 y: 0
                 moveX: 0
-                moveY: -0.2
-                moveRot: 5
+                moveY: -0.1
+                moveRot: -5
                 progress: warmup
             }
             {
@@ -164,8 +162,8 @@ weapons: [
                 x: 0
                 y: 0
                 moveX: 0
-                moveY: -0.2
-                moveRot: -5
+                moveY: -0.1
+                moveRot: 5
                 progress: warmup
             }
         ]
