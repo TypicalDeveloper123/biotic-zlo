@@ -1,5 +1,5 @@
 type: legs
-speed: 0.6
+speed: 0.7
 flying: false
 health: 900
 armor: 2
@@ -39,7 +39,7 @@ deathExplosionEffect: {
 
 type: legs
 legCount: 4
-lockLegBase: true
+lockLegBase: false
 legExtension: -3
 legBaseOffset: 3
 legLength: 20
@@ -70,8 +70,10 @@ abilities: [
 weapons: [
     {
         x: 0
+        shootX: -5
         rotate: false
         mirror: false
+        top: false
         inaccuracy: 7
         reload: 10
         recoil: 1
@@ -81,11 +83,12 @@ weapons: [
             type: LiquidBulletType
             status: status-dissolving
             damage: 25
-            range: 64
+            range: 100
             liquid: biotic-zlo-liquid-acid
             orbSize: 3
             puddleSize: 10
-            speed: 1.2
+            speed: 2
+            lifetime: 50
             shootEffect: {
                 type: ParticleEffect
                 particles: 10

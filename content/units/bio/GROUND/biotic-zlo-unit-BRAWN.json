@@ -38,7 +38,7 @@ deathExplosionEffect: {
 
 type: legs
 legCount: 4
-lockLegBase: true
+lockLegBase: false
 legExtension: 6
 legBaseOffset: 1.5
 legLength: 12
@@ -79,8 +79,8 @@ weapons: [
             layer: 59
             damage: 50
             speed: 2
-            height: 21
-            length: 14
+            height: 5.25
+            length: 3.5
             lightRadius: -1
             lightOpacity: 0
             hitEffect: none
