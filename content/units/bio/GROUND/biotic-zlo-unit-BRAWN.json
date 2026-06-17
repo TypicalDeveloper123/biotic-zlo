@@ -71,6 +71,8 @@ weapons: [
         bullet: {
             type: BasicBulletType
             sprite: corpuscles-biotic-zlo-teeth
+            shrinkY: 0
+            shrinkX: 0
             trailColor: 990000
             trailWidth: 1
             trailLength: 5

@@ -38,11 +38,11 @@ deathExplosionEffect: {
 
 
 type: legs
-legCount: 6
+legCount: 4
 lockLegBase: true
 legExtension: -3
 legBaseOffset: 3
-legLength: 13.5
+legLength: 20
 legMaxLength: 1.15
 legMinLength: 0.2
 legSpeed: 0.20
@@ -69,129 +69,19 @@ abilities: [
 
 weapons: [
     {
-        x: -6
-        y: 1
-        rotate: false
-        mirror: false
-        inaccuracy: 5
-        reload: 20
-        shootSound: shootAtrax
-        name: biotic-zlo-unit-embroider-weapon-0
-        recoil: 0.3
-        bullet: {
-            type: MissileBulletType
-            sprite: corpuscles-biotic-zlo-teeth
-            trailColor: 990000
-            trailLength: 10
-            layer: 90
-            damage: 20
-            speed: 2
-            lightRadius: -1
-            lightOpacity: 0
-            range: 30
-            hitEffect: none
-            smokeEffect: none
-            shootEffect: {
-                type: ParticleEffect
-                particles: 10
-                colorFrom: a33333
-                colorTo: 33001b
-                cone: 4
-                length: 12
-                sizeFrom: 2
-                sizeTo: 0
-                layer: 99
-            }   
-        }
-    }
-    {
-        x: -4
-        y: 4
-        rotate: false
-        mirror: false
-        inaccuracy: 5
-        reload: 20
-        shootSound: shootAtrax
-        name: biotic-zlo-unit-embroider-weapon-0
-        recoil: 0.3
-        bullet: {
-            type: MissileBulletType
-            sprite: corpuscles-biotic-zlo-teeth
-            trailColor: 990000
-            trailLength: 10
-            layer: 90
-            damage: 20
-            speed: 2
-            lightRadius: -1
-            lightOpacity: 0
-            range: 30
-            hitEffect: none
-            smokeEffect: none
-            shootEffect: {
-                type: ParticleEffect
-                particles: 10
-                colorFrom: a33333
-                colorTo: 33001b
-                cone: 4
-                length: 12
-                sizeFrom: 2
-                sizeTo: 0
-                layer: 99
-            }   
-        }
-    }
-    {
-        x: 6.1
-        y: 0
-        rotate: false
-        mirror: false
-        inaccuracy: 5
-        reload: 20
-        shootSound: shootAtrax
-        name: biotic-zlo-unit-embroider-weapon-0
-        recoil: 0.3
-        bullet: {
-            type: MissileBulletType
-            sprite: corpuscles-biotic-zlo-teeth
-            trailColor: 990000
-            trailLength: 10
-            layer: 90
-            damage: 20
-            speed: 2
-            lightRadius: -1
-            lightOpacity: 0
-            range: 30
-            hitEffect: none
-            smokeEffect: none
-            shootEffect: {         
-                type: ParticleEffect
-                particles: 10
-                colorFrom: a33333
-                colorTo: 33001b
-                cone: 4
-                length: 12
-                sizeFrom: 2
-                sizeTo: 0
-                layer: 99
-            }   
-        }
-    }
-    {
         x: 0
-        y: -5
         rotate: false
         mirror: false
         inaccuracy: 7
         reload: 10
-        recoil: 0.3
+        recoil: 1
         shootSound: stepMud
-        name: biotic-zlo-unit-embroider-weapon-1
+        name: biotic-zlo-unit-embroider-weapon-0
         bullet: {
             type: LiquidBulletType
             status: status-dissolving
-            damage: 12
-            pierceCap: 1
-            range: 52
+            damage: 25
+            range: 64
             liquid: biotic-zlo-liquid-acid
             orbSize: 3
             puddleSize: 10
