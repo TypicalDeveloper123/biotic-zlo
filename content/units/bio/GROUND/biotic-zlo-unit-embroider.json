@@ -97,6 +97,19 @@ weapons: [
                 sizeTo: 0
             }  
         }
+
+        parts: [
+            {
+                type: RegionPart
+                suffix: -teeth
+                x: 0
+                y: 0
+                moveX: 0
+                moveY: -0.5
+                moveRot: 5
+                progress: warmup
+            }
+        ]
     }
     {
         display: false
