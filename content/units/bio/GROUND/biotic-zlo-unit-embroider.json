@@ -66,13 +66,13 @@ abilities: [
 weapons: [
     {
         x: 0
-        shootX: -5
+        shootX: -10
         rotate: false
         mirror: false
-        top: false
+        under: true
         inaccuracy: 7
         reload: 10
-        recoil: 1
+        recoil: 0.5
         shootSound: stepMud
         name: biotic-zlo-unit-embroider-weapon-0
         bullet: {
@@ -105,7 +105,64 @@ weapons: [
                 x: 0
                 y: 0
                 moveX: 0
-                moveY: -0.5
+                moveY: -0.2
+                moveRot: 5
+                progress: warmup
+            }
+        ]
+    }
+    {
+        x: 0
+        shootX: 10
+        rotate: false
+        mirror: false
+        under: true
+        inaccuracy: 7
+        reload: 10
+        recoil: 0.5
+        shootSound: stepMud
+        name: biotic-zlo-unit-embroider-weapon-1
+        bullet: {
+            type: LiquidBulletType
+            status: status-dissolving
+            damage: 25
+            range: 100
+            liquid: biotic-zlo-liquid-acid
+            orbSize: 3
+            puddleSize: 10
+            speed: 2
+            lifetime: 50
+            shootEffect: {
+                type: ParticleEffect
+                particles: 10
+                layer: 110
+                colorFrom: 50ff36
+                colorTo: 50ff36
+                cone: 100
+                length: 12
+                sizeFrom: 2
+                sizeTo: 0
+            }  
+        }
+
+        parts: [
+            {
+                type: RegionPart
+                suffix: -teethright
+                x: 0
+                y: 0
+                moveX: 0
+                moveY: -0.2
+                moveRot: -5
+                progress: warmup
+            }
+            {
+                type: RegionPart
+                suffix: -teethleft
+                x: 0
+                y: 0
+                moveX: 0
+                moveY: -0.2
                 moveRot: 5
                 progress: warmup
             }
