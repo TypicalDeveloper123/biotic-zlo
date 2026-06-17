@@ -2,7 +2,7 @@ type: legs
 speed: 0.7
 flying: false
 health: 900
-armor: 2
+armor: 0
 hitSize: 18
 outlineColor: 260f1d
 mechLegColor: 260f1d
@@ -39,7 +39,7 @@ deathExplosionEffect: {
 
 type: legs
 legCount: 4
-lockLegBase: false
+lockLegBase: true
 legExtension: -3
 legBaseOffset: 3
 legLength: 20
@@ -54,16 +54,12 @@ legStraightness: 0.5
 legSplashDamage: 20
 legSplashRange: 20
 allowLegStep: true
+legContinuousMove: true
 
 abilities: [
     {
         type: RegenAbility
-        percentAmount: 0.2
-    }
-    {
-        type: SpawnDeathAbility
-        amount: 1
-        unit: biotic-zlo-unit-BRAWN
+        percentAmount: 0.1
     }
 ]
 

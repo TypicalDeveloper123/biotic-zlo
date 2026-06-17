@@ -38,7 +38,7 @@ deathExplosionEffect: {
 
 type: legs
 legCount: 4
-lockLegBase: false
+lockLegBase: true
 legExtension: 6
 legBaseOffset: 1.5
 legLength: 12
@@ -51,6 +51,7 @@ legLengthScl: 0.95
 legPhysicsLayer: false
 legStraightness: 0
 allowLegStep: true
+legContinuousMove: true
 
 abilities: [
     {
