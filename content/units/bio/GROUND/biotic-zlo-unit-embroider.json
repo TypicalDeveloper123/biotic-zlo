@@ -74,6 +74,7 @@ weapons: [
         reload: 10
         range: 120
         recoil: 0.5
+        layerOffset: 59
         shootSound: stepMud
         name: biotic-zlo-unit-embroider-weapon-0
         bullet: {
@@ -121,6 +122,7 @@ weapons: [
         reload: 10
         range: 120
         recoil: 0.5
+        layerOffset: 59
         shootSound: stepMud
         name: biotic-zlo-unit-embroider-weapon-1
         bullet: {
