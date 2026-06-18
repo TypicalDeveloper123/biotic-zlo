@@ -80,8 +80,8 @@ weapons: [
             trailLength: 5
             layer: 59
             damage: 50
-            height: 5.25
-            length: 7
+            height: 6.75
+            length: 5
             lightRadius: -1
             lightOpacity: 0
             speed: 2

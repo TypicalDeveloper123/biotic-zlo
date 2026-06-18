@@ -40,7 +40,7 @@ deathExplosionEffect: {
 type: legs
 legCount: 4
 lockLegBase: true
-legExtension: -3
+legExtension: 5
 legBaseOffset: 3
 legLength: 20
 legMaxLength: 1.15
@@ -106,7 +106,7 @@ weapons: [
                 y: 0
                 moveX: 0
                 moveY: -0.1
-                moveRot: 5
+                moveRot: 2
                 progress: warmup
             }
         ]
@@ -153,7 +153,7 @@ weapons: [
                 y: 0
                 moveX: 0
                 moveY: -0.1
-                moveRot: -5
+                moveRot: -2
                 progress: warmup
             }
             {
@@ -163,7 +163,7 @@ weapons: [
                 y: 0
                 moveX: 0
                 moveY: -0.1
-                moveRot: 5
+                moveRot: -2
                 progress: warmup
             }
         ]
