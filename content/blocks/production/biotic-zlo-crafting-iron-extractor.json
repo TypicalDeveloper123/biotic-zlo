@@ -42,11 +42,18 @@ drawer: {
 	type: DrawMulti
 	drawers: [
 		{
-		type: DrawDefault
+			type: DrawDefault
 		}
 		{
-    	type: DrawFlame
-		}
+      		type: DrawRegion
+      		suffix: -rotator
+	    	spinSprite: true
+	    	rotateSpeed: 1
+    	} 
+		{
+      		type: DrawRegion
+      		suffix: -top
+    	}
 	]
 
 }
