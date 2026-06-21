@@ -61,6 +61,7 @@ abilities: [
 ]
 
 weapons: [
+    // teeth
     {
         x: 0
         y: 1
@@ -80,8 +81,8 @@ weapons: [
             trailLength: 5
             layer: 59
             damage: 50
-            height: 6.75
-            length: 5
+            height: 8
+            width: 8
             lightRadius: -1
             lightOpacity: 0
             speed: 2
@@ -91,10 +92,11 @@ weapons: [
             shootEffect: {
                 type: ParticleEffect
                 particles: 10
+                lifetime: 40
                 colorFrom: a33333
                 colorTo: 33001b
-                cone: 4
-                length: 12
+                cone: 40
+                length: 5
                 sizeFrom: 2
                 sizeTo: 0
                 layer: 59
@@ -110,6 +112,7 @@ weapons: [
                 colorFrom: 990000
                 colorTo: 990000
                 lightScl: 0
+                layer: 58.9
             }
 
             trailChance: 0.4

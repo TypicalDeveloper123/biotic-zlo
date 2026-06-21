@@ -34,7 +34,9 @@ SaveFileReader.fallback.putAll(
   "corpuscles-hematite-boulder", "corpuscles-lodestone-boulder",
   "corpuscles-hematite-vent", "corpuscles-lodestone-vent",
 
-  "corpuscles-biotic-zlo-tile-DENSE-HEMATITE", "corpuscles-biotic-zlo-tile-DENSE-LODESTONE"
+  "corpuscles-biotic-zlo-tile-DENSE-HEMATITE", "corpuscles-biotic-zlo-tile-DENSE-LODESTONE",
+
+  "corpuscles-biotic-zlo-production-aluminum-drill", "corpuscles-biotic-zlo-production-light-drill"
 )
 
 

@@ -3,7 +3,7 @@ speed: 0.7
 flying: false
 health: 1000
 armor: 0
-hitSize: 18
+hitSize: 20
 outlineColor: 260f1d
 mechLegColor: 260f1d
 stepSound: walkerStepSmall
@@ -41,7 +41,7 @@ type: legs
 legCount: 4
 lockLegBase: true
 legExtension: 5
-legBaseOffset: 3
+legBaseOffset: 2
 legLength: 20
 legMaxLength: 1.15
 legMinLength: 0.2
@@ -51,8 +51,8 @@ legForwardScl: 1.05
 legLengthScl: 0.95
 legPhysicsLayer: false
 legStraightness: 0
-legSplashDamage: 20
-legSplashRange: 20
+legSplashDamage: 10
+legSplashRange: 10
 allowLegStep: true
 legContinuousMove: true
 
@@ -64,12 +64,73 @@ abilities: [
 ]
 
 weapons: [
+    // teeth
     {
         x: 0
-        shootX: -10
+        y: 1.5
+        rotate: false
+        mirror: false
+        inaccuracy: 7
+        reload: 80
+        range: 160
+        shootSound: shootAtrax
+        bullet: {
+            type: BasicBulletType
+            sprite: corpuscles-biotic-zlo-mediumteeth
+            shrinkY: 0
+            shrinkX: 0
+            trailColor: 990000
+            trailWidth: 2.5
+            trailLength: 10
+            layer: 59
+            damage: 70
+            height: 12.5
+            width: 12.5
+            lightRadius: -1
+            lightOpacity: 0
+            speed: 2.5
+            lifetime: 60
+            hitEffect: none
+            smokeEffect: none
+            shootEffect: {
+                type: ParticleEffect
+                particles: 10
+                lifetime: 40
+                colorFrom: a33333
+                colorTo: 33001b
+                cone: 40
+                length: 12
+                sizeFrom: 3
+                sizeTo: 0
+                layer: 59
+            }   
+
+            trailEffect: {
+                type: ParticleEffect
+                particles: 2
+                lifetime: 25
+                sizeFrom: 2
+                sizeTo: 0
+                cone: 20
+                colorFrom: 990000
+                colorTo: 990000
+                lightScl: 0
+                layer: 58.9
+            }
+
+            trailChance: 0.4
+            trailRotation: true
+        }
+    }
+
+    // l- acid
+    {
+        x: 0
+        shootX: -13
         rotate: false
         mirror: false
         top: false
+        layerOffset: -0.00001
         inaccuracy: 7
         reload: 10
         range: 120
@@ -79,7 +140,7 @@ weapons: [
         bullet: {
             type: LiquidBulletType
             status: status-dissolving
-            damage: 25
+            damage: 20
             liquid: biotic-zlo-liquid-acid
             orbSize: 3
             puddleSize: 10
@@ -87,15 +148,15 @@ weapons: [
             lifetime: 50
             shootEffect: {
                 type: ParticleEffect
-                particles: 10
+                particles: 1
                 layer: 110
-                colorFrom: 50ff36
-                colorTo: 50ff36
-                cone: 100
+                colorFrom: adcc12
+                colorTo: adcc12
+                cone: 25
                 length: 12
                 sizeFrom: 2
                 sizeTo: 0
-            }  
+            }
         }
 
         parts: [
@@ -111,12 +172,15 @@ weapons: [
             }
         ]
     }
+
+    // r- acid
     {
         x: 0
-        shootX: 10
+        shootX: 13
         rotate: false
         mirror: false
         top: false
+        layerOffset: -0.00001
         inaccuracy: 7
         reload: 10
         range: 120
@@ -126,7 +190,7 @@ weapons: [
         bullet: {
             type: LiquidBulletType
             status: status-dissolving
-            damage: 25
+            damage: 20
             liquid: biotic-zlo-liquid-acid
             orbSize: 3
             puddleSize: 10
@@ -134,15 +198,15 @@ weapons: [
             lifetime: 50
             shootEffect: {
                 type: ParticleEffect
-                particles: 10
+                particles: 1
                 layer: 110
-                colorFrom: 50ff36
-                colorTo: 50ff36
-                cone: 100
+                colorFrom: adcc12
+                colorTo: adcc12
+                cone: 25
                 length: 12
                 sizeFrom: 2
                 sizeTo: 0
-            }  
+            } 
         }
 
         parts: [
@@ -163,7 +227,7 @@ weapons: [
                 y: 0
                 moveX: 0
                 moveY: -0.1
-                moveRot: -2
+                moveRot: 1
                 progress: warmup
             }
         ]
@@ -199,5 +263,68 @@ weapons: [
             puddleAmount: 40
             puddleLiquid: corpuscles-biotic-zlo-liquid-blood
         }  
+    }
+]
+
+parts: [
+    {
+        type: RegionPart
+        suffix: -teethright1
+        x: 0
+        y: 0
+        moveX: 0
+        moveY: -0.4
+        moveRot: -3
+        progress: warmup
+    }
+    {
+        type: RegionPart
+        suffix: -teethright2
+        x: 0
+        y: 0
+        moveX: 0
+        moveY: -0.4
+        moveRot: -3
+        progress: warmup
+    }
+    {
+        type: RegionPart
+        suffix: -teethleft1
+        x: 0
+        y: 0
+        moveX: 0
+        moveY: -0.4
+        moveRot: 3
+        progress: warmup
+    }
+    {
+        type: RegionPart
+        suffix: -teethleft2
+        x: 0
+        y: 0
+        moveX: 0
+        moveY: -0.4
+        moveRot: 3
+        progress: warmup
+    }
+    {
+        type: RegionPart
+        suffix: -teethleft2
+        x: 0
+        y: 0
+        moveX: 0
+        moveY: -0.4
+        moveRot: 3
+        progress: warmup
+    }
+    {
+        type: RegionPart
+        suffix: -teethleft2
+        x: 0
+        y: 0
+        moveX: 0
+        moveY: -0.4
+        moveRot: 3
+        progress: warmup
     }
 ]
