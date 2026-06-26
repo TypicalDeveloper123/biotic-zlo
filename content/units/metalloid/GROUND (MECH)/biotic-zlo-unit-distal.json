@@ -21,15 +21,15 @@ weapons: [
         name: biotic-zlo-unit-distal-weapon-0
         shoot: {
             shots: 2
-            shotDelay: 4
+            shotDelay: 3.5
         }
         bullet: {
             type: BasicBulletType
             trailLength: 6
-            trailWidth: 4
-            trailColor: eb7e57
-            frontColor: eb7e57
-            backColor: eb7e57
+            trailWidth: 1
+            trailColor: eb6657
+            frontColor: eb6657
+            backColor: eb6657
             width: 8
             height: 10
             lifetime: 25
@@ -37,7 +37,7 @@ weapons: [
             damage: 30
             hitEffect: hitBulletColor
             despawnEffect: hitBulletColor
-            hitColor: eb7e57
+            hitColor: eb6657
 
             trailEffect: {
                 type: ParticleEffect
@@ -46,8 +46,8 @@ weapons: [
                 sizeFrom: 1
                 sizeTo: 0
                 cone: 10
-                colorFrom: eb7e57
-                colorTo: eb7e57
+                colorFrom: eb6657
+                colorTo: eb6657
                 lightScl: 0
             }
 
