@@ -19,9 +19,10 @@ weapons: [
         reload: 30
         recoil: 2
         shootSound: shootSalvo
-        name: biotic-zlo-unit-phalanx-weapon-0
+        name: biotic-zlo-unit-distalw-weapon-0
         shoot: {
             shots: 2
+            shootDelay: 4
         }
         bullet: {
             type: BasicBulletType
@@ -31,7 +32,7 @@ weapons: [
             backColor: ff948c
             width: 8
             height: 10
-            lifetime: 40
+            lifetime: 20
             speed: 3
             damage: 30
             hitEffect: hitBulletColor
