@@ -10,7 +10,6 @@ targetAir: false
 
 weapons: [
     {
-        y: 1.6
         rotate: false
         mirror: true
         top: false
@@ -27,12 +26,13 @@ weapons: [
         bullet: {
             type: BasicBulletType
             trailLength: 6
+            trailWidth: 4
             trailColor: ff847a
             frontColor: ff948c
             backColor: ff948c
             width: 8
             height: 10
-            lifetime: 20
+            lifetime: 25
             speed: 3
             damage: 30
             hitEffect: hitBulletColor
@@ -43,7 +43,7 @@ weapons: [
                 type: ParticleEffect
                 particles: 1
                 lifetime: 25
-                sizeFrom: 2.2
+                sizeFrom: 1
                 sizeTo: 0
                 cone: 10
                 colorFrom: ff847a
