@@ -25,9 +25,11 @@ weapons: [
         name: biotic-zlo-unit-distal-weapon-0
         bullet: {
             type: LaserBulletType
-            width: 8
-            length: 8
+            width: 15
+            length: 50
             sideAngle: 45
+            sideWidth: 0.8
+            sideLength: 40
             lifetime: 20
             speed: 0
             damage: 35
