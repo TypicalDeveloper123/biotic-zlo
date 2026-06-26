@@ -10,7 +10,8 @@ targetAir: false
 
 weapons: [
     {
-        shootX: -3
+        shootX: -6
+        shootX: 1
         rotate: true
         rotateSpeed: 1
         rotationLimit: 20
