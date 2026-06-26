@@ -10,39 +10,39 @@ targetAir: false
 
 weapons: [
     {
-        shootX: -6
-        shootX: 1
+        y: 1.6
         rotate: false
-        rotateSpeed: 1
-        rotationLimit: 20
         mirror: true
         top: false
         layerOffset: -0.00001
-        inaccuracy: 2
+        inaccuracy: 5
         reload: 30
-        recoil: 1.8
+        recoil: 2
         shootSound: shootSalvo
-        name: biotic-zlo-unit-distal-weapon-0
+        name: biotic-zlo-unit-phalanx-weapon-0
+        shoot: {
+            shots: 2
+        }
         bullet: {
-            type: LaserBulletType
-            width: 15
-            length: 50
-            sideAngle: 45
-            sideWidth: 0.8
-            sideLength: 40
-            lifetime: 20
-            speed: 0
-            damage: 35
+            type: BasicBulletType
+            trailLength: 6
+            trailColor: ff847a
+            frontColor: ff948c
+            backColor: ff948c
+            width: 8
+            height: 10
+            lifetime: 40
+            speed: 3
+            damage: 30
             hitEffect: hitBulletColor
             despawnEffect: hitBulletColor
-            hitColor: eb7e57
-            colors: [eb7e57]
+            hitColor: ff847a
 
             trailEffect: {
                 type: ParticleEffect
                 particles: 1
                 lifetime: 25
-                sizeFrom: 2
+                sizeFrom: 2.2
                 sizeTo: 0
                 cone: 10
                 colorFrom: ff847a
@@ -50,7 +50,7 @@ weapons: [
                 lightScl: 0
             }
 
-            trailChance: 0.4
+            trailChance: 0.45
             trailRotation: true
         }
     }
