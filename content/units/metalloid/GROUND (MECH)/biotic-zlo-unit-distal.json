@@ -10,7 +10,6 @@ targetAir: false
 
 weapons: [
     {
-        x: -12
         rotate: false
         mirror: true
         top: false
