@@ -13,7 +13,6 @@ weapons: [
         rotate: false
         mirror: true
         top: false
-        layerOffset: -0.00001
         inaccuracy: 5
         reload: 30
         recoil: 2
@@ -47,7 +46,7 @@ weapons: [
                 sizeTo: 0
                 cone: 10
                 colorFrom: eb6657
-                colorTo: eb6657
+                colorTo: eb7e57
                 lightScl: 0
             }
 
