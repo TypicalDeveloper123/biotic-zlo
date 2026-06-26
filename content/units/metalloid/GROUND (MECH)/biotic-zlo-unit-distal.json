@@ -3,7 +3,7 @@ speed: 0.8
 flying: false
 health: 700
 armor: 6
-hitSize: 8
+hitSize: 10
 outlineColor: 1b1c26
 mechLegColor: 1b1c26
 targetAir: false
@@ -35,8 +35,8 @@ weapons: [
             damage: 35
             hitEffect: hitBulletColor
             despawnEffect: hitBulletColor
-            hitColor: e66232
-            colors: [e66232]
+            hitColor: eb7e57
+            colors: [eb7e57]
 
             trailEffect: {
                 type: ParticleEffect
