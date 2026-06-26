@@ -19,10 +19,10 @@ weapons: [
         reload: 30
         recoil: 2
         shootSound: shootSalvo
-        name: biotic-zlo-unit-distalw-weapon-0
+        name: biotic-zlo-unit-distal-weapon-0
         shoot: {
             shots: 2
-            shootDelay: 4
+            shotDelay: 4
         }
         bullet: {
             type: BasicBulletType
