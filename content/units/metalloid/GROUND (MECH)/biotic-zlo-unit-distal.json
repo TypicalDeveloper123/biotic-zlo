@@ -26,8 +26,8 @@ weapons: [
         bullet: {
             type: LaserBulletType
             width: 8
-            height: 8
-            sideAngle: 5
+            length: 8
+            sideAngle: 45
             lifetime: 20
             speed: 0
             damage: 35
