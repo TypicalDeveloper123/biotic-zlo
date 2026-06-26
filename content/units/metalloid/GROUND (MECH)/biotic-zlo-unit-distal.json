@@ -11,7 +11,9 @@ targetAir: false
 weapons: [
     {
         shootX: -3
-        rotate: false
+        rotate: true
+        rotateSpeed: 1
+        rotationLimit: 20
         mirror: true
         top: false
         layerOffset: -0.00001
