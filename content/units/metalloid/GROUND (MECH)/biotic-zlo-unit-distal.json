@@ -12,7 +12,7 @@ weapons: [
     {
         shootX: -6
         shootX: 1
-        rotate: true
+        rotate: false
         rotateSpeed: 1
         rotationLimit: 20
         mirror: true
@@ -24,15 +24,11 @@ weapons: [
         shootSound: shootSalvo
         name: biotic-zlo-unit-distal-weapon-0
         bullet: {
-            type: BasicBulletType
-            trailLength: 5
-            trailColor: ff847a
-            frontColor: ff948c
-            backColor: ff948c
+            type: LaserBulletTyp
             width: 8
             height: 10
             lifetime: 25
-            speed: 4
+            speed: 0
             damage: 35
             hitEffect: hitBulletColor
             despawnEffect: hitBulletColor
