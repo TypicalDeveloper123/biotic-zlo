@@ -10,10 +10,11 @@ targetAir: false
 
 weapons: [
     {
-        x: 3.8
+        shootX: -3
         rotate: false
         mirror: true
         top: false
+        layerOffset: -0.00001
         inaccuracy: 2
         reload: 30
         recoil: 1.8
