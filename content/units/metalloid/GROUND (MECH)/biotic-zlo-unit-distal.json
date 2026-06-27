@@ -47,7 +47,7 @@ weapons: [
                 sizeTo: 0
                 cone: 10
                 colorFrom: eb6657
-                colorTo: eb7e57
+                colorTo: 66180f
                 lightScl: 0
             }
 
