@@ -16,7 +16,7 @@ weapons: [
         top: false
         inaccuracy: 5
         reload: 50
-        range: 120
+        range: 160
         recoil: 2
         shootSound: shootSalvo
         name: biotic-zlo-unit-phalanx-weapon-0

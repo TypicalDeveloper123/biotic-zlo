@@ -15,7 +15,7 @@ weapons: [
         top: false
         inaccuracy: 5
         reload: 30
-        range: 110
+        range: 120
         recoil: 2
         shootSound: shootSalvo
         name: biotic-zlo-unit-distal-weapon-0
