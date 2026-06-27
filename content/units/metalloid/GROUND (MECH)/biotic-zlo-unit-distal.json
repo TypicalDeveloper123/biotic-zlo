@@ -25,7 +25,7 @@ weapons: [
         }
         bullet: {
             type: BasicBulletType
-            frontColor: e36254
+            frontColor: e06f63
             backColor: e36254
             width: 8
             height: 10
