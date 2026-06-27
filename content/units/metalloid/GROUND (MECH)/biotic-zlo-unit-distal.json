@@ -25,7 +25,7 @@ weapons: [
         }
         bullet: {
             type: BasicBulletType
-            backColor: ed7a6d
+            backColor: ed6d5f
             width: 8
             height: 10
             lifetime: 30
@@ -33,7 +33,7 @@ weapons: [
             damage: 30
             hitEffect: hitBulletColor
             despawnEffect: hitBulletColor
-            hitColor: ed7a6d
+            hitColor: ed6d5f
         }
     }
 ]
