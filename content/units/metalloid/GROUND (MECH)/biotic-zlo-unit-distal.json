@@ -25,11 +25,7 @@ weapons: [
         }
         bullet: {
             type: BasicBulletType
-            trailLength: 6
-            trailWidth: 1
-            trailColor: eb6657
-            frontColor: eb6657
-            backColor: eb6657
+            backColor: ed7a6d
             width: 8
             height: 10
             lifetime: 30
@@ -37,7 +33,7 @@ weapons: [
             damage: 30
             hitEffect: hitBulletColor
             despawnEffect: hitBulletColor
-            hitColor: eb6657
+            hitColor: ed7a6d
 
             trailEffect: {
                 type: ParticleEffect
@@ -46,7 +42,7 @@ weapons: [
                 sizeFrom: 1
                 sizeTo: 0
                 cone: 10
-                colorFrom: eb6657
+                colorFrom: ed7a6d
                 colorTo: 40110c
                 lightScl: 0
             }
