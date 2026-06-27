@@ -15,7 +15,7 @@ weapons: [
         top: false
         inaccuracy: 5
         reload: 30
-        range: 100
+        range: 110
         recoil: 2
         shootSound: shootSalvo
         name: biotic-zlo-unit-distal-weapon-0
@@ -47,7 +47,7 @@ weapons: [
                 sizeTo: 0
                 cone: 10
                 colorFrom: eb6657
-                colorTo: 66180f
+                colorTo: 40110c
                 lightScl: 0
             }
 

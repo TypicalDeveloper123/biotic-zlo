@@ -10,11 +10,13 @@ mechLegColor: 1b1c26
 weapons: [
     {
         x: 8.25
+        shootY: 1
         rotate: false
         mirror: true
         top: false
         inaccuracy: 5
         reload: 50
+        range: 120
         recoil: 2
         shootSound: shootSalvo
         name: biotic-zlo-unit-phalanx-weapon-0
@@ -29,10 +31,10 @@ weapons: [
             trailColor: eb6657
             frontColor: eb6657
             backColor: eb6657
-            width: 10
-            height: 12
+            width: 8
+            height: 10
             lifetime: 30
-            speed: 3
+            speed: 4
             damage: 30
             hitEffect: hitBulletColor
             despawnEffect: hitBulletColor
@@ -46,7 +48,7 @@ weapons: [
                 sizeTo: 0
                 cone: 10
                 colorFrom: eb6657
-                colorTo: 66180f
+                colorTo: 40110c
                 lightScl: 0
             }
 
