@@ -36,5 +36,19 @@ weapons: [
             despawnEffect: hitBulletColor
             hitColor: e3a19a
         }
+
+        trailEffect: {
+            type: ParticleEffect
+            sizeFrom: 1
+            sizeTo: 0
+            cone: 10
+            colorFrom: e3a19a
+            colorFrom: ed7a6d
+            colorTo: 40110c
+            lightScl: 0
+        }
+
+        trailChance: 0.8
+        trailRotation: true
     }
 ]
