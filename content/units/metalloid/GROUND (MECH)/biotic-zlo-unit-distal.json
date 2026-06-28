@@ -41,6 +41,7 @@ weapons: [
             type: ParticleEffect
             sizeFrom: 1
             sizeTo: 0
+            lifetime: 20
             cone: 10
             colorFrom: e3a19a
             colorFrom: ed7a6d
@@ -48,7 +49,6 @@ weapons: [
             lightScl: 0
         }
 
-        trailChance: 0.8
-        trailRotation: true
+        trailChance: 1
     }
 ]
