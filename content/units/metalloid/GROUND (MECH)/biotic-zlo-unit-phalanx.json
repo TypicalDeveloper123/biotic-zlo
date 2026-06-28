@@ -40,6 +40,7 @@ weapons: [
 
         trailEffect: {
             type: ParticleEffect
+            particles: 4
             sizeFrom: 1
             sizeTo: 0
             lifetime: 25
