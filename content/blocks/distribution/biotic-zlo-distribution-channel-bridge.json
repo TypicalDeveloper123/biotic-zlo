@@ -11,7 +11,7 @@ requirements: [
 
 category: distribution
 squareSprite: true
-range: 4
+range: 6
 speed: 3
 
 researchCost: [
