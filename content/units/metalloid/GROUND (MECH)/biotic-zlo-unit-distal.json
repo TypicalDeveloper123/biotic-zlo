@@ -37,19 +37,19 @@ weapons: [
             hitColor: e3a19a
         }
 
-        trailEffect: {
+         trailEffect: {
             type: ParticleEffect
-            particles: 4
-            sizeFrom: 1
+            particles: 1
+            lifetime: 25
+            sizeFrom: 2
             sizeTo: 0
-            lifetime: 20
             cone: 10
             colorFrom: e3a19a
-            colorFrom: ed7a6d
-            colorTo: 40110c
+            colorTo: ed7a6d
             lightScl: 0
         }
 
         trailChance: 1
+        trailRotation: true
     }
 ]
