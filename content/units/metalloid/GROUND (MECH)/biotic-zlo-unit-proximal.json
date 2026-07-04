@@ -23,7 +23,7 @@ weapons: [
         range: 150
         recoil: 2
         shootSound: shootSalvo
-        name: biotic-zlo-unit-phalanx-weapon-0
+        name: biotic-zlo-unit-proximal-weapon-0
         shoot: {
             shots: 10
             shotDelay: 2
@@ -70,7 +70,7 @@ weapons: [
         rotate: false
         inaccuracy: 7
         shootSound: shootFlame
-        name: biotic-zlo-unit-phalanx-weapon-1
+        name: biotic-zlo-unit-proximal-weapon-1
         bullet: {
             type: BasicBulletType
             collidesAir: true
