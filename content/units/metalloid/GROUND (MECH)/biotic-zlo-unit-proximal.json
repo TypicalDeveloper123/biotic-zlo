@@ -60,33 +60,59 @@ weapons: [
     
     {
         x: 7
-        shootY: 3
-        rotate: false
-        mirror: true
+        shootY: 2
+        reload: 7
         top: false
-        inaccuracy: 0
-        reload: 20
-        range: 150
+        mirror: true
+        alternate: true
+        shootY: 3
         recoil: 0.2
-        shootSound: shootSalvo
-        name: biotic-zlo-unit-phalanx-weapon-0
-        shoot: {
-            shots: 4
-            shotDelay: 2
-        }
+        rotate: false
+        inaccuracy: 7
+        shootSound: shootFlame
+        name: biotic-zlo-unit-phalanx-weapon-1
         bullet: {
-            type: FireBulletType
-            colorFrom: e3a19a
-            colorTo: ed7a6d
-            width: 8
-            height: 10
-            lifetime: 30
-            speed: 0
-            damage: 40
-            hitEffect: hitBulletColor
-            despawnEffect: hitBulletColor
-            hitColor: e3a19a
+            type: BasicBulletType
+            collidesAir: true
+            speed: 5
+            damage: 20
+            width: 0.1
+            height: 0.1
+            shootEffect: {
+                type: ParticleEffect
+                particles: 30
+                sizeFrom: 5
+                sizeTo: 0
+                length: 80
+                lifetime: 25
+                interp: circleOut
+                lightColor: ff7048
+                colorFrom: ffcea0
+                colorTo: ff7048
+                cone: 10
+            }
+
+            smokeEffect: none
+            lifetime: 15
+            despawnEffect: none
+            hittable: false
+            reflectable: false
+            hitEffect: {
+                type: ParticleEffect
+                line: true
+                particles: 5
+                lifetime: 60
+                interp: circleOut
+                length: 50
+                cone: -30
+                lenFrom: 5
+                lenTo: 0
+                colorFrom: ffcea0
+                colorTo: ff7048
+            }
             
-        } 
+                pierce: true
+                incendAmount: 5
+        }
     }
 ]
