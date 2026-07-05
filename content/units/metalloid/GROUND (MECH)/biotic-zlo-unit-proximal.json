@@ -59,16 +59,16 @@ weapons: [
     }
     
     {
-        x: 7
+        x: 6.5
         shootY: 2
-        reload: 7
-        top: false
-        mirror: true
-        alternate: true
-        shootY: 3
-        recoil: 0.2
+        reload: 10
         rotate: false
+        mirror: true
+        top: false
+        layerOffset: -0.000001  
         inaccuracy: 7
+        alternate: true
+        recoil: 0.5
         shootSound: shootFlame
         name: biotic-zlo-unit-proximal-weapon-1
         bullet: {
