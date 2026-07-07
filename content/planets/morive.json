@@ -130,7 +130,7 @@ generator: {
 
 campaignRuleDefaults: {
   fog: false
-  showSpawns: true
+  hideSpawns: false
   rtsAI: false
 }
 
