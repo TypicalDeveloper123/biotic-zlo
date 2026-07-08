@@ -60,7 +60,7 @@ weapons: [
     
     {
         x: 5.5
-        shootY: 2
+        shootY: 3
         rotate: false
         mirror: true
         top: false
@@ -78,20 +78,56 @@ weapons: [
             width: 0.1
             height: 0.1
             shootEffect: {
-                type: ParticleEffect
-                particles: 30
-                sizeFrom: 5
-                sizeTo: 0
-                length: 80
-                lifetime: 25
-                interp: circleOut
-                lightColor: ff7048
-                colorFrom: ffcea0
-                colorTo: ff7048
-                cone: 10
+                type: multiEffect
+                layer: 110
+                effects: [
+                    {
+                        type: ParticleEffect
+                        particles: 30
+                        sizeFrom: 2
+                        sizeTo: 0
+                        length: 80
+                        lifetime: 25
+                        interp: circleOut
+                        lightColor: ff7048
+                        colorFrom: ffcea0
+                        colorTo: ff7048
+                        cone: 15
+                    }
+                    {
+                        type: ParticleEffect
+                        particles: 20
+                        sizeFrom: 3
+                        sizeTo: 0
+                        length: 80
+                        lifetime: 10
+                        interp: circleOut
+                        lightColor: ff7048
+                        colorFrom: ffcea0
+                        colorTo: ff7048
+                        cone: 15
+                    }
+                ]
             }
 
-            smokeEffect: none
+            smokeEffect: {
+                type: multiEffect
+                layer: 109
+                effects: [
+                    {
+                        type: ParticleEffect
+                        particles: 30
+                        sizeFrom: 2
+                        sizeTo: 0
+                        length: 80
+                        lifetime: 30
+                        interp: circleOut
+                        colorFrom: 91442f
+                        colorTo: 403937
+                        cone: 15
+                    }
+                ]
+            }
             lifetime: 15
             despawnEffect: none
             hittable: false
