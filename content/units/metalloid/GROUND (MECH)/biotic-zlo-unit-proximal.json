@@ -86,7 +86,7 @@ weapons: [
                     {
                         type: ParticleEffect
                         particles: 5
-                        sizeFrom: 4
+                        sizeFrom: 3wa
                         sizeTo: 0
                         length: 80
                         lifetime: 25
@@ -114,7 +114,7 @@ weapons: [
                     {
                         type: ParticleEffect
                         particles: 5
-                        sizeFrom: 4
+                        sizeFrom: 3
                         sizeTo: 0
                         length: 80
                         lifetime: 10
@@ -135,14 +135,14 @@ weapons: [
                     {
                         type: ParticleEffect
                         particles: 30
-                        sizeFrom: 4
+                        sizeFrom: 3
                         sizeTo: 0
                         length: 80
                         lifetime: 30
                         interp: circleOut
                         sizeInterp: pow5In
-                        colorFrom: 91442f
-                        colorTo: 403937
+                        colorFrom: 91442fff
+                        colorTo: 403937ff
                         cone: 10
                     }
                 ]
