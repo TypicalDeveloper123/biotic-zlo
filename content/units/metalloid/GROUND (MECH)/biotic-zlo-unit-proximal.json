@@ -44,7 +44,7 @@ weapons: [
             trailEffect: {
                 type: ParticleEffect
                 particles: 1
-                lifetime: 25
+                lifetime: 10
                 sizeFrom: 2
                 sizeTo: 0
                 cone: 10
