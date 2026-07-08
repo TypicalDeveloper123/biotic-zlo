@@ -59,7 +59,7 @@ weapons: [
     }
     
     {
-        x: 6.5
+        x: 6.25
         shootY: 2
         reload: 10
         rotate: false
