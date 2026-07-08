@@ -18,7 +18,7 @@ weapons: [
         rotate: false
         mirror: true
         top: false
-        inaccuracy: 5
+        inaccuracy: 10
         reload: 100
         range: 150
         recoil: 2
@@ -59,15 +59,14 @@ weapons: [
     }
     
     {
-        x: 6.25
+        x: 5.5
         shootY: 2
-        reload: 10
         rotate: false
         mirror: true
         top: false
-        layerOffset: -0.000001  
+        layerOffset: -0.00001  
         inaccuracy: 7
-        alternate: true
+        reload: 10
         recoil: 0.5
         shootSound: shootFlame
         name: biotic-zlo-unit-proximal-weapon-1
