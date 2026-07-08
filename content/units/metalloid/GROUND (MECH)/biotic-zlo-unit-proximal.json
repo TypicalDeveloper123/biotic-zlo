@@ -67,6 +67,7 @@ weapons: [
         layerOffset: -0.00001  
         inaccuracy: 7
         reload: 10
+        range: 170
         recoil: 0.5
         shootSound: shootFlame
         name: biotic-zlo-unit-proximal-weapon-1
@@ -77,6 +78,7 @@ weapons: [
             damage: 20
             width: 0.1
             height: 0.1
+            lifetime: 30
             shootEffect: {
                 type: multiEffect
                 layer: 110
