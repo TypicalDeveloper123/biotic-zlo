@@ -66,7 +66,7 @@ weapons: [
         top: false
         layerOffset: -0.00001  
         inaccuracy: 7
-        reload: 10
+        reload: 5
         range: 170
         recoil: 0.5
         shootSound: shootFlame
@@ -86,7 +86,7 @@ weapons: [
                     {
                         type: ParticleEffect
                         particles: 30
-                        sizeFrom: 2
+                        sizeFrom: 4
                         sizeTo: 0
                         length: 80
                         lifetime: 25
@@ -99,7 +99,7 @@ weapons: [
                     {
                         type: ParticleEffect
                         particles: 20
-                        sizeFrom: 3
+                        sizeFrom: 4
                         sizeTo: 0
                         length: 80
                         lifetime: 10
@@ -119,7 +119,7 @@ weapons: [
                     {
                         type: ParticleEffect
                         particles: 30
-                        sizeFrom: 2
+                        sizeFrom: 4
                         sizeTo: 0
                         length: 80
                         lifetime: 30
