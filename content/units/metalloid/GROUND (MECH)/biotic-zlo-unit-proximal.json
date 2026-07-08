@@ -85,29 +85,45 @@ weapons: [
                 effects: [
                     {
                         type: ParticleEffect
-                        particles: 30
+                        particles: 5
                         sizeFrom: 4
                         sizeTo: 0
                         length: 80
                         lifetime: 25
                         interp: circleOut
+                        sizeInterp: pow5In
                         lightColor: ff7048
                         colorFrom: ffcea0
                         colorTo: ff7048
-                        cone: 15
+                        cone: 8
                     }
                     {
                         type: ParticleEffect
-                        particles: 20
+                        particles: 4
+                        sizeFrom: 3
+                        sizeTo: 0
+                        length: 80
+                        lifetime: 25
+                        interp: circleOut
+                        sizeInterp: pow5In
+                        lightColor: ff7048
+                        colorFrom: ffcea0
+                        colorTo: ff7048
+                        cone: 10
+                    }
+                    {
+                        type: ParticleEffect
+                        particles: 5
                         sizeFrom: 4
                         sizeTo: 0
                         length: 80
                         lifetime: 10
                         interp: circleOut
+                        sizeInterp: pow5In
                         lightColor: ff7048
                         colorFrom: ffcea0
                         colorTo: ff7048
-                        cone: 15
+                        cone: 8
                     }
                 ]
             }
@@ -124,9 +140,10 @@ weapons: [
                         length: 80
                         lifetime: 30
                         interp: circleOut
+                        sizeInterp: pow5In
                         colorFrom: 91442f
                         colorTo: 403937
-                        cone: 15
+                        cone: 10
                     }
                 ]
             }
