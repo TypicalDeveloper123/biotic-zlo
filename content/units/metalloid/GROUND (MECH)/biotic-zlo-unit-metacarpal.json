@@ -1,9 +1,9 @@
 type: mech
-speed: 0.6
+speed: 0.5
 flying: false
-health: 3900
+health: 9000
 armor: 6
-hitSize: 14
+hitSize: 18
 outlineColor: 1b1c26
 mechLegColor: 1b1c26
 stepSound: mechStepSmall
@@ -22,7 +22,7 @@ weapons: [
         range: 150
         recoil: 2
         shootSound: shootSalvo
-        name: biotic-zlo-unit-proximal-weapon-0
+        name: biotic-zlo-unit-metacarpal-weapon-0
         shoot: {
             shots: 10
             shotDelay: 2
@@ -69,7 +69,7 @@ weapons: [
         range: 170
         recoil: 0.5
         shootSound: shootFlame
-        name: biotic-zlo-unit-proximal-weapon-1
+        name: biotic-zlo-unit-metacarpal-weapon-1
         bullet: {
             type: BasicBulletType
             collidesAir: true
