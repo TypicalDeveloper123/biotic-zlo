@@ -12,7 +12,7 @@ stepSoundVolume: 0.84
 
 weapons: [
     {
-        x: 10
+        x: 14
         shootY: 5
         rotate: false
         mirror: true
