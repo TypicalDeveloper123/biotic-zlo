@@ -12,29 +12,29 @@ stepSoundVolume: 0.84
 
 weapons: [
     {
-        x: 14
-        shootY: 5
+        x: 13.5
+        shootY: 7
         rotate: false
         mirror: true
         top: false
-        inaccuracy: 10
-        reload: 100
+        inaccuracy: 20
+        reload: 200
         range: 150
         recoil: 2
         shootSound: shootSalvo
         name: biotic-zlo-unit-metacarpal-weapon-0
         shoot: {
             shots: 10
-            shotDelay: 2
+            shotDelay: 4
         }
         bullet: {
             type: BasicBulletType
             frontColor: ffcea0
             backColor: ff7048
-            width: 8
-            height: 12
+            width: 12
+            height: 15
             lifetime: 30
-            speed: 5
+            speed: 6
             damage: 50
             hitEffect: hitBulletColor
             despawnEffect: hitBulletColor
