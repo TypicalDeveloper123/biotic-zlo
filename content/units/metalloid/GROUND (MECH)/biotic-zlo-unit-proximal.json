@@ -59,7 +59,7 @@ weapons: [
     
     {
         x: 5.5
-        shootY: 3
+        shootY: 4
         rotate: false
         mirror: true
         top: false
@@ -85,7 +85,7 @@ weapons: [
                     {
                         type: ParticleEffect
                         particles: 5
-                        sizeFrom: 3
+                        sizeFrom: 2.5
                         sizeTo: 0
                         length: 80
                         lifetime: 25
@@ -99,7 +99,7 @@ weapons: [
                     {
                         type: ParticleEffect
                         particles: 4
-                        sizeFrom: 3
+                        sizeFrom: 2.5
                         sizeTo: 0
                         length: 80
                         lifetime: 25
@@ -113,7 +113,7 @@ weapons: [
                     {
                         type: ParticleEffect
                         particles: 5
-                        sizeFrom: 3
+                        sizeFrom: 2.5
                         sizeTo: 0
                         length: 80
                         lifetime: 10
