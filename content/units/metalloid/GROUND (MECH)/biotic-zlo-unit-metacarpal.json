@@ -35,7 +35,7 @@ weapons: [
             height: 15
             lifetime: 30
             speed: 6
-            damage: 50
+            damage: 70
             hitEffect: hitBulletColor
             despawnEffect: hitBulletColor
             hitColor: ffcea0
@@ -59,7 +59,7 @@ weapons: [
     
     {
         x: 5.5
-        shootY: 3
+        shootY: 5
         rotate: false
         mirror: true
         top: false
@@ -74,10 +74,10 @@ weapons: [
             type: BasicBulletType
             collidesAir: true
             speed: 5
-            damage: 20
+            damage: 50
             width: 0.1
             height: 0.1
-            lifetime: 30
+            lifetime: 45
             shootEffect: {
                 type: multiEffect
                 layer: 110
@@ -88,7 +88,7 @@ weapons: [
                         sizeFrom: 3
                         sizeTo: 0
                         length: 80
-                        lifetime: 25
+                        lifetime: 40
                         interp: circleOut
                         sizeInterp: pow5In
                         lightColor: ff7048
@@ -102,7 +102,7 @@ weapons: [
                         sizeFrom: 3
                         sizeTo: 0
                         length: 80
-                        lifetime: 25
+                        lifetime: 40
                         interp: circleOut
                         sizeInterp: pow5In
                         lightColor: ff7048
@@ -116,7 +116,7 @@ weapons: [
                         sizeFrom: 3
                         sizeTo: 0
                         length: 80
-                        lifetime: 10
+                        lifetime: 20
                         interp: circleOut
                         sizeInterp: pow5In
                         lightColor: ff7048

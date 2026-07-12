@@ -127,25 +127,7 @@ weapons: [
                 ]
             }
 
-            smokeEffect: {
-                type: multiEffect
-                layer: 109
-                effects: [
-                    {
-                        type: ParticleEffect
-                        particles: 30
-                        sizeFrom: 3
-                        sizeTo: 0
-                        length: 80
-                        lifetime: 30
-                        interp: circleOut
-                        sizeInterp: pow5In
-                        colorFrom: 91442fff
-                        colorTo: 403937ff
-                        cone: 10
-                    }
-                ]
-            }
+            smokeEffect: none
             lifetime: 15
             despawnEffect: none
             hittable: false
