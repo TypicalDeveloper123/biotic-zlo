@@ -1,7 +1,7 @@
 planet: morive
 sector: 146
 difficulty: 1
-captureWave: 25
+captureWave: 15
 research: {
   parent: again
   objectives: [
