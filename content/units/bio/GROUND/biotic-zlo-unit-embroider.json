@@ -132,12 +132,12 @@ weapons: [
         top: false
         layerOffset: -0.00001
         inaccuracy: 7
-        reload: 20
+        reload: 30
         range: 120
         recoil: 0.5
         shootSound: stepMud
         shoot: {
-            shots: 5
+            shots: 3
             shotDelay: 2
         }
         name: biotic-zlo-unit-embroider-weapon-0
@@ -186,12 +186,12 @@ weapons: [
         top: false
         layerOffset: -0.00001
         inaccuracy: 7
-        reload: 20
+        reload: 30
         range: 120
         recoil: 0.5
         shootSound: stepMud
         shoot: {
-            shots: 5
+            shots: 3
             shotDelay: 2
         }
         name: biotic-zlo-unit-embroider-weapon-1
