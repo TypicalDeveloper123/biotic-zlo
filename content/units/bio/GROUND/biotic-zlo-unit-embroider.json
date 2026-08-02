@@ -132,10 +132,14 @@ weapons: [
         top: false
         layerOffset: -0.00001
         inaccuracy: 7
-        reload: 10
+        reload: 20
         range: 120
         recoil: 0.5
         shootSound: stepMud
+        shoot: {
+            shots: 5
+            shotDelay: 2
+        }
         name: biotic-zlo-unit-embroider-weapon-0
         bullet: {
             type: LiquidBulletType
@@ -182,10 +186,14 @@ weapons: [
         top: false
         layerOffset: -0.00001
         inaccuracy: 7
-        reload: 10
+        reload: 20
         range: 120
         recoil: 0.5
         shootSound: stepMud
+        shoot: {
+            shots: 5
+            shotDelay: 2
+        }
         name: biotic-zlo-unit-embroider-weapon-1
         bullet: {
             type: LiquidBulletType
