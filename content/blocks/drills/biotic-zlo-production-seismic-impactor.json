@@ -31,7 +31,7 @@ researchCost: [
 ]
 
 research: {
-  parent: biotic-zlo-production-aluminum-drill
+  parent: biotic-zlo-production-light-drill
   objectives: [
     {
     type: SectorComplete
