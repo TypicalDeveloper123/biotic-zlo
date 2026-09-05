@@ -321,7 +321,7 @@ parts: [
         x: 0
         y: 0
         moveX: 0
-        moveY: -0.6
+        moveY: -0.3
         moveRot: -3
         progress: warmup
     }
@@ -351,7 +351,7 @@ parts: [
         x: 0
         y: 0
         moveX: 0
-        moveY: -0.6
+        moveY: -0.4
         moveRot: 3
         progress: warmup
     }
