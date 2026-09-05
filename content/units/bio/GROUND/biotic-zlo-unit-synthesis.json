@@ -72,7 +72,8 @@ weapons: [
     // l- artillery
     {
         x: 0
-        shootX: 13
+        shootY: 3
+        shootX: -13
         rotate: false
         mirror: false
         top: false
@@ -144,6 +145,7 @@ weapons: [
     // r- artillery
     {
         x: 0
+        shootY: 3
         shootX: 13
         rotate: false
         mirror: false
