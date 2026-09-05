@@ -80,7 +80,7 @@ weapons: [
         reload: 90
         recoil: 0.3
         shootSound: shootArtillerySmall
-        name: biotic-zlo-unit-synthesis-weapon-2
+        name: biotic-zlo-unit-synthesis-weapon-0
         bullet: {
             type: ArtilleryBulletType
             sprite: corpuscles-biotic-zlo-fleshbomb
