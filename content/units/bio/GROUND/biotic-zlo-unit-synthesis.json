@@ -77,7 +77,7 @@ weapons: [
         top: false
         layerOffset: -0.00001
         inaccuracy: 6
-        reload: 50
+        reload: 90
         recoil: 0.3
         shootSound: shootArtillerySmall
         name: biotic-zlo-unit-synthesis-weapon-2
@@ -149,7 +149,7 @@ weapons: [
         top: false
         layerOffset: -0.00001
         inaccuracy: 6
-        reload: 50
+        reload: 90
         recoil: 0.3
         shootSound: shootArtillerySmall
         name: biotic-zlo-unit-synthesis-weapon-1
