@@ -2,7 +2,7 @@ type: legs
 speed: 0.5
 flying: false
 health: 1200
-armor: 6
+armor: 0
 hitSize: 24
 outlineColor: 260f1d
 mechLegColor: 260f1d
@@ -40,8 +40,8 @@ deathExplosionEffect: {
 type: legs
 legCount: 6
 lockLegBase: true
-legExtension: -4
-legBaseOffset: 3
+legExtension: -5
+legBaseOffset: 2
 legLength: 20
 legMaxLength: 1.15
 legMinLength: 0.2
@@ -50,10 +50,11 @@ legGroupSize: 2
 legForwardScl: 1.05
 legLengthScl: 0.95
 legPhysicsLayer: false
-legStraightness: 0.5
-legSplashDamage: 30
-legSplashRange: 45
+legStraightness: 0
+legSplashDamage: 10
+legSplashRange: 12
 allowLegStep: true
+legContinuousMove: true
 
 abilities: [
     {
