@@ -4,6 +4,7 @@ squareSprite: false
 hasItems: true
 hasPower: true
 itemDuration: 180
+generateEffect: turbinegenerate
 
 powerProduction: 1.2
 
@@ -42,13 +43,6 @@ drawer: {
     	type: DrawRegion
     	suffix: -bottom
 		}
-		{        
-			type: DrawGlowRegion           
-			alpha: 0.7
-            color: c4bdf3
-            glowIntensity: 0.3
-            glowScale: 6
-    	}
 		{
 			type: DrawDefault
 		}
