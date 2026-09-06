@@ -42,7 +42,10 @@ drawer: {
 			type: DrawDefault
 		}
 		{
-    	type: DrawWarmupRegion
+    		type: DrawGlowRegion
+            alpha: 1
+            glowScale: 5
+            color: slagOrange
 		}
 	]
 }
